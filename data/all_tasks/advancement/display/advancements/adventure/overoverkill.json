@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/minecraft_trials_edition",
   "criteria": {
     "overoverkill": {
       "conditions": {
@@ -28,6 +27,7 @@
       "trigger": "minecraft:player_hurt_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/minecraft_trials_edition",
   "display": {
     "description": {
       "translate": "advancements.adventure.overoverkill.description"
@@ -41,13 +41,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "overoverkill"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

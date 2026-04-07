@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/sleep_in_bed",
   "criteria": {
     "play_jukebox_in_meadows": {
       "conditions": {
@@ -26,6 +25,7 @@
       "trigger": "minecraft:item_used_on_block"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/sleep_in_bed",
   "display": {
     "description": {
       "translate": "advancements.adventure.play_jukebox_in_meadows.description"
@@ -38,13 +38,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "play_jukebox_in_meadows"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

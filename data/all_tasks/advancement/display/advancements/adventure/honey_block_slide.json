@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "honey_block_slide": {
       "conditions": {
@@ -8,6 +7,7 @@
       "trigger": "minecraft:slide_down_block"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.honey_block_slide.description"
@@ -20,13 +20,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "honey_block_slide"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

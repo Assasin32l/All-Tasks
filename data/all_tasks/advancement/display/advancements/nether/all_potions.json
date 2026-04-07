@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/brew_potion",
   "criteria": {
     "all_effects": {
       "conditions": {
@@ -26,6 +25,7 @@
       "trigger": "minecraft:effects_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/brew_potion",
   "display": {
     "description": {
       "translate": "advancements.nether.all_potions.description"
@@ -39,13 +39,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "all_effects"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

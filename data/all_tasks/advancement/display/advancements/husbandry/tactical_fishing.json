@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/fishy_business",
   "criteria": {
     "cod_bucket": {
       "conditions": {
@@ -34,6 +33,15 @@
       "trigger": "minecraft:filled_bucket"
     }
   },
+  "requirements": [
+    [
+      "cod_bucket",
+      "tropical_fish_bucket",
+      "pufferfish_bucket",
+      "salmon_bucket"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/husbandry/fishy_business",
   "display": {
     "description": {
       "translate": "advancements.husbandry.tactical_fishing.description"
@@ -46,16 +54,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "cod_bucket",
-      "tropical_fish_bucket",
-      "pufferfish_bucket",
-      "salmon_bucket"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

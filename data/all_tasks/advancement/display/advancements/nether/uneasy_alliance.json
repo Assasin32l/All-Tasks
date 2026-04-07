@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/return_to_sender",
   "criteria": {
     "killed_ghast": {
       "conditions": {
@@ -19,6 +18,7 @@
       "trigger": "minecraft:player_killed_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/return_to_sender",
   "display": {
     "description": {
       "translate": "advancements.nether.uneasy_alliance.description"
@@ -32,13 +32,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "killed_ghast"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

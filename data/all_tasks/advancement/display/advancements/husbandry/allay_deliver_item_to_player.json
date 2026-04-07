@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/root",
   "criteria": {
     "allay_deliver_item_to_player": {
       "conditions": {
@@ -16,6 +15,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_player"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/root",
   "display": {
     "description": {
       "translate": "advancements.husbandry.allay_deliver_item_to_player.description"
@@ -29,13 +29,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "allay_deliver_item_to_player"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

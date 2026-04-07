@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "chiseled_bookshelf": {
       "conditions": {
@@ -162,6 +161,13 @@
       "trigger": "minecraft:placed_block"
     }
   },
+  "requirements": [
+    [
+      "chiseled_bookshelf",
+      "comparator"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.read_power_from_chiseled_bookshelf.description"
@@ -174,14 +180,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "chiseled_bookshelf",
-      "comparator"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

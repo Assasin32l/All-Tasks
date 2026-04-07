@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/trim_with_any_armor_pattern",
   "criteria": {
     "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": {
       "conditions": {
@@ -50,6 +49,7 @@
       "trigger": "minecraft:recipe_crafted"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/trim_with_any_armor_pattern",
   "display": {
     "description": {
       "translate": "advancements.adventure.trim_with_all_exclusive_armor_patterns.description"
@@ -63,34 +63,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim"
-    ],
-    [
-      "armor_trimmed_minecraft:silence_armor_trim_smithing_template_smithing_trim"
-    ],
-    [
-      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim"
-    ],
-    [
-      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim"
-    ],
-    [
-      "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim"
-    ],
-    [
-      "armor_trimmed_minecraft:vex_armor_trim_smithing_template_smithing_trim"
-    ],
-    [
-      "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim"
-    ],
-    [
-      "armor_trimmed_minecraft:wayfinder_armor_trim_smithing_template_smithing_trim"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

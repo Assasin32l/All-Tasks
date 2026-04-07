@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/minecraft_trials_edition",
   "criteria": {
     "who_needs_rockets": {
       "conditions": {
@@ -21,6 +20,7 @@
       "trigger": "minecraft:fall_after_explosion"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/minecraft_trials_edition",
   "display": {
     "description": {
       "translate": "advancements.adventure.who_needs_rockets.description"
@@ -33,13 +33,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "who_needs_rockets"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "minecraft_trials_edition": {
       "conditions": {
@@ -18,6 +17,7 @@
       "trigger": "minecraft:location"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.minecraft_trials_edition.description"
@@ -30,13 +30,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "minecraft_trials_edition"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

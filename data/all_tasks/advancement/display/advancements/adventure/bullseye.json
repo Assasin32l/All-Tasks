@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/shoot_arrow",
   "criteria": {
     "bullseye": {
       "conditions": {
@@ -21,6 +20,7 @@
       "trigger": "minecraft:target_hit"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/shoot_arrow",
   "display": {
     "description": {
       "translate": "advancements.adventure.bullseye.description"
@@ -34,13 +34,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "bullseye"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

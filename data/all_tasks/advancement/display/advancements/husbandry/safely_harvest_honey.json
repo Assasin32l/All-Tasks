@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/root",
   "criteria": {
     "safely_harvest_honey": {
       "conditions": {
@@ -24,6 +23,7 @@
       "trigger": "minecraft:item_used_on_block"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/root",
   "display": {
     "description": {
       "translate": "advancements.husbandry.safely_harvest_honey.description"
@@ -36,13 +36,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "safely_harvest_honey"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

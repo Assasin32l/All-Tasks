@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/story/follow_ender_eye",
   "criteria": {
     "entered_end": {
       "conditions": {
@@ -8,6 +7,7 @@
       "trigger": "minecraft:changed_dimension"
     }
   },
+  "parent": "all_tasks:display/advancements/story/follow_ender_eye",
   "display": {
     "description": {
       "translate": "advancements.story.enter_the_end.description"
@@ -20,13 +20,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "entered_end"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/root",
   "criteria": {
     "ancient_debris": {
       "conditions": {
@@ -12,6 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/root",
   "display": {
     "description": {
       "translate": "advancements.nether.obtain_ancient_debris.description"
@@ -24,13 +24,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "ancient_debris"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

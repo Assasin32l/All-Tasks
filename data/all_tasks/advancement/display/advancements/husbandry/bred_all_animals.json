@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/breed_an_animal",
   "criteria": {
     "minecraft:armadillo": {
       "conditions": {
@@ -393,6 +392,7 @@
       "trigger": "minecraft:bred_animals"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/breed_an_animal",
   "display": {
     "description": {
       "translate": "advancements.husbandry.breed_all_animals.description"
@@ -406,88 +406,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "minecraft:horse"
-    ],
-    [
-      "minecraft:donkey"
-    ],
-    [
-      "minecraft:mule"
-    ],
-    [
-      "minecraft:sheep"
-    ],
-    [
-      "minecraft:cow"
-    ],
-    [
-      "minecraft:mooshroom"
-    ],
-    [
-      "minecraft:pig"
-    ],
-    [
-      "minecraft:chicken"
-    ],
-    [
-      "minecraft:wolf"
-    ],
-    [
-      "minecraft:ocelot"
-    ],
-    [
-      "minecraft:rabbit"
-    ],
-    [
-      "minecraft:llama"
-    ],
-    [
-      "minecraft:cat"
-    ],
-    [
-      "minecraft:panda"
-    ],
-    [
-      "minecraft:fox"
-    ],
-    [
-      "minecraft:bee"
-    ],
-    [
-      "minecraft:hoglin"
-    ],
-    [
-      "minecraft:strider"
-    ],
-    [
-      "minecraft:goat"
-    ],
-    [
-      "minecraft:axolotl"
-    ],
-    [
-      "minecraft:camel"
-    ],
-    [
-      "minecraft:armadillo"
-    ],
-    [
-      "minecraft:nautilus"
-    ],
-    [
-      "minecraft:turtle"
-    ],
-    [
-      "minecraft:frog"
-    ],
-    [
-      "minecraft:sniffer"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

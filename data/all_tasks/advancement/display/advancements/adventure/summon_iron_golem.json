@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/trade",
   "criteria": {
     "summoned_golem": {
       "conditions": {
@@ -16,6 +15,7 @@
       "trigger": "minecraft:summoned_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/trade",
   "display": {
     "description": {
       "translate": "advancements.adventure.summon_iron_golem.description"
@@ -29,13 +29,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "summoned_golem"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/ride_strider",
   "criteria": {
     "ride_entity_distance": {
       "conditions": {
@@ -26,6 +25,7 @@
       "trigger": "minecraft:ride_entity_in_lava"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/ride_strider",
   "display": {
     "description": {
       "translate": "advancements.nether.ride_strider_in_overworld_lava.description"
@@ -38,13 +38,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "ride_entity_distance"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/leash_all_frog_variants",
   "criteria": {
     "froglights": {
       "conditions": {
@@ -18,6 +17,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/leash_all_frog_variants",
   "display": {
     "description": {
       "translate": "advancements.husbandry.froglights.description"
@@ -31,13 +31,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "froglights"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

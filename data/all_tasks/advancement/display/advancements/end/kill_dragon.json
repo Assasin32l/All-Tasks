@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/end/root",
   "criteria": {
     "killed_dragon": {
       "conditions": {
@@ -16,6 +15,7 @@
       "trigger": "minecraft:player_killed_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/end/root",
   "display": {
     "description": {
       "translate": "advancements.end.kill_dragon.description"
@@ -28,13 +28,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "killed_dragon"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

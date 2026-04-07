@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/find_bastion",
   "criteria": {
     "loot_bastion_bridge": {
       "conditions": {
@@ -26,6 +25,15 @@
       "trigger": "minecraft:player_generates_container_loot"
     }
   },
+  "requirements": [
+    [
+      "loot_bastion_other",
+      "loot_bastion_treasure",
+      "loot_bastion_hoglin_stable",
+      "loot_bastion_bridge"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/nether/find_bastion",
   "display": {
     "description": {
       "translate": "advancements.nether.loot_bastion.description"
@@ -38,16 +46,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "loot_bastion_other",
-      "loot_bastion_treasure",
-      "loot_bastion_hoglin_stable",
-      "loot_bastion_bridge"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

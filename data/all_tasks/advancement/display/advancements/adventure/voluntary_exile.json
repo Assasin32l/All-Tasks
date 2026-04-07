@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "voluntary_exile": {
       "conditions": {
@@ -60,6 +59,7 @@
       "trigger": "minecraft:player_killed_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.voluntary_exile.description"
@@ -118,13 +118,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "voluntary_exile"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

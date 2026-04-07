@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/minecraft_trials_edition",
   "criteria": {
     "blowback": {
       "conditions": {
@@ -27,6 +26,7 @@
       "trigger": "minecraft:player_killed_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/minecraft_trials_edition",
   "display": {
     "description": {
       "translate": "advancements.adventure.blowback.description"
@@ -40,13 +40,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "blowback"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

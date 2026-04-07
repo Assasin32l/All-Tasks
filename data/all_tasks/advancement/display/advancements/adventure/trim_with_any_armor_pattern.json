@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "armor_trimmed_minecraft:bolt_armor_trim_smithing_template_smithing_trim": {
       "conditions": {
@@ -110,19 +109,6 @@
       "trigger": "minecraft:recipe_crafted"
     }
   },
-  "display": {
-    "description": {
-      "translate": "advancements.adventure.trim_with_any_armor_pattern.description"
-    },
-    "icon": {
-      "id": "minecraft:dune_armor_trim_smithing_template"
-    },
-    "title": {
-      "translate": "advancements.adventure.trim_with_any_armor_pattern.title"
-    },
-    "show_toast": false,
-    "announce_to_chat": false
-  },
   "requirements": [
     [
       "armor_trimmed_minecraft:bolt_armor_trim_smithing_template_smithing_trim",
@@ -145,7 +131,18 @@
       "armor_trimmed_minecraft:wild_armor_trim_smithing_template_smithing_trim"
     ]
   ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
+  "parent": "all_tasks:display/advancements/adventure/root",
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.trim_with_any_armor_pattern.description"
+    },
+    "icon": {
+      "id": "minecraft:dune_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.adventure.trim_with_any_armor_pattern.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
   }
 }

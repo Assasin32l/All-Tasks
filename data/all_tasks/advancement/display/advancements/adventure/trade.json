@@ -1,10 +1,10 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "traded": {
       "trigger": "minecraft:villager_trade"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.trade.description"
@@ -17,13 +17,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "traded"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

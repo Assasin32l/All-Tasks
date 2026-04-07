@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/under_lock_and_key",
   "criteria": {
     "revaulting": {
       "conditions": {
@@ -26,6 +25,7 @@
       "trigger": "minecraft:item_used_on_block"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/under_lock_and_key",
   "display": {
     "description": {
       "translate": "advancements.adventure.revaulting.description"
@@ -39,13 +39,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "revaulting"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

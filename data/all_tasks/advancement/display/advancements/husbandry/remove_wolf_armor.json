@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/tame_an_animal",
   "criteria": {
     "remove_wolf_armor": {
       "conditions": {
@@ -19,6 +18,7 @@
       "trigger": "minecraft:player_sheared_equipment"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/tame_an_animal",
   "display": {
     "description": {
       "translate": "advancements.husbandry.remove_wolf_armor.description"
@@ -31,13 +31,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "remove_wolf_armor"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

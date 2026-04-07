@@ -21,7 +21,7 @@
     },
     "hidden": true
   },
-  "parent": "all_tasks:advancements/root",
+  "parent": "all_tasks:display/advancements/root",
   "requirements": [
     [
       "killed_something",

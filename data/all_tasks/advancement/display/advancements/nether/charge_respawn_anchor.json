@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/obtain_crying_obsidian",
   "criteria": {
     "charge_respawn_anchor": {
       "conditions": {
@@ -26,6 +25,7 @@
       "trigger": "minecraft:item_used_on_block"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/obtain_crying_obsidian",
   "display": {
     "description": {
       "translate": "advancements.nether.charge_respawn_anchor.description"
@@ -38,13 +38,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "charge_respawn_anchor"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

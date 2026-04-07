@@ -1,10 +1,10 @@
 {
-  "parent": "all_tasks:advancements/adventure/kill_a_mob",
   "criteria": {
     "kill_mob_near_sculk_catalyst": {
       "trigger": "minecraft:kill_mob_near_sculk_catalyst"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/kill_a_mob",
   "display": {
     "description": {
       "translate": "advancements.adventure.kill_mob_near_sculk_catalyst.description"
@@ -18,13 +18,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "kill_mob_near_sculk_catalyst"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

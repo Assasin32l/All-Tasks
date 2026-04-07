@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/obtain_ancient_debris",
   "criteria": {
     "netherite_armor": {
       "conditions": {
@@ -21,6 +20,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/obtain_ancient_debris",
   "display": {
     "description": {
       "translate": "advancements.nether.netherite_armor.description"
@@ -34,13 +34,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "netherite_armor"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

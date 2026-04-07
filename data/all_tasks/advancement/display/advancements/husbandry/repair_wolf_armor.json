@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/tame_an_animal",
   "criteria": {
     "repair_wolf_armor": {
       "conditions": {
@@ -27,6 +26,7 @@
       "trigger": "minecraft:player_interacted_with_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/tame_an_animal",
   "display": {
     "description": {
       "translate": "advancements.husbandry.repair_wolf_armor.description"
@@ -39,13 +39,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "repair_wolf_armor"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

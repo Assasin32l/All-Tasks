@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/root",
   "criteria": {
     "fortress": {
       "conditions": {
@@ -18,6 +17,7 @@
       "trigger": "minecraft:location"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/root",
   "display": {
     "description": {
       "translate": "advancements.nether.find_fortress.description"
@@ -30,13 +30,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "fortress"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

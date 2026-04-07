@@ -1,10 +1,10 @@
 {
-  "parent": "all_tasks:advancements/adventure/voluntary_exile",
   "criteria": {
     "hero_of_the_village": {
       "trigger": "minecraft:hero_of_the_village"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/voluntary_exile",
   "display": {
     "description": {
       "translate": "advancements.adventure.hero_of_the_village.description"
@@ -64,13 +64,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "hero_of_the_village"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

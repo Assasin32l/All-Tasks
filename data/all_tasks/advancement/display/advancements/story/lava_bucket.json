@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/story/smelt_iron",
   "criteria": {
     "lava_bucket": {
       "conditions": {
@@ -12,6 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/story/smelt_iron",
   "display": {
     "description": {
       "translate": "advancements.story.lava_bucket.description"
@@ -24,13 +24,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "lava_bucket"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

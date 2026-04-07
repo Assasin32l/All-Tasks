@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/root",
   "criteria": {
     "make_a_sign_glow": {
       "conditions": {
@@ -23,6 +22,7 @@
       "trigger": "minecraft:item_used_on_block"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/root",
   "display": {
     "description": {
       "translate": "advancements.husbandry.make_a_sign_glow.description"
@@ -35,13 +35,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "make_a_sign_glow"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

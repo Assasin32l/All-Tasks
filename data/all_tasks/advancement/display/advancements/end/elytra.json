@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/end/find_end_city",
   "criteria": {
     "elytra": {
       "conditions": {
@@ -12,6 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/end/find_end_city",
   "display": {
     "description": {
       "translate": "advancements.end.elytra.description"
@@ -25,13 +25,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "elytra"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

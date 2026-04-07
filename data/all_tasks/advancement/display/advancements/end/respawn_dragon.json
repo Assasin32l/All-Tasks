@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/end/kill_dragon",
   "criteria": {
     "summoned_dragon": {
       "conditions": {
@@ -16,6 +15,7 @@
       "trigger": "minecraft:summoned_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/end/kill_dragon",
   "display": {
     "description": {
       "translate": "advancements.end.respawn_dragon.description"
@@ -29,13 +29,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "summoned_dragon"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

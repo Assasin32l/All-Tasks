@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "place_creaking_heart_awake": {
       "conditions": {
@@ -282,6 +281,14 @@
       "trigger": "minecraft:placed_block"
     }
   },
+  "requirements": [
+    [
+      "place_creaking_heart_dormant",
+      "place_creaking_heart_awake",
+      "place_pale_oak_log"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.heart_transplanter.description"
@@ -294,15 +301,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "place_creaking_heart_dormant",
-      "place_creaking_heart_awake",
-      "place_pale_oak_log"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

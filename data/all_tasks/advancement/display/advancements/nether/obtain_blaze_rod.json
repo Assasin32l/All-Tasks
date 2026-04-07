@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/find_fortress",
   "criteria": {
     "blaze_rod": {
       "conditions": {
@@ -12,6 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/find_fortress",
   "display": {
     "description": {
       "translate": "advancements.nether.obtain_blaze_rod.description"
@@ -24,13 +24,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "blaze_rod"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

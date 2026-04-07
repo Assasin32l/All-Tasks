@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/root",
   "criteria": {
     "distract_piglin": {
       "conditions": {
@@ -158,6 +157,13 @@
       "trigger": "minecraft:player_interacted_with_entity"
     }
   },
+  "requirements": [
+    [
+      "distract_piglin",
+      "distract_piglin_directly"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/nether/root",
   "display": {
     "description": {
       "translate": "advancements.nether.distract_piglin.description"
@@ -170,14 +176,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "distract_piglin",
-      "distract_piglin_directly"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

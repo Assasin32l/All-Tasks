@@ -26,10 +26,5 @@
     },
     "hidden": true
   },
-  "parent": "all_tasks:advancements/root",
-  "requirements": [
-    [
-      "crafting_table"
-    ]
-  ]
+  "parent": "all_tasks:display/advancements/root"
 }

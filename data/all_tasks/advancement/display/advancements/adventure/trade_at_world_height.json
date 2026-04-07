@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/trade",
   "criteria": {
     "trade_at_world_height": {
       "conditions": {
@@ -22,6 +21,7 @@
       "trigger": "minecraft:villager_trade"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/trade",
   "display": {
     "description": {
       "translate": "advancements.adventure.trade_at_world_height.description"
@@ -34,13 +34,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "trade_at_world_height"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

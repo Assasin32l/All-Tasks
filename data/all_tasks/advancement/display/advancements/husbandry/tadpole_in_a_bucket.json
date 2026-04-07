@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/root",
   "criteria": {
     "tadpole_bucket": {
       "conditions": {
@@ -10,6 +9,7 @@
       "trigger": "minecraft:filled_bucket"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/root",
   "display": {
     "description": {
       "translate": "advancements.husbandry.tadpole_in_a_bucket.description"
@@ -22,13 +22,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "tadpole_bucket"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

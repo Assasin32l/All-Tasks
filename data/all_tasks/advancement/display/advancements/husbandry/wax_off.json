@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/wax_on",
   "criteria": {
     "wax_off": {
       "conditions": {
@@ -92,6 +91,7 @@
       "trigger": "minecraft:item_used_on_block"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/wax_on",
   "display": {
     "description": {
       "translate": "advancements.husbandry.wax_off.description"
@@ -104,13 +104,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "wax_off"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

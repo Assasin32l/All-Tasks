@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/allay_deliver_item_to_player",
   "criteria": {
     "allay_deliver_cake_to_note_block": {
       "conditions": {
@@ -23,6 +22,7 @@
       "trigger": "minecraft:allay_drop_item_on_block"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/allay_deliver_item_to_player",
   "display": {
     "description": {
       "translate": "advancements.husbandry.allay_deliver_cake_to_note_block.description"
@@ -36,13 +36,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "allay_deliver_cake_to_note_block"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

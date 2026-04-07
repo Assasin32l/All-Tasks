@@ -18,10 +18,5 @@
     },
     "hidden": true
   },
-  "parent": "all_tasks:advancements/root",
-  "requirements": [
-    [
-      "consumed_item"
-    ]
-  ]
+  "parent": "all_tasks:display/advancements/root"
 }

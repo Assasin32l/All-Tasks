@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/salvage_sherd",
   "criteria": {
     "pot_crafted_using_only_sherds": {
       "conditions": {
@@ -22,6 +21,7 @@
       "trigger": "minecraft:recipe_crafted"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/salvage_sherd",
   "display": {
     "description": {
       "translate": "advancements.adventure.craft_decorated_pot_using_only_sherds.description"
@@ -42,13 +42,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "pot_crafted_using_only_sherds"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

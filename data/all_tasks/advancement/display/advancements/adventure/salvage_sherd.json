@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "desert_pyramid": {
       "conditions": {
@@ -48,19 +47,6 @@
       "trigger": "minecraft:player_generates_container_loot"
     }
   },
-  "display": {
-    "description": {
-      "translate": "advancements.adventure.salvage_sherd.description"
-    },
-    "icon": {
-      "id": "minecraft:brush"
-    },
-    "title": {
-      "translate": "advancements.adventure.salvage_sherd.title"
-    },
-    "show_toast": false,
-    "announce_to_chat": false
-  },
   "requirements": [
     [
       "desert_pyramid",
@@ -74,7 +60,18 @@
       "has_sherd"
     ]
   ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
+  "parent": "all_tasks:display/advancements/adventure/root",
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.salvage_sherd.description"
+    },
+    "icon": {
+      "id": "minecraft:brush"
+    },
+    "title": {
+      "translate": "advancements.adventure.salvage_sherd.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/axolotl_in_a_bucket",
   "criteria": {
     "kill_axolotl_target": {
       "conditions": {
@@ -16,6 +15,7 @@
       "trigger": "minecraft:effects_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/axolotl_in_a_bucket",
   "display": {
     "description": {
       "translate": "advancements.husbandry.kill_axolotl_target.description"
@@ -28,13 +28,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "kill_axolotl_target"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

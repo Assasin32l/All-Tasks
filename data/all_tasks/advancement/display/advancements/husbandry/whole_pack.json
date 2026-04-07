@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/tame_an_animal",
   "criteria": {
     "minecraft:ashen": {
       "conditions": {
@@ -146,6 +145,7 @@
       "trigger": "minecraft:tame_animal"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/tame_an_animal",
   "display": {
     "description": {
       "translate": "advancements.husbandry.whole_pack.description"
@@ -159,37 +159,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "minecraft:ashen"
-    ],
-    [
-      "minecraft:black"
-    ],
-    [
-      "minecraft:chestnut"
-    ],
-    [
-      "minecraft:pale"
-    ],
-    [
-      "minecraft:rusty"
-    ],
-    [
-      "minecraft:snowy"
-    ],
-    [
-      "minecraft:spotted"
-    ],
-    [
-      "minecraft:striped"
-    ],
-    [
-      "minecraft:woods"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

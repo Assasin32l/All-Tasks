@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/shoot_arrow",
   "criteria": {
     "killed_skeleton": {
       "conditions": {
@@ -29,6 +28,7 @@
       "trigger": "minecraft:player_killed_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/shoot_arrow",
   "display": {
     "description": {
       "translate": "advancements.adventure.sniper_duel.description"
@@ -42,13 +42,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "killed_skeleton"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

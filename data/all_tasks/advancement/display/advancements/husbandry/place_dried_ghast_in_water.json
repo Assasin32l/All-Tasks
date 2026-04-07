@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/root",
   "criteria": {
     "place_dried_ghast_in_water": {
       "conditions": {
@@ -16,6 +15,7 @@
       "trigger": "minecraft:placed_block"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/root",
   "display": {
     "description": {
       "translate": "advancements.husbandry.place_dried_ghast_in_water.description"
@@ -28,13 +28,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "place_dried_ghast_in_water"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

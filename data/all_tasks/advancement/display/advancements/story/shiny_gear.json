@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/story/mine_diamond",
   "criteria": {
     "diamond_boots": {
       "conditions": {
@@ -42,6 +41,15 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "requirements": [
+    [
+      "diamond_helmet",
+      "diamond_chestplate",
+      "diamond_leggings",
+      "diamond_boots"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/story/mine_diamond",
   "display": {
     "description": {
       "translate": "advancements.story.shiny_gear.description"
@@ -54,16 +62,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "diamond_helmet",
-      "diamond_chestplate",
-      "diamond_leggings",
-      "diamond_boots"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/root",
   "criteria": {
     "beetroots": {
       "conditions": {
@@ -79,6 +78,18 @@
       "trigger": "minecraft:placed_block"
     }
   },
+  "requirements": [
+    [
+      "wheat",
+      "pumpkin_stem",
+      "melon_stem",
+      "beetroots",
+      "nether_wart",
+      "torchflower",
+      "pitcher_pod"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/husbandry/root",
   "display": {
     "description": {
       "translate": "advancements.husbandry.plant_seed.description"
@@ -91,19 +102,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "wheat",
-      "pumpkin_stem",
-      "melon_stem",
-      "beetroots",
-      "nether_wart",
-      "torchflower",
-      "pitcher_pod"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

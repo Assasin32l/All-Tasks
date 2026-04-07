@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/ride_strider",
   "criteria": {
     "minecraft:basalt_deltas": {
       "conditions": {
@@ -82,6 +81,7 @@
       "trigger": "minecraft:location"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/ride_strider",
   "display": {
     "description": {
       "translate": "advancements.nether.explore_nether.description"
@@ -95,25 +95,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "minecraft:nether_wastes"
-    ],
-    [
-      "minecraft:soul_sand_valley"
-    ],
-    [
-      "minecraft:crimson_forest"
-    ],
-    [
-      "minecraft:warped_forest"
-    ],
-    [
-      "minecraft:basalt_deltas"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

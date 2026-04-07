@@ -1,10 +1,10 @@
 {
-  "parent": "all_tasks:advancements/nether/obtain_blaze_rod",
   "criteria": {
     "potion": {
       "trigger": "minecraft:brewed_potion"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/obtain_blaze_rod",
   "display": {
     "description": {
       "translate": "advancements.nether.brew_potion.description"
@@ -17,13 +17,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "potion"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

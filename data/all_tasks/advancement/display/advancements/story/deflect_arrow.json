@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/story/obtain_armor",
   "criteria": {
     "deflected_projectile": {
       "conditions": {
@@ -18,6 +17,7 @@
       "trigger": "minecraft:entity_hurt_player"
     }
   },
+  "parent": "all_tasks:display/advancements/story/obtain_armor",
   "display": {
     "description": {
       "translate": "advancements.story.deflect_arrow.description"
@@ -30,13 +30,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "deflected_projectile"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "parent": "all_tasks:advancements/story/enter_the_nether",
   "criteria": {
     "cured_zombie": {
       "trigger": "minecraft:cured_zombie_villager"
     }
   },
+  "parent": "all_tasks:display/advancements/story/enter_the_nether",
   "display": {
     "description": {
       "translate": "advancements.story.cure_zombie_villager.description"
@@ -18,13 +18,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "cured_zombie"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/spyglass_at_parrot",
   "criteria": {
     "spyglass_at_ghast": {
       "conditions": {
@@ -24,6 +23,7 @@
       "trigger": "minecraft:using_item"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/spyglass_at_parrot",
   "display": {
     "description": {
       "translate": "advancements.adventure.spyglass_at_ghast.description"
@@ -36,13 +36,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "spyglass_at_ghast"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

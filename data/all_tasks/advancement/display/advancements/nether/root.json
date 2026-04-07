@@ -21,10 +21,5 @@
     },
     "hidden": true
   },
-  "parent": "all_tasks:advancements/root",
-  "requirements": [
-    [
-      "entered_nether"
-    ]
-  ]
+  "parent": "all_tasks:display/advancements/root"
 }

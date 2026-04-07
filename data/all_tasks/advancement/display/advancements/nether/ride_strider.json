@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/root",
   "criteria": {
     "used_warped_fungus_on_a_stick": {
       "conditions": {
@@ -21,6 +20,7 @@
       "trigger": "minecraft:item_durability_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/root",
   "display": {
     "description": {
       "translate": "advancements.nether.ride_strider.description"
@@ -33,13 +33,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "used_warped_fungus_on_a_stick"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

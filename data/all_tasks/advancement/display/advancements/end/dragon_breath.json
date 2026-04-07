@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/end/kill_dragon",
   "criteria": {
     "dragon_breath": {
       "conditions": {
@@ -12,6 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "parent": "all_tasks:display/advancements/end/kill_dragon",
   "display": {
     "description": {
       "translate": "advancements.end.dragon_breath.description"
@@ -25,13 +25,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "dragon_breath"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

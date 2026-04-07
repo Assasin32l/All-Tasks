@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/feed_snifflet",
   "criteria": {
     "pitcher_pod": {
       "conditions": {
@@ -24,6 +23,13 @@
       "trigger": "minecraft:placed_block"
     }
   },
+  "requirements": [
+    [
+      "torchflower",
+      "pitcher_pod"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/husbandry/feed_snifflet",
   "display": {
     "description": {
       "translate": "advancements.husbandry.plant_any_sniffer_seed.description"
@@ -37,14 +43,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "torchflower",
-      "pitcher_pod"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

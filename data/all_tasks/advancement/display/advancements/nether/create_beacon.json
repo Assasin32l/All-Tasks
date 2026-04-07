@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/summon_wither",
   "criteria": {
     "beacon": {
       "conditions": {
@@ -10,6 +9,7 @@
       "trigger": "minecraft:construct_beacon"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/summon_wither",
   "display": {
     "description": {
       "translate": "advancements.nether.create_beacon.description"
@@ -22,13 +22,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "beacon"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

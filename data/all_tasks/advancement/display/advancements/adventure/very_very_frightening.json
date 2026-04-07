@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/throw_trident",
   "criteria": {
     "struck_villager": {
       "conditions": {
@@ -18,6 +17,7 @@
       "trigger": "minecraft:channeled_lightning"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/throw_trident",
   "display": {
     "description": {
       "translate": "advancements.adventure.very_very_frightening.description"
@@ -30,13 +30,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "struck_villager"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

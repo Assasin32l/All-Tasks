@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/husbandry/obtain_sniffer_egg",
   "criteria": {
     "feed_snifflet": {
       "conditions": {
@@ -22,6 +21,7 @@
       "trigger": "minecraft:player_interacted_with_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/husbandry/obtain_sniffer_egg",
   "display": {
     "description": {
       "translate": "advancements.husbandry.feed_snifflet.description"
@@ -35,13 +35,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "feed_snifflet"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/story/smelt_iron",
   "criteria": {
     "iron_boots": {
       "conditions": {
@@ -42,6 +41,15 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
+  "requirements": [
+    [
+      "iron_helmet",
+      "iron_chestplate",
+      "iron_leggings",
+      "iron_boots"
+    ]
+  ],
+  "parent": "all_tasks:display/advancements/story/smelt_iron",
   "display": {
     "description": {
       "translate": "advancements.story.obtain_armor.description"
@@ -54,16 +62,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "iron_helmet",
-      "iron_chestplate",
-      "iron_leggings",
-      "iron_boots"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

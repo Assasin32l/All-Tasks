@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/nether/get_wither_skull",
   "criteria": {
     "summoned": {
       "conditions": {
@@ -16,6 +15,7 @@
       "trigger": "minecraft:summoned_entity"
     }
   },
+  "parent": "all_tasks:display/advancements/nether/get_wither_skull",
   "display": {
     "description": {
       "translate": "advancements.nether.summon_wither.description"
@@ -28,13 +28,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "summoned"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

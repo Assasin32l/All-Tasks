@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "crafter_crafted_crafter": {
       "conditions": {
@@ -8,6 +7,7 @@
       "trigger": "minecraft:crafter_recipe_crafted"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.crafters_crafting_crafters.description"
@@ -20,13 +20,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "crafter_crafted_crafter"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

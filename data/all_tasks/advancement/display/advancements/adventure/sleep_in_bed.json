@@ -1,10 +1,10 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "slept_in_bed": {
       "trigger": "minecraft:slept_in_bed"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.sleep_in_bed.description"
@@ -17,13 +17,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "slept_in_bed"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

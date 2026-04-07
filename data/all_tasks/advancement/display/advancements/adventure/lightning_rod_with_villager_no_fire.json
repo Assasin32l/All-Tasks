@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/root",
   "criteria": {
     "lightning_rod_with_villager_no_fire": {
       "conditions": {
@@ -33,6 +32,7 @@
       "trigger": "minecraft:lightning_strike"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/root",
   "display": {
     "description": {
       "translate": "advancements.adventure.lightning_rod_with_villager_no_fire.description"
@@ -45,13 +45,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "lightning_rod_with_villager_no_fire"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

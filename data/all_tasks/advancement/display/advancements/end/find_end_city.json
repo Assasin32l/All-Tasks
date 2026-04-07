@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/end/enter_end_gateway",
   "criteria": {
     "in_city": {
       "conditions": {
@@ -18,6 +17,7 @@
       "trigger": "minecraft:location"
     }
   },
+  "parent": "all_tasks:display/advancements/end/enter_end_gateway",
   "display": {
     "description": {
       "translate": "advancements.end.find_end_city.description"
@@ -30,13 +30,5 @@
     },
     "announce_to_chat": false,
     "show_toast": false
-  },
-  "requirements": [
-    [
-      "in_city"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "parent": "all_tasks:advancements/story/mine_diamond",
   "criteria": {
     "enchanted_item": {
       "trigger": "minecraft:enchanted_item"
     }
   },
+  "parent": "all_tasks:display/advancements/story/mine_diamond",
   "display": {
     "description": {
       "translate": "advancements.story.enchant_item.description"
@@ -17,13 +17,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "enchanted_item"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

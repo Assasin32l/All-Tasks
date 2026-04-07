@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/adventure/minecraft_trials_edition",
   "criteria": {
     "lighten_up": {
       "conditions": {
@@ -41,6 +40,7 @@
       "trigger": "minecraft:item_used_on_block"
     }
   },
+  "parent": "all_tasks:display/advancements/adventure/minecraft_trials_edition",
   "display": {
     "description": {
       "translate": "advancements.adventure.lighten_up.description"
@@ -53,13 +53,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "lighten_up"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "parent": "all_tasks:advancements/story/enter_the_nether",
   "criteria": {
     "in_stronghold": {
       "conditions": {
@@ -18,6 +17,7 @@
       "trigger": "minecraft:location"
     }
   },
+  "parent": "all_tasks:display/advancements/story/enter_the_nether",
   "display": {
     "description": {
       "translate": "advancements.story.follow_ender_eye.description"
@@ -30,13 +30,5 @@
     },
     "show_toast": false,
     "announce_to_chat": false
-  },
-  "requirements": [
-    [
-      "in_stronghold"
-    ]
-  ],
-  "rewards": {
-    "function": "all_tasks:advancement_wrapper/set_count_1"
   }
 }
