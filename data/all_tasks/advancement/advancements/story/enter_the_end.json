@@ -1,0 +1,32 @@
+{
+  "parent": "all_tasks:advancements/story/follow_ender_eye",
+  "criteria": {
+    "entered_end": {
+      "conditions": {
+        "to": "minecraft:the_end"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.enter_the_end.description"
+    },
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "advancements.story.enter_the_end.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "entered_end"
+    ]
+  ],
+  "rewards": {
+    "function": "all_tasks:advancement_wrapper/set_count_1"
+  }
+}

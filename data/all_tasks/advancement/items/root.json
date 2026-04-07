@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "unlock_right_away": {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "description": "Start to get all items",
+        "icon": {
+            "id": "iron_ingot"
+        },
+        "title": "Items",
+        "background": "block/iron_block",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    }
+}

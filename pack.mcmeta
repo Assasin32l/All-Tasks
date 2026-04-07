@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Datapack to complete all tasks.",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": [
+      101,
+      1
+    ]
+  }
+}

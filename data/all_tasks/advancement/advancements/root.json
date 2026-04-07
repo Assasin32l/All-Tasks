@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "unlock_right_away": {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "description": "Start to get all advancements",
+        "icon": {
+            "id": "book"
+        },
+        "title": "Advancements",
+        "background": "block/oak_planks",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    }
+}

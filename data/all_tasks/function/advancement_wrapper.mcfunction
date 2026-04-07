@@ -1,0 +1,2 @@
+function all_tasks:uuid_to_storage
+function all_tasks:advancement_counter with storage all_tasks

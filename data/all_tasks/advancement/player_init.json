@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "unlock_right_away": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:player_wrapper"
+    }
+}

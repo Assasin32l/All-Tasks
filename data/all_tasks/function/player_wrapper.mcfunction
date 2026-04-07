@@ -1,0 +1,2 @@
+function all_tasks:uuid_to_storage
+function all_tasks:player_init with storage all_tasks

@@ -1,0 +1,73 @@
+{
+    "parent": "all_tasks:biomes/root",
+    "criteria": {
+        "the_end": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "the_end"
+                    }
+                }
+            }
+        },
+        "end_barrens": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "end_barrens"
+                    }
+                }
+            }
+        },
+        "end_highlands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "end_highlands"
+                    }
+                }
+            }
+        },
+        "end_midlands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "end_midlands"
+                    }
+                }
+            }
+        },
+        "small_end_islands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "small_end_islands"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "end_stone"
+        },
+        "title": "The End",
+        "description": "Find all end biomes",
+        "frame": "goal"
+    },
+    "requirements": [
+        ["end_barrens"],
+        ["end_highlands"],
+        ["end_midlands"],
+        ["small_end_islands"],
+        ["the_end"]
+    ],
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper/set_count_5"
+    }
+}

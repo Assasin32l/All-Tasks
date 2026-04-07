@@ -1,0 +1,51 @@
+{
+    "parent": "all_tasks:biomes/root",
+    "criteria": {
+        "badlands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "badlands"
+                    }
+                }
+            }
+        },
+        "eroded_badlands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "eroded_badlands"
+                    }
+                }
+            }
+        },
+        "wooded_badlands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "wooded_badlands"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "terracotta"
+        },
+        "title": "Badlands",
+        "description": "Find all badlands biomes",
+        "frame": "goal"
+    },
+    "requirements": [
+        ["badlands"],
+        ["eroded_badlands"],
+        ["wooded_badlands"]
+    ],
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper/set_count_3"
+    }
+}

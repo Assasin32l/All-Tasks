@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "unlock_right_away": {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "description": "Start to get all mobs",
+        "icon": {
+            "id": "rotten_flesh"
+        },
+        "title": "Mobs",
+        "background": "block/nether_wart_block",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    }
+}

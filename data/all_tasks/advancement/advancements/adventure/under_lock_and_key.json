@@ -1,0 +1,50 @@
+{
+  "parent": "all_tasks:advancements/adventure/minecraft_trials_edition",
+  "criteria": {
+    "under_lock_and_key": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "false"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:trial_key"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.under_lock_and_key.description"
+    },
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {
+      "translate": "advancements.adventure.under_lock_and_key.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "under_lock_and_key"
+    ]
+  ],
+  "rewards": {
+    "function": "all_tasks:advancement_wrapper/set_count_1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "unlock_right_away": {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "description": "Start to get all structures",
+        "icon": {
+            "id": "stone_bricks"
+        },
+        "title": "Structures",
+        "background": "block/stone_bricks",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    }
+}

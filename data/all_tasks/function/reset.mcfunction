@@ -1,0 +1,3 @@
+scoreboard players reset 747564220854936818-20451549062003917780 tasks
+bossbar remove 747564220854936818-20451549062003917780
+advancement revoke @a everything
