@@ -19,7 +19,7 @@
         "title": "Deep Dark",
         "frame": "task"
     },
-    "parent": "all_tasks:biomes/root",
+    "parent": "all_tasks:biomes/dripstone_caves",
     "rewards": {
         "function": "all_tasks:advancement_wrapper/set_count_1"
     }

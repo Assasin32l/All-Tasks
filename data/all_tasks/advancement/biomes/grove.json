@@ -19,7 +19,7 @@
         "title": "Grove",
         "frame": "task"
     },
-    "parent": "all_tasks:biomes/root",
+    "parent": "all_tasks:biomes/snowy_slopes",
     "rewards": {
         "function": "all_tasks:advancement_wrapper/set_count_1"
     }

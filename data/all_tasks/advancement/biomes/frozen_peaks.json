@@ -19,7 +19,7 @@
         "title": "Frozen Peaks",
         "frame": "task"
     },
-    "parent": "all_tasks:biomes/root",
+    "parent": "all_tasks:biomes/jagged_peaks",
     "rewards": {
         "function": "all_tasks:advancement_wrapper/set_count_1"
     }

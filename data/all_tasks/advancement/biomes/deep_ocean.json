@@ -19,7 +19,7 @@
         "title": "Deep Ocean",
         "frame": "task"
     },
-    "parent": "all_tasks:biomes/root",
+    "parent": "all_tasks:biomes/ocean",
     "rewards": {
         "function": "all_tasks:advancement_wrapper/set_count_1"
     }

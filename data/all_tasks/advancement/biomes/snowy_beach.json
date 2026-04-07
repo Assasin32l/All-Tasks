@@ -19,7 +19,7 @@
         "title": "Snowy Beach",
         "frame": "task"
     },
-    "parent": "all_tasks:biomes/root",
+    "parent": "all_tasks:biomes/beach",
     "rewards": {
         "function": "all_tasks:advancement_wrapper/set_count_1"
     }

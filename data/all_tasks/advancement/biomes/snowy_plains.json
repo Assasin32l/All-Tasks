@@ -14,12 +14,12 @@
     "display": {
         "description": "Find a snowy plains biom",
         "icon": {
-            "id": "grass_block"
+            "id": "snow_block"
         },
         "title": "Snowy Plains",
         "frame": "task"
     },
-    "parent": "all_tasks:biomes/root",
+    "parent": "all_tasks:biomes/plains",
     "rewards": {
         "function": "all_tasks:advancement_wrapper/set_count_1"
     }
