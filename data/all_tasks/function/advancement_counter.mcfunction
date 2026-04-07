@@ -1,5 +1,5 @@
 # Scoreboard
-$scoreboard players add $(uuid0)$(uuid1)$(uuid2)$(uuid3) tasks $(count)
+$scoreboard players add $(uuid0)$(uuid1)$(uuid2)$(uuid3) tasks 1
 
 # Bossbar
 $bossbar set $(uuid0)$(uuid1)$(uuid2)$(uuid3) name [\
