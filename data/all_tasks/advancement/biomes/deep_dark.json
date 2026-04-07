@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "deep_dark": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "deep_dark"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "description": "Find a deep dark biom",
+        "icon": {
+            "id": "sculk"
+        },
+        "title": "Deep Dark",
+        "frame": "task"
+    },
+    "parent": "all_tasks:biomes/root",
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper/set_count_1"
+    }
+}

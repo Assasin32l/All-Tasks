@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "deep_cold_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "deep_cold_ocean"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "description": "Find a deep cold ocean biom",
+        "icon": {
+            "id": "gravel"
+        },
+        "title": "Deep Cold Ocean",
+        "frame": "task"
+    },
+    "parent": "all_tasks:biomes/root",
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper/set_count_1"
+    }
+}
