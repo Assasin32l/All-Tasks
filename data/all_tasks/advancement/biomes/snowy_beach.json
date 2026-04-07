@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "snowy_beach": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "snowy_beach"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a snowy beach biom",
         "icon": {
-            "id": "red_sand"
+            "id": "sand"
         },
-        "title": "Badlands",
+        "title": "Snowy Beach",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

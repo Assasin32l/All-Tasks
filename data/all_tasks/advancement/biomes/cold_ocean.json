@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "cold_ocean": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "cold_ocean"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a cold ocean biom",
         "icon": {
-            "id": "red_sand"
+            "id": "gravel"
         },
-        "title": "Badlands",
+        "title": "Cold Ocean",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

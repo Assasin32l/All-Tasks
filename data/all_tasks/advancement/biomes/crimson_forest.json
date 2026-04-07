@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "crimson_forest": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "crimson_forest"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a crimson forest biom",
         "icon": {
-            "id": "red_sand"
+            "id": "crimson_stem"
         },
-        "title": "Badlands",
+        "title": "Crimson Forest",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

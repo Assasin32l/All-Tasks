@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "end_midlands": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "end_midlands"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a end midlands biom",
         "icon": {
-            "id": "red_sand"
+            "id": "end_stone"
         },
-        "title": "Badlands",
+        "title": "End Midlands",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

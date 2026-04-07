@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "small_end_islands": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "small_end_islands"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a small end islands biom",
         "icon": {
-            "id": "red_sand"
+            "id": "end_stone"
         },
-        "title": "Badlands",
+        "title": "Small End Islands",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

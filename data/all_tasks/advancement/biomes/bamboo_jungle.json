@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "bamboo_jungle": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "bamboo_jungle"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a bamboo jungle biom",
         "icon": {
-            "id": "red_sand"
+            "id": "bamboo"
         },
-        "title": "Badlands",
+        "title": "Bamboo Jungle",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

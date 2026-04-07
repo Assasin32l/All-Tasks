@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "dripstone_caves": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "dripstone_caves"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a dripstone cave biom",
         "icon": {
-            "id": "red_sand"
+            "id": "dripstone_block"
         },
-        "title": "Badlands",
+        "title": "Dripstone Cave",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

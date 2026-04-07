@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "old_growth_pine_taiga": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "old_growth_pine_taiga"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a old growth pine taiga biom",
         "icon": {
-            "id": "red_sand"
+            "id": "spruce_log"
         },
-        "title": "Badlands",
+        "title": "Old Growth Pine Taiga",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "snowy_plains": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "snowy_plains"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a snowy plains biom",
         "icon": {
-            "id": "red_sand"
+            "id": "grass_block"
         },
-        "title": "Badlands",
+        "title": "Snowy Plains",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

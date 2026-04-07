@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "jagged_peaks": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "jagged_peaks"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a jagged peaks biom",
         "icon": {
-            "id": "red_sand"
+            "id": "snow_block"
         },
-        "title": "Badlands",
+        "title": "Jagged Peaks",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

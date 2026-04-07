@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "mushroom_fields": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "mushroom_fields"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a mushroom fields biom",
         "icon": {
-            "id": "red_sand"
+            "id": "mycelium"
         },
-        "title": "Badlands",
+        "title": "Mushroom Fields",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

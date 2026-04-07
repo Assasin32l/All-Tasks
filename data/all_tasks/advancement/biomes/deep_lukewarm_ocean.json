@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "deep_lukewarm_ocean": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "deep_lukewarm_ocean"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a deep lukewarm ocean biom",
         "icon": {
-            "id": "red_sand"
+            "id": "sand"
         },
-        "title": "Badlands",
+        "title": "Deep Lukewarm Ocean",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

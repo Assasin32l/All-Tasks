@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "snowy_taiga": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "snowy_taiga"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a snowy taiga biom",
         "icon": {
-            "id": "red_sand"
+            "id": "spruce_log"
         },
-        "title": "Badlands",
+        "title": "Snowy Taiga",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

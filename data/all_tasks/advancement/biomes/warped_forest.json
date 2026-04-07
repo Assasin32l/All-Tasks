@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "warped_forest": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "warped_forest"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a warped forest biom",
         "icon": {
-            "id": "red_sand"
+            "id": "warped_stem"
         },
-        "title": "Badlands",
+        "title": "Warped Forest",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

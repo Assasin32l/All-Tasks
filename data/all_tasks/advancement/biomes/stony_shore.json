@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "stony_shore": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "stony_shore"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a stony shore biom",
         "icon": {
-            "id": "red_sand"
+            "id": "stone"
         },
-        "title": "Badlands",
+        "title": "Stony Shore",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

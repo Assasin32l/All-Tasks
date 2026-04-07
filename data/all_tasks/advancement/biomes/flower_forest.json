@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "flower_forest": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "flower_forest"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a flower forest biom",
         "icon": {
-            "id": "red_sand"
+            "id": "poppy"
         },
-        "title": "Badlands",
+        "title": "Flower Forest",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

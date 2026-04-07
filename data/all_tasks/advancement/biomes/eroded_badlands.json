@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "eroded_badlands": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "eroded_badlands"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a eroded badlands biom",
         "icon": {
-            "id": "red_sand"
+            "id": "terracotta"
         },
-        "title": "Badlands",
+        "title": "Eroded Badlands",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

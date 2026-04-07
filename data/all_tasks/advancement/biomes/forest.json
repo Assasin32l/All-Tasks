@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "forest": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "forest"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a forest biom",
         "icon": {
-            "id": "red_sand"
+            "id": "oak_log"
         },
-        "title": "Badlands",
+        "title": "Forest",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

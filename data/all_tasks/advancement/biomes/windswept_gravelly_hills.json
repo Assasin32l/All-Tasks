@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "windswept_gravelly_hills": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "windswept_gravelly_hills"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a windswept gravelly hills biom",
         "icon": {
-            "id": "red_sand"
+            "id": "gravel"
         },
-        "title": "Badlands",
+        "title": "Windswept Gravelly Hills",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

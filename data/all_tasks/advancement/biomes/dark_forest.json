@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "dark_forest": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "dark_forest"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a dark forest biom",
         "icon": {
-            "id": "red_sand"
+            "id": "dark_oak_log"
         },
-        "title": "Badlands",
+        "title": "Dark Forest",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

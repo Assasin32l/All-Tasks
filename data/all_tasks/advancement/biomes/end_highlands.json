@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "end_highlands": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "end_highlands"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a end highlands biom",
         "icon": {
-            "id": "red_sand"
+            "id": "end_stone"
         },
-        "title": "Badlands",
+        "title": "End Highlands",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

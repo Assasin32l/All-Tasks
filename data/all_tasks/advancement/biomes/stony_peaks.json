@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "stony_peaks": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "stony_peaks"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a stony peaks biom",
         "icon": {
-            "id": "red_sand"
+            "id": "stone"
         },
-        "title": "Badlands",
+        "title": "Stony Peaks",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

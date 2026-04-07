@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "desert": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "desert"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a desert biom",
         "icon": {
-            "id": "red_sand"
+            "id": "sand"
         },
-        "title": "Badlands",
+        "title": "Desert",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

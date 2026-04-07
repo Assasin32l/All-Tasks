@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "birch_forest": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "birch_forest"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a birch forest biom",
         "icon": {
-            "id": "red_sand"
+            "id": "birch_log"
         },
-        "title": "Badlands",
+        "title": "Birch Forest",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

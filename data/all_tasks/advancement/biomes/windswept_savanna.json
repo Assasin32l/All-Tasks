@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "windswept_savanna": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "windswept_savanna"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a windswept savanna biom",
         "icon": {
-            "id": "red_sand"
+            "id": "acacia_log"
         },
-        "title": "Badlands",
+        "title": "Windswept Savanna",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

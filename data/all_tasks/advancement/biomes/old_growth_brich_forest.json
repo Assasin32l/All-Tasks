@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "old_growth_brich_forest": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "old_growth_birch_forest"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a old growth birch forest biom",
         "icon": {
-            "id": "red_sand"
+            "id": "birch_log"
         },
-        "title": "Badlands",
+        "title": "Old Growth Birch Forest",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

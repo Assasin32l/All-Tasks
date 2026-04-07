@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "ice_spikes": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "ice_spikes"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a ice spikes biom",
         "icon": {
-            "id": "red_sand"
+            "id": "packed_ice"
         },
-        "title": "Badlands",
+        "title": "Ice Spikes",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

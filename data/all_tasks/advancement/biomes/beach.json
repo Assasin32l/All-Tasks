@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "beach": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "beach"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a beach biom",
         "icon": {
-            "id": "red_sand"
+            "id": "sand"
         },
-        "title": "Badlands",
+        "title": "Beach",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

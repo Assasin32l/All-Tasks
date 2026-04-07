@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "nether_wastes": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "nether_wastes"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a nether wastes biom",
         "icon": {
-            "id": "red_sand"
+            "id": "netherrack"
         },
-        "title": "Badlands",
+        "title": "Nether Wastes",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

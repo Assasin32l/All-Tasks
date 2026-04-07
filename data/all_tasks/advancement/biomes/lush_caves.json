@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "lush_caves": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "lush_caves"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a lush cave biom",
         "icon": {
-            "id": "red_sand"
+            "id": "moss_block"
         },
-        "title": "Badlands",
+        "title": "Lush Cave",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

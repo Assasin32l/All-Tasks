@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "sunflower_plains": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "sunflower_plains"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a sunflower plains biom",
         "icon": {
-            "id": "red_sand"
+            "id": "sunflower"
         },
-        "title": "Badlands",
+        "title": "Sunflower Plains",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "cherry_grove": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "cherry_grove"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a cherry grove biom",
         "icon": {
-            "id": "red_sand"
+            "id": "cherry_log"
         },
-        "title": "Badlands",
+        "title": "Cherry Grove",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "meadow": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "meadow"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a meadow biom",
         "icon": {
-            "id": "red_sand"
+            "id": "grass_block"
         },
-        "title": "Badlands",
+        "title": "Meadow",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

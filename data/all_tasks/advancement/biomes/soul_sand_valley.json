@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "soul_sand_valley": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "soul_sand_valley"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a soul sand valley biom",
         "icon": {
-            "id": "red_sand"
+            "id": "soul_sand"
         },
-        "title": "Badlands",
+        "title": "Soul Sand Valley",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

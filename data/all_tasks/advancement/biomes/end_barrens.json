@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "end_barrens": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "end_barrens"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a end barrens biom",
         "icon": {
-            "id": "red_sand"
+            "id": "end_stone"
         },
-        "title": "Badlands",
+        "title": "End Barrens",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "river": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "river"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a river biom",
         "icon": {
-            "id": "red_sand"
+            "id": "gravel"
         },
-        "title": "Badlands",
+        "title": "River",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",

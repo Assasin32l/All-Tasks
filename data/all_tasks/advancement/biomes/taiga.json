@@ -1,22 +1,22 @@
 {
     "criteria": {
-        "badlands": {
+        "taiga": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "badlands"
+                        "biomes": "taiga"
                     }
                 }
             }
         }
     },
     "display": {
-        "description": "Find a badlands biom",
+        "description": "Find a taiga biom",
         "icon": {
-            "id": "red_sand"
+            "id": "spruce_log"
         },
-        "title": "Badlands",
+        "title": "Taiga",
         "frame": "task"
     },
     "parent": "all_tasks:biomes/root",
