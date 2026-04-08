@@ -1,5 +1,5 @@
 {
     "values": [
-        {"id": "all_tasks:server_init", "required": true}
+        {"id": "all_tasks:server_functions/server_start", "required": true}
     ]
 }
