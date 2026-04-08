@@ -1,6 +1,6 @@
 # Scoreboard
 $scoreboard players add $(uuid0)$(uuid1)$(uuid2)$(uuid3) tasks 1
-$execute if score $(uuid0)$(uuid1)$(uuid2)$(uuid3) tasks > max_tasks tasks store result score $(uuid0)$(uuid1)$(uuid2)$(uuid3) tasks run scoreboard players get $(uuid0)$(uuid1)$(uuid2)$(uuid3) tasks
+$execute if score $(uuid0)$(uuid1)$(uuid2)$(uuid3) tasks > max_tasks tasks store result score $(uuid0)$(uuid1)$(uuid2)$(uuid3) tasks run scoreboard players get max_tasks tasks
 
 # Bossbar
 $bossbar set $(uuid0)$(uuid1)$(uuid2)$(uuid3) name [\
