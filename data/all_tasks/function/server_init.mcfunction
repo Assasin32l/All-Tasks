@@ -1,7 +1,20 @@
 gamerule send_command_feedback true
 
 # Storage
-data merge storage all_tasks {uuid0: 0, uuid1: 0, uuid2: 0, uuid3: 0}
+data merge storage all_tasks {\
+    uuid: {\
+        0: 0,\
+        1: 0,\
+        2: 0,\
+        3: 0\
+    },\
+    players: {},\
+    tasks: {\
+        advancements: {\
+            \
+        }\
+    }\
+}
 
 # Scoreboard
 scoreboard objectives add tasks dummy "Tasks"

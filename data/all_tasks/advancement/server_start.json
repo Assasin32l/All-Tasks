@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "all_tasks:player_init"
+        "function": "all_tasks:player_verify"
     }
 }
