@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "mushroom_fields": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "mushroom_fields"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

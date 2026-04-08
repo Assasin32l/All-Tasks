@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "jagged_peaks": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "jagged_peaks"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

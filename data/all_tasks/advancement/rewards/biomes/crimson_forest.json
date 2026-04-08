@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "crimson_forest": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "crimson_forest"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

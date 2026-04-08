@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "frozen_river": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "frozen_river"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

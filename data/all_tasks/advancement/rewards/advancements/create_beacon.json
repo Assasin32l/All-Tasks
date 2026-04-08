@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "beacon": {
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:advancement_wrapper"
+  }
+}

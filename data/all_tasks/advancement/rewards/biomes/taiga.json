@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "taiga": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "taiga"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

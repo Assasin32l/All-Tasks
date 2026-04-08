@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item"
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:advancement_wrapper"
+  }
+}

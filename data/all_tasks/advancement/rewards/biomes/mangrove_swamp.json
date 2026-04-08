@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "mangrove_swamp": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "mangrove_swamp"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

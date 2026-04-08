@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "soul_sand_valley": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "soul_sand_valley"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

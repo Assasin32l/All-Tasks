@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "bamboo_jungle": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "bamboo_jungle"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

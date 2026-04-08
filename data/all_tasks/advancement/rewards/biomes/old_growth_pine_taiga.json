@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "old_growth_pine_taiga": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "old_growth_pine_taiga"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "spear_many_mobs": {
+      "conditions": {
+        "count": 5
+      },
+      "trigger": "minecraft:spear_mobs"
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:advancement_wrapper"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "lukewarm_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "lukewarm_ocean"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

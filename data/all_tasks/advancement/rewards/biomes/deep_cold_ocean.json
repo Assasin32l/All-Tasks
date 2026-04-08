@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "deep_cold_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "deep_cold_ocean"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_tasks:advancement_wrapper"
+    }
+}

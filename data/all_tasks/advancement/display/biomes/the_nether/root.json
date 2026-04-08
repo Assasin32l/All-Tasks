@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "the_nether": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "the_nether"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "description": "Biomes in the nether",
+        "icon": {
+            "id": "netherrack"
+        },
+        "title": "The Nether",
+        "announce_to_chat": false,
+        "frame": "task",
+        "hidden": true,
+        "show_toast": false
+    },
+    "parent": "all_tasks:display/biomes/root"
+}
