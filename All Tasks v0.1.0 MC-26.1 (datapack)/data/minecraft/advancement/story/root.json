@@ -25,5 +25,6 @@
     },
     "frame": "task",
     "hidden": true
-  }
+  },
+  "parent": "all_tasks:advancement_root"
 }

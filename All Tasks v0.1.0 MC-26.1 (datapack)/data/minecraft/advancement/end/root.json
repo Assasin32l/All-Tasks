@@ -1,8 +1,8 @@
 {
   "criteria": {
-    "entered_nether": {
+    "entered_end": {
       "conditions": {
-        "to": "minecraft:the_nether"
+        "to": "minecraft:the_end"
       },
       "trigger": "minecraft:changed_dimension"
     }
@@ -10,16 +10,17 @@
   "display": {
     "announce_to_chat": false,
     "description": {
-      "translate": "advancements.nether.root.description"
+      "translate": "advancements.end.root.description"
     },
     "icon": {
-      "id": "minecraft:red_nether_bricks"
+      "id": "minecraft:end_stone"
     },
     "show_toast": false,
     "title": {
-      "translate": "advancements.nether.root.title"
+      "translate": "advancements.end.root.title"
     },
     "frame": "task",
     "hidden": true
-  }
+  },
+  "parent": "all_tasks:advancement_root"
 }

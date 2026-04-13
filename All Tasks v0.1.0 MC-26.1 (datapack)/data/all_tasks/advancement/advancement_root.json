@@ -5,7 +5,7 @@
         }
     },
     "display": {
-        "description": "",
+        "description": "Have you ever completed them all?",
         "icon": {
             "id": "book"
         },

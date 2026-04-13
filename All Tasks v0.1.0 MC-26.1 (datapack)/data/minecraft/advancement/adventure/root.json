@@ -27,5 +27,6 @@
       "killed_something",
       "killed_by_something"
     ]
-  ]
+  ],
+  "parent": "all_tasks:advancement_root"
 }
