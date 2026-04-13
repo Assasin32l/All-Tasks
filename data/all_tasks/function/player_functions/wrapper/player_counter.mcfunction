@@ -1,2 +1,0 @@
-function all_tasks:player_functions/uuid_to_storage
-function all_tasks:player_functions/player_counter with storage all_tasks

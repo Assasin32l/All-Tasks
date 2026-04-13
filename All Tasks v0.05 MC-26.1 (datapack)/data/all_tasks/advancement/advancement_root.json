@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "unlock_right_away": {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "description": "",
+        "icon": {
+            "id": "book"
+        },
+        "title": "Advancements",
+        "announce_to_chat": false,
+        "background": "block/oak_planks",
+        "frame": "challenge",
+        "show_toast": false
+    }
+}
