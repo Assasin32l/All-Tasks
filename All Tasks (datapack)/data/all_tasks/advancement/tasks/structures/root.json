@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "unlock_right_away": {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "title": "Structures",
+        "description": "More exploring?",
+        "icon": {
+            "id": "stone_bricks"
+        },
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "challenge",
+        "background": "block/stone_bricks"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "in_mineshaft": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "mineshaft"
+                    }
+                }
+            }
+        },
+        "in_mineshaft_mesa": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "mineshaft_mesa"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Mineshaft",
+        "description": "There is two of them?",
+        "icon": {
+            "id": "cobweb"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/overworld/root"
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_ruined_portal-nether": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "ruined_portal_nether"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Ruined Portal",
+        "description": "There is nether variants",
+        "icon": {
+            "id": "obsidian"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/the_nether/root"
+}

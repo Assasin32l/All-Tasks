@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_monument": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "monument"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Monument",
+        "description": "BOB!",
+        "icon": {
+            "id": "prismarine_bricks"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/overworld/root"
+}

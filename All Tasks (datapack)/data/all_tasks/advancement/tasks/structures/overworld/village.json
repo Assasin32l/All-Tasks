@@ -1,0 +1,62 @@
+{
+    "criteria": {
+        "in_village_desert": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "village_desert"
+                    }
+                }
+            }
+        },
+        "in_village_plains": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "village_plains"
+                    }
+                }
+            }
+        },
+        "in_village_savanna": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "village_savanna"
+                    }
+                }
+            }
+        },
+        "in_village_snowy": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "village_snowy"
+                    }
+                }
+            }
+        },
+        "in_village_taiga": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "village_taiga"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Village",
+        "description": "Villagers are the best :)",
+        "icon": {
+            "id": "oak_planks"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/overworld/root"
+}

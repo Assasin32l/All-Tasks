@@ -1,26 +1,26 @@
 {
     "criteria": {
-        "in_the_nether": {
+        "in_overworld": {
             "trigger": "location",
             "conditions": {
                 "player": {
                     "location": {
-                        "dimension": "the_nether"
+                        "dimension": "overworld"
                     }
                 }
             }
         }
     },
     "display": {
-        "title": "The Nether",
+        "title": "Overworld",
         "description": "",
         "icon": {
-            "id": "netherrack"
+            "id": "grass_block"
         },
         "announce_to_chat": false,
         "show_toast": false,
         "hidden": true,
         "frame": "goal"
     },
-    "parent": "all_tasks:tasks/biomes/root"
+    "parent": "all_tasks:tasks/structures/root"
 }

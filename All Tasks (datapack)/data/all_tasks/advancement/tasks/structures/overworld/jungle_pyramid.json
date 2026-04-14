@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_jungle_pyramid": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "jungle_pyramid"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Jungle Pyramid",
+        "description": "There is no TNT here, but there is still a trap. And a secret.",
+        "icon": {
+            "id": "mossy_cobblestone"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/overworld/root"
+}

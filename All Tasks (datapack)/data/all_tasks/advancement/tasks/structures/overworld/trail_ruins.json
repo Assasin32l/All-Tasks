@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_trail_ruins": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "trail_ruins"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Trail Ruins",
+        "description": "Archeology? (Forshadowing)",
+        "icon": {
+            "id": "suspicious_gravel"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/overworld/root"
+}

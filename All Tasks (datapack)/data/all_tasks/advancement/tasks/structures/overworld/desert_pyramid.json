@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_desert_pyramid": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "desert_pyramid"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Desert Pyramid",
+        "description": "Pay attention, there may be TNT",
+        "icon": {
+            "id": "sandstone"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/overworld/root"
+}

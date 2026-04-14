@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_mansion": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "mansion"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Mansion",
+        "description": "This is big",
+        "icon": {
+            "id": "dark_oak_planks"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/overworld/root"
+}

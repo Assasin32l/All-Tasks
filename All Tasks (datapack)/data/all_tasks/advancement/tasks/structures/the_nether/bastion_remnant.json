@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_bastion_remnant": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "bastion_remnant"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Bastion Remnant",
+        "description": "That's where the scary pigs are",
+        "icon": {
+            "id": "cracked_polished_blackstone_bricks"
+        }
+    },
+    "parent": "all_tasks:tasks/structures/the_nether/root"
+}
