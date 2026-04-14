@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_beach": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "beach"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Beach",
+        "description": "Find a beach",
+        "icon": {
+            "id": "sand"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/root"
+}

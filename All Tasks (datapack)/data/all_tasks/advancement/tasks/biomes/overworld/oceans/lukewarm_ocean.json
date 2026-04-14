@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_lukewarm_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "lukewarm_ocean"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Lukewarm Ocean",
+        "description": "Find a lukewarm ocean",
+        "icon": {
+            "id": "sand"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/oceans/ocean"
+}

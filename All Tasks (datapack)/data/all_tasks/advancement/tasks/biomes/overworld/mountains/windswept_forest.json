@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_windswept_forest": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "windswept_forest"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Windswept Forest",
+        "description": "Find a windswept forest",
+        "icon": {
+            "id": "spruce_log"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"
+}

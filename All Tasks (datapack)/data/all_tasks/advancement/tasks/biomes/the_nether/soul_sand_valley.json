@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_soul_sand_valley": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "soul_sand_valley"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Soul Sand Valley",
+        "description": "Find a soul sand valley",
+        "icon": {
+            "id": "soul_sand"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/the_nether/root"
+}

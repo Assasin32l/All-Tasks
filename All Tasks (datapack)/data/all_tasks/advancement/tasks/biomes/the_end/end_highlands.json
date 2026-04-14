@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_end_highlands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "end_highlands"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "End Highlands",
+        "description": "Remember, Obi Wan has the Highground",
+        "icon": {
+            "id": "end_stone"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/the_end/the_end"
+}

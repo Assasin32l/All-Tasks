@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_birch_forest": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "birch_forest"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Birch Forest",
+        "description": "Find a birch forest",
+        "icon": {
+            "id": "birch_log"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
+}

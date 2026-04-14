@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_eroded_badlands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "eroded_badlands"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Eroded Badlands",
+        "description": "Find a eroded badlands",
+        "icon": {
+            "id": "terracotta"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/arid-lands/badlands"
+}

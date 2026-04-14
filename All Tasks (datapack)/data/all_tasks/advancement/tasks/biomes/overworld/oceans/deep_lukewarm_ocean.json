@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_deep_lukewarm_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "deep_lukewarm_ocean"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Deep Lukewarm Ocean",
+        "description": "Find a deep lukewarm ocean",
+        "icon": {
+            "id": "sand"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/oceans/lukewarm_ocean"
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_deep_frozen_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "deep_frozen_ocean"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Deep Frozen Ocean",
+        "description": "Find a deep frozen ocean",
+        "icon": {
+            "id": "packed_ice"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/oceans/frozen_ocean"
+}

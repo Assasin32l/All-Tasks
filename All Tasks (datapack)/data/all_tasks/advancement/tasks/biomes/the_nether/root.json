@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "in_the_nether": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "the_nether"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "The Nether",
+        "description": "Scary in here",
+        "icon": {
+            "id": "netherrack"
+        },
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true,
+        "frame": "goal"
+    },
+    "parent": "all_tasks:tasks/biomes/root"
+}

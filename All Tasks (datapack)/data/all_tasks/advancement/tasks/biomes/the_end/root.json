@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "in_the_end": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "the_end"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "The End",
+        "description": "Go get the ender dragon",
+        "icon": {
+            "id": "end_stone"
+        },
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true,
+        "frame": "goal"
+    },
+    "parent": "all_tasks:tasks/biomes/root"
+}

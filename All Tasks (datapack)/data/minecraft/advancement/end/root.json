@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "entered_end": {
+      "conditions": {
+        "to": "minecraft:the_end"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.end.root.description"
+    },
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.end.root.title"
+    },
+    "frame": "goal",
+    "hidden": true
+  },
+  "parent": "all_tasks:tasks/advancement_root"
+}

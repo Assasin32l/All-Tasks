@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_wooded_badlands": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "wooded_badlands"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Wodded Badlands",
+        "description": "Find a wooded badlands",
+        "icon": {
+            "id": "oak_log"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/arid-lands/eroded_badlands"
+}

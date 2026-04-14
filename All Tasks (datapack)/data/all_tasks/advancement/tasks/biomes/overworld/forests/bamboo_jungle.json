@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_bamboo_jungle": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "bamboo_jungle"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Bamboo Jungle",
+        "description": "Find a bamboo jungle",
+        "icon": {
+            "id": "bamboo_block"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/forests/jungle"
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_forest": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "forest"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Forest",
+        "description": "Find a forest",
+        "icon": {
+            "id": "oak_log"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/root"
+}

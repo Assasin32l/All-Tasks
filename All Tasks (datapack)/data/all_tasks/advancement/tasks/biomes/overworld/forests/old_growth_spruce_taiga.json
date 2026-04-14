@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_old_growth_spruce_taiga": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "old_growth_spruce_taiga"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Old Growth Spruce Taiga",
+        "description": "Find a old growth spruce taiga",
+        "icon": {
+            "id": "spruce_log"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/forests/taiga"
+}

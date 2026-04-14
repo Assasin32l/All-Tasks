@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_meadow": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "meadow"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Meadow",
+        "description": "Find a meadow",
+        "icon": {
+            "id": "grass_block"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/root"
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_snowy_slopes": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "snowy_slopes"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Snowy Slopes",
+        "description": "Find a snowy slopes",
+        "icon": {
+            "id": "snow_block"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/mountains/meadow"
+}

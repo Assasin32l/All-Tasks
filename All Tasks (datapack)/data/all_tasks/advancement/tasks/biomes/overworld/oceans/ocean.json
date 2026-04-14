@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "ocean"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Ocean",
+        "description": "Find a ocean",
+        "icon": {
+            "id": "gravel"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/root"
+}

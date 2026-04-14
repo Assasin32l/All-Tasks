@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_stony_peaks": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "stony_peaks"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Stony Peaks",
+        "description": "Find a stony peak",
+        "icon": {
+            "id": "stone"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/mountains/meadow"
+}

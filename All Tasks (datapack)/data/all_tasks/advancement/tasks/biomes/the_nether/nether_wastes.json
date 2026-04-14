@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_nether_wastes": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "nether_wastes"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Nether Wastes",
+        "description": "Find a nether wastes",
+        "icon": {
+            "id": "netherrack"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/the_nether/root"
+}

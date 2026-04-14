@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_grove": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "grove"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Grove",
+        "description": "Find a grove",
+        "icon": {
+            "id": "snow_block"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/forests/snowy_taiga"
+}

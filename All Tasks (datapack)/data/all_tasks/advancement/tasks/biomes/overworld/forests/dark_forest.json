@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_dark_forest": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "dark_forest"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Dark Forest",
+        "description": "Find a dark forest",
+        "icon": {
+            "id": "dark_oak_log"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
+}

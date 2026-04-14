@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_the_end": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "the_end"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "The End",
+        "description": "Find the end biom",
+        "icon": {
+            "id": "end_stone"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/the_end/root"
+}

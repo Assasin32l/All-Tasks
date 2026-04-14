@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_taiga": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "taiga"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Taiga",
+        "description": "Find a taiga",
+        "icon": {
+            "id": "spruce_log"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
+}

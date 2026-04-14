@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_desert": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "desert"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Desert",
+        "description": "Find a desert",
+        "icon": {
+            "id": "sand"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/root"
+}

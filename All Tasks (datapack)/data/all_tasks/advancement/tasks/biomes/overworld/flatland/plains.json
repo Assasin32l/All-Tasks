@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_plains": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "plains"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Plains",
+        "description": "Find a plains",
+        "icon": {
+            "id": "grass_block"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/root"
+}

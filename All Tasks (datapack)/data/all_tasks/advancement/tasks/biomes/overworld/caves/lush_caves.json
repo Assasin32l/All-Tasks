@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_lush_caves": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "lush_caves"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Lush Caves",
+        "description": "Find a lush cave",
+        "icon": {
+            "id": "moss_block"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/caves/dripstone_caves"
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_dripstone_caves": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "dripstone_caves"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Dripstone Caves",
+        "description": "Find a dripstone cave",
+        "icon": {
+            "id": "dripstone_block"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/root"
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "in_snowy_plains": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "snowy_plains"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Snowy Plains",
+        "description": "Find a snowy plains",
+        "icon": {
+            "id": "snow_block"
+        }
+    },
+    "parent": "all_tasks:tasks/biomes/overworld/flatland/plains"
+}
