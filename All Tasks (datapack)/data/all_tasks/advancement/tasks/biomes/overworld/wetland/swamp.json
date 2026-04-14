@@ -16,7 +16,8 @@
         "description": "Find a swamp",
         "icon": {
             "id": "lily_pad"
-        }
+        },
+        "hidden": true
     },
     "parent": "all_tasks:tasks/biomes/overworld/root"
 }

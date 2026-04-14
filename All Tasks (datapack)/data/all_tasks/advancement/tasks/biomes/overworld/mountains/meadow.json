@@ -16,7 +16,8 @@
         "description": "Find a meadow",
         "icon": {
             "id": "grass_block"
-        }
+        },
+        "hidden": true
     },
     "parent": "all_tasks:tasks/biomes/overworld/root"
 }

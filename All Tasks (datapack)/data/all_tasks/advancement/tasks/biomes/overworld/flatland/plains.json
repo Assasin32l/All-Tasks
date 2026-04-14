@@ -16,7 +16,8 @@
         "description": "Find a plains",
         "icon": {
             "id": "grass_block"
-        }
+        },
+        "hidden": true
     },
     "parent": "all_tasks:tasks/biomes/overworld/root"
 }

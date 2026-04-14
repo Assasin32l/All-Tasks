@@ -16,7 +16,8 @@
         "description": "Find a forest",
         "icon": {
             "id": "oak_log"
-        }
+        },
+        "hidden": true
     },
     "parent": "all_tasks:tasks/biomes/overworld/root"
 }

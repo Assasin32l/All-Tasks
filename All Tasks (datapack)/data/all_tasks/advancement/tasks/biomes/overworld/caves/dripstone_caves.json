@@ -16,7 +16,8 @@
         "description": "Find a dripstone cave",
         "icon": {
             "id": "dripstone_block"
-        }
+        },
+        "hidden": true
     },
     "parent": "all_tasks:tasks/biomes/overworld/root"
 }

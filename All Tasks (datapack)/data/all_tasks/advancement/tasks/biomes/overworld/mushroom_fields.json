@@ -16,7 +16,8 @@
         "description": "Find a mushroom field",
         "icon": {
             "id": "mycelium"
-        }
+        },
+        "hidden": true
     },
     "parent": "all_tasks:tasks/biomes/overworld/root"
 }

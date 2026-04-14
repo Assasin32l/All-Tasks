@@ -16,7 +16,8 @@
         "description": "Find a river",
         "icon": {
             "id": "gravel"
-        }
+        },
+        "hidden": true
     },
     "parent": "all_tasks:tasks/biomes/overworld/root"
 }

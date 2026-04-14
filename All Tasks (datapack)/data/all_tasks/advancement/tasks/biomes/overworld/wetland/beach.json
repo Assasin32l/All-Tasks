@@ -16,7 +16,8 @@
         "description": "Find a beach",
         "icon": {
             "id": "sand"
-        }
+        },
+        "hidden": true
     },
     "parent": "all_tasks:tasks/biomes/overworld/root"
 }
