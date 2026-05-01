@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_warped_forest": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "warped_forest"
-                    }
-                }
-            }
+  "criteria": {
+    "in_warped_forest": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "warped_forest"
+          }
         }
-    },
-    "display": {
-        "title": "Warped Forest",
-        "description": "Find a warped forest",
-        "icon": {
-            "id": "warped_nylium"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/the_nether/nether_wastes"
+      }
+    }
+  },
+  "display": {
+    "title": "Warped Forest",
+    "description": "Find a warped forest",
+    "icon": {
+      "id": "warped_nylium"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/the_nether/nether_wastes"
 }

@@ -1,0 +1,33 @@
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:blue_dye"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot blue_dye
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:brick"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot brick
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:brown_candle"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot brown_candle
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:clay"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot clay
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:emerald"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot emerald
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:green_candle"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot green_candle
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:light_blue_dye"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot light_blue_dye
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:orange_dye"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot orange_dye
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:purple_candle"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot purple_candle
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:red_candle"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot red_candle
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:wheat"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot wheat
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:white_dye"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot white_dye
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:wooden_hoe"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot wooden_hoe
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:yellow_dye"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot yellow_dye
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:beetroot_seeds"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot beetroot_seeds
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:blue_stained_glass_pane"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot blue_stained_glass_pane
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:coal"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot coal
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:dead_bush"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot dead_bush
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:flower_pot"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot flower_pot
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:lead"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot lead
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:light_blue_stained_glass_pane"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot light_blue_stained_glass_pane
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:magenta_stained_glass_pane"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot magenta_stained_glass_pane
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:oak_hanging_sign"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot oak_hanging_sign
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:pink_stained_glass_pane"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot pink_stained_glass_pane
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:purple_stained_glass_pane"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot purple_stained_glass_pane
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:red_stained_glass_pane"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot red_stained_glass_pane
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:spruce_hanging_sign"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot spruce_hanging_sign
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:string"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot string
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:wheat_seeds"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot wheat_seeds
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:yellow_stained_glass_pane"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot yellow_stained_glass_pane
+$execute if data block $(x) $(y) $(z) {item:{id:"minecraft:gold_nugget"}} run advancement grant @s only all_tasks:tasks/structures/trail_ruins/loot_common/loot gold_nugget
+
+$data remove block $(x) $(y) $(z) item.components."minecraft:custom_data"

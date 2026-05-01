@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "lodestone":{"trigger":"impossible"},
+    "arrow":{"trigger":"impossible"},
+    "iron_nugget":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "string":{"trigger":"impossible"},
+    "leather":{"trigger":"impossible"},
+    "spectral_arrow":{"trigger":"impossible"},
+    "gilded_blackstone":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "crying_obsidian":{"trigger":"impossible"},
+    "crossbow":{"trigger":"impossible"},
+    "gold_block":{"trigger":"impossible"},
+    "golden_sword":{"trigger":"impossible"},
+    "golden_axe":{"trigger":"impossible"},
+    "golden_helmet":{"trigger":"impossible"},
+    "golden_chestplate":{"trigger":"impossible"},
+    "golden_leggings":{"trigger":"impossible"},
+    "golden_boots":{"trigger":"impossible"},
+    "netherite_upgrade_smithing_template":{"trigger":"impossible"},
+    "snout_armor_trim_smithing_template":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Bastion Remnant Bridge Loot",
+    "description": "Find all the loot in a bastion remnant bridge",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/bastion/root"
+}

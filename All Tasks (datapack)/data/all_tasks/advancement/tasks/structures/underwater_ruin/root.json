@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "in_structure_1": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ocean_ruin_cold"
+          }
+        }
+      }
+    },
+    "in_structure_2": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ocean_ruin_warm"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Ocean Ruins",
+    "description": "Find both ocean ruin variants",
+    "icon": {
+      "id": "sea_lantern"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

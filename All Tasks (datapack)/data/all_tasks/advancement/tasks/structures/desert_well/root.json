@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "archaeology/desert_well"
+      }
+    }
+  },
+  "display": {
+    "title": "Desert Well",
+    "description": "Find a desert well",
+    "icon": {
+      "id": "sandstone"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

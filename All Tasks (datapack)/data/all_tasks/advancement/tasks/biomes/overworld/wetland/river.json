@@ -1,23 +1,22 @@
 {
-    "criteria": {
-        "in_river": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "river"
-                    }
-                }
-            }
+  "criteria": {
+    "in_river": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "river"
+          }
         }
-    },
-    "display": {
-        "title": "River",
-        "description": "Find a river",
-        "icon": {
-            "id": "gravel"
-        },
-        "hidden": true
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/root"
+      }
+    }
+  },
+  "display": {
+    "title": "River",
+    "description": "Find a river",
+    "icon": {
+      "id": "gravel"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/root"
 }

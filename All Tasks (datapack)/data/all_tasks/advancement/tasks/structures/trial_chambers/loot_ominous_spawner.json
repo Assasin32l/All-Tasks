@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "ominous_trial_key":{"trigger":"impossible"},
+    "baked_potato":{"trigger":"impossible"},
+    "cooked_beef":{"trigger":"impossible"},
+    "golden_carrot":{"trigger":"impossible"},
+    "potion_of_regeneration":{"trigger":"impossible"},
+    "potion_of_strength":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Ominous Spawner Loot",
+    "description": "Find all the loot from a trial chambers ominous spawner",
+    "icon": {
+      "id": "trial_spawner"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/loot_spawner"
+}

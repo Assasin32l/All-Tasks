@@ -1,0 +1,8 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/library"}}}}}] contents eye_armor_trim_smithing_template run advancement grant @s only all_tasks:tasks/structures/stronghold/loot_library/loot eye_armor_trim_smithing_template
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/library"}}}}}] contents paper run advancement grant @s only all_tasks:tasks/structures/stronghold/loot_library/loot paper
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/library"}}}}}] contents book run advancement grant @s only all_tasks:tasks/structures/stronghold/loot_library/loot book
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/library"}}}}}] contents enchanted_book run advancement grant @s only all_tasks:tasks/structures/stronghold/loot_library/loot enchanted_book
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/library"}}}}}] contents compass run advancement grant @s only all_tasks:tasks/structures/stronghold/loot_library/loot compass
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/library"}}}}}] contents map run advancement grant @s only all_tasks:tasks/structures/stronghold/loot_library/loot map
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/library"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

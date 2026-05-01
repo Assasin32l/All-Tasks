@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_windswept_gravelly_hills": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "windswept_gravelly_hills"
-                    }
-                }
-            }
+  "criteria": {
+    "in_windswept_gravelly_hills": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "windswept_gravelly_hills"
+          }
         }
-    },
-    "display": {
-        "title": "Windswept Gravelly Hills",
-        "description": "Find a windswept gravelly hill",
-        "icon": {
-            "id": "gravel"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"
+      }
+    }
+  },
+  "display": {
+    "title": "Windswept Gravelly Hills",
+    "description": "Find a windswept gravelly hill",
+    "icon": {
+      "id": "gravel"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"
 }

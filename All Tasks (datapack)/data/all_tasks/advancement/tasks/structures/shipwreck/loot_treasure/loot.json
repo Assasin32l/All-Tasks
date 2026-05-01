@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "iron_ingot":{"trigger":"impossible"},
+    "iron_nugget":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "lapis_lazuli":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "coast_armor_trim_smithing_template":{"trigger":"impossible"},
+    "experience_bottle":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "copper_nautilus_armor":{"trigger":"impossible"},
+    "iron_nautilus_armor":{"trigger":"impossible"},
+    "golden_nautilus_armor":{"trigger":"impossible"},
+    "diamond_nautilus_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Shipwreck Treasure Loot",
+    "description": "Find all the loot in a shipwreck treasure chest",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/shipwreck/loot_supply/loot"
+}

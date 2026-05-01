@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "bone":{"trigger":"impossible"},
+    "gunpowder":{"trigger":"impossible"},
+    "rotten_flesh":{"trigger":"impossible"},
+    "string":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "redstone":{"trigger":"impossible"},
+    "leather":{"trigger":"impossible"},
+    "name_tag":{"trigger":"impossible"},
+    "copper_horse_armor":{"trigger":"impossible"},
+    "music_disc_13":{"trigger":"impossible"},
+    "music_disc_cat":{"trigger":"impossible"},
+    "iron_horse_armor":{"trigger":"impossible"},
+    "golden_apple":{"trigger":"impossible"},
+    "beetroot_seeds":{"trigger":"impossible"},
+    "melon_seeds":{"trigger":"impossible"},
+    "pumpkin_seeds":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "bucket":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "golden_horse_armor":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "diamond_horse_armor":{"trigger":"impossible"},
+    "music_disc_otherside":{"trigger":"impossible"},
+    "enchanted_golden_apple":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Monster Room Loot",
+    "description": "Find all the loot in a monster room",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/monster_room/root"
+}

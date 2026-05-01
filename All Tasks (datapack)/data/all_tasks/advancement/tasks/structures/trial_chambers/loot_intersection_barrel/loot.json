@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "bamboo_planks":{"trigger":"impossible"},
+    "baked_potato":{"trigger":"impossible"},
+    "golden_axe":{"trigger":"impossible"},
+    "golden_pickaxe":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "bucket":{"trigger":"impossible"},
+    "compass":{"trigger":"impossible"},
+    "diamond_pickaxe":{"trigger":"impossible"},
+    "diamond_axe":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Intersection Barrel Loot",
+    "description": "Find all the loot in a trial chambers intersection barrel",
+    "icon": {
+      "id": "barrel"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/root"
+}

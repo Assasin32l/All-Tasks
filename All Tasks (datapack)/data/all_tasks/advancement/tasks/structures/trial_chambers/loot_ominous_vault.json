@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "emerald":{"trigger":"impossible"},
+    "wind_charge":{"trigger":"impossible"},
+    "tipped_arrow":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "flow_armor_trim_smithing_template":{"trigger":"impossible"},
+    "enchanted_golden_apple":{"trigger":"impossible"},
+    "flow_banner_pattern":{"trigger":"impossible"},
+    "ominous_bottle":{"trigger":"impossible"},
+    "emerald_block":{"trigger":"impossible"},
+    "crossbow":{"trigger":"impossible"},
+    "iron_block":{"trigger":"impossible"},
+    "golden_apple":{"trigger":"impossible"},
+    "diamond_axe":{"trigger":"impossible"},
+    "diamond_chestplate":{"trigger":"impossible"},
+    "music_disc_creator":{"trigger":"impossible"},
+    "heavy_core":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "diamond_block":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Ominous Vault Loot",
+    "description": "Find all the loot from a trial chambers ominous vault",
+    "icon": {
+      "id": "vault"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/loot_vault"
+}

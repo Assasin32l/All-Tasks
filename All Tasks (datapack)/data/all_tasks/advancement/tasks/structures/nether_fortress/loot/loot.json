@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "gold_ingot":{"trigger":"impossible"},
+    "saddle":{"trigger":"impossible"},
+    "golden_horse_armor":{"trigger":"impossible"},
+    "nether_wart":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "copper_horse_armor":{"trigger":"impossible"},
+    "flint_and_steel":{"trigger":"impossible"},
+    "iron_horse_armor":{"trigger":"impossible"},
+    "golden_sword":{"trigger":"impossible"},
+    "golden_chestplate":{"trigger":"impossible"},
+    "diamond_horse_armor":{"trigger":"impossible"},
+    "obsidian":{"trigger":"impossible"},
+    "rib_armor_trim_smithing_template":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Nether Fortress Loot",
+    "description": "Find all the loot in a nether fortress",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/nether_fortress/root"
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "white_wool":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "black_wool":{"trigger":"impossible"},
+    "brown_wool":{"trigger":"impossible"},
+    "gray_wool":{"trigger":"impossible"},
+    "light_gray_wool":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "shears":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Shepherd Loot",
+    "description": "Find all the loot in a shepherd house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/root"
+}

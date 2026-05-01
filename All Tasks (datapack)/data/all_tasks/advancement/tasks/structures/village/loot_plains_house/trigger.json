@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "loot": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "chests/village/village_plains_house"
+      }
+    },
+    "trigger": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:tasks/structure_loot/village/plains_house/main"
+  }
+}

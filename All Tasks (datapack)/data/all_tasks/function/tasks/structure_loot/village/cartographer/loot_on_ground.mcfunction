@@ -1,0 +1,8 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/cartographer"}}}}}] contents paper run advancement grant @s only all_tasks:tasks/structures/village/loot_cartographer/loot paper
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/cartographer"}}}}}] contents bread run advancement grant @s only all_tasks:tasks/structures/village/loot_cartographer/loot bread
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/cartographer"}}}}}] contents map run advancement grant @s only all_tasks:tasks/structures/village/loot_cartographer/loot map
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/cartographer"}}}}}] contents bundle run advancement grant @s only all_tasks:tasks/structures/village/loot_cartographer/loot bundle
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/cartographer"}}}}}] contents stick run advancement grant @s only all_tasks:tasks/structures/village/loot_cartographer/loot stick
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/cartographer"}}}}}] contents compass run advancement grant @s only all_tasks:tasks/structures/village/loot_cartographer/loot compass
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/cartographer"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

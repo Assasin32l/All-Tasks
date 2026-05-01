@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "monument"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Ocean Monument",
+    "description": "Find a ocean monument",
+    "icon": {
+      "id": "prismarine"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

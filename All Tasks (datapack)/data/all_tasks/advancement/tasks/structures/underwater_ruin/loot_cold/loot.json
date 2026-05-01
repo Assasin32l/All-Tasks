@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "coal":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "wooden_hoe":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "blade_pottery_sherd":{"trigger":"impossible"},
+    "explorer_pottery_sherd":{"trigger":"impossible"},
+    "mourner_pottery_sherd":{"trigger":"impossible"},
+    "plenty_pottery_sherd":{"trigger":"impossible"},
+    "iron_axe":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Cold Ocean Ruin Loot",
+    "description": "Find all the loot in a cold ocean ruin",
+    "icon": {
+      "id": "suspicious_gravel"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/underwater_ruin/root"
+}

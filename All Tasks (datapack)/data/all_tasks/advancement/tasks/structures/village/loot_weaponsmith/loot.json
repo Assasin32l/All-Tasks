@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "apple":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "bundle":{"trigger":"impossible"},
+    "copper_spear":{"trigger":"impossible"},
+    "oak_sapling":{"trigger":"impossible"},
+    "obsidian":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "iron_pickaxe":{"trigger":"impossible"},
+    "iron_spear":{"trigger":"impossible"},
+    "iron_sword":{"trigger":"impossible"},
+    "iron_helmet":{"trigger":"impossible"},
+    "iron_chestplate":{"trigger":"impossible"},
+    "iron_leggings":{"trigger":"impossible"},
+    "iron_boots":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "saddle":{"trigger":"impossible"},
+    "copper_horse_armor":{"trigger":"impossible"},
+    "iron_horse_armor":{"trigger":"impossible"},
+    "golden_horse_armor":{"trigger":"impossible"},
+    "diamond_horse_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Weaponsmith Loot",
+    "description": "Find all the loot in a weaponsmith",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_toolsmith/loot"
+}

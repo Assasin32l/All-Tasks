@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "igloo"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Igloo",
+    "description": "Find a igloo",
+    "icon": {
+      "id": "snow_block"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

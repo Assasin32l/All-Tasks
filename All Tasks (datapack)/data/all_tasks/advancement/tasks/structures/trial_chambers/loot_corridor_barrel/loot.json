@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "tuff":{"trigger":"impossible"},
+    "scaffolding":{"trigger":"impossible"},
+    "bamboo_planks":{"trigger":"impossible"},
+    "torch":{"trigger":"impossible"},
+    "bamboo_hanging_sign":{"trigger":"impossible"},
+    "ender_pearl":{"trigger":"impossible"},
+    "stone_axe":{"trigger":"impossible"},
+    "stone_pickaxe":{"trigger":"impossible"},
+    "honeycomb":{"trigger":"impossible"},
+    "iron_axe":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Corridor Barrel Loot",
+    "description": "Find all the loot in a trial chambers corridor barrel",
+    "icon": {
+      "id": "barrel"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/loot"
+}

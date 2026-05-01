@@ -1,0 +1,7 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"ancient_city/ice_box"}}}}}] contents snowball run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_ice_box/loot snowball
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"ancient_city/ice_box"}}}}}] contents packed_ice run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_ice_box/loot packed_ice
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"ancient_city/ice_box"}}}}}] contents baked_potato run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_ice_box/loot baked_potato
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"ancient_city/ice_box"}}}}}] contents golden_carrot run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_ice_box/loot golden_carrot
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"ancient_city/ice_box"}}}}}] contents suspicious_stew run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_ice_box/loot suspicious_stew
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"ancient_city/ice_box"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

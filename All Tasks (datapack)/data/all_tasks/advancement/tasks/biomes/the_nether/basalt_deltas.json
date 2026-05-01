@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_basalt_deltas": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "basalt_deltas"
-                    }
-                }
-            }
+  "criteria": {
+    "in_basalt_deltas": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "basalt_deltas"
+          }
         }
-    },
-    "display": {
-        "title": "Basalt Deltas",
-        "description": "Find a basalt delta",
-        "icon": {
-            "id": "basalt"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/the_nether/root"
+      }
+    }
+  },
+  "display": {
+    "title": "Basalt Deltas",
+    "description": "Find a basalt delta",
+    "icon": {
+      "id": "basalt"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/the_nether/root"
 }

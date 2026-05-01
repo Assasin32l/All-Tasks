@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "arrow":{"trigger":"impossible"},
+    "honeycomb":{"trigger":"impossible"},
+    "wooden_axe":{"trigger":"impossible"},
+    "stick":{"trigger":"impossible"},
+    "trial_key":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Entrance Chest Loot",
+    "description": "Find all the loot in a trial chambers entrance chest",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/root"
+}

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "rail":{"trigger":"impossible"},
+    "torch":{"trigger":"impossible"},
+    "name_tag":{"trigger":"impossible"},
+    "glow_berries":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "golden_apple":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "beetroot_seeds":{"trigger":"impossible"},
+    "melon_seeds":{"trigger":"impossible"},
+    "pumpkin_seeds":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "activator_rail":{"trigger":"impossible"},
+    "detector_rail":{"trigger":"impossible"},
+    "powered_rail":{"trigger":"impossible"},
+    "lapis_lazuli":{"trigger":"impossible"},
+    "redstone":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "iron_pickaxe":{"trigger":"impossible"},
+    "enchanted_golden_apple":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Mineshaft Loot",
+    "description": "Find all the loot in a mineshaft",
+    "icon": {
+      "id": "chest_minecart"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/mineshaft/root"
+}

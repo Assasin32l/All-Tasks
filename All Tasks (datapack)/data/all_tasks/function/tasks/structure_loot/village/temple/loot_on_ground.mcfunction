@@ -1,0 +1,8 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/temple"}}}}}] contents bread run advancement grant @s only all_tasks:tasks/structures/village/loot_temple/loot bread
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/temple"}}}}}] contents rotten_flesh run advancement grant @s only all_tasks:tasks/structures/village/loot_temple/loot rotten_flesh
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/temple"}}}}}] contents redstone run advancement grant @s only all_tasks:tasks/structures/village/loot_temple/loot redstone
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/temple"}}}}}] contents emerald run advancement grant @s only all_tasks:tasks/structures/village/loot_temple/loot emerald
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/temple"}}}}}] contents lapis_lazuli run advancement grant @s only all_tasks:tasks/structures/village/loot_temple/loot lapis_lazuli
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/temple"}}}}}] contents gold_ingot run advancement grant @s only all_tasks:tasks/structures/village/loot_temple/loot gold_ingot
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/temple"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

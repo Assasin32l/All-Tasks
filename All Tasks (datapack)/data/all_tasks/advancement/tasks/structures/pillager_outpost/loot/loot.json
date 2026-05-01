@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "dark_oak_log":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "experience_bottle":{"trigger":"impossible"},
+    "carrot":{"trigger":"impossible"},
+    "potato":{"trigger":"impossible"},
+    "crossbow":{"trigger":"impossible"},
+    "goat_horn":{"trigger":"impossible"},
+    "arrow":{"trigger":"impossible"},
+    "string":{"trigger":"impossible"},
+    "tripwire_hook":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "sentry_armor_trim_smithing_template":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Pillager Outpost Loot",
+    "description": "Find all the loot in a pillager outpost",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/pillager_outpost/root"
+}

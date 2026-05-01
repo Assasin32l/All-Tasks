@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "coal":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "rotten_flesh":{"trigger":"impossible"},
+    "filled_map":{"trigger":"impossible"},
+    "fishing_rod":{"trigger":"impossible"},
+    "stone_axe":{"trigger":"impossible"},
+    "stone_spear":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "copper_nautilus_armor":{"trigger":"impossible"},
+    "leather_chestplate":{"trigger":"impossible"},
+    "golden_helmet":{"trigger":"impossible"},
+    "iron_nautilus_armor":{"trigger":"impossible"},
+    "golden_nautilus_armor":{"trigger":"impossible"},
+    "diamond_nautilus_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Small Ocean Ruin Loot",
+    "description": "Find all the loot in a small ocean ruin",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/underwater_ruin/loot_big/loot"
+}

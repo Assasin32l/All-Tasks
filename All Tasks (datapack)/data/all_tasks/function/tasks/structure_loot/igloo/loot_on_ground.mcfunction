@@ -1,0 +1,10 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] contents golden_apple run advancement grant @s only all_tasks:tasks/structures/igloo/loot/loot golden_apple
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] contents coal run advancement grant @s only all_tasks:tasks/structures/igloo/loot/loot coal
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] contents apple run advancement grant @s only all_tasks:tasks/structures/igloo/loot/loot apple
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] contents wheat run advancement grant @s only all_tasks:tasks/structures/igloo/loot/loot wheat
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] contents gold_nugget run advancement grant @s only all_tasks:tasks/structures/igloo/loot/loot gold_nugget
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] contents rotten_flesh run advancement grant @s only all_tasks:tasks/structures/igloo/loot/loot rotten_flesh
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] contents stone_axe run advancement grant @s only all_tasks:tasks/structures/igloo/loot/loot stone_axe
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] contents emerald run advancement grant @s only all_tasks:tasks/structures/igloo/loot/loot emerald
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{structure:"igloo"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

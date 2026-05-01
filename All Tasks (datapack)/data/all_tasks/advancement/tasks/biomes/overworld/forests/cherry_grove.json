@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_cherry_grove": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "cherry_grove"
-                    }
-                }
-            }
+  "criteria": {
+    "in_cherry_grove": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "cherry_grove"
+          }
         }
-    },
-    "display": {
-        "title": "Cherry Grove",
-        "description": "Find a cherry grove",
-        "icon": {
-            "id": "cherry_log"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
+      }
+    }
+  },
+  "display": {
+    "title": "Cherry Grove",
+    "description": "Find a cherry grove",
+    "icon": {
+      "id": "cherry_log"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
 }

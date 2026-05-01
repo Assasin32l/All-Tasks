@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_deep_ocean": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "deep_ocean"
-                    }
-                }
-            }
+  "criteria": {
+    "in_deep_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deep_ocean"
+          }
         }
-    },
-    "display": {
-        "title": "Deep Ocean",
-        "description": "Find a deep ocean",
-        "icon": {
-            "id": "gravel"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/oceans/ocean"
+      }
+    }
+  },
+  "display": {
+    "title": "Deep Ocean",
+    "description": "Find a deep ocean",
+    "icon": {
+      "id": "gravel"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/oceans/ocean"
 }

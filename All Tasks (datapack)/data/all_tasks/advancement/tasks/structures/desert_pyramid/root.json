@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "desert_pyramid"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Desert Pyramid",
+    "description": "Find a desert pyramid",
+    "icon": {
+      "id": "chiseled_sandstone"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

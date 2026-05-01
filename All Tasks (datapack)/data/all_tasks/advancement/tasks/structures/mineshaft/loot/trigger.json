@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "loot": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "chests/abandoned_mineshaft"
+      }
+    },
+    "trigger": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:tasks/structure_loot/mineshaft/loot_in_container"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "heart_of_the_sea":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "cooked_cod":{"trigger":"impossible"},
+    "cooked_salmon":{"trigger":"impossible"},
+    "potion":{"trigger":"impossible"},
+    "tnt":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "prismarine_crystals":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "leather_chestplate":{"trigger":"impossible"},
+    "iron_spear":{"trigger":"impossible"},
+    "iron_sword":{"trigger":"impossible"},
+    "copper_nautilus_armor":{"trigger":"impossible"},
+    "iron_nautilus_armor":{"trigger":"impossible"},
+    "golden_nautilus_armor":{"trigger":"impossible"},
+    "diamond_nautilus_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Buried Treasure Loot",
+    "description": "Steal all the treasures of the pirates",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "coal":{"trigger":"impossible"},
+    "bone":{"trigger":"impossible"},
+    "soul_torch":{"trigger":"impossible"},
+    "book":{"trigger":"impossible"},
+    "potion":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "disc_fragment_5":{"trigger":"impossible"},
+    "echo_shard":{"trigger":"impossible"},
+    "amethyst_shard":{"trigger":"impossible"},
+    "glow_berries":{"trigger":"impossible"},
+    "sculk":{"trigger":"impossible"},
+    "candle":{"trigger":"impossible"},
+    "experience_bottle":{"trigger":"impossible"},
+    "sculk_sensor":{"trigger":"impossible"},
+    "iron_leggings":{"trigger":"impossible"},
+    "leather":{"trigger":"impossible"},
+    "sculk_catalyst":{"trigger":"impossible"},
+    "compass":{"trigger":"impossible"},
+    "music_disc_13":{"trigger":"impossible"},
+    "music_disc_cat":{"trigger":"impossible"},
+    "lead":{"trigger":"impossible"},
+    "diamond_hoe":{"trigger":"impossible"},
+    "diamond_horse_armor":{"trigger":"impossible"},
+    "diamond_leggings":{"trigger":"impossible"},
+    "enchanted_golden_apple":{"trigger":"impossible"},
+    "music_disc_otherside":{"trigger":"impossible"},
+    "ward_armor_trim_smithing_template":{"trigger":"impossible"},
+    "silence_armor_trim_smithing_template":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Ancient City Loot",
+    "description": "Find all the loot in an ancient city",
+    "icon": {
+      "id": "echo_shard"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/ancient_city/root"
+}

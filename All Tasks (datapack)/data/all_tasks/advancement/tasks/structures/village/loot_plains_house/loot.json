@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "potato":{"trigger":"impossible"},
+    "apple":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "oak_sapling":{"trigger":"impossible"},
+    "bundle":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "dandelion":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "book":{"trigger":"impossible"},
+    "feather":{"trigger":"impossible"},
+    "poppy":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Plains House Loot",
+    "description": "Find all the loot in a plains house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/root"
+}

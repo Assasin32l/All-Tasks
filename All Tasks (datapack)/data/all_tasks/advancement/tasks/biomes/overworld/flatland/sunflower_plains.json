@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_sunflower_plains": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "sunflower_plains"
-                    }
-                }
-            }
+  "criteria": {
+    "in_sunflower_plains": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "sunflower_plains"
+          }
         }
-    },
-    "display": {
-        "title": "Sunflower Plains",
-        "description": "Find a sunflower plains",
-        "icon": {
-            "id": "sunflower"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/flatland/plains"
+      }
+    }
+  },
+  "display": {
+    "title": "Sunflower Plains",
+    "description": "Find a sunflower plains",
+    "icon": {
+      "id": "sunflower"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/flatland/plains"
 }

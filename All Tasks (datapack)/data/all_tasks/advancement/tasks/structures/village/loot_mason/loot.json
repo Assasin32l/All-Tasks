@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "bread":{"trigger":"impossible"},
+    "stone":{"trigger":"impossible"},
+    "stone_bricks":{"trigger":"impossible"},
+    "clay_ball":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "flower_pot":{"trigger":"impossible"},
+    "smooth_stone":{"trigger":"impossible"},
+    "yellow_dye":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Mason Loot",
+    "description": "Find all the loot in a mason house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_fletcher/loot"
+}

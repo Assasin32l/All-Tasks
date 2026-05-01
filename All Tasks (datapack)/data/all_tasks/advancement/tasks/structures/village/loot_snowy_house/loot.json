@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "potato":{"trigger":"impossible"},
+    "snowball":{"trigger":"impossible"},
+    "beetroot_seeds":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "snow_block":{"trigger":"impossible"},
+    "bundle":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "beetroot_soup":{"trigger":"impossible"},
+    "blue_ice":{"trigger":"impossible"},
+    "furnace":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Snowy House Loot",
+    "description": "Find all the loot in a snowy house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_savanna_house/loot"
+}

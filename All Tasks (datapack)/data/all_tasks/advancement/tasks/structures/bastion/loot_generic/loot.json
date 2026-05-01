@@ -1,0 +1,50 @@
+{
+  "criteria": {
+    "arrow":{"trigger":"impossible"},
+    "magma_cream":{"trigger":"impossible"},
+    "gilded_blackstone":{"trigger":"impossible"},
+    "iron_chain":{"trigger":"impossible"},
+    "obsidian":{"trigger":"impossible"},
+    "string":{"trigger":"impossible"},
+    "iron_nugget":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "bone_block":{"trigger":"impossible"},
+    "cooked_porkchop":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "crying_obsidian":{"trigger":"impossible"},
+    "iron_block":{"trigger":"impossible"},
+    "iron_sword":{"trigger":"impossible"},
+    "gold_block":{"trigger":"impossible"},
+    "golden_carrot":{"trigger":"impossible"},
+    "ancient_debris":{"trigger":"impossible"},
+    "spectral_arrow":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "piglin_banner_pattern":{"trigger":"impossible"},
+    "golden_apple":{"trigger":"impossible"},
+    "netherite_upgrade_smithing_template":{"trigger":"impossible"},
+    "crossbow":{"trigger":"impossible"},
+    "golden_sword":{"trigger":"impossible"},
+    "golden_axe":{"trigger":"impossible"},
+    "golden_helmet":{"trigger":"impossible"},
+    "golden_chestplate":{"trigger":"impossible"},
+    "golden_leggings":{"trigger":"impossible"},
+    "golden_boots":{"trigger":"impossible"},
+    "enchanted_golden_boots":{"trigger":"impossible"},
+    "snout_armor_trim_smithing_template":{"trigger":"impossible"},
+    "damaged_crossbow":{"trigger":"impossible"},
+    "diamond_shovel":{"trigger":"impossible"},
+    "diamond_pickaxe":{"trigger":"impossible"},
+    "music_disc_pigstep":{"trigger":"impossible"},
+    "netherite_scrap":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Bastion Remnant Generic Loot",
+    "description": "Find all the loot in a bastion remnant generic chest",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/bastion/loot_bridge/loot"
+}

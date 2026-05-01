@@ -1,0 +1,8 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fletcher"}}}}}] contents feather run advancement grant @s only all_tasks:tasks/structures/village/loot_fletcher/loot feather
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fletcher"}}}}}] contents flint run advancement grant @s only all_tasks:tasks/structures/village/loot_fletcher/loot flint
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fletcher"}}}}}] contents stick run advancement grant @s only all_tasks:tasks/structures/village/loot_fletcher/loot stick
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fletcher"}}}}}] contents arrow run advancement grant @s only all_tasks:tasks/structures/village/loot_fletcher/loot arrow
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fletcher"}}}}}] contents egg run advancement grant @s only all_tasks:tasks/structures/village/loot_fletcher/loot egg
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fletcher"}}}}}] contents emerald run advancement grant @s only all_tasks:tasks/structures/village/loot_fletcher/loot emerald
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fletcher"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

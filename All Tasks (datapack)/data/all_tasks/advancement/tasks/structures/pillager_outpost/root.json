@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "pillager_outpost"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Pillager Outpost",
+    "description": "Find a pillager outpost",
+    "icon": {
+      "id": "dark_oak_planks"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

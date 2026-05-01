@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_flower_forest": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "flower_forest"
-                    }
-                }
-            }
+  "criteria": {
+    "in_flower_forest": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "flower_forest"
+          }
         }
-    },
-    "display": {
-        "title": "Flower Forest",
-        "description": "Find a flower forest",
-        "icon": {
-            "id": "oak_log"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
+      }
+    }
+  },
+  "display": {
+    "title": "Flower Forest",
+    "description": "Find a flower forest",
+    "icon": {
+      "id": "oak_log"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
 }

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "coal":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "wooden_hoe":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "angler_pottery_sherd":{"trigger":"impossible"},
+    "shelter_pottery_sherd":{"trigger":"impossible"},
+    "sniffer_egg":{"trigger":"impossible"},
+    "snort_pottery_sherd":{"trigger":"impossible"},
+    "iron_axe":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Warm Ocean Ruin Loot",
+    "description": "Find all the loot in a warm ocean ruin",
+    "icon": {
+      "id": "suspicious_sand"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/underwater_ruin/loot_cold/loot"
+}

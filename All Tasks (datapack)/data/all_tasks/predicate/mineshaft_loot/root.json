@@ -1,0 +1,89 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/rail"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/torch"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/name_tag"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/glow_berries"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/bread"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/golden_apple"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/coal"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/beetroot_seeds"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/melon_seeds"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/pumpkin_seeds"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/iron_ingot"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/activator_rail"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/detecor_rail"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/powered_rail"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/lapis_lazuli"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/redstone"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/gold_ingot"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/enchanted_book"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/diamond"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/iron_pickaxe"
+    },
+    {
+      "condition": "reference",
+      "name": "all_tasks:mineshaft_loot/enchanted_golden_apple"
+    }
+  ]
+}

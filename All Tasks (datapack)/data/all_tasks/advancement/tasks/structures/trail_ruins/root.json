@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "trail_ruins"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Trail Ruins",
+    "description": "Find a trail ruin",
+    "icon": {
+      "id": "mud_bricks"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

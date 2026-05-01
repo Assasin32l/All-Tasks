@@ -1,0 +1,6 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/armorer"}}}}}] contents bread run advancement grant @s only all_tasks:tasks/structures/village/loot_armorer/loot bread
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/armorer"}}}}}] contents iron_ingot run advancement grant @s only all_tasks:tasks/structures/village/loot_armorer/loot iron_ingot
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/armorer"}}}}}] contents emerald run advancement grant @s only all_tasks:tasks/structures/village/loot_armorer/loot emerald
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/armorer"}}}}}] contents iron_helmet run advancement grant @s only all_tasks:tasks/structures/village/loot_armorer/loot iron_helmet
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/armorer"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

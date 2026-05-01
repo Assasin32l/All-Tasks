@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_jagged_peaks": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "jagged_peaks"
-                    }
-                }
-            }
+  "criteria": {
+    "in_jagged_peaks": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "jagged_peaks"
+          }
         }
-    },
-    "display": {
-        "title": "Jagged Peaks",
-        "description": "Find a jagged peak",
-        "icon": {
-            "id": "stone"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/mountains/stony_peaks"
+      }
+    }
+  },
+  "display": {
+    "title": "Jagged Peaks",
+    "description": "Find a jagged peak",
+    "icon": {
+      "id": "stone"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/mountains/stony_peaks"
 }

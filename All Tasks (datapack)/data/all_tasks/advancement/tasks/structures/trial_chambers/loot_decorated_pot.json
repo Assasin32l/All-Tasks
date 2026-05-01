@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "emerald":{"trigger":"impossible"},
+    "arrow":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "trial_key":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "emerald_block":{"trigger":"impossible"},
+    "music_disc_creator_music_box":{"trigger":"impossible"},
+    "diamond_block":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Decorated Pot Loot",
+    "description": "Find all the loot from a trial chambers decorated pot",
+    "icon": {
+      "id": "decorated_pot"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/root"
+}

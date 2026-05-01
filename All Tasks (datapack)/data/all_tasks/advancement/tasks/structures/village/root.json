@@ -1,0 +1,62 @@
+{
+  "criteria": {
+    "in_structure_1": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "village_desert"
+          }
+        }
+      }
+    },
+    "in_structure_2": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "village_plains"
+          }
+        }
+      }
+    },
+    "in_structure_3": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "village_savanna"
+          }
+        }
+      }
+    },
+    "in_structure_4": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "village_snowy"
+          }
+        }
+      }
+    },
+    "in_structure_5": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "village_taiga"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Village",
+    "description": "Find all villages",
+    "icon": {
+      "id": "oak_planks"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "netherite_upgrade_smithing_template":{"trigger":"impossible"},
+    "netherite_ingot":{"trigger":"impossible"},
+    "spectral_arrow":{"trigger":"impossible"},
+    "quartz":{"trigger":"impossible"},
+    "gilded_blackstone":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "magma_cream":{"trigger":"impossible"},
+    "crying_obsidian":{"trigger":"impossible"},
+    "iron_block":{"trigger":"impossible"},
+    "gold_block":{"trigger":"impossible"},
+    "ancient_debris":{"trigger":"impossible"},
+    "netherite_scrap":{"trigger":"impossible"},
+    "enchanted_diamond_spear":{"trigger":"impossible"},
+    "enchanted_diamond_sword":{"trigger":"impossible"},
+    "diamond_spear":{"trigger":"impossible"},
+    "diamond_sword":{"trigger":"impossible"},
+    "enchanted_diamond_helmet":{"trigger":"impossible"},
+    "enchanted_diamond_chestplate":{"trigger":"impossible"},
+    "enchanted_diamond_leggings":{"trigger":"impossible"},
+    "enchanted_diamond_boots":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "diamond_helmet":{"trigger":"impossible"},
+    "diamond_chestplate":{"trigger":"impossible"},
+    "diamond_leggings":{"trigger":"impossible"},
+    "diamond_boots":{"trigger":"impossible"},
+    "snout_armor_trim_smithing_template":{"trigger":"impossible"},
+    "enchanted_golden_apple":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Bastion Remnant Treasure Loot",
+    "description": "Find all the loot in a bastion remnant treasure",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/bastion/loot_hoglin_stable/loot"
+}

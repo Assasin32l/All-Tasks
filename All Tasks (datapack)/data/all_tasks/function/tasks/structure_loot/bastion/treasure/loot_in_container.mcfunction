@@ -1,0 +1,31 @@
+$execute if items block $(x) $(y) $(z) container.* netherite_upgrade_smithing_template run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot netherite_upgrade_smithing_template
+$execute if items block $(x) $(y) $(z) container.* netherite_ingot run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot netherite_ingot
+$execute if items block $(x) $(y) $(z) container.* spectral_arrow run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot spectral_arrow
+$execute if items block $(x) $(y) $(z) container.* quartz run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot quartz
+$execute if items block $(x) $(y) $(z) container.* gilded_blackstone run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot gilded_blackstone
+$execute if items block $(x) $(y) $(z) container.* iron_ingot run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot iron_ingot
+$execute if items block $(x) $(y) $(z) container.* gold_ingot run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot gold_ingot
+$execute if items block $(x) $(y) $(z) container.* magma_cream run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot magma_cream
+$execute if items block $(x) $(y) $(z) container.* crying_obsidian run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot crying_obsidian
+$execute if items block $(x) $(y) $(z) container.* iron_block run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot iron_block
+$execute if items block $(x) $(y) $(z) container.* gold_block run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot gold_block
+$execute if items block $(x) $(y) $(z) container.* ancient_debris run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot ancient_debris
+$execute if items block $(x) $(y) $(z) container.* netherite_scrap run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot netherite_scrap
+$execute if items block $(x) $(y) $(z) container.* diamond_spear[enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot enchanted_diamond_spear
+$execute if items block $(x) $(y) $(z) container.* diamond_sword[enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot enchanted_diamond_sword
+$execute if items block $(x) $(y) $(z) container.* diamond_spear[!enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot diamond_spear
+$execute if items block $(x) $(y) $(z) container.* diamond_sword[!enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot diamond_sword
+$execute if items block $(x) $(y) $(z) container.* diamond_helmet[enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot enchanted_diamond_helmet
+$execute if items block $(x) $(y) $(z) container.* diamond_chestplate[enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot enchanted_diamond_chestplate
+$execute if items block $(x) $(y) $(z) container.* diamond_leggings[enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot enchanted_diamond_leggings
+$execute if items block $(x) $(y) $(z) container.* diamond_boots[enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot enchanted_diamond_boots
+$execute if items block $(x) $(y) $(z) container.* diamond run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot diamond
+$execute if items block $(x) $(y) $(z) container.* diamond_helmet[!enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot diamond_helmet
+$execute if items block $(x) $(y) $(z) container.* diamond_chestplate[!enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot diamond_chestplate
+$execute if items block $(x) $(y) $(z) container.* diamond_leggings[!enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot diamond_leggings
+$execute if items block $(x) $(y) $(z) container.* diamond_boots[!enchantments] run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot diamond_boots
+$execute if items block $(x) $(y) $(z) container.* ancient_debris run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot ancient_debris
+$execute if items block $(x) $(y) $(z) container.* snout_armor_trim_smithing_template run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot snout_armor_trim_smithing_template
+$execute if items block $(x) $(y) $(z) container.* enchanted_golden_apple run advancement grant @s only all_tasks:tasks/structures/bastion/loot_treasure/loot enchanted_golden_apple
+
+$data remove block $(x) $(y) $(z) Items[].components."minecraft:custom_data"

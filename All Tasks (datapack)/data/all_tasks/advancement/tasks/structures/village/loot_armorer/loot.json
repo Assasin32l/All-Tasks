@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "bread":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "iron_helmet":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Armorer Loot",
+    "description": "Find all the loot in a armorer house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_weaponsmith/loot"
+}

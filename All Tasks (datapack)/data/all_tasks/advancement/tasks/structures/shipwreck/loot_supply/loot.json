@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "suspicious_stew":{"trigger":"impossible"},
+    "paper":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "carrot":{"trigger":"impossible"},
+    "poisonous_potato":{"trigger":"impossible"},
+    "potato":{"trigger":"impossible"},
+    "moss_block":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "rotten_flesh":{"trigger":"impossible"},
+    "gunpowder":{"trigger":"impossible"},
+    "leather_helmet":{"trigger":"impossible"},
+    "leather_chestplate":{"trigger":"impossible"},
+    "leather_leggings":{"trigger":"impossible"},
+    "leather_boots":{"trigger":"impossible"},
+    "coast_armor_trim_smithing_template":{"trigger":"impossible"},
+    "bamboo":{"trigger":"impossible"},
+    "pumpkin":{"trigger":"impossible"},
+    "copper_nautilus_armor":{"trigger":"impossible"},
+    "tnt":{"trigger":"impossible"},
+    "iron_nautilus_armor":{"trigger":"impossible"},
+    "golden_nautilus_armor":{"trigger":"impossible"},
+    "diamond_nautilus_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Shipwreck Supply Loot",
+    "description": "Find all the loot in a shipwreck supply chest",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/shipwreck/root"
+}

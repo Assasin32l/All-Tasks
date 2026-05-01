@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mansion"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Woodland Mansion",
+    "description": "Find a woodland mansion",
+    "icon": {
+      "id": "dark_oak_planks"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

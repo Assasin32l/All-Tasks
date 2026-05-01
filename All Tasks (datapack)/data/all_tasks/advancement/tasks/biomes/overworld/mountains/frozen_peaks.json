@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_frozen_peaks": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "frozen_peaks"
-                    }
-                }
-            }
+  "criteria": {
+    "in_frozen_peaks": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "frozen_peaks"
+          }
         }
-    },
-    "display": {
-        "title": "Frozen Peaks",
-        "description": "Find a frozen peak",
-        "icon": {
-            "id": "packed_ice"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/mountains/snowy_slopes"
+      }
+    }
+  },
+  "display": {
+    "title": "Frozen Peaks",
+    "description": "Find a frozen peak",
+    "icon": {
+      "id": "packed_ice"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/mountains/snowy_slopes"
 }

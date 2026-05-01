@@ -1,0 +1,9 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fisher"}}}}}] contents wheat_seeds run advancement grant @s only all_tasks:tasks/structures/village/loot_fisher/loot wheat_seeds
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fisher"}}}}}] contents coal run advancement grant @s only all_tasks:tasks/structures/village/loot_fisher/loot coal
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fisher"}}}}}] contents cod run advancement grant @s only all_tasks:tasks/structures/village/loot_fisher/loot raw_cod
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fisher"}}}}}] contents barrel run advancement grant @s only all_tasks:tasks/structures/village/loot_fisher/loot barrel
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fisher"}}}}}] contents salmon run advancement grant @s only all_tasks:tasks/structures/village/loot_fisher/loot raw_salmon
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fisher"}}}}}] contents water_bucket run advancement grant @s only all_tasks:tasks/structures/village/loot_fisher/loot water_bucket
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fisher"}}}}}] contents emerald run advancement grant @s only all_tasks:tasks/structures/village/loot_fisher/loot emerald
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/fisher"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

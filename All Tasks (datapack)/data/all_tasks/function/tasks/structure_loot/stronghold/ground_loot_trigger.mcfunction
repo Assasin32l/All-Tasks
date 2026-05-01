@@ -1,0 +1,3 @@
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/corridor"}}}}}] run function all_tasks:tasks/structure_loot/stronghold/corridor/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/crossing"}}}}}] run function all_tasks:tasks/structure_loot/stronghold/crossing/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"stronghold/library"}}}}}] run function all_tasks:tasks/structure_loot/stronghold/library/loot_on_ground

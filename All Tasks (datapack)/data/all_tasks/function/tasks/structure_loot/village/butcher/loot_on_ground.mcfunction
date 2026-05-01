@@ -1,0 +1,8 @@
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/butcher"}}}}}] contents beef run advancement grant @s only all_tasks:tasks/structures/village/loot_butcher/loot raw_beef
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/butcher"}}}}}] contents mutton run advancement grant @s only all_tasks:tasks/structures/village/loot_butcher/loot raw_mutton
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/butcher"}}}}}] contents porkchop run advancement grant @s only all_tasks:tasks/structures/village/loot_butcher/loot raw_porkchop
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/butcher"}}}}}] contents wheat run advancement grant @s only all_tasks:tasks/structures/village/loot_butcher/loot wheat
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/butcher"}}}}}] contents coal run advancement grant @s only all_tasks:tasks/structures/village/loot_butcher/loot coal
+execute if items entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/butcher"}}}}}] contents emerald run advancement grant @s only all_tasks:tasks/structures/village/loot_butcher/loot emerald
+
+execute as @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"village/butcher"}}}}}] run data remove entity @s Item.components."minecraft:custom_data"

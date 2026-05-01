@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_small_end_islands": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "small_end_islands"
-                    }
-                }
-            }
+  "criteria": {
+    "in_small_end_islands": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "small_end_islands"
+          }
         }
-    },
-    "display": {
-        "title": "Small End Islands",
-        "description": "Find the small islands",
-        "icon": {
-            "id": "end_stone"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/the_end/the_end"
+      }
+    }
+  },
+  "display": {
+    "title": "Small End Islands",
+    "description": "Find the small islands",
+    "icon": {
+      "id": "end_stone"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/the_end/the_end"
 }

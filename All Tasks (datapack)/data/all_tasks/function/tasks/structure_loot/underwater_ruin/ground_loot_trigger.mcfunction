@@ -1,0 +1,2 @@
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"underwater_ruin/big"}}}}}] run function all_tasks:tasks/structure_loot/underwater_ruin/big/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"underwater_ruin/small"}}}}}] run function all_tasks:tasks/structure_loot/underwater_ruin/small/loot_on_ground

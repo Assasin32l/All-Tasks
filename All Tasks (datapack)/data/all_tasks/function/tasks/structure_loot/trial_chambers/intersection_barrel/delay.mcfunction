@@ -1,0 +1,2 @@
+schedule function all_tasks:tasks/structure_loot/trial_chambers/intersection_barrel/trigger 1t
+advancement revoke @s only all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/delay_trigger

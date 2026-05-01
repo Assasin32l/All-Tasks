@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "apple":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "redstone":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "iron_pickaxe":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Stronghold Storeroom Loot",
+    "description": "Find all the loot in a stronghold storeroom",
+    "icon": {
+      "id": "stone_bricks"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/stronghold/loot_corridor/loot"
+}

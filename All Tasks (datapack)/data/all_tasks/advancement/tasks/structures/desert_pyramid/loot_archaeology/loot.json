@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "archer_pottery_sherd":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "gunpowder":{"trigger":"impossible"},
+    "miner_pottery_sherd":{"trigger":"impossible"},
+    "prize_pottery_sherd":{"trigger":"impossible"},
+    "skull_pottery_sherd":{"trigger":"impossible"},
+    "tnt":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Desert Pyramid Archaeology Loot",
+    "description": "Find all the loot from digging around in the sand",
+    "icon": {
+      "id": "sand"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/desert_pyramid/root"
+}

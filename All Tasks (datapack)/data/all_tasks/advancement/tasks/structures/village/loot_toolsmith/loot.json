@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "stick":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "iron_pickaxe":{"trigger":"impossible"},
+    "iron_shovel":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Toolsmith Loot",
+    "description": "Find all the loot in a toolsmith",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/root"
+}

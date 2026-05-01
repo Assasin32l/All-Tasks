@@ -1,0 +1,3 @@
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"shipwreck/supply"}}}}}] run function all_tasks:tasks/structure_loot/shipwreck/supply/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"shipwreck/treasure"}}}}}] run function all_tasks:tasks/structure_loot/shipwreck/treasure/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"shipwreck/map"}}}}}] run function all_tasks:tasks/structure_loot/shipwreck/map/loot_on_ground

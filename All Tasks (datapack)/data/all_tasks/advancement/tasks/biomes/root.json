@@ -1,18 +1,18 @@
 {
-    "criteria": {
-        "unlock_right_away": {
-            "trigger": "tick"
-        }
-    },
-    "display": {
-        "title": "Biomes",
-        "description": "Lets go exploring",
-        "icon": {
-            "id": "dirt"
-        },
-        "announce_to_chat": false,
-        "show_toast": false,
-        "frame": "challenge",
-        "background": "block/dirt"
+  "criteria": {
+    "unlock_right_away": {
+      "trigger": "tick"
     }
+  },
+  "display": {
+    "title": "Biomes",
+    "description": "Lets go exploring",
+    "icon": {
+      "id": "dirt"
+    },
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame": "challenge",
+    "background": "block/dirt"
+  }
 }

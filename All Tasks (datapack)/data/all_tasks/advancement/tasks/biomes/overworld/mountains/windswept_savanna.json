@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_windswept_savanna": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "windswept_savanna"
-                    }
-                }
-            }
+  "criteria": {
+    "in_windswept_savanna": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "windswept_savanna"
+          }
         }
-    },
-    "display": {
-        "title": "Windswept Savanna",
-        "description": "Find a windswept savanna",
-        "icon": {
-            "id": "acacia_log"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"
+      }
+    }
+  },
+  "display": {
+    "title": "Windswept Savanna",
+    "description": "Find a windswept savanna",
+    "icon": {
+      "id": "acacia_log"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"
 }

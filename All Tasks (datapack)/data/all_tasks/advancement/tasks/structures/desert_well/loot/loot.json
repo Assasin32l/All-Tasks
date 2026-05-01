@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "arms_up_pottery_sherd":{"trigger":"impossible"},
+    "brewer_pottery_sherd":{"trigger":"impossible"},
+    "brick":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "stick":{"trigger":"impossible"},
+    "suspicious_stew":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Desert Well Loot",
+    "description": "Find all the loot from digging down a well",
+    "icon": {
+      "id": "sand"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/desert_well/root"
+}

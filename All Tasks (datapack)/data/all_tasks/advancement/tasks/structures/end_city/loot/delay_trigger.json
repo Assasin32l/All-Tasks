@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "loot": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "chests/end_city_treasure"
+      }
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:tasks/structure_loot/end_city/delay"
+  }
+}

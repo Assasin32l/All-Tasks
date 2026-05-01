@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "wheat_seeds":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "raw_cod":{"trigger":"impossible"},
+    "barrel":{"trigger":"impossible"},
+    "raw_salmon":{"trigger":"impossible"},
+    "water_bucket":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Fisher Loot",
+    "description": "Find all the loot in a fisher cottage",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_butcher/loot"
+}

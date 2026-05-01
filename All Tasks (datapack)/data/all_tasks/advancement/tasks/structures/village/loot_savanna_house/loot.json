@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "wheat_seeds":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "acacia_sapling":{"trigger":"impossible"},
+    "short_grass":{"trigger":"impossible"},
+    "tall_grass":{"trigger":"impossible"},
+    "bundle":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "torch":{"trigger":"impossible"},
+    "bucket":{"trigger":"impossible"},
+    "saddle":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Savanna House Loot",
+    "description": "Find all the loot in a savanna house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_desert_house/loot"
+}

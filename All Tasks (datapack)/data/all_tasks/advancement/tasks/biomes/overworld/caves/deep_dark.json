@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_deep_dark": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "deep_dark"
-                    }
-                }
-            }
+  "criteria": {
+    "in_deep_dark": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deep_dark"
+          }
         }
-    },
-    "display": {
-        "title": "Deep Dark",
-        "description": "Find a deep dark",
-        "icon": {
-            "id": "sculk"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/caves/dripstone_caves"
+      }
+    }
+  },
+  "display": {
+    "title": "Deep Dark",
+    "description": "Find a deep dark",
+    "icon": {
+      "id": "sculk"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/caves/dripstone_caves"
 }

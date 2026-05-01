@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "loot": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/trial_chambers/intersection_barrel"
+      }
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:tasks/structure_loot/trial_chambers/intersection_barrel/delay"
+  }
+}

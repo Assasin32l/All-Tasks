@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_crimson_forest": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "crimson_forest"
-                    }
-                }
-            }
+  "criteria": {
+    "in_crimson_forest": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "crimson_forest"
+          }
         }
-    },
-    "display": {
-        "title": "Crimson Forest",
-        "description": "Find a crimson forest",
-        "icon": {
-            "id": "crimson_nylium"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/the_nether/nether_wastes"
+      }
+    }
+  },
+  "display": {
+    "title": "Crimson Forest",
+    "description": "Find a crimson forest",
+    "icon": {
+      "id": "crimson_nylium"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/the_nether/nether_wastes"
 }

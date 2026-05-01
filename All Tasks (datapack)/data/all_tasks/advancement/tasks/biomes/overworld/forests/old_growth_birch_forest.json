@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_old_growth_birch_forest": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "old_growth_birch_forest"
-                    }
-                }
-            }
+  "criteria": {
+    "in_old_growth_birch_forest": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "old_growth_birch_forest"
+          }
         }
-    },
-    "display": {
-        "title": "Old Growth Birch Forest",
-        "description": "Find a old growth brich forest",
-        "icon": {
-            "id": "birch_log"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/forests/birch_forest"
+      }
+    }
+  },
+  "display": {
+    "title": "Old Growth Birch Forest",
+    "description": "Find a old growth brich forest",
+    "icon": {
+      "id": "birch_log"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/forests/birch_forest"
 }

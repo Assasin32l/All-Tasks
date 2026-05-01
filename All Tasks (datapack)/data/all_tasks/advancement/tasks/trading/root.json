@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "trading": {
+      "trigger": "villager_trade"
+    }
+  },
+  "display": {
+    "title": "Trading",
+    "description": "Get every villager trade from every villager",
+    "icon": {
+      "id": "emerald"
+    },
+    "announce_to_chat": false,
+    "show_toast": false,
+    "background": "block/emerald_block",
+    "frame": "challenge"
+  }
+}

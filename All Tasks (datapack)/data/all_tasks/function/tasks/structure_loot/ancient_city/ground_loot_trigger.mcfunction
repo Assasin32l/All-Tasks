@@ -1,0 +1,2 @@
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"ancient_city/normal"}}}}}] run function all_tasks:tasks/structure_loot/ancient_city/normal/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"ancient_city/ice_box"}}}}}] run function all_tasks:tasks/structure_loot/ancient_city/ice_box/loot_on_ground

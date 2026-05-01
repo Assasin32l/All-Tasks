@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "eye_armor_trim_smithing_template":{"trigger":"impossible"},
+    "paper":{"trigger":"impossible"},
+    "book":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "compass":{"trigger":"impossible"},
+    "map":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Stronghold Library Loot",
+    "description": "Find all the loot in a stronghold library",
+    "icon": {
+      "id": "bookshelf"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/stronghold/loot_crossing/loot"
+}

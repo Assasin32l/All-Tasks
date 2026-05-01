@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_frozen_ocean": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "frozen_ocean"
-                    }
-                }
-            }
+  "criteria": {
+    "in_frozen_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "frozen_ocean"
+          }
         }
-    },
-    "display": {
-        "title": "Frozen Ocean",
-        "description": "Find a frozen ocean",
-        "icon": {
-            "id": "packed_ice"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/oceans/cold_ocean"
+      }
+    }
+  },
+  "display": {
+    "title": "Frozen Ocean",
+    "description": "Find a frozen ocean",
+    "icon": {
+      "id": "packed_ice"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/oceans/cold_ocean"
 }

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "end_city"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "End City",
+    "description": "Find a end city",
+    "icon": {
+      "id": "purpur_block"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

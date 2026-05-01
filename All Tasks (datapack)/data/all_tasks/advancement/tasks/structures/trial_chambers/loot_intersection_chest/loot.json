@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "amethyst_shard":{"trigger":"impossible"},
+    "cake":{"trigger":"impossible"},
+    "iron_block":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "emerald_block":{"trigger":"impossible"},
+    "diamond_axe":{"trigger":"impossible"},
+    "diamond_pickaxe":{"trigger":"impossible"},
+    "diamond_block":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Intersection Chest Loot",
+    "description": "Find all the loot in a trial chambers intersection chest",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/loot_entrance_chest/loot"
+}

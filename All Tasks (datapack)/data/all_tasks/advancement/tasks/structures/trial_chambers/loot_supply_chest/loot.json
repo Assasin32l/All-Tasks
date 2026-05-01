@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "arrow":{"trigger":"impossible"},
+    "glow_berries":{"trigger":"impossible"},
+    "baked_potato":{"trigger":"impossible"},
+    "stone_pickaxe":{"trigger":"impossible"},
+    "tuff":{"trigger":"impossible"},
+    "arrow_of_poison":{"trigger":"impossible"},
+    "arrow_of_slowness":{"trigger":"impossible"},
+    "acacia_planks":{"trigger":"impossible"},
+    "torch":{"trigger":"impossible"},
+    "bone_meal":{"trigger":"impossible"},
+    "moss_block":{"trigger":"impossible"},
+    "potion_of_regeneration":{"trigger":"impossible"},
+    "potion_of_strength":{"trigger":"impossible"},
+    "milk_bucket":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Supply Chest Loot",
+    "description": "Find all the loot in a trial chambers supply chest",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/loot_intersection_chest/loot"
+}

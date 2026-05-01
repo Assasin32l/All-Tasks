@@ -1,0 +1,30 @@
+$execute if items block $(x) $(y) $(z) container.* coal run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot coal
+$execute if items block $(x) $(y) $(z) container.* bone run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot bone
+$execute if items block $(x) $(y) $(z) container.* soul_torch run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot soul_torch
+$execute if items block $(x) $(y) $(z) container.* book run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot book
+$execute if items block $(x) $(y) $(z) container.* potion run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot potion
+$execute if items block $(x) $(y) $(z) container.* enchanted_book run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot enchanted_book
+$execute if items block $(x) $(y) $(z) container.* disc_fragment_5 run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot disc_fragment_5
+$execute if items block $(x) $(y) $(z) container.* echo_shard run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot echo_shard
+$execute if items block $(x) $(y) $(z) container.* amethyst_shard run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot amethyst_shard
+$execute if items block $(x) $(y) $(z) container.* glow_berries run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot glow_berries
+$execute if items block $(x) $(y) $(z) container.* sculk run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot sculk
+$execute if items block $(x) $(y) $(z) container.* candle run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot candle
+$execute if items block $(x) $(y) $(z) container.* experience_bottle run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot experience_bottle
+$execute if items block $(x) $(y) $(z) container.* sculk_sensor run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot sculk_sensor
+$execute if items block $(x) $(y) $(z) container.* iron_leggings run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot iron_leggings
+$execute if items block $(x) $(y) $(z) container.* leather run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot leather
+$execute if items block $(x) $(y) $(z) container.* sculk_catalyst run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot sculk_catalyst
+$execute if items block $(x) $(y) $(z) container.* compass run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot compass
+$execute if items block $(x) $(y) $(z) container.* music_disc_13 run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot music_disc_13
+$execute if items block $(x) $(y) $(z) container.* music_disc_cat run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot music_disc_cat
+$execute if items block $(x) $(y) $(z) container.* lead run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot lead
+$execute if items block $(x) $(y) $(z) container.* diamond_hoe run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot diamond_hoe
+$execute if items block $(x) $(y) $(z) container.* diamond_horse_armor run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot diamond_horse_armor
+$execute if items block $(x) $(y) $(z) container.* diamond_leggings run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot diamond_leggings
+$execute if items block $(x) $(y) $(z) container.* enchanted_golden_apple run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot enchanted_golden_apple
+$execute if items block $(x) $(y) $(z) container.* music_disc_otherside run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot music_disc_otherside
+$execute if items block $(x) $(y) $(z) container.* ward_armor_trim_smithing_template run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot ward_armor_trim_smithing_template
+$execute if items block $(x) $(y) $(z) container.* silence_armor_trim_smithing_template run advancement grant @s only all_tasks:tasks/structures/ancient_city/loot_normal/loot silence_armor_trim_smithing_template
+
+$data remove block $(x) $(y) $(z) Items[].components."minecraft:custom_data"

@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_pale_garden": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "pale_garden"
-                    }
-                }
-            }
+  "criteria": {
+    "in_pale_garden": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "pale_garden"
+          }
         }
-    },
-    "display": {
-        "title": "Pale Garden",
-        "description": "Find a pale garden",
-        "icon": {
-            "id": "pale_oak_log"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/forests/dark_forest"
+      }
+    }
+  },
+  "display": {
+    "title": "Pale Garden",
+    "description": "Find a pale garden",
+    "icon": {
+      "id": "pale_oak_log"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/forests/dark_forest"
 }

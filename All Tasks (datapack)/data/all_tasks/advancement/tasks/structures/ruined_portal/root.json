@@ -1,0 +1,82 @@
+{
+  "criteria": {
+    "in_structure_1": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ruined_portal"
+          }
+        }
+      }
+    },
+    "in_structure_2": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ruined_portal_desert"
+          }
+        }
+      }
+    },
+    "in_structure_3": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ruined_portal_jungle"
+          }
+        }
+      }
+    },
+    "in_structure_4": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ruined_portal_mountain"
+          }
+        }
+      }
+    },
+    "in_structure_5": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ruined_portal_nether"
+          }
+        }
+      }
+    },
+    "in_structure_6": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ruined_portal_ocean"
+          }
+        }
+      }
+    },
+    "in_structure_7": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ruined_portal_swamp"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Ruined Portal",
+    "description": "Find all ruined portal variants",
+    "icon": {
+      "id": "crying_obsidian"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

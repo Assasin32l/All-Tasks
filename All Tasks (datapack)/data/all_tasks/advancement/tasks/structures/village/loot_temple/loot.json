@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "bread":{"trigger":"impossible"},
+    "rotten_flesh":{"trigger":"impossible"},
+    "redstone":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "lapis_lazuli":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Temple Loot",
+    "description": "Find all the loot in a temple",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/root"
+}

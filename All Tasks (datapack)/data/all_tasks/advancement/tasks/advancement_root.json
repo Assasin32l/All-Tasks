@@ -1,18 +1,107 @@
 {
-    "criteria": {
-        "unlock_right_away": {
-            "trigger": "tick"
-        }
-    },
-    "display": {
-        "description": "Have you ever completed them all?",
-        "icon": {
-            "id": "book"
-        },
-        "title": "Advancements",
-        "announce_to_chat": false,
-        "background": "block/oak_planks",
-        "frame": "challenge",
-        "show_toast": false
+  "criteria": {
+    "unlock_right_away": {
+      "trigger": "tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "adventure/root": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "husbandry/root": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "nether/root": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "end/root": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "story/root": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
+  },
+  "display": {
+    "description": "Have you ever completed them all?",
+    "icon": {
+      "id": "book"
+    },
+    "title": "Advancements",
+    "announce_to_chat": false,
+    "background": "block/oak_planks",
+    "frame": "challenge",
+    "show_toast": false
+  }
 }

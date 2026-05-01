@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "lodestone":{"trigger":"impossible"},
+    "iron_nugget":{"trigger":"impossible"},
+    "flint":{"trigger":"impossible"},
+    "obsidian":{"trigger":"impossible"},
+    "fire_charge":{"trigger":"impossible"},
+    "flint_and_steel":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "golden_apple":{"trigger":"impossible"},
+    "golden_axe":{"trigger":"impossible"},
+    "golden_hoe":{"trigger":"impossible"},
+    "golden_pickaxe":{"trigger":"impossible"},
+    "golden_shovel":{"trigger":"impossible"},
+    "golden_sword":{"trigger":"impossible"},
+    "golden_helmet":{"trigger":"impossible"},
+    "golden_chestplate":{"trigger":"impossible"},
+    "golden_leggings":{"trigger":"impossible"},
+    "golden_boots":{"trigger":"impossible"},
+    "glistering_melon_slice":{"trigger":"impossible"},
+    "golden_carrot":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "clock":{"trigger":"impossible"},
+    "light_weighted_pressure_plate":{"trigger":"impossible"},
+    "golden_horse_armor":{"trigger":"impossible"},
+    "gold_block":{"trigger":"impossible"},
+    "bell":{"trigger":"impossible"},
+    "enchanted_golden_apple":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Ruined Portal Loot",
+    "description": "Find all the loot in a ruined portal",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/ruined_portal/root"
+}

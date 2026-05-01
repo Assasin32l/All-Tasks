@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "loot": {
+      "trigger": "player_generates_container_loot",
+      "conditions": {
+        "loot_table": "chests/ruined_portal"
+      }
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:tasks/structure_loot/ruined_portal/delay"
+  }
+}

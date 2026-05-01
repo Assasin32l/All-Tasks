@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "snowball":{"trigger":"impossible"},
+    "packed_ice":{"trigger":"impossible"},
+    "baked_potato":{"trigger":"impossible"},
+    "golden_carrot":{"trigger":"impossible"},
+    "suspicious_stew":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Ancient City Ice Box Loot",
+    "description": "Find all the loot in an ancient city ice box",
+    "icon": {
+      "id": "packed_ice"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/ancient_city/loot_normal/loot"
+}

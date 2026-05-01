@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "bastion_remnant"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Bastion Remnant",
+    "description": "Find a bastion remnant",
+    "icon": {
+      "id": "polished_blackstone_bricks"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "burn_pottery_sherd":{"trigger":"impossible"},
+    "danger_pottery_sherd":{"trigger":"impossible"},
+    "music_disc_relic":{"trigger":"impossible"},
+    "friend_pottery_sherd":{"trigger":"impossible"},
+    "heart_pottery_sherd":{"trigger":"impossible"},
+    "heartbreak_pottery_sherd":{"trigger":"impossible"},
+    "host_armor_trim_smithing_template":{"trigger":"impossible"},
+    "howl_pottery_sherd":{"trigger":"impossible"},
+    "raiser_armor_trim_smithing_template":{"trigger":"impossible"},
+    "shaper_armor_trim_smithing_template":{"trigger":"impossible"},
+    "sheaf_pottery_sherd":{"trigger":"impossible"},
+    "wayfinder_armor_trim_smithing_template":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trail Ruins Rare Loot",
+    "description": "Find all the rare loot in a trail ruin",
+    "icon": {
+      "id": "mud_bricks"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trail_ruins/loot_common/loot"
+}

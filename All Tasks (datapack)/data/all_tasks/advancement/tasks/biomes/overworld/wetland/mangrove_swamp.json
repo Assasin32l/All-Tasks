@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_mangrove_swamp": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "mangrove_swamp"
-                    }
-                }
-            }
+  "criteria": {
+    "in_mangrove_swamp": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "mangrove_swamp"
+          }
         }
-    },
-    "display": {
-        "title": "Mangrove Swamp",
-        "description": "Find a mangrove swamp",
-        "icon": {
-            "id": "mangrove_log"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/wetland/swamp"
+      }
+    }
+  },
+  "display": {
+    "title": "Mangrove Swamp",
+    "description": "Find a mangrove swamp",
+    "icon": {
+      "id": "mangrove_log"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/wetland/swamp"
 }

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "in_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "swamp_hut"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Swamp Hut",
+    "description": "Find a swamp hut",
+    "icon": {
+      "id": "spruce_planks"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

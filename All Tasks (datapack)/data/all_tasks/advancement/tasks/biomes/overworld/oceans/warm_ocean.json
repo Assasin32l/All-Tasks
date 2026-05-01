@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_warm_ocean": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "warm_ocean"
-                    }
-                }
-            }
+  "criteria": {
+    "in_warm_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "warm_ocean"
+          }
         }
-    },
-    "display": {
-        "title": "Warm Ocean",
-        "description": "Find a warm ocean",
-        "icon": {
-            "id": "fire_coral_block"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/oceans/lukewarm_ocean"
+      }
+    }
+  },
+  "display": {
+    "title": "Warm Ocean",
+    "description": "Find a warm ocean",
+    "icon": {
+      "id": "fire_coral_block"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/oceans/lukewarm_ocean"
 }

@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_savanna": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "savanna"
-                    }
-                }
-            }
+  "criteria": {
+    "in_savanna": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "savanna"
+          }
         }
-    },
-    "display": {
-        "title": "Savanna",
-        "description": "Find a savanna",
-        "icon": {
-            "id": "acacia_log"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/arid-lands/desert"
+      }
+    }
+  },
+  "display": {
+    "title": "Savanna",
+    "description": "Find a savanna",
+    "icon": {
+      "id": "acacia_log"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/arid-lands/desert"
 }

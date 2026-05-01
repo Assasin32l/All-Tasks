@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "blue_dye":{"trigger":"impossible"},
+    "brick":{"trigger":"impossible"},
+    "brown_candle":{"trigger":"impossible"},
+    "clay":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "green_candle":{"trigger":"impossible"},
+    "light_blue_dye":{"trigger":"impossible"},
+    "orange_dye":{"trigger":"impossible"},
+    "purple_candle":{"trigger":"impossible"},
+    "red_candle":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "white_dye":{"trigger":"impossible"},
+    "wooden_hoe":{"trigger":"impossible"},
+    "yellow_dye":{"trigger":"impossible"},
+    "beetroot_seeds":{"trigger":"impossible"},
+    "blue_stained_glass_pane":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "dead_bush":{"trigger":"impossible"},
+    "flower_pot":{"trigger":"impossible"},
+    "lead":{"trigger":"impossible"},
+    "light_blue_stained_glass_pane":{"trigger":"impossible"},
+    "magenta_stained_glass_pane":{"trigger":"impossible"},
+    "oak_hanging_sign":{"trigger":"impossible"},
+    "pink_stained_glass_pane":{"trigger":"impossible"},
+    "purple_stained_glass_pane":{"trigger":"impossible"},
+    "red_stained_glass_pane":{"trigger":"impossible"},
+    "spruce_hanging_sign":{"trigger":"impossible"},
+    "string":{"trigger":"impossible"},
+    "wheat_seeds":{"trigger":"impossible"},
+    "yellow_stained_glass_pane":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trail Ruins Common Loot",
+    "description": "Find all the common loot in a trail ruin",
+    "icon": {
+      "id": "mud_bricks"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trail_ruins/root"
+}

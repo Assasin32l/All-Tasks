@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "gold_ingot":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "beetroot_seeds":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "saddle":{"trigger":"impossible"},
+    "iron_pickaxe":{"trigger":"impossible"},
+    "iron_shovel":{"trigger":"impossible"},
+    "iron_sword":{"trigger":"impossible"},
+    "iron_helmet":{"trigger":"impossible"},
+    "iron_chestplate":{"trigger":"impossible"},
+    "iron_leggings":{"trigger":"impossible"},
+    "iron_boots":{"trigger":"impossible"},
+    "diamond_pickaxe":{"trigger":"impossible"},
+    "diamond_shovel":{"trigger":"impossible"},
+    "diamond_spear":{"trigger":"impossible"},
+    "diamond_sword":{"trigger":"impossible"},
+    "diamond_helmet":{"trigger":"impossible"},
+    "diamond_chestplate":{"trigger":"impossible"},
+    "diamond_leggings":{"trigger":"impossible"},
+    "diamond_boots":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "spire_armor_trim_smithing_template":{"trigger":"impossible"},
+    "copper_horse_armor":{"trigger":"impossible"},
+    "iron_horse_armor":{"trigger":"impossible"},
+    "golden_horse_armor":{"trigger":"impossible"},
+    "diamond_horse_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "End City Loot",
+    "description": "Find all the loot in a end city",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/end_city/root"
+}

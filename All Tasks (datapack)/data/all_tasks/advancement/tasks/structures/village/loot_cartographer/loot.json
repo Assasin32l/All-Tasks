@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "paper":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "map":{"trigger":"impossible"},
+    "bundle":{"trigger":"impossible"},
+    "stick":{"trigger":"impossible"},
+    "compass":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Cartographer Loot",
+    "description": "Find all the loot in a cartographer house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_fletcher/loot"
+}

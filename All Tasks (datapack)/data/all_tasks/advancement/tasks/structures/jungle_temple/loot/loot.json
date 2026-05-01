@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "bone":{"trigger":"impossible"},
+    "rotten_flesh":{"trigger":"impossible"},
+    "gold_ingot":{"trigger":"impossible"},
+    "bamboo":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "wild_armor_trim_smithing_template":{"trigger":"impossible"},
+    "leather":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "copper_horse_armor":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "iron_horse_armor":{"trigger":"impossible"},
+    "golden_horse_armor":{"trigger":"impossible"},
+    "diamond_horse_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Jungle Temple Loot",
+    "description": "Find all the loot in a jungle temple",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/jungle_temple/root"
+}

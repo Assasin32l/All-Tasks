@@ -1,23 +1,22 @@
 {
-    "criteria": {
-        "in_swamp": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "swamp"
-                    }
-                }
-            }
+  "criteria": {
+    "in_swamp": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "swamp"
+          }
         }
-    },
-    "display": {
-        "title": "Swamp",
-        "description": "Find a swamp",
-        "icon": {
-            "id": "lily_pad"
-        },
-        "hidden": true
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/root"
+      }
+    }
+  },
+  "display": {
+    "title": "Swamp",
+    "description": "Find a swamp",
+    "icon": {
+      "id": "lily_pad"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/root"
 }

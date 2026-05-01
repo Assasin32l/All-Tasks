@@ -1,23 +1,22 @@
 {
-    "criteria": {
-        "in_mushroom_fields": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "mushroom_fields"
-                    }
-                }
-            }
+  "criteria": {
+    "in_mushroom_fields": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "mushroom_fields"
+          }
         }
-    },
-    "display": {
-        "title": "Mushroom Fields",
-        "description": "Find a mushroom field",
-        "icon": {
-            "id": "mycelium"
-        },
-        "hidden": true
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/root"
+      }
+    }
+  },
+  "display": {
+    "title": "Mushroom Fields",
+    "description": "Find a mushroom field",
+    "icon": {
+      "id": "mycelium"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/root"
 }

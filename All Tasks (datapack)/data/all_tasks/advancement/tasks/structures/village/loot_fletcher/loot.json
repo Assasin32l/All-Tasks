@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "feather":{"trigger":"impossible"},
+    "flint":{"trigger":"impossible"},
+    "stick":{"trigger":"impossible"},
+    "arrow":{"trigger":"impossible"},
+    "egg":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Fletcher Loot",
+    "description": "Find all the loot in a fletcher house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/root"
+}

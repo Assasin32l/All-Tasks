@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_frozen_river": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "frozen_river"
-                    }
-                }
-            }
+  "criteria": {
+    "in_frozen_river": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "frozen_river"
+          }
         }
-    },
-    "display": {
-        "title": "Frozen River",
-        "description": "Find a frozen river",
-        "icon": {
-            "id": "ice"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/wetland/river"
+      }
+    }
+  },
+  "display": {
+    "title": "Frozen River",
+    "description": "Find a frozen river",
+    "icon": {
+      "id": "ice"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/wetland/river"
 }

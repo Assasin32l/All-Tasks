@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "bread":{"trigger":"impossible"},
+    "bundle":{"trigger":"impossible"},
+    "leather_helmet":{"trigger":"impossible"},
+    "leather_chestplate":{"trigger":"impossible"},
+    "leather_leggings":{"trigger":"impossible"},
+    "leather_boots":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "leather":{"trigger":"impossible"},
+    "saddle":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Tannery Loot",
+    "description": "Find all the loot in a tannery",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_butcher/loot"
+}

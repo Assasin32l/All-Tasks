@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "golden_apple":{"trigger":"impossible"},
+    "coal":{"trigger":"impossible"},
+    "apple":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "rotten_flesh":{"trigger":"impossible"},
+    "stone_axe":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Igloo Loot",
+    "description": "Find all the loot in a igloo",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/igloo/root"
+}

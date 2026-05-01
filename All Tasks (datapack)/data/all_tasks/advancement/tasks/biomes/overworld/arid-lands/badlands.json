@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "in_badlands": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "badlands"
-                    }
-                }
-            }
+  "criteria": {
+    "in_badlands": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "badlands"
+          }
         }
-    },
-    "display": {
-        "title": "Badlands",
-        "description": "Find a badlands",
-        "icon": {
-            "id": "red_sand"
-        }
-    },
-    "parent": "all_tasks:tasks/biomes/overworld/arid-lands/desert"
+      }
+    }
+  },
+  "display": {
+    "title": "Badlands",
+    "description": "Find a badlands",
+    "icon": {
+      "id": "red_sand"
+    }
+  },
+  "parent": "all_tasks:tasks/biomes/overworld/arid-lands/desert"
 }

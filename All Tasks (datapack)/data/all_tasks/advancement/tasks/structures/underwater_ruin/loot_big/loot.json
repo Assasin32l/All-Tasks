@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "coal":{"trigger":"impossible"},
+    "wheat":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "filled_map":{"trigger":"impossible"},
+    "stone_spear":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "fishing_rod":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "copper_nautilus_armor":{"trigger":"impossible"},
+    "iron_nautilus_armor":{"trigger":"impossible"},
+    "leather_chestplate":{"trigger":"impossible"},
+    "golden_apple":{"trigger":"impossible"},
+    "golden_helmet":{"trigger":"impossible"},
+    "golden_nautilus_armor":{"trigger":"impossible"},
+    "diamond_nautilus_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Big Ocean Ruin Loot",
+    "description": "Find all the loot in a big ocean ruin",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/underwater_ruin/root"
+}

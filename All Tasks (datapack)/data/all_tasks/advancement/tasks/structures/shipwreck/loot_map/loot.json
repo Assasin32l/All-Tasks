@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "filled_map":{"trigger":"impossible"},
+    "paper":{"trigger":"impossible"},
+    "feather":{"trigger":"impossible"},
+    "book":{"trigger":"impossible"},
+    "coast_armor_trim_smithing_template":{"trigger":"impossible"},
+    "copper_nautilus_armor":{"trigger":"impossible"},
+    "clock":{"trigger":"impossible"},
+    "compass":{"trigger":"impossible"},
+    "map":{"trigger":"impossible"},
+    "iron_nautilus_armor":{"trigger":"impossible"},
+    "golden_nautilus_armor":{"trigger":"impossible"},
+    "diamond_nautilus_armor":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Shipwreck Map Loot",
+    "description": "Find all the loot in a shipwreck map chest",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/shipwreck/loot_treasure/loot"
+}

@@ -1,0 +1,1014 @@
+{
+  "criteria": {
+    "purchase": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "emerald"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "packed_ice": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "packed_ice"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "gunpowder": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "gunpowder"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "acacia_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "acacia_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "birch_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "birch_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "cherry_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "cherry_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "dark_oak_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "dark_oak_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "jungle_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "jungle_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "mangrove_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "mangrove_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "oak_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "oak_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pale_oak_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pale_oak_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "spruce_log": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "spruce_log"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "podzol": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "podzol"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "potion": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "potion"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "blue_ice": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "blue_ice"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "iron_pickaxe"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "fern": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "fern"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "sugar_cane": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "sugar_cane"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pumpkin": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pumpkin"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "dandelion": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "dandelion"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "poppy": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "poppy"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "allium": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "allium"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "azure_bluet": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "azure_bluet"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "red_tulip": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "red_tulip"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "orange_tulip": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "orange_tulip"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "white_tulip": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "white_tulip"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pink_tulip": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pink_tulip"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "oxeye_daisy": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "oxeye_daisy"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "cornflower": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "cornflower"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "blue_orchid": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "blue_orchid"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "lily_of_the_valley"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "open_eyeblossom": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "open_eyeblossom"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "wheat_seeds": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "wheat_seeds"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "beetroot_seeds"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pumpkin_seeds"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "melon_seeds": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "melon_seeds"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "name_tag": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "name_tag"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "white_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "white_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "light_gray_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "light_gray_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "gray_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "gray_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "black_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "black_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "brown_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "brown_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "red_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "red_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "orange_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "orange_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "yellow_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "yellow_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "lime_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "lime_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "green_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "green_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "cyan_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "cyan_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "light_blue_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "light_blue_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "blue_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "blue_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "purple_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "purple_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "magenta_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "magenta_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pink_dye": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pink_dye"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "vine": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "vine"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pale_hanging_moss": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pale_hanging_moss"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "brown_mushroom": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "brown_mushroom"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "red_mushroom": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "red_mushroom"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "lily_pad": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "lily_pad"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "small_dripleaf": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "small_dripleaf"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "sand": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "sand"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "red_sand": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "red_sand"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pointed_dripstone": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pointed_dripstone"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "rooted_dirt": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "rooted_dirt"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "moss_block": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "moss_block"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pale_moss_block": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pale_moss_block"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "wildflowers": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "wildflowers"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "tall_dry_grass": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "tall_dry_grass"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "golden_dandelion": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "golden_dandelion"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "sea_pickle": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "sea_pickle"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "glowstone": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "glowstone"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "tropical_fish_bucket": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "tropical_fish_bucket"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pufferfish_bucket": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pufferfish_bucket"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "kelp": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "kelp"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "cactus": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "cactus"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "brain_coral_block": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "brain_coral_block"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "bubble_coral_block": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "bubble_coral_block"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "fire_coral_block": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "fire_coral_block"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "horn_coral_block": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "horn_coral_block"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "tube_coral_block": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "tube_coral_block"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "firefly_bush": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "firefly_bush"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "slime_ball": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "slime_ball"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "acacia_sapling"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "birch_sapling": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "birch_sapling"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "cherry_sapling": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "cherry_sapling"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "dark_oak_sapling"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "jungle_sapling"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "mangrove_propagule"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "oak_sapling": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "oak_sapling"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pale_oak_sapling": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "pale_oak_sapling"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "spruce_sapling"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "nautilus_shell": {
+      "trigger": "villager_trade",
+      "conditions": {
+        "item": {
+          "items": "nautilus_shell"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Wandering Trader",
+    "description": "Who even likes this guy? Especially after this.",
+    "icon": {
+      "id": "wandering_trader_spawn_egg"
+    },
+    "frame": "goal"
+  },
+  "parent": "all_tasks:tasks/trading/root"
+}

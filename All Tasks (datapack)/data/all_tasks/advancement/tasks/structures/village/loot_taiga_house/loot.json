@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "potato":{"trigger":"impossible"},
+    "spruce_log":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "sweet_berries":{"trigger":"impossible"},
+    "pumpkin_seeds":{"trigger":"impossible"},
+    "spruce_sapling":{"trigger":"impossible"},
+    "bundle":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "fern":{"trigger":"impossible"},
+    "large_fern":{"trigger":"impossible"},
+    "iron_nugget":{"trigger":"impossible"},
+    "pumpkin_pie":{"trigger":"impossible"},
+    "spruce_sign":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Taiga House Loot",
+    "description": "Find all the loot in a taiga house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_snowy_house/loot"
+}

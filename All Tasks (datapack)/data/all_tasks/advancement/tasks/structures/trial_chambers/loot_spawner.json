@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "trial_key":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "cooked_chicken":{"trigger":"impossible"},
+    "baked_potato":{"trigger":"impossible"},
+    "potion_of_regeneration":{"trigger":"impossible"},
+    "potion_of_swiftness":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Spawner Loot",
+    "description": "Find all the loot from a trial chambers spawner",
+    "icon": {
+      "id": "trial_spawner"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/root"
+}

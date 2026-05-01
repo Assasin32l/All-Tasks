@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "emerald":{"trigger":"impossible"},
+    "arrow":{"trigger":"impossible"},
+    "tipped_arrow":{"trigger":"impossible"},
+    "iron_ingot":{"trigger":"impossible"},
+    "wind_charge":{"trigger":"impossible"},
+    "honey_bottle":{"trigger":"impossible"},
+    "ominous_bottle":{"trigger":"impossible"},
+    "shield":{"trigger":"impossible"},
+    "bow":{"trigger":"impossible"},
+    "diamond":{"trigger":"impossible"},
+    "golden_apple":{"trigger":"impossible"},
+    "golden_carrot":{"trigger":"impossible"},
+    "enchanted_book":{"trigger":"impossible"},
+    "crossbow":{"trigger":"impossible"},
+    "iron_axe":{"trigger":"impossible"},
+    "iron_chestplate":{"trigger":"impossible"},
+    "bolt_armor_trim_smithing_template":{"trigger":"impossible"},
+    "music_disc_precipice":{"trigger":"impossible"},
+    "guster_banner_pattern":{"trigger":"impossible"},
+    "diamond_axe":{"trigger":"impossible"},
+    "diamond_chestplate":{"trigger":"impossible"},
+    "trident":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Trial Chambers Vault Loot",
+    "description": "Find all the loot from a trial chambers vault",
+    "icon": {
+      "id": "vault"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/root"
+}

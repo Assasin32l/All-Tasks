@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "arrow":{"trigger":"impossible"},
+    "string":{"trigger":"impossible"},
+    "gold_nugget":{"trigger":"impossible"},
+    "crimson_fungus":{"trigger":"impossible"},
+    "crimson_roots":{"trigger":"impossible"},
+    "glowstone":{"trigger":"impossible"},
+    "soul_sand":{"trigger":"impossible"},
+    "cooked_porkchop":{"trigger":"impossible"},
+    "gilded_blackstone":{"trigger":"impossible"},
+    "porkchop":{"trigger":"impossible"},
+    "crying_obsidian":{"trigger":"impossible"},
+    "leather":{"trigger":"impossible"},
+    "golden_axe":{"trigger":"impossible"},
+    "gold_block":{"trigger":"impossible"},
+    "diamond_shovel":{"trigger":"impossible"},
+    "ancient_debris":{"trigger":"impossible"},
+    "saddle":{"trigger":"impossible"},
+    "diamond_pickaxe":{"trigger":"impossible"},
+    "golden_carrot":{"trigger":"impossible"},
+    "golden_apple":{"trigger":"impossible"},
+    "netherite_upgrade_smithing_template":{"trigger":"impossible"},
+    "snout_armor_trim_smithing_template":{"trigger":"impossible"},
+    "netherite_scrap":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Bastion Remnant Hoglin Stable Loot",
+    "description": "Find all the loot in a bastion remnant hoglin stable",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/bastion/loot_generic/loot"
+}

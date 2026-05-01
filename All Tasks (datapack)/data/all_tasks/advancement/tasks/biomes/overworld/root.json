@@ -1,26 +1,26 @@
 {
-    "criteria": {
-        "in_overworld": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "overworld"
-                    }
-                }
-            }
+  "criteria": {
+    "in_overworld": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "overworld"
+          }
         }
+      }
+    }
+  },
+  "display": {
+    "title": "Overworld",
+    "description": "",
+    "icon": {
+      "id": "grass_block"
     },
-    "display": {
-        "title": "Overworld",
-        "description": "",
-        "icon": {
-            "id": "grass_block"
-        },
-        "announce_to_chat": false,
-        "show_toast": false,
-        "frame": "goal",
-        "hidden": true
-    },
-    "parent": "all_tasks:tasks/biomes/root"
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame": "goal",
+    "hidden": true
+  },
+  "parent": "all_tasks:tasks/biomes/root"
 }

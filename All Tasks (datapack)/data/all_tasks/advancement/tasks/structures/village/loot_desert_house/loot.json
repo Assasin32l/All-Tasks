@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "wheat":{"trigger":"impossible"},
+    "bread":{"trigger":"impossible"},
+    "cactus":{"trigger":"impossible"},
+    "bundle":{"trigger":"impossible"},
+    "dead_bush":{"trigger":"impossible"},
+    "emerald":{"trigger":"impossible"},
+    "book":{"trigger":"impossible"},
+    "clay_ball":{"trigger":"impossible"},
+    "green_dye":{"trigger":"impossible"}
+  },
+  "display": {
+    "title": "Village Desert House Loot",
+    "description": "Find all the loot in a desert house",
+    "icon": {
+      "id": "chest"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_plains_house/loot"
+}

@@ -1,0 +1,4 @@
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"bastion/bridge"}}}}}] run function all_tasks:tasks/structure_loot/bastion/bridge/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"bastion/generic"}}}}}] run function all_tasks:tasks/structure_loot/bastion/generic/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"bastion/hoglin_stable"}}}}}] run function all_tasks:tasks/structure_loot/bastion/hoglin_stable/loot_on_ground
+execute if entity @e[type=item, distance=..10, nbt={Item:{components:{"minecraft:custom_data":{all_tasks:{loot:"bastion/treasure"}}}}}] run function all_tasks:tasks/structure_loot/bastion/treasure/loot_on_ground

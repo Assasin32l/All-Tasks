@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "in_first_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mineshaft"
+          }
+        }
+      }
+    },
+    "in_second_structure": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mineshaft_mesa"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Mineshaft",
+    "description": "Find both mineshaft types",
+    "icon": {
+      "id": "oak_planks"
+    }
+  },
+  "parent": "all_tasks:tasks/structures/root"
+}

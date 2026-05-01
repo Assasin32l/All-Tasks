@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "loot": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": "brush"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:tasks/structure_loot/trail_ruins/common/main"
+  }
+}
