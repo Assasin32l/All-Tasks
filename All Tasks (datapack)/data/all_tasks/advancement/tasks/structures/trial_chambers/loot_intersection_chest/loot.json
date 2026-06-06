@@ -1,13 +1,141 @@
 {
   "criteria": {
-    "amethyst_shard":{"trigger":"impossible"},
-    "cake":{"trigger":"impossible"},
-    "iron_block":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "emerald_block":{"trigger":"impossible"},
-    "diamond_axe":{"trigger":"impossible"},
-    "diamond_pickaxe":{"trigger":"impossible"},
-    "diamond_block":{"trigger":"impossible"}
+    "amethyst_shard": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "amethyst_shard",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cake": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cake",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Intersection Chest Loot",

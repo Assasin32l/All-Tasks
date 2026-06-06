@@ -1,13 +1,141 @@
 {
   "criteria": {
-    "white_wool":{"trigger":"impossible"},
-    "wheat":{"trigger":"impossible"},
-    "black_wool":{"trigger":"impossible"},
-    "brown_wool":{"trigger":"impossible"},
-    "gray_wool":{"trigger":"impossible"},
-    "light_gray_wool":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"},
-    "shears":{"trigger":"impossible"}
+    "white_wool": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "white_wool",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/shepherd"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/shepherd"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "black_wool": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "black_wool",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/shepherd"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brown_wool": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "brown_wool",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/shepherd"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gray_wool": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gray_wool",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/shepherd"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "light_gray_wool": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "light_gray_wool",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/shepherd"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/shepherd"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shears": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "shears",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/shepherd"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Village Shepherd Loot",

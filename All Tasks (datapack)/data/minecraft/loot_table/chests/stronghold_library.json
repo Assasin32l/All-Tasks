@@ -1,90 +1,99 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:book",
+          "name": "book",
           "weight": 20
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 7,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:paper",
+          "name": "paper",
           "weight": 20
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:map"
+          "type": "item",
+          "name": "map"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:compass"
+          "type": "item",
+          "name": "compass"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
-              "options": "#minecraft:on_random_loot"
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#on_random_loot"
             }
           ],
-          "name": "minecraft:book",
+          "name": "book",
           "weight": 10
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 10.0,
-        "min": 2.0
+        "type": "uniform",
+        "max": 10,
+        "min": 2
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:eye_armor_trim_smithing_template"
+          "type": "item",
+          "name": "eye_armor_trim_smithing_template"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/stronghold_library",
+  "random_sequence": "chests/stronghold_library",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "stronghold/library",
-          "structure": "stronghold",
-          "has_loot": true
+          "loot_table": "stronghold/library",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/stronghold/loot_library/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

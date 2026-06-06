@@ -1,99 +1,94 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:trial_key"
+          "type": "item",
+          "name": "trial_key"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 5,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:stick",
+          "name": "stick",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:wooden_axe",
+          "type": "item",
+          "name": "wooden_axe",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 8,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:honeycomb",
+          "name": "honeycomb",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 5.0
+                "type": "uniform",
+                "max": 10,
+                "min": 5
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:arrow",
+          "name": "arrow",
           "weight": 10
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 2.0
+        "type": "uniform",
+        "max": 3,
+        "min": 2
       }
     }
   ],
-  "random_sequence": "minecraft:chests/trial_chambers/entrance",
+  "random_sequence": "chests/trial_chambers/entrance",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "trial_chambers/entrance_chest",
-          "structure": "trial_chambers",
-          "has_loot": true
+          "loot_table": "trial_chambers/entrance_chest",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/trial_chambers/loot_entrance_chest/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

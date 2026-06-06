@@ -1,13 +1,141 @@
 {
   "criteria": {
-    "bread":{"trigger":"impossible"},
-    "stone":{"trigger":"impossible"},
-    "stone_bricks":{"trigger":"impossible"},
-    "clay_ball":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"},
-    "flower_pot":{"trigger":"impossible"},
-    "smooth_stone":{"trigger":"impossible"},
-    "yellow_dye":{"trigger":"impossible"}
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_bricks": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stone_bricks",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "clay_ball": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "clay_ball",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flower_pot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flower_pot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "smooth_stone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "smooth_stone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "yellow_dye": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "yellow_dye",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Village Mason Loot",

@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/ancient_city_ice_box"
+        "loot_table": "chests/ancient_city_ice_box",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/ancient_city/loot_ice_box/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/ancient_city/ice_box/main"
+    "function": "all_tasks:structure_loot/loot_tables/ancient_city/ice_box/trigger"
   }
 }

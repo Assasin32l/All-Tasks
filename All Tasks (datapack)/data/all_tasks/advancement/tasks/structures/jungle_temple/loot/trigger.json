@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/jungle_temple"
+        "loot_table": "chests/jungle_temple",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/jungle_temple/loot/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/jungle_temple/main"
+    "function": "all_tasks:structure_loot/loot_tables/jungle_temple/trigger"
   }
 }

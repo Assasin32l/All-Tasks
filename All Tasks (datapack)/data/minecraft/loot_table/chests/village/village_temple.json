@@ -1,121 +1,127 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:redstone",
+          "name": "redstone",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bread",
+          "name": "bread",
           "weight": 7
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:rotten_flesh",
+          "name": "rotten_flesh",
           "weight": 7
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "lapis_lazuli"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gold_ingot"
+          "name": "gold_ingot"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "emerald"
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
+        "type": "uniform",
+        "max": 8,
+        "min": 3
       }
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_temple",
+  "random_sequence": "chests/village/village_temple",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "village/temple",
-          "structure": "village",
-          "has_loot": true
+          "loot_table": "village/temple",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_temple/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

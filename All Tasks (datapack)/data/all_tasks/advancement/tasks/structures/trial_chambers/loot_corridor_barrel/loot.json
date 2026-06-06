@@ -1,15 +1,175 @@
 {
   "criteria": {
-    "tuff":{"trigger":"impossible"},
-    "scaffolding":{"trigger":"impossible"},
-    "bamboo_planks":{"trigger":"impossible"},
-    "torch":{"trigger":"impossible"},
-    "bamboo_hanging_sign":{"trigger":"impossible"},
-    "ender_pearl":{"trigger":"impossible"},
-    "stone_axe":{"trigger":"impossible"},
-    "stone_pickaxe":{"trigger":"impossible"},
-    "honeycomb":{"trigger":"impossible"},
-    "iron_axe":{"trigger":"impossible"}
+    "tuff": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tuff",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "scaffolding": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "scaffolding",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bamboo_planks": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bamboo_planks",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "torch": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "torch",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bamboo_hanging_sign": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bamboo_hanging_sign",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ender_pearl": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ender_pearl",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stone_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stone_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "honeycomb": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "honeycomb",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/corridor_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Corridor Barrel Loot",

@@ -1,132 +1,138 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 8,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:white_wool",
+          "name": "white_wool",
           "weight": 6
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:black_wool",
+          "name": "black_wool",
           "weight": 3
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gray_wool",
+          "name": "gray_wool",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:brown_wool",
+          "name": "brown_wool",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:light_gray_wool",
+          "name": "light_gray_wool",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "type": "item",
+          "name": "emerald"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:shears"
+          "type": "item",
+          "name": "shears"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 6,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:wheat",
+          "name": "wheat",
           "weight": 6
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
+        "type": "uniform",
+        "max": 5,
+        "min": 1
       }
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_shepherd",
+  "random_sequence": "chests/village/village_shepherd",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "village/shepherd",
-          "structure": "village",
-          "has_loot": true
+          "loot_table": "village/shepherd",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_shepherd/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

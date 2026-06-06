@@ -1,18 +1,226 @@
 {
   "criteria": {
-    "iron_ingot":{"trigger":"impossible"},
-    "iron_nugget":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"},
-    "lapis_lazuli":{"trigger":"impossible"},
-    "gold_nugget":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"},
-    "coast_armor_trim_smithing_template":{"trigger":"impossible"},
-    "experience_bottle":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "copper_nautilus_armor":{"trigger":"impossible"},
-    "iron_nautilus_armor":{"trigger":"impossible"},
-    "golden_nautilus_armor":{"trigger":"impossible"},
-    "diamond_nautilus_armor":{"trigger":"impossible"}
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lapis_lazuli": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "lapis_lazuli",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coast_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coast_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "experience_bottle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "experience_bottle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_nautilus_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "copper_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_nautilus_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_nautilus_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_nautilus_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Shipwreck Treasure Loot",

@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/shipwreck_map"
+        "loot_table": "chests/shipwreck_map",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/shipwreck/loot_map/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/shipwreck/map/main"
+    "function": "all_tasks:structure_loot/loot_tables/shipwreck/map/trigger"
   }
 }

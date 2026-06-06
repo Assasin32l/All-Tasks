@@ -1,26 +1,362 @@
 {
   "criteria": {
-    "rail":{"trigger":"impossible"},
-    "torch":{"trigger":"impossible"},
-    "name_tag":{"trigger":"impossible"},
-    "glow_berries":{"trigger":"impossible"},
-    "bread":{"trigger":"impossible"},
-    "golden_apple":{"trigger":"impossible"},
-    "coal":{"trigger":"impossible"},
-    "beetroot_seeds":{"trigger":"impossible"},
-    "melon_seeds":{"trigger":"impossible"},
-    "pumpkin_seeds":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "activator_rail":{"trigger":"impossible"},
-    "detector_rail":{"trigger":"impossible"},
-    "powered_rail":{"trigger":"impossible"},
-    "lapis_lazuli":{"trigger":"impossible"},
-    "redstone":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"},
-    "enchanted_book":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "iron_pickaxe":{"trigger":"impossible"},
-    "enchanted_golden_apple":{"trigger":"impossible"}
+    "rail": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rail",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "torch": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "torch",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "name_tag": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "name_tag",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glow_berries": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "glow_berries",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "beetroot_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "melon_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "melon_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "pumpkin_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "activator_rail": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "activator_rail",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "detector_rail": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "detector_rail",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "powered_rail": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powered_rail",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lapis_lazuli": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "lapis_lazuli",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "redstone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "mineshaft"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Mineshaft Loot",

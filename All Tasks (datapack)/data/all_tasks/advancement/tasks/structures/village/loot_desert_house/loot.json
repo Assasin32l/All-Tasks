@@ -1,14 +1,158 @@
 {
   "criteria": {
-    "wheat":{"trigger":"impossible"},
-    "bread":{"trigger":"impossible"},
-    "cactus":{"trigger":"impossible"},
-    "bundle":{"trigger":"impossible"},
-    "dead_bush":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"},
-    "book":{"trigger":"impossible"},
-    "clay_ball":{"trigger":"impossible"},
-    "green_dye":{"trigger":"impossible"}
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cactus": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cactus",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bundle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bundle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dead_bush": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "dead_bush",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "clay_ball": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "clay_ball",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "green_dye": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "green_dye",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/desert_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Village Desert House Loot",

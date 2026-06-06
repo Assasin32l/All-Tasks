@@ -1,0 +1,217 @@
+{
+  "criteria": {
+    "burn_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "burn_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "danger_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "danger_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_relic": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_relic",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "friend_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "friend_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "heart_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "heart_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "heartbreak_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "heartbreak_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "host_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "host_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "howl_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "howl_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "raiser_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "raiser_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shaper_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "shaper_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sheaf_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sheaf_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wayfinder_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wayfinder_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": "Trail Ruins Rare Loot",
+    "description": "Find all the rare loot in a trail ruin",
+    "icon": {
+      "id": "mud_bricks"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/trail_ruins/loot_common"
+}

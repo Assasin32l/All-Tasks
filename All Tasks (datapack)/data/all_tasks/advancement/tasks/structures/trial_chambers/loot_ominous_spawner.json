@@ -1,11 +1,109 @@
 {
   "criteria": {
-    "ominous_trial_key":{"trigger":"impossible"},
-    "baked_potato":{"trigger":"impossible"},
-    "cooked_beef":{"trigger":"impossible"},
-    "golden_carrot":{"trigger":"impossible"},
-    "potion_of_regeneration":{"trigger":"impossible"},
-    "potion_of_strength":{"trigger":"impossible"}
+    "ominous_trial_key": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ominous_trial_key",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_spawner"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "baked_potato": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "baked_potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_spawner"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cooked_beef": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cooked_beef",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_spawner"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_carrot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_carrot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_spawner"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "potion_of_regeneration": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "potion",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_spawner"
+                }
+              },
+              "potion_contents": "regeneration"
+            }
+          }
+        ]
+      }
+    },
+    "potion_of_strength": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "potion",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_spawner"
+                }
+              },
+              "potion_contents": "strength"
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Ominous Spawner Loot",

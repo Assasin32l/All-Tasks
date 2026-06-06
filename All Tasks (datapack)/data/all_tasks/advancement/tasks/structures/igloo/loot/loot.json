@@ -1,13 +1,141 @@
 {
   "criteria": {
-    "golden_apple":{"trigger":"impossible"},
-    "coal":{"trigger":"impossible"},
-    "apple":{"trigger":"impossible"},
-    "wheat":{"trigger":"impossible"},
-    "gold_nugget":{"trigger":"impossible"},
-    "rotten_flesh":{"trigger":"impossible"},
-    "stone_axe":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"}
+    "golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "igloo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "igloo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "igloo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "igloo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "igloo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "igloo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stone_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "igloo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "igloo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Igloo Loot",

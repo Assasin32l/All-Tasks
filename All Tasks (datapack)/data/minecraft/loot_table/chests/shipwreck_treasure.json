@@ -1,223 +1,197 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 5,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "iron_ingot",
           "weight": 90
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 5,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gold_ingot",
+          "name": "gold_ingot",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 5,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:emerald",
+          "name": "emerald",
           "weight": 40
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "type": "item",
+          "name": "diamond",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
+          "type": "item",
+          "name": "experience_bottle",
           "weight": 5
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 6.0,
-        "min": 3.0
+        "type": "uniform",
+        "max": 6,
+        "min": 3
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 10,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:iron_nugget",
+          "name": "iron_nugget",
           "weight": 50
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 10,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gold_nugget",
+          "name": "gold_nugget",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 10,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli",
+          "name": "lapis_lazuli",
           "weight": 20
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 2.0
+        "type": "uniform",
+        "max": 5,
+        "min": 2
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:empty",
+          "type": "empty",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
+              "count": 2,
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:coast_armor_trim_smithing_template"
+          "name": "coast_armor_trim_smithing_template"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:empty",
+          "type": "empty",
           "weight": 148
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:copper_nautilus_armor",
+          "type": "item",
+          "name": "copper_nautilus_armor",
           "weight": 20
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_nautilus_armor",
+          "type": "item",
+          "name": "iron_nautilus_armor",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_nautilus_armor",
+          "type": "item",
+          "name": "golden_nautilus_armor",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond_nautilus_armor",
+          "type": "item",
+          "name": "diamond_nautilus_armor",
           "weight": 2
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/shipwreck_treasure",
+  "random_sequence": "chests/shipwreck_treasure",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "shipwreck/treasure",
-          "structure": "shipwreck",
-          "has_loot": true
+          "loot_table": "shipwreck/treasure",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/shipwreck/loot_treasure/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

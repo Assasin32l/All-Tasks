@@ -1,11 +1,107 @@
 {
   "criteria": {
-    "bread":{"trigger":"impossible"},
-    "rotten_flesh":{"trigger":"impossible"},
-    "redstone":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"},
-    "lapis_lazuli":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"}
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "redstone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lapis_lazuli": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "lapis_lazuli",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Village Temple Loot",

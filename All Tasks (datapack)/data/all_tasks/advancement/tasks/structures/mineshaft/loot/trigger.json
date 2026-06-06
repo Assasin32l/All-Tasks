@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/abandoned_mineshaft"
+        "loot_table": "chests/abandoned_mineshaft",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/mineshaft/loot/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/mineshaft/loot_in_container"
+    "function": "all_tasks:structure_loot/loot_tables/mineshaft/trigger"
   }
 }

@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/woodland_mansion"
+        "loot_table": "chests/woodland_mansion",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/woodland_mansion/loot/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/woodland_mansion/main"
+    "function": "all_tasks:structure_loot/loot_tables/woodland_mansion/trigger"
   }
 }

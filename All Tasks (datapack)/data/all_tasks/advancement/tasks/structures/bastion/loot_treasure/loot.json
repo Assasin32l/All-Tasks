@@ -1,33 +1,529 @@
 {
   "criteria": {
-    "netherite_upgrade_smithing_template":{"trigger":"impossible"},
-    "netherite_ingot":{"trigger":"impossible"},
-    "spectral_arrow":{"trigger":"impossible"},
-    "quartz":{"trigger":"impossible"},
-    "gilded_blackstone":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"},
-    "magma_cream":{"trigger":"impossible"},
-    "crying_obsidian":{"trigger":"impossible"},
-    "iron_block":{"trigger":"impossible"},
-    "gold_block":{"trigger":"impossible"},
-    "ancient_debris":{"trigger":"impossible"},
-    "netherite_scrap":{"trigger":"impossible"},
-    "enchanted_diamond_spear":{"trigger":"impossible"},
-    "enchanted_diamond_sword":{"trigger":"impossible"},
-    "diamond_spear":{"trigger":"impossible"},
-    "diamond_sword":{"trigger":"impossible"},
-    "enchanted_diamond_helmet":{"trigger":"impossible"},
-    "enchanted_diamond_chestplate":{"trigger":"impossible"},
-    "enchanted_diamond_leggings":{"trigger":"impossible"},
-    "enchanted_diamond_boots":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "diamond_helmet":{"trigger":"impossible"},
-    "diamond_chestplate":{"trigger":"impossible"},
-    "diamond_leggings":{"trigger":"impossible"},
-    "diamond_boots":{"trigger":"impossible"},
-    "snout_armor_trim_smithing_template":{"trigger":"impossible"},
-    "enchanted_golden_apple":{"trigger":"impossible"}
+    "netherite_upgrade_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "netherite_upgrade_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "netherite_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spectral_arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "spectral_arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "quartz": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quartz",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gilded_blackstone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gilded_blackstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "magma_cream": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "magma_cream",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crying_obsidian": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crying_obsidian",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ancient_debris": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ancient_debris",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_scrap": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "netherite_scrap",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_diamond_spear": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_spear",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_diamond_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_spear": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_spear",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": 0
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": 0
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_diamond_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_diamond_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_diamond_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_diamond_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": 0
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": 0
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": 0
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              },
+              "damage": {
+                "damage": 0
+              }
+            }
+          }
+        ]
+      }
+    },
+    "snout_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "snout_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/treasure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Bastion Remnant Treasure Loot",

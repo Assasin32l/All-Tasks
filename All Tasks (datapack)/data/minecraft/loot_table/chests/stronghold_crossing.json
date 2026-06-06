@@ -1,139 +1,145 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 5,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "iron_ingot",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gold_ingot",
+          "name": "gold_ingot",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 9.0,
-                "min": 4.0
+                "type": "uniform",
+                "max": 9,
+                "min": 4
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:redstone",
+          "name": "redstone",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 3.0
+                "type": "uniform",
+                "max": 8,
+                "min": 3
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:coal",
+          "name": "coal",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bread",
+          "name": "bread",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:apple",
+          "name": "apple",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe"
+          "type": "item",
+          "name": "iron_pickaxe"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
-              "options": "#minecraft:on_random_loot"
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#on_random_loot"
             }
           ],
-          "name": "minecraft:book"
+          "name": "book"
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 1.0
+        "type": "uniform",
+        "max": 4,
+        "min": 1
       }
     }
   ],
-  "random_sequence": "minecraft:chests/stronghold_crossing",
+  "random_sequence": "chests/stronghold_crossing",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "stronghold/crossing",
-          "structure": "stronghold",
-          "has_loot": true
+          "loot_table": "stronghold/crossing",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/stronghold/loot_crossing/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

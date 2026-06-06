@@ -1,196 +1,174 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
               "damage": {
-                "type": "minecraft:uniform",
+                "type": "uniform",
                 "max": 0.9,
                 "min": 0.4
               },
-              "function": "minecraft:set_damage"
+              "function": "set_damage"
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "enchant_randomly",
+              "options": "#on_random_loot"
             }
           ],
-          "name": "minecraft:diamond_axe"
+          "name": "diamond_axe"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
               "damage": {
-                "type": "minecraft:uniform",
+                "type": "uniform",
                 "max": 0.8,
                 "min": 0.15
               },
-              "function": "minecraft:set_damage"
+              "function": "set_damage"
             }
           ],
-          "name": "minecraft:diamond_pickaxe"
+          "name": "diamond_pickaxe"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:diamond"
+          "name": "diamond"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
               "damage": {
-                "type": "minecraft:uniform",
+                "type": "uniform",
                 "max": 0.8,
                 "min": 0.15
               },
-              "function": "minecraft:set_damage"
+              "function": "set_damage"
             }
           ],
-          "name": "minecraft:compass"
+          "name": "compass"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 2,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bucket"
+          "name": "bucket"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
               "damage": {
-                "type": "minecraft:uniform",
+                "type": "uniform",
                 "max": 0.8,
                 "min": 0.15
               },
-              "function": "minecraft:set_damage"
+              "function": "set_damage"
             }
           ],
-          "name": "minecraft:golden_axe",
+          "name": "golden_axe",
           "weight": 4
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
               "damage": {
-                "type": "minecraft:uniform",
+                "type": "uniform",
                 "max": 0.8,
                 "min": 0.15
               },
-              "function": "minecraft:set_damage"
+              "function": "set_damage"
             }
           ],
-          "name": "minecraft:golden_pickaxe",
+          "name": "golden_pickaxe",
           "weight": 4
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 5.0
+                "type": "uniform",
+                "max": 15,
+                "min": 5
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bamboo_planks",
+          "name": "bamboo_planks",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 6.0
+                "type": "uniform",
+                "max": 10,
+                "min": 6
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:baked_potato",
+          "name": "baked_potato",
           "weight": 10
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
+        "type": "uniform",
+        "max": 3,
+        "min": 1
       }
     }
   ],
-  "random_sequence": "minecraft:chests/trial_chambers/intersection_barrel",
+  "random_sequence": "chests/trial_chambers/intersection_barrel",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "trial_chambers/intersection_barrel",
-          "structure": "trial_chambers",
-          "has_loot": true
+          "loot_table": "trial_chambers/intersection_barrel",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,161 +1,159 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gold_nugget"
+          "name": "gold_nugget"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:short_grass",
+          "type": "item",
+          "name": "short_grass",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:tall_grass",
+          "type": "item",
+          "name": "tall_grass",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bread",
+          "name": "bread",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 5,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:wheat_seeds",
+          "name": "wheat_seeds",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:emerald",
+          "name": "emerald",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 2,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:acacia_sapling",
+          "name": "acacia_sapling",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle"
+          "type": "item",
+          "name": "saddle"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 2,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:torch"
+          "name": "torch"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket"
+          "type": "item",
+          "name": "bucket"
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
+        "type": "uniform",
+        "max": 8,
+        "min": 3
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bundle"
+          "type": "item",
+          "name": "bundle"
         },
         {
-          "type": "minecraft:empty",
+          "type": "empty",
           "weight": 2
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_savanna_house",
+  "random_sequence": "chests/village/village_savanna_house",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "village/savanna_house",
-          "structure": "village",
-          "has_loot": true
+          "loot_table": "village/savanna_house",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_savanna_house/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

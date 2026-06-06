@@ -1,0 +1,183 @@
+{
+  "criteria": {
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wooden_hoe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "blade_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "blade_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "explorer_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "explorer_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mourner_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mourner_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "plenty_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "plenty_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": "Cold Ocean Ruin Loot",
+    "description": "Find all the loot in a cold ocean ruin",
+    "icon": {
+      "id": "suspicious_gravel"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/underwater_ruin/root"
+}

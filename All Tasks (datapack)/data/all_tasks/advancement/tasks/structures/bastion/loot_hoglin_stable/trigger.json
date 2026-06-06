@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/bastion_hoglin_stable"
+        "loot_table": "chests/bastion_hoglin_stable",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/bastion/loot_hoglin_stable/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/bastion/hoglin_stable/main"
+    "function": "all_tasks:structure_loot/loot_tables/bastion/hoglin_stable/trigger"
   }
 }

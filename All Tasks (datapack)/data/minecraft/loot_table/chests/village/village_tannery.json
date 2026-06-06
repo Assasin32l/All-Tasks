@@ -1,119 +1,120 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:leather"
+          "name": "leather"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate",
+          "type": "item",
+          "name": "leather_chestplate",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_boots",
+          "type": "item",
+          "name": "leather_boots",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_helmet",
+          "type": "item",
+          "name": "leather_helmet",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bread",
+          "name": "bread",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_leggings",
+          "type": "item",
+          "name": "leather_leggings",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle"
+          "type": "item",
+          "name": "saddle"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "emerald"
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
+        "type": "uniform",
+        "max": 5,
+        "min": 1
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bundle"
+          "type": "item",
+          "name": "bundle"
         },
         {
-          "type": "minecraft:empty",
+          "type": "empty",
           "weight": 2
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_tannery",
+  "random_sequence": "chests/village/village_tannery",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "village/tannery",
-          "structure": "village",
-          "has_loot": true
+          "loot_table": "village/tannery",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_tannery/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

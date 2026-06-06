@@ -1,31 +1,447 @@
 {
   "criteria": {
-    "bone":{"trigger":"impossible"},
-    "gunpowder":{"trigger":"impossible"},
-    "rotten_flesh":{"trigger":"impossible"},
-    "string":{"trigger":"impossible"},
-    "wheat":{"trigger":"impossible"},
-    "bread":{"trigger":"impossible"},
-    "coal":{"trigger":"impossible"},
-    "redstone":{"trigger":"impossible"},
-    "leather":{"trigger":"impossible"},
-    "name_tag":{"trigger":"impossible"},
-    "copper_horse_armor":{"trigger":"impossible"},
-    "music_disc_13":{"trigger":"impossible"},
-    "music_disc_cat":{"trigger":"impossible"},
-    "iron_horse_armor":{"trigger":"impossible"},
-    "golden_apple":{"trigger":"impossible"},
-    "beetroot_seeds":{"trigger":"impossible"},
-    "melon_seeds":{"trigger":"impossible"},
-    "pumpkin_seeds":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "bucket":{"trigger":"impossible"},
-    "enchanted_book":{"trigger":"impossible"},
-    "golden_horse_armor":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"},
-    "diamond_horse_armor":{"trigger":"impossible"},
-    "music_disc_otherside":{"trigger":"impossible"},
-    "enchanted_golden_apple":{"trigger":"impossible"}
+    "bone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gunpowder": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gunpowder",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "string": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "redstone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "name_tag": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "name_tag",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "copper_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_13": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_cat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_cat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "beetroot_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "melon_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "melon_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "pumpkin_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bucket": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bucket",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_otherside": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_otherside",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Monster Room Loot",

@@ -1,10 +1,90 @@
 {
   "criteria": {
-    "snowball":{"trigger":"impossible"},
-    "packed_ice":{"trigger":"impossible"},
-    "baked_potato":{"trigger":"impossible"},
-    "golden_carrot":{"trigger":"impossible"},
-    "suspicious_stew":{"trigger":"impossible"}
+    "snowball": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "snowball",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/ice_box"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "packed_ice": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "packed_ice",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/ice_box"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "baked_potato": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "baked_potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/ice_box"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_carrot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_carrot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/ice_box"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "suspicious_stew": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "suspicious_stew",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/ice_box"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Ancient City Ice Box Loot",
@@ -14,5 +94,5 @@
     },
     "frame": "challenge"
   },
-  "parent": "all_tasks:tasks/structures/ancient_city/loot_normal/loot"
+  "parent": "all_tasks:tasks/structures/ancient_city/root"
 }

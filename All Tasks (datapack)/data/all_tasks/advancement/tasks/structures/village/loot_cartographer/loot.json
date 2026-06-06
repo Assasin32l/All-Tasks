@@ -1,11 +1,107 @@
 {
   "criteria": {
-    "paper":{"trigger":"impossible"},
-    "bread":{"trigger":"impossible"},
-    "map":{"trigger":"impossible"},
-    "bundle":{"trigger":"impossible"},
-    "stick":{"trigger":"impossible"},
-    "compass":{"trigger":"impossible"}
+    "paper": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "paper",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "map": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "map",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bundle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bundle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stick": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "compass": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "compass",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Village Cartographer Loot",

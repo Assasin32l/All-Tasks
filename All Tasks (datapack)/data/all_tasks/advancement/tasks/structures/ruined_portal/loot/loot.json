@@ -1,31 +1,447 @@
 {
   "criteria": {
-    "lodestone":{"trigger":"impossible"},
-    "iron_nugget":{"trigger":"impossible"},
-    "flint":{"trigger":"impossible"},
-    "obsidian":{"trigger":"impossible"},
-    "fire_charge":{"trigger":"impossible"},
-    "flint_and_steel":{"trigger":"impossible"},
-    "gold_nugget":{"trigger":"impossible"},
-    "golden_apple":{"trigger":"impossible"},
-    "golden_axe":{"trigger":"impossible"},
-    "golden_hoe":{"trigger":"impossible"},
-    "golden_pickaxe":{"trigger":"impossible"},
-    "golden_shovel":{"trigger":"impossible"},
-    "golden_sword":{"trigger":"impossible"},
-    "golden_helmet":{"trigger":"impossible"},
-    "golden_chestplate":{"trigger":"impossible"},
-    "golden_leggings":{"trigger":"impossible"},
-    "golden_boots":{"trigger":"impossible"},
-    "glistering_melon_slice":{"trigger":"impossible"},
-    "golden_carrot":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"},
-    "clock":{"trigger":"impossible"},
-    "light_weighted_pressure_plate":{"trigger":"impossible"},
-    "golden_horse_armor":{"trigger":"impossible"},
-    "gold_block":{"trigger":"impossible"},
-    "bell":{"trigger":"impossible"},
-    "enchanted_golden_apple":{"trigger":"impossible"}
+    "lodestone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "lodestone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flint": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flint",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "obsidian": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "obsidian",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fire_charge": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "fire_charge",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flint_and_steel": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flint_and_steel",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_hoe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_hoe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_shovel": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_shovel",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glistering_melon_slice": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "glistering_melon_slice",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_carrot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_carrot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "clock": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "clock",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "light_weighted_pressure_plate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "light_weighted_pressure_plate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bell": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bell",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ruined_portal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Ruined Portal Loot",

@@ -1,30 +1,430 @@
 {
   "criteria": {
-    "bone":{"trigger":"impossible"},
-    "gunpowder":{"trigger":"impossible"},
-    "rotten_flesh":{"trigger":"impossible"},
-    "string":{"trigger":"impossible"},
-    "resin_clump":{"trigger":"impossible"},
-    "vex_armor_trim_smithing_template":{"trigger":"impossible"},
-    "lead":{"trigger":"impossible"},
-    "music_disc_13":{"trigger":"impossible"},
-    "music_disc_cat":{"trigger":"impossible"},
-    "golden_apple":{"trigger":"impossible"},
-    "diamond_hoe":{"trigger":"impossible"},
-    "wheat":{"trigger":"impossible"},
-    "bread":{"trigger":"impossible"},
-    "coal":{"trigger":"impossible"},
-    "redstone":{"trigger":"impossible"},
-    "enchanted_book":{"trigger":"impossible"},
-    "chainmail_chestplate":{"trigger":"impossible"},
-    "beetroot_seeds":{"trigger":"impossible"},
-    "melon_seeds":{"trigger":"impossible"},
-    "pumpkin_seeds":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "bucket":{"trigger":"impossible"},
-    "diamond_chestplate":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"},
-    "enchanted_golden_apple":{"trigger":"impossible"}
+    "bone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gunpowder": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gunpowder",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "string": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "resin_clump": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "resin_clump",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "vex_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "vex_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lead": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "lead",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_13": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_cat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_cat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_hoe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_hoe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "redstone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "chainmail_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chainmail_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "beetroot_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "melon_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "melon_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "pumpkin_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bucket": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bucket",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "woodland_mansion"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Woodland Mansion Loot",

@@ -1,5 +1,5 @@
 {
   "values": [
-    {"id": "all_tasks:server_init", "required": true}
+    "all_tasks:load"
   ]
 }

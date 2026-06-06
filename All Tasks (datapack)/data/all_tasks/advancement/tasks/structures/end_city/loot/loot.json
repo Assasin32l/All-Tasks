@@ -1,31 +1,447 @@
 {
   "criteria": {
-    "gold_ingot":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "beetroot_seeds":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "saddle":{"trigger":"impossible"},
-    "iron_pickaxe":{"trigger":"impossible"},
-    "iron_shovel":{"trigger":"impossible"},
-    "iron_sword":{"trigger":"impossible"},
-    "iron_helmet":{"trigger":"impossible"},
-    "iron_chestplate":{"trigger":"impossible"},
-    "iron_leggings":{"trigger":"impossible"},
-    "iron_boots":{"trigger":"impossible"},
-    "diamond_pickaxe":{"trigger":"impossible"},
-    "diamond_shovel":{"trigger":"impossible"},
-    "diamond_spear":{"trigger":"impossible"},
-    "diamond_sword":{"trigger":"impossible"},
-    "diamond_helmet":{"trigger":"impossible"},
-    "diamond_chestplate":{"trigger":"impossible"},
-    "diamond_leggings":{"trigger":"impossible"},
-    "diamond_boots":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"},
-    "spire_armor_trim_smithing_template":{"trigger":"impossible"},
-    "copper_horse_armor":{"trigger":"impossible"},
-    "iron_horse_armor":{"trigger":"impossible"},
-    "golden_horse_armor":{"trigger":"impossible"},
-    "diamond_horse_armor":{"trigger":"impossible"}
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "beetroot_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "saddle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "saddle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_shovel": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_shovel",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_shovel",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_spear": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_spear",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spire_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "spire_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "copper_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "end_city"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "End City Loot",

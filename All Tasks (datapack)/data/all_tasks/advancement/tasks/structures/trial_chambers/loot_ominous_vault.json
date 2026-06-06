@@ -1,23 +1,348 @@
 {
   "criteria": {
-    "emerald":{"trigger":"impossible"},
-    "wind_charge":{"trigger":"impossible"},
-    "tipped_arrow":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "flow_armor_trim_smithing_template":{"trigger":"impossible"},
-    "enchanted_golden_apple":{"trigger":"impossible"},
-    "flow_banner_pattern":{"trigger":"impossible"},
-    "ominous_bottle":{"trigger":"impossible"},
-    "emerald_block":{"trigger":"impossible"},
-    "crossbow":{"trigger":"impossible"},
-    "iron_block":{"trigger":"impossible"},
-    "golden_apple":{"trigger":"impossible"},
-    "diamond_axe":{"trigger":"impossible"},
-    "diamond_chestplate":{"trigger":"impossible"},
-    "music_disc_creator":{"trigger":"impossible"},
-    "heavy_core":{"trigger":"impossible"},
-    "enchanted_book":{"trigger":"impossible"},
-    "diamond_block":{"trigger":"impossible"}
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wind_charge": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wind_charge",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "arrow_of_slowness": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tipped_arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flow_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flow_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flow_banner_pattern": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flow_banner_pattern",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ominous_bottle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ominous_bottle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crossbow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crossbow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_creator": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_creator",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "heavy_core": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "heavy_core",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book_mace": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              },
+              "stored_enchantments": [
+                {
+                  "enchantments": [
+                    "density",
+                    "breach",
+                    "wind_burst"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              },
+              "stored_enchantments": [
+                {
+                  "enchantments": [
+                    "knockback",
+                    "punch",
+                    "smite",
+                    "looting",
+                    "multishot"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "diamond_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Ominous Vault Loot",

@@ -1,103 +1,117 @@
 {
-  "type": "minecraft:archaeology",
+  "type": "archaeology",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:arms_up_pottery_sherd",
+          "type": "item",
+          "name": "arms_up_pottery_sherd",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:brewer_pottery_sherd",
+          "type": "item",
+          "name": "brewer_pottery_sherd",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:brick"
+          "type": "item",
+          "name": "brick"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "type": "item",
+          "name": "emerald"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stick"
+          "type": "item",
+          "name": "stick"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
               "effects": [
                 {
-                  "type": "minecraft:night_vision",
+                  "type": "night_vision",
                   "duration": {
-                    "type": "minecraft:uniform",
-                    "max": 10.0,
-                    "min": 7.0
+                    "type": "uniform",
+                    "max": 10,
+                    "min": 7
                   }
                 },
                 {
-                  "type": "minecraft:jump_boost",
+                  "type": "jump_boost",
                   "duration": {
-                    "type": "minecraft:uniform",
-                    "max": 10.0,
-                    "min": 7.0
+                    "type": "uniform",
+                    "max": 10,
+                    "min": 7
                   }
                 },
                 {
-                  "type": "minecraft:weakness",
+                  "type": "weakness",
                   "duration": {
-                    "type": "minecraft:uniform",
-                    "max": 8.0,
-                    "min": 6.0
+                    "type": "uniform",
+                    "max": 8,
+                    "min": 6
                   }
                 },
                 {
-                  "type": "minecraft:blindness",
+                  "type": "blindness",
                   "duration": {
-                    "type": "minecraft:uniform",
-                    "max": 7.0,
-                    "min": 5.0
+                    "type": "uniform",
+                    "max": 7,
+                    "min": 5
                   }
                 },
                 {
-                  "type": "minecraft:poison",
+                  "type": "poison",
                   "duration": {
-                    "type": "minecraft:uniform",
-                    "max": 20.0,
-                    "min": 10.0
+                    "type": "uniform",
+                    "max": 20,
+                    "min": 10
                   }
                 },
                 {
-                  "type": "minecraft:saturation",
+                  "type": "saturation",
                   "duration": {
-                    "type": "minecraft:uniform",
-                    "max": 10.0,
-                    "min": 7.0
+                    "type": "uniform",
+                    "max": 10,
+                    "min": 7
                   }
                 }
               ],
-              "function": "minecraft:set_stew_effect"
+              "function": "set_stew_effect"
             }
           ],
-          "name": "minecraft:suspicious_stew"
+          "name": "suspicious_stew"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:archaeology/desert_well",
+  "random_sequence": "archaeology/desert_well",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "archaeology/desert_well"
+          "loot_table": "desert_well",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/desert_well/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

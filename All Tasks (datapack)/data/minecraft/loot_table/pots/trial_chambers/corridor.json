@@ -1,128 +1,115 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:emerald",
+          "name": "emerald",
           "weight": 125
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 8,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:arrow",
+          "name": "arrow",
           "weight": 100
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 2,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "iron_ingot",
           "weight": 100
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:trial_key",
+          "type": "item",
+          "name": "trial_key",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_creator_music_box",
+          "type": "item",
+          "name": "music_disc_creator_music_box",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 2,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:diamond",
+          "name": "diamond",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:emerald_block",
+          "type": "item",
+          "name": "emerald_block",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond_block"
+          "type": "item",
+          "name": "diamond_block"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:pots/trial_chambers/corridor",
+  "random_sequence": "pots/trial_chambers/corridor",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "trial_chambers/decorated_pot",
-          "structure": "trial_chambers",
-          "has_loot": true
+          "loot_table": "trial_chambers/decorated_pot",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/trial_chambers/loot_decorated_pot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

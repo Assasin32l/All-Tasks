@@ -1,0 +1,183 @@
+{
+  "criteria": {
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_hoe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wooden_hoe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "angler_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "angler_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shelter_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "shelter_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sniffer_egg": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sniffer_egg",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "snort_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "snort_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": "Warm Ocean Ruin Loot",
+    "description": "Find all the loot in a warm ocean ruin",
+    "icon": {
+      "id": "suspicious_sand"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/underwater_ruin/loot_cold"
+}

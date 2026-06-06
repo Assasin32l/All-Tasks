@@ -1,42 +1,648 @@
 {
   "criteria": {
-    "arrow":{"trigger":"impossible"},
-    "magma_cream":{"trigger":"impossible"},
-    "gilded_blackstone":{"trigger":"impossible"},
-    "iron_chain":{"trigger":"impossible"},
-    "obsidian":{"trigger":"impossible"},
-    "string":{"trigger":"impossible"},
-    "iron_nugget":{"trigger":"impossible"},
-    "gold_nugget":{"trigger":"impossible"},
-    "bone_block":{"trigger":"impossible"},
-    "cooked_porkchop":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"},
-    "crying_obsidian":{"trigger":"impossible"},
-    "iron_block":{"trigger":"impossible"},
-    "iron_sword":{"trigger":"impossible"},
-    "gold_block":{"trigger":"impossible"},
-    "golden_carrot":{"trigger":"impossible"},
-    "ancient_debris":{"trigger":"impossible"},
-    "spectral_arrow":{"trigger":"impossible"},
-    "enchanted_book":{"trigger":"impossible"},
-    "piglin_banner_pattern":{"trigger":"impossible"},
-    "golden_apple":{"trigger":"impossible"},
-    "netherite_upgrade_smithing_template":{"trigger":"impossible"},
-    "crossbow":{"trigger":"impossible"},
-    "golden_sword":{"trigger":"impossible"},
-    "golden_axe":{"trigger":"impossible"},
-    "golden_helmet":{"trigger":"impossible"},
-    "golden_chestplate":{"trigger":"impossible"},
-    "golden_leggings":{"trigger":"impossible"},
-    "golden_boots":{"trigger":"impossible"},
-    "enchanted_golden_boots":{"trigger":"impossible"},
-    "snout_armor_trim_smithing_template":{"trigger":"impossible"},
-    "damaged_crossbow":{"trigger":"impossible"},
-    "diamond_shovel":{"trigger":"impossible"},
-    "diamond_pickaxe":{"trigger":"impossible"},
-    "music_disc_pigstep":{"trigger":"impossible"},
-    "netherite_scrap":{"trigger":"impossible"}
+    "arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "magma_cream": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "magma_cream",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gilded_blackstone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gilded_blackstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_chain": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_chain",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "obsidian": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "obsidian",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "string": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bone_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bone_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cooked_porkchop",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crying_obsidian": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crying_obsidian",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_carrot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_carrot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ancient_debris": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ancient_debris",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spectral_arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "spectral_arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "piglin_banner_pattern": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "piglin_banner_pattern",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_upgrade_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "netherite_upgrade_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crossbow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crossbow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              },
+              "damage": {
+                "damage": 0
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic",
+                  "custom_tag": "golden_boots"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_golden_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              },
+              "enchantments": [
+                {
+                  "enchantments": "swift_sneak"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "snout_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "snout_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_crossbow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crossbow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              },
+              "damage": {
+                "damage": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_shovel",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_pigstep": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_pigstep",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_scrap": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "netherite_scrap",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/generic"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Bastion Remnant Generic Loot",

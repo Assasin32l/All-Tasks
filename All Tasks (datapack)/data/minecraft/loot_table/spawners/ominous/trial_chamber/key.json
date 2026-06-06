@@ -1,28 +1,40 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:ominous_trial_key"
+          "type": "item",
+          "name": "ominous_trial_key"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:spawners/ominous/trial_chamber/key",
+  "random_sequence": "spawners/ominous/trial_chamber/key",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "trial_chambers/ominous_spawner",
-          "structure": "trial_chambers",
-          "has_loot": true
+          "loot_table": "trial_chambers/ominous_spawner",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/trial_chambers/loot_ominous_spawner": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

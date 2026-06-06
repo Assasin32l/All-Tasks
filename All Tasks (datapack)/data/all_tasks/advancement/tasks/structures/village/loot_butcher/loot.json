@@ -1,11 +1,107 @@
 {
   "criteria": {
-    "raw_beef":{"trigger":"impossible"},
-    "raw_mutton":{"trigger":"impossible"},
-    "raw_porkchop":{"trigger":"impossible"},
-    "wheat":{"trigger":"impossible"},
-    "coal":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"}
+    "raw_beef": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "beef",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/butcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "raw_mutton": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mutton",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/butcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "raw_porkchop": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "porkchop",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/butcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/butcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/butcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/butcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Village Butcher Loot",

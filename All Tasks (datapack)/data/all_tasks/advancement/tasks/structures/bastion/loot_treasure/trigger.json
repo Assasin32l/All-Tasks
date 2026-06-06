@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/bastion_treasure"
+        "loot_table": "chests/bastion_treasure",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/bastion/loot_treasure/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/bastion/treasure/main"
+    "function": "all_tasks:structure_loot/loot_tables/bastion/treasure/trigger"
   }
 }

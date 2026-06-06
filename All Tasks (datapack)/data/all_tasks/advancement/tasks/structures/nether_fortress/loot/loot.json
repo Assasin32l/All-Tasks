@@ -1,19 +1,243 @@
 {
   "criteria": {
-    "gold_ingot":{"trigger":"impossible"},
-    "saddle":{"trigger":"impossible"},
-    "golden_horse_armor":{"trigger":"impossible"},
-    "nether_wart":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "copper_horse_armor":{"trigger":"impossible"},
-    "flint_and_steel":{"trigger":"impossible"},
-    "iron_horse_armor":{"trigger":"impossible"},
-    "golden_sword":{"trigger":"impossible"},
-    "golden_chestplate":{"trigger":"impossible"},
-    "diamond_horse_armor":{"trigger":"impossible"},
-    "obsidian":{"trigger":"impossible"},
-    "rib_armor_trim_smithing_template":{"trigger":"impossible"}
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "saddle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "saddle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether_wart": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "nether_wart",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "copper_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flint_and_steel": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flint_and_steel",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_horse_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "obsidian": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "obsidian",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rib_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rib_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "nether_fortress"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Nether Fortress Loot",

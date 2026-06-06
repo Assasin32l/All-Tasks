@@ -1,161 +1,159 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:blue_ice"
+          "type": "item",
+          "name": "blue_ice"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snow_block",
+          "type": "item",
+          "name": "snow_block",
           "weight": 4
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 7,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:potato",
+          "name": "potato",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bread",
+          "name": "bread",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 5,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:beetroot_seeds",
+          "name": "beetroot_seeds",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:beetroot_soup"
+          "type": "item",
+          "name": "beetroot_soup"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:furnace"
+          "type": "item",
+          "name": "furnace"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "emerald"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 7,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:snowball",
+          "name": "snowball",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:coal",
+          "name": "coal",
           "weight": 5
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
+        "type": "uniform",
+        "max": 8,
+        "min": 3
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bundle"
+          "type": "item",
+          "name": "bundle"
         },
         {
-          "type": "minecraft:empty",
+          "type": "empty",
           "weight": 2
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_snowy_house",
+  "random_sequence": "chests/village/village_snowy_house",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "village/snowy_house",
-          "structure": "village",
-          "has_loot": true
+          "loot_table": "village/snowy_house",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_snowy_house/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

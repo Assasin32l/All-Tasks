@@ -1,115 +1,123 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:apple",
+          "name": "apple",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:coal",
+          "name": "coal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gold_nugget",
+          "name": "gold_nugget",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_axe",
+          "type": "item",
+          "name": "stone_axe",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
+          "type": "item",
+          "name": "rotten_flesh",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "type": "item",
+          "name": "emerald"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 3,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:wheat",
+          "name": "wheat",
           "weight": 10
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 2.0
+        "type": "uniform",
+        "max": 8,
+        "min": 2
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_apple"
+          "type": "item",
+          "name": "golden_apple"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/igloo_chest",
+  "random_sequence": "chests/igloo_chest",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "structure": "igloo",
-          "has_loot": true
+          "loot_table": "igloo",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/igloo/loot/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

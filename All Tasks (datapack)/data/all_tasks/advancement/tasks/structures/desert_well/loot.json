@@ -1,0 +1,115 @@
+{
+  "criteria": {
+    "arms_up_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "arms_up_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_well"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brewer_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "brewer_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_well"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brick": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "brick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_well"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_well"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stick": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_well"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "suspicious_stew": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "suspicious_stew",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_well"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": "Desert Well Loot",
+    "description": "Find all the loot from digging down a well",
+    "icon": {
+      "id": "sand"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/desert_well/root"
+}

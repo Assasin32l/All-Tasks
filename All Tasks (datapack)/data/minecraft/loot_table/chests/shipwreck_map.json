@@ -2,187 +2,164 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "decoration": "minecraft:red_x",
-              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "function": "exploration_map",
               "skip_existing_chunks": false,
               "zoom": 1
             },
             {
-              "function": "minecraft:set_name",
+              "function": "set_name",
               "name": {
                 "translate": "filled_map.buried_treasure"
               },
               "target": "item_name"
             }
           ],
-          "name": "minecraft:map"
+          "name": "map"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:compass"
+          "type": "item",
+          "name": "compass"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:map"
+          "type": "item",
+          "name": "map"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:clock"
+          "type": "item",
+          "name": "clock"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 10,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:paper",
+          "name": "paper",
           "weight": 20
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 5,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:feather",
+          "name": "feather",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 5,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:book",
+          "name": "book",
           "weight": 5
         }
       ],
-      "rolls": 3.0
+      "rolls": 3
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:empty",
+          "type": "empty",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
+              "count": 2,
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:coast_armor_trim_smithing_template"
+          "name": "coast_armor_trim_smithing_template"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:empty",
+          "type": "empty",
           "weight": 148
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:copper_nautilus_armor",
+          "type": "item",
+          "name": "copper_nautilus_armor",
           "weight": 20
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_nautilus_armor",
+          "type": "item",
+          "name": "iron_nautilus_armor",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_nautilus_armor",
+          "type": "item",
+          "name": "golden_nautilus_armor",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond_nautilus_armor",
+          "type": "item",
+          "name": "diamond_nautilus_armor",
           "weight": 2
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/shipwreck_map",
+  "random_sequence": "chests/shipwreck_map",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "shipwreck/map",
-          "structure": "shipwreck",
-          "has_loot": true
+          "loot_table": "shipwreck/map",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/shipwreck/loot_map/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

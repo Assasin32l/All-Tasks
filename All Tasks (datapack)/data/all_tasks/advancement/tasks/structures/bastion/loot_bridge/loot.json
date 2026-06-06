@@ -1,26 +1,362 @@
 {
   "criteria": {
-    "lodestone":{"trigger":"impossible"},
-    "arrow":{"trigger":"impossible"},
-    "iron_nugget":{"trigger":"impossible"},
-    "gold_nugget":{"trigger":"impossible"},
-    "string":{"trigger":"impossible"},
-    "leather":{"trigger":"impossible"},
-    "spectral_arrow":{"trigger":"impossible"},
-    "gilded_blackstone":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "gold_ingot":{"trigger":"impossible"},
-    "crying_obsidian":{"trigger":"impossible"},
-    "crossbow":{"trigger":"impossible"},
-    "gold_block":{"trigger":"impossible"},
-    "golden_sword":{"trigger":"impossible"},
-    "golden_axe":{"trigger":"impossible"},
-    "golden_helmet":{"trigger":"impossible"},
-    "golden_chestplate":{"trigger":"impossible"},
-    "golden_leggings":{"trigger":"impossible"},
-    "golden_boots":{"trigger":"impossible"},
-    "netherite_upgrade_smithing_template":{"trigger":"impossible"},
-    "snout_armor_trim_smithing_template":{"trigger":"impossible"}
+    "lodestone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "lodestone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_nugget": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "string": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spectral_arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "spectral_arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gilded_blackstone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gilded_blackstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crying_obsidian": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crying_obsidian",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crossbow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crossbow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_sword": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_upgrade_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "netherite_upgrade_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "snout_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "snout_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/bridge"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Bastion Remnant Bridge Loot",

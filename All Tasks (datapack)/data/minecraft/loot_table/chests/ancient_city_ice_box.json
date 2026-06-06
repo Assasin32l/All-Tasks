@@ -1,126 +1,133 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
               "effects": [
                 {
-                  "type": "minecraft:night_vision",
+                  "type": "night_vision",
                   "duration": {
-                    "type": "minecraft:uniform",
-                    "max": 10.0,
-                    "min": 7.0
+                    "type": "uniform",
+                    "max": 10,
+                    "min": 7
                   }
                 },
                 {
-                  "type": "minecraft:blindness",
+                  "type": "blindness",
                   "duration": {
-                    "type": "minecraft:uniform",
-                    "max": 7.0,
-                    "min": 5.0
+                    "type": "uniform",
+                    "max": 7,
+                    "min": 5
                   }
                 }
               ],
-              "function": "minecraft:set_stew_effect"
+              "function": "set_stew_effect"
             },
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 6,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:suspicious_stew"
+          "name": "suspicious_stew"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 10,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:golden_carrot"
+          "name": "golden_carrot"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 10,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:baked_potato"
+          "name": "baked_potato"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 6,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:packed_ice",
+          "name": "packed_ice",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 6,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:snowball",
+          "name": "snowball",
           "weight": 4
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 10.0,
-        "min": 4.0
+        "type": "uniform",
+        "max": 10,
+        "min": 4
       }
     }
   ],
-  "random_sequence": "minecraft:chests/ancient_city_ice_box",
+  "random_sequence": "chests/ancient_city_ice_box",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "ancient_city/ice_box",
-          "structure": "ancient_city",
-          "has_loot": true
+          "loot_table": "ancient_city/ice_box",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/ancient_city/loot_ice_box/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

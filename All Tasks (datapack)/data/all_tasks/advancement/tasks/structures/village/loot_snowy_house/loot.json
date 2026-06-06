@@ -1,16 +1,192 @@
 {
   "criteria": {
-    "potato":{"trigger":"impossible"},
-    "snowball":{"trigger":"impossible"},
-    "beetroot_seeds":{"trigger":"impossible"},
-    "bread":{"trigger":"impossible"},
-    "coal":{"trigger":"impossible"},
-    "snow_block":{"trigger":"impossible"},
-    "bundle":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"},
-    "beetroot_soup":{"trigger":"impossible"},
-    "blue_ice":{"trigger":"impossible"},
-    "furnace":{"trigger":"impossible"}
+    "potato": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "snowball": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "snowball",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "beetroot_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "snow_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "snow_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bundle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bundle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beetroot_soup": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "beetroot_soup",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "blue_ice": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "blue_ice",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "furnace": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "furnace",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/snowy_house"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Village Snowy House Loot",

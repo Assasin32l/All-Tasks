@@ -1,27 +1,379 @@
 {
   "criteria": {
-    "suspicious_stew":{"trigger":"impossible"},
-    "paper":{"trigger":"impossible"},
-    "wheat":{"trigger":"impossible"},
-    "carrot":{"trigger":"impossible"},
-    "poisonous_potato":{"trigger":"impossible"},
-    "potato":{"trigger":"impossible"},
-    "moss_block":{"trigger":"impossible"},
-    "coal":{"trigger":"impossible"},
-    "rotten_flesh":{"trigger":"impossible"},
-    "gunpowder":{"trigger":"impossible"},
-    "leather_helmet":{"trigger":"impossible"},
-    "leather_chestplate":{"trigger":"impossible"},
-    "leather_leggings":{"trigger":"impossible"},
-    "leather_boots":{"trigger":"impossible"},
-    "coast_armor_trim_smithing_template":{"trigger":"impossible"},
-    "bamboo":{"trigger":"impossible"},
-    "pumpkin":{"trigger":"impossible"},
-    "copper_nautilus_armor":{"trigger":"impossible"},
-    "tnt":{"trigger":"impossible"},
-    "iron_nautilus_armor":{"trigger":"impossible"},
-    "golden_nautilus_armor":{"trigger":"impossible"},
-    "diamond_nautilus_armor":{"trigger":"impossible"}
+    "suspicious_stew": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "suspicious_stew",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "paper": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "paper",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "carrot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "carrot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "poisonous_potato": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "poisonous_potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "potato": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "moss_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "moss_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gunpowder": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gunpowder",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coast_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "coast_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bamboo": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bamboo",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pumpkin": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "pumpkin",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper_nautilus_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "copper_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tnt": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tnt",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_nautilus_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_nautilus_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_nautilus_armor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "shipwreck/supply"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Shipwreck Supply Loot",

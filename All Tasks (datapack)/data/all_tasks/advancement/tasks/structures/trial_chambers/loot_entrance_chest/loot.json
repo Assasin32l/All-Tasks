@@ -1,10 +1,90 @@
 {
   "criteria": {
-    "arrow":{"trigger":"impossible"},
-    "honeycomb":{"trigger":"impossible"},
-    "wooden_axe":{"trigger":"impossible"},
-    "stick":{"trigger":"impossible"},
-    "trial_key":{"trigger":"impossible"}
+    "arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/entrance_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "honeycomb": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "honeycomb",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/entrance_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wooden_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wooden_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/entrance_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stick": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/entrance_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "trial_key": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "trial_key",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/entrance_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Entrance Chest Loot",

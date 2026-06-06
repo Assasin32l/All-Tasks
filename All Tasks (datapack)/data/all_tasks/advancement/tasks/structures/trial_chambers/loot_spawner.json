@@ -1,11 +1,109 @@
 {
   "criteria": {
-    "trial_key":{"trigger":"impossible"},
-    "bread":{"trigger":"impossible"},
-    "cooked_chicken":{"trigger":"impossible"},
-    "baked_potato":{"trigger":"impossible"},
-    "potion_of_regeneration":{"trigger":"impossible"},
-    "potion_of_swiftness":{"trigger":"impossible"}
+    "trial_key": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "trial_key",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bread": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cooked_chicken",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "baked_potato": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "baked_potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "potion_of_regeneration": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "potion",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              },
+              "potion_contents": "regeneration"
+            }
+          }
+        ]
+      }
+    },
+    "potion_of_swiftness": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "potion",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              },
+              "potion_contents": "swiftness"
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Spawner Loot",

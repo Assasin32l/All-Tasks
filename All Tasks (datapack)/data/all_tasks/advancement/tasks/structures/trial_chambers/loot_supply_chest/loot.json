@@ -1,19 +1,247 @@
 {
   "criteria": {
-    "arrow":{"trigger":"impossible"},
-    "glow_berries":{"trigger":"impossible"},
-    "baked_potato":{"trigger":"impossible"},
-    "stone_pickaxe":{"trigger":"impossible"},
-    "tuff":{"trigger":"impossible"},
-    "arrow_of_poison":{"trigger":"impossible"},
-    "arrow_of_slowness":{"trigger":"impossible"},
-    "acacia_planks":{"trigger":"impossible"},
-    "torch":{"trigger":"impossible"},
-    "bone_meal":{"trigger":"impossible"},
-    "moss_block":{"trigger":"impossible"},
-    "potion_of_regeneration":{"trigger":"impossible"},
-    "potion_of_strength":{"trigger":"impossible"},
-    "milk_bucket":{"trigger":"impossible"}
+    "arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glow_berries": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "glow_berries",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "baked_potato": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "baked_potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stone_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tuff": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tuff",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "arrow_of_poison": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tipped_arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              },
+              "potion_contents": "poison"
+            }
+          }
+        ]
+      }
+    },
+    "arrow_of_slowness": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tipped_arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              },
+              "potion_contents": "slowness"
+            }
+          }
+        ]
+      }
+    },
+    "acacia_planks": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "acacia_planks",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "torch": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "torch",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bone_meal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bone_meal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "moss_block": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "moss_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "potion_of_regeneration": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "potion",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              },
+              "potion_contents": "regeneration"
+            }
+          }
+        ]
+      }
+    },
+    "potion_of_strength": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "potion",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              },
+              "potion_contents": "strength"
+            }
+          }
+        ]
+      }
+    },
+    "milk_bucket": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "milk_bucket",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Supply Chest Loot",

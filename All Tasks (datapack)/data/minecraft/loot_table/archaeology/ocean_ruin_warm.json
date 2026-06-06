@@ -1,67 +1,81 @@
 {
-  "type": "minecraft:archaeology",
+  "type": "archaeology",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:angler_pottery_sherd"
+          "type": "item",
+          "name": "angler_pottery_sherd"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:shelter_pottery_sherd"
+          "type": "item",
+          "name": "shelter_pottery_sherd"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snort_pottery_sherd"
+          "type": "item",
+          "name": "snort_pottery_sherd"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:sniffer_egg"
+          "type": "item",
+          "name": "sniffer_egg"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_axe"
+          "type": "item",
+          "name": "iron_axe"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "item",
+          "name": "emerald",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:wheat",
+          "type": "item",
+          "name": "wheat",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:wooden_hoe",
+          "type": "item",
+          "name": "wooden_hoe",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:coal",
+          "type": "item",
+          "name": "coal",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_nugget",
+          "type": "item",
+          "name": "gold_nugget",
           "weight": 2
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:archaeology/ocean_ruin_warm",
+  "random_sequence": "archaeology/ocean_ruin_warm",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "archaeology/underwater_ruin/warm"
+          "loot_table": "ocean_ruin/warm",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/underwater_ruin/loot_warm": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

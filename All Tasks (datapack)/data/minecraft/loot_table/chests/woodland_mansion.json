@@ -1,325 +1,322 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:lead",
+          "type": "item",
+          "name": "lead",
           "weight": 20
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
+          "type": "item",
+          "name": "golden_apple",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
+          "type": "item",
+          "name": "enchanted_golden_apple",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
+          "type": "item",
+          "name": "music_disc_13",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
+          "type": "item",
+          "name": "music_disc_cat",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:chainmail_chestplate",
+          "type": "item",
+          "name": "chainmail_chestplate",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_hoe",
+          "type": "item",
+          "name": "diamond_hoe",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
+          "type": "item",
+          "name": "diamond_chestplate",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "enchant_randomly",
+              "options": "#on_random_loot"
             }
           ],
-          "name": "minecraft:book",
+          "name": "book",
           "weight": 10
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
+        "type": "uniform",
+        "max": 3,
+        "min": 1
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "iron_ingot",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gold_ingot",
+          "name": "gold_ingot",
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bread",
+          "type": "item",
+          "name": "bread",
           "weight": 20
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:wheat",
+          "name": "wheat",
           "weight": 20
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket",
+          "type": "item",
+          "name": "bucket",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:redstone",
+          "name": "redstone",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:coal",
+          "name": "coal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 4,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:melon_seeds",
+          "name": "melon_seeds",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 4,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:pumpkin_seeds",
+          "name": "pumpkin_seeds",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 4,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:beetroot_seeds",
+          "name": "beetroot_seeds",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "type": "uniform",
+                "max": 4,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:resin_clump",
+          "name": "resin_clump",
           "weight": 50
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 1.0
+        "type": "uniform",
+        "max": 4,
+        "min": 1
       }
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 8,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bone",
+          "name": "bone",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 8,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:gunpowder",
+          "name": "gunpowder",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 8,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:rotten_flesh",
+          "name": "rotten_flesh",
           "weight": 10
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 8,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:string",
+          "name": "string",
           "weight": 10
         }
       ],
-      "rolls": 3.0
+      "rolls": 3
     },
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:empty"
+          "type": "empty"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:vex_armor_trim_smithing_template"
+          "type": "item",
+          "name": "vex_armor_trim_smithing_template"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/woodland_mansion",
+  "random_sequence": "chests/woodland_mansion",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "structure": "woodland_mansion",
-          "has_loot": true
+          "loot_table": "woodland_mansion",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/woodland_mansion/loot/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

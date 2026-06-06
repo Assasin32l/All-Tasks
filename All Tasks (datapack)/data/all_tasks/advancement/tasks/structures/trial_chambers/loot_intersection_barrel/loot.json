@@ -1,14 +1,158 @@
 {
   "criteria": {
-    "bamboo_planks":{"trigger":"impossible"},
-    "baked_potato":{"trigger":"impossible"},
-    "golden_axe":{"trigger":"impossible"},
-    "golden_pickaxe":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "bucket":{"trigger":"impossible"},
-    "compass":{"trigger":"impossible"},
-    "diamond_pickaxe":{"trigger":"impossible"},
-    "diamond_axe":{"trigger":"impossible"}
+    "bamboo_planks": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bamboo_planks",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "baked_potato": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "baked_potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bucket": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bucket",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "compass": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "compass",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_barrel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Intersection Barrel Loot",

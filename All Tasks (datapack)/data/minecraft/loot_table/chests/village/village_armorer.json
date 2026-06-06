@@ -1,68 +1,78 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "iron_ingot",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "functions": [
             {
-              "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "type": "uniform",
+                "max": 4,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "function": "set_count"
             }
           ],
-          "name": "minecraft:bread",
+          "name": "bread",
           "weight": 4
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_helmet"
+          "type": "item",
+          "name": "iron_helmet"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "type": "item",
+          "name": "emerald"
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
+        "type": "uniform",
+        "max": 5,
+        "min": 1
       }
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_armorer",
+  "random_sequence": "chests/village/village_armorer",
   "functions": [
     {
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "loot": "village/armorer",
-          "structure": "village",
-          "has_loot": true
+          "loot_table": "village/armorer",
+          "is_structure_loot": true
         }
-      }
+      },
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_armorer/loot": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

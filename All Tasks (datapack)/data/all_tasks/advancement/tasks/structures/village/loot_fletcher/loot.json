@@ -1,11 +1,107 @@
 {
   "criteria": {
-    "feather":{"trigger":"impossible"},
-    "flint":{"trigger":"impossible"},
-    "stick":{"trigger":"impossible"},
-    "arrow":{"trigger":"impossible"},
-    "egg":{"trigger":"impossible"},
-    "emerald":{"trigger":"impossible"}
+    "feather": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "feather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flint": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flint",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stick": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "stick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "egg": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "egg",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Village Fletcher Loot",

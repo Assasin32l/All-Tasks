@@ -1,11 +1,107 @@
 {
   "criteria": {
-    "eye_armor_trim_smithing_template":{"trigger":"impossible"},
-    "paper":{"trigger":"impossible"},
-    "book":{"trigger":"impossible"},
-    "enchanted_book":{"trigger":"impossible"},
-    "compass":{"trigger":"impossible"},
-    "map":{"trigger":"impossible"}
+    "eye_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "eye_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "paper": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "paper",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "compass": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "compass",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "map": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "map",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Stronghold Library Loot",

@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/ruined_portal"
+        "loot_table": "chests/ruined_portal",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/ruined_portal/loot/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/ruined_portal/main"
+    "function": "all_tasks:structure_loot/loot_tables/ruined_portal/trigger"
   }
 }

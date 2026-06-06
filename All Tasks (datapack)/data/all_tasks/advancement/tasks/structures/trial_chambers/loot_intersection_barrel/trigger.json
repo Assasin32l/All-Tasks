@@ -3,14 +3,19 @@
     "loot": {
       "trigger": "player_generates_container_loot",
       "conditions": {
-        "loot_table": "chests/trial_chambers/intersection_barrel"
+        "loot_table": "chests/trial_chambers/intersection_barrel",
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/loot": false
+            }
+          }
+        }
       }
-    },
-    "trigger": {
-      "trigger": "impossible"
     }
   },
   "rewards": {
-    "function": "all_tasks:tasks/structure_loot/trial_chambers/intersection_barrel/main"
+    "function": "all_tasks:structure_loot/loot_tables/trial_chambers/intersection_barrel/trigger"
   }
 }

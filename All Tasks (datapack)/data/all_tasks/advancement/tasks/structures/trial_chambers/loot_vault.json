@@ -1,27 +1,419 @@
 {
   "criteria": {
-    "emerald":{"trigger":"impossible"},
-    "arrow":{"trigger":"impossible"},
-    "tipped_arrow":{"trigger":"impossible"},
-    "iron_ingot":{"trigger":"impossible"},
-    "wind_charge":{"trigger":"impossible"},
-    "honey_bottle":{"trigger":"impossible"},
-    "ominous_bottle":{"trigger":"impossible"},
-    "shield":{"trigger":"impossible"},
-    "bow":{"trigger":"impossible"},
-    "diamond":{"trigger":"impossible"},
-    "golden_apple":{"trigger":"impossible"},
-    "golden_carrot":{"trigger":"impossible"},
-    "enchanted_book":{"trigger":"impossible"},
-    "crossbow":{"trigger":"impossible"},
-    "iron_axe":{"trigger":"impossible"},
-    "iron_chestplate":{"trigger":"impossible"},
-    "bolt_armor_trim_smithing_template":{"trigger":"impossible"},
-    "music_disc_precipice":{"trigger":"impossible"},
-    "guster_banner_pattern":{"trigger":"impossible"},
-    "diamond_axe":{"trigger":"impossible"},
-    "diamond_chestplate":{"trigger":"impossible"},
-    "trident":{"trigger":"impossible"}
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "arrow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "arrow_of_poison": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tipped_arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wind_charge": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wind_charge",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "honey_bottle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "honey_bottle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ominous_bottle": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ominous_bottle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shield": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "shield",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_carrot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_carrot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book_trident": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              },
+              "stored_enchantments": [
+                {
+                  "enchantments": [
+                    "mending",
+                    "riptide",
+                    "loyalty",
+                    "channeling",
+                    "impaling"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "enchanted_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              },
+              "stored_enchantments": [
+                {
+                  "enchantments": [
+                    "sharpness",
+                    "bane_of_arthropods",
+                    "efficiency",
+                    "fortune",
+                    "silk_touch",
+                    "feather_falling"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "crossbow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crossbow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bolt_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bolt_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_precipice": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_precipice",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "guster_banner_pattern": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "guster_banner_pattern",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_axe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "trident": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "trident",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/vault"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "title": "Trial Chambers Vault Loot",

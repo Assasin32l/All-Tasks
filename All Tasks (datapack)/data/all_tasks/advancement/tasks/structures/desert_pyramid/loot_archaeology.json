@@ -1,0 +1,149 @@
+{
+  "criteria": {
+    "archer_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "archer_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/archaeology"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/archaeology"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gunpowder": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "gunpowder",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/archaeology"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "miner_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "miner_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/archaeology"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "prize_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "prize_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/archaeology"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "skull_pottery_sherd": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "skull_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/archaeology"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tnt": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tnt",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/archaeology"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/archaeology"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": "Desert Pyramid Archaeology Loot",
+    "description": "Find all the loot from digging around in the sand",
+    "icon": {
+      "id": "sand"
+    },
+    "frame": "challenge"
+  },
+  "parent": "all_tasks:tasks/structures/desert_pyramid/root"
+}
