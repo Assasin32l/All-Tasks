@@ -138,10 +138,10 @@
     }
   },
   "display": {
-    "title": "Stronghold Storeroom Loot",
-    "description": "Find all the loot in a stronghold storeroom",
+    "title": "Stronghold Loot: Storeroom",
+    "description": "A small chest at a crossing, stocked for whoever made it this far.",
     "icon": {
-      "id": "stone_bricks"
+      "id": "minecraft:iron_pickaxe"
     },
     "frame": "challenge"
   },

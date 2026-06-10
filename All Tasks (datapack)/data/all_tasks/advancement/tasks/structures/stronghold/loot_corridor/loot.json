@@ -376,10 +376,10 @@
     }
   },
   "display": {
-    "title": "Stronghold Altar Loot",
-    "description": "Find all the loot in a stronghold altar",
+    "title": "Stronghold Loot: Altar",
+    "description": "Chests lining the corridors, between the spawners and the stone.",
     "icon": {
-      "id": "stone_bricks"
+      "id": "minecraft:ender_pearl"
     },
     "frame": "challenge"
   },

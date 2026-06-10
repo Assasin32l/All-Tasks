@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_sunflower_plains": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "sunflower_plains"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Sunflower Plains",
-    "description": "Find a sunflower plains",
+    "description": "A golden sea turning endlessly toward the light.",
     "icon": {
       "id": "sunflower"
-    }
+    },
+    "title": "Sunflower Plains"
   },
   "parent": "all_tasks:tasks/biomes/overworld/flatland/plains"
 }

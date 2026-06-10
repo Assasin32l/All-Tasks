@@ -223,10 +223,10 @@
     }
   },
   "display": {
-    "title": "Shipwreck Treasure Loot",
-    "description": "Find all the loot in a shipwreck treasure chest",
+    "title": "Shipwreck Loot: Treasure",
+    "description": "The treasure chest, buried in a hull the sea has been reclaiming.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:emerald"
     },
     "frame": "challenge"
   },

@@ -47,13 +47,13 @@
   },
   "display": {
     "title": "Structures",
-    "description": "More exploring?",
+    "description": "Ancient ruins, forgotten vaults. Their secrets await the bold.",
     "icon": {
-      "id": "stone_bricks"
+      "id": "spyglass"
     },
     "announce_to_chat": false,
     "show_toast": false,
     "frame": "challenge",
-    "background": "block/stone_bricks"
+    "background": "block/lodestone_top"
   }
 }

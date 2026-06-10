@@ -428,9 +428,9 @@
   },
   "display": {
     "title": "Woodland Mansion Loot",
-    "description": "Find all the loot in a woodland mansion",
+    "description": "Hidden in the rooms of a manor where nothing is what it seems.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:vex_armor_trim_smithing_template"
     },
     "frame": "challenge"
   },

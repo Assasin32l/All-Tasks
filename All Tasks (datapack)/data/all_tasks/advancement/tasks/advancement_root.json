@@ -94,13 +94,13 @@
     }
   },
   "display": {
-    "description": "Have you ever completed them all?",
+    "description": "Not all who wander are lost. Some are just overachieving.",
     "icon": {
-      "id": "book"
+      "id": "nether_star"
     },
     "title": "Advancements",
     "announce_to_chat": false,
-    "background": "block/oak_planks",
+    "background": "block/chiseled_sandstone",
     "frame": "challenge",
     "show_toast": false
   }

@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_end_highlands": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "end_highlands"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "End Highlands",
-    "description": "Remember, Obi Wan has the Highground",
+    "description": "Terrain rising above the outer islands, end cities clinging to the clifftops.",
     "icon": {
-      "id": "end_stone"
-    }
+      "id": "chorus_flower"
+    },
+    "title": "End Highlands"
   },
   "parent": "all_tasks:tasks/biomes/the_end/the_end"
 }

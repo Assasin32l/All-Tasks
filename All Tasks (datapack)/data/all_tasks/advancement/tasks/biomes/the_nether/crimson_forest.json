@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_crimson_forest": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "crimson_forest"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Crimson Forest",
-    "description": "Find a crimson forest",
+    "description": "Everything grows red. The hoglins make your welcome very clear.",
     "icon": {
-      "id": "crimson_nylium"
-    }
+      "id": "crimson_stem"
+    },
+    "title": "Crimson Forest"
   },
   "parent": "all_tasks:tasks/biomes/the_nether/nether_wastes"
 }

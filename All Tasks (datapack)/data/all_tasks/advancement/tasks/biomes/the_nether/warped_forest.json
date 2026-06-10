@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_warped_forest": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "warped_forest"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Warped Forest",
-    "description": "Find a warped forest",
+    "description": "Alien and quiet \u2014 the Nether's only real offer of peace.",
     "icon": {
-      "id": "warped_nylium"
-    }
+      "id": "warped_stem"
+    },
+    "title": "Warped Forest"
   },
   "parent": "all_tasks:tasks/biomes/the_nether/nether_wastes"
 }

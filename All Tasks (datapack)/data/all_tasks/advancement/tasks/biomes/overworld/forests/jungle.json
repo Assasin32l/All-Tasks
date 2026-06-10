@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_jungle": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "jungle"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Jungle",
-    "description": "Find a jungle",
+    "description": "Thick enough to swallow both sound and direction.",
     "icon": {
       "id": "jungle_log"
-    }
+    },
+    "title": "Jungle"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
 }

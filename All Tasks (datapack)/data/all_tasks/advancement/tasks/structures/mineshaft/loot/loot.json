@@ -360,9 +360,9 @@
   },
   "display": {
     "title": "Mineshaft Loot",
-    "description": "Find all the loot in a mineshaft",
+    "description": "Hanging in the dark on a rotting chain, untouched for years.",
     "icon": {
-      "id": "chest_minecart"
+      "id": "minecraft:name_tag"
     },
     "frame": "challenge"
   },

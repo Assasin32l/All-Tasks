@@ -393,10 +393,10 @@
     }
   },
   "display": {
-    "title": "Bastion Remnant Hoglin Stable Loot",
-    "description": "Find all the loot in a bastion remnant hoglin stable",
+    "title": "Bastion Remnant Loot: Hoglin Stable",
+    "description": "Among the pens where hoglins are kept, somewhere past the smell.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:saddle"
     },
     "frame": "challenge"
   },

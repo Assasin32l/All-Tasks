@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_swamp": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "swamp"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Swamp",
-    "description": "Find a swamp",
+    "description": "Dark water, twisted oaks, and ground that lies about being solid.",
     "icon": {
       "id": "lily_pad"
-    }
+    },
+    "title": "Swamp"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"
 }

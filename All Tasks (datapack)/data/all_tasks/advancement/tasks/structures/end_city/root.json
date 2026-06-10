@@ -13,9 +13,9 @@
   },
   "display": {
     "title": "End City",
-    "description": "Find a end city",
+    "description": "Pale towers rising from the outer islands, guarded by their keepers.",
     "icon": {
-      "id": "purpur_block"
+      "id": "minecraft:purpur_block"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

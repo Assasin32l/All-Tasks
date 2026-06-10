@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_snowy_plains": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "snowy_plains"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Snowy Plains",
-    "description": "Find a snowy plains",
+    "description": "Snow erases every landmark. The cold is the only constant.",
     "icon": {
       "id": "snow_block"
-    }
+    },
+    "title": "Snowy Plains"
   },
   "parent": "all_tasks:tasks/biomes/overworld/flatland/plains"
 }

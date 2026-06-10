@@ -138,10 +138,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Decorated Pot Loot",
-    "description": "Find all the loot from a trial chambers decorated pot",
+    "title": "Trial Chambers Loot: Decorated Pot",
+    "description": "A decorated pot in the corridor, holding something meant to be kept.",
     "icon": {
-      "id": "decorated_pot"
+      "id": "minecraft:music_disc_creator_music_box"
     },
     "frame": "challenge"
   },

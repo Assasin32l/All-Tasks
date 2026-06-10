@@ -155,10 +155,10 @@
     }
   },
   "display": {
-    "title": "Village Desert House Loot",
-    "description": "Find all the loot in a desert house",
+    "title": "Village Loot: Desert House",
+    "description": "A desert home, sparse and sun-baked, with just enough to get by.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:cactus"
     },
     "frame": "challenge"
   },

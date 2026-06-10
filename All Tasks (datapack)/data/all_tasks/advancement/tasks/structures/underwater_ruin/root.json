@@ -23,9 +23,9 @@
   },
   "display": {
     "title": "Ocean Ruins",
-    "description": "Find both ocean ruin variants",
+    "description": "Ancient columns half-buried in sand, still and salt-eaten beneath the waves.",
     "icon": {
-      "id": "sea_lantern"
+      "id": "minecraft:mossy_stone_bricks"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

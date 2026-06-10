@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_mangrove_swamp": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "mangrove_swamp"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Mangrove Swamp",
-    "description": "Find a mangrove swamp",
+    "description": "Tangled roots rising from the flood as if the land itself is climbing out.",
     "icon": {
       "id": "mangrove_log"
-    }
+    },
+    "title": "Mangrove Swamp"
   },
   "parent": "all_tasks:tasks/biomes/overworld/wetland/swamp"
 }

@@ -172,10 +172,10 @@
     }
   },
   "display": {
-    "title": "Warm Ocean Ruin Loot",
-    "description": "Find all the loot in a warm ocean ruin",
+    "title": "Ocean Ruins Loot: Warm",
+    "description": "Brush the warm ruin's floor \u2014 something rare and ancient might surface.",
     "icon": {
-      "id": "suspicious_sand"
+      "id": "minecraft:sniffer_egg"
     },
     "frame": "challenge"
   },

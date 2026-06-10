@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_windswept_gravelly_hills": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "windswept_gravelly_hills"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Windswept Gravelly Hills",
-    "description": "Find a windswept gravelly hill",
+    "description": "Loose ground underfoot, the wind rearranging everything above it.",
     "icon": {
       "id": "gravel"
-    }
+    },
+    "title": "Windswept Gravelly Hills"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"
 }

@@ -155,10 +155,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Intersection Barrel Loot",
-    "description": "Find all the loot in a trial chambers intersection barrel",
+    "title": "Trial Chambers Loot: Intersection Barrel",
+    "description": "A barrel at the crossroads, stocked well beyond what any entrance deserves.",
     "icon": {
-      "id": "barrel"
+      "id": "minecraft:diamond_axe"
     },
     "frame": "challenge"
   },

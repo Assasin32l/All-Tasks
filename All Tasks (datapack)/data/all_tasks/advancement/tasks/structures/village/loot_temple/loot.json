@@ -104,10 +104,10 @@
     }
   },
   "display": {
-    "title": "Village Temple Loot",
-    "description": "Find all the loot in a temple",
+    "title": "Village Loot: Temple",
+    "description": "Offerings left in the village temple, for the faithful and the curious.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:lapis_lazuli"
     },
     "frame": "challenge"
   },

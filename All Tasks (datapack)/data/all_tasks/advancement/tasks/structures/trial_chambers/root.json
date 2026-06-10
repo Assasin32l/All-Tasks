@@ -13,9 +13,9 @@
   },
   "display": {
     "title": "Trial Chambers",
-    "description": "Find a trial chamber",
+    "description": "Stone halls built for testing \u2014 what waits inside shows no mercy.",
     "icon": {
-      "id": "tuff_bricks"
+      "id": "minecraft:tuff_bricks"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

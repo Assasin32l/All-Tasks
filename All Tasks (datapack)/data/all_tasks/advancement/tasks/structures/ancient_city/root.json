@@ -13,9 +13,9 @@
   },
   "display": {
     "title": "Ancient City",
-    "description": "Find a ancient city",
+    "description": "Sculk and silence, deep below where no one was meant to go.",
     "icon": {
-      "id": "reinforced_deepslate"
+      "id": "minecraft:reinforced_deepslate"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

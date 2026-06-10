@@ -13,9 +13,9 @@
   },
   "display": {
     "title": "Woodland Mansion",
-    "description": "Find a woodland mansion",
+    "description": "A manor deep in dark oak, full of evokers and ill will.",
     "icon": {
-      "id": "dark_oak_planks"
+      "id": "minecraft:dark_oak_log"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

@@ -224,9 +224,9 @@
   },
   "display": {
     "title": "Pillager Outpost Loot",
-    "description": "Find all the loot in a pillager outpost",
+    "description": "Raided from beneath the watchtower of those who would raid you first.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:goat_horn"
     },
     "frame": "challenge"
   },

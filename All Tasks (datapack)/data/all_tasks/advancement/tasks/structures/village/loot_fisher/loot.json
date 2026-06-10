@@ -121,10 +121,10 @@
     }
   },
   "display": {
-    "title": "Village Fisher Loot",
-    "description": "Find all the loot in a fisher cottage",
+    "title": "Village Loot: Fisher",
+    "description": "The fisher's cottage, stocked with fresh catches and tackle near the water.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:cod"
     },
     "frame": "challenge"
   },

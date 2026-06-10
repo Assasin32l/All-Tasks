@@ -189,10 +189,10 @@
     }
   },
   "display": {
-    "title": "Village Snowy House Loot",
-    "description": "Find all the loot in a snowy house",
+    "title": "Village Loot: Snowy House",
+    "description": "A snowy home where the cold finds its way into everything.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:blue_ice"
     },
     "frame": "challenge"
   },

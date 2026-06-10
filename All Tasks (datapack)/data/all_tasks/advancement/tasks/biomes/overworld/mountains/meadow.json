@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_meadow": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "meadow"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Meadow",
-    "description": "Find a meadow",
+    "description": "A highland clearing, wildflowers nodding, far from any trouble.",
     "icon": {
-      "id": "grass_block"
-    }
+      "id": "oxeye_daisy"
+    },
+    "title": "Meadow"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"
 }

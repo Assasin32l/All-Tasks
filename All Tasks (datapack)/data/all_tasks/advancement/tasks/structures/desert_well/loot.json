@@ -105,9 +105,9 @@
   },
   "display": {
     "title": "Desert Well Loot",
-    "description": "Find all the loot from digging down a well",
+    "description": "Buried at the bottom of a well, somewhere in the sand.",
     "icon": {
-      "id": "sand"
+      "id": "minecraft:suspicious_stew"
     },
     "frame": "challenge"
   },

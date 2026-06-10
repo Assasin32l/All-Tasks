@@ -104,10 +104,10 @@
     }
   },
   "display": {
-    "title": "Village Fletcher Loot",
-    "description": "Find all the loot in a fletcher house",
+    "title": "Village Loot: Fletcher",
+    "description": "Quivers and shafts in the fletcher's house, stocked for the road ahead.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:arrow"
     },
     "frame": "challenge"
   },

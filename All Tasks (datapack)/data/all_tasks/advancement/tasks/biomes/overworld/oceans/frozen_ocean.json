@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_frozen_ocean": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "frozen_ocean"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Frozen Ocean",
-    "description": "Find a frozen ocean",
+    "description": "Ice floes drifting slowly above water too dark to read.",
     "icon": {
       "id": "packed_ice"
-    }
+    },
+    "title": "Frozen Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/cold_ocean"
 }

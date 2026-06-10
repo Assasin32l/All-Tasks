@@ -325,10 +325,10 @@
     }
   },
   "display": {
-    "title": "Desert Pyramid Chest Loot",
-    "description": "Find all the loot in a desert pyramid chest",
+    "title": "Desert Pyramid Loot: Chest",
+    "description": "Four chests around a pressure plate \u2014 approach the center carefully.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:diamond_horse_armor"
     },
     "frame": "challenge"
   },

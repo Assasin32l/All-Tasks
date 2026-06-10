@@ -53,9 +53,9 @@
   },
   "display": {
     "title": "Village",
-    "description": "Find all villages",
+    "description": "Smoke from chimneys, bells at noon \u2014 someone still lives here.",
     "icon": {
-      "id": "oak_planks"
+      "id": "minecraft:bell"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

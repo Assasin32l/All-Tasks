@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_bamboo_jungle": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "bamboo_jungle"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Bamboo Jungle",
-    "description": "Find a bamboo jungle",
+    "description": "The horizon disappears behind a curtain of green.",
     "icon": {
-      "id": "bamboo_block"
-    }
+      "id": "bamboo"
+    },
+    "title": "Bamboo Jungle"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/jungle"
 }

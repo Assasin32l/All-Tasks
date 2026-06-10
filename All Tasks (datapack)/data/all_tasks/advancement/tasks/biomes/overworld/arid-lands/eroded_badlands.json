@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_eroded_badlands": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "eroded_badlands"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Eroded Badlands",
-    "description": "Find a eroded badlands",
+    "description": "Wind and time have carved the rock into something stranger than stone.",
     "icon": {
       "id": "terracotta"
-    }
+    },
+    "title": "Eroded Badlands"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/badlands"
 }

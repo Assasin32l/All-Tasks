@@ -206,10 +206,10 @@
     }
   },
   "display": {
-    "title": "Trail Ruins Rare Loot",
-    "description": "Find all the rare loot in a trail ruin",
+    "title": "Trail Ruins Loot: Rare",
+    "description": "Rare relics buried deep in the ruins, waiting for a patient hand.",
     "icon": {
-      "id": "mud_bricks"
+      "id": "minecraft:music_disc_relic"
     },
     "frame": "challenge"
   },

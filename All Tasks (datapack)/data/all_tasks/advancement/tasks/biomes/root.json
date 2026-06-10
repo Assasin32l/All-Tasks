@@ -6,13 +6,13 @@
   },
   "display": {
     "title": "Biomes",
-    "description": "Lets go exploring",
+    "description": "The world is vast. Have you truly seen it all?",
     "icon": {
-      "id": "dirt"
+      "id": "filled_map"
     },
     "announce_to_chat": false,
     "show_toast": false,
     "frame": "challenge",
-    "background": "block/dirt"
+    "background": "block/moss_block"
   }
 }

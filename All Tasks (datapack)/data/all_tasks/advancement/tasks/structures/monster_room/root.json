@@ -9,9 +9,9 @@
   },
   "display": {
     "title": "Monster Spawner",
-    "description": "Find a monster spawner",
+    "description": "A cage of iron spinning endlessly in cobwebbed stone.",
     "icon": {
-      "id": "cobblestone"
+      "id": "minecraft:cobweb"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

@@ -155,10 +155,10 @@
     }
   },
   "display": {
-    "title": "Village Tannery Loot",
-    "description": "Find all the loot in a tannery",
+    "title": "Village Loot: Tannery",
+    "description": "The tannery's chest, smelling of leather and the long work that made it.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:leather_chestplate"
     },
     "frame": "challenge"
   },

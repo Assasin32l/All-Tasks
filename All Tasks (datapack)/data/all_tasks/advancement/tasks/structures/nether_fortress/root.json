@@ -13,9 +13,9 @@
   },
   "display": {
     "title": "Nether Fortress",
-    "description": "Find a nether fortress",
+    "description": "Crumbling corridors of dark brick suspended over the lava sea.",
     "icon": {
-      "id": "nether_bricks"
+      "id": "minecraft:nether_bricks"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

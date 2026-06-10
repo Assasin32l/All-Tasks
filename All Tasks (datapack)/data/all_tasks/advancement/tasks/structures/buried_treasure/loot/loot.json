@@ -292,9 +292,9 @@
   },
   "display": {
     "title": "Buried Treasure Loot",
-    "description": "Steal all the treasures of the pirates",
+    "description": "Sealed in a chest below the sand, marked only by a map.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:heart_of_the_sea"
     },
     "frame": "challenge"
   },

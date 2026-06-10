@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_stony_peaks": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "stony_peaks"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Stony Peaks",
-    "description": "Find a stony peak",
+    "description": "Calcite and stone trading off the task of holding up the sky.",
     "icon": {
-      "id": "stone"
-    }
+      "id": "calcite"
+    },
+    "title": "Stony Peaks"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/meadow"
 }

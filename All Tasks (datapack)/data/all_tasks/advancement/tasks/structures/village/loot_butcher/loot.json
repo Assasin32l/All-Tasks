@@ -104,10 +104,10 @@
     }
   },
   "display": {
-    "title": "Village Butcher Loot",
-    "description": "Find all the loot in a butcher shop",
+    "title": "Village Loot: Butcher",
+    "description": "Cuts and coal in the butcher's back room, behind the chopping block.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:porkchop"
     },
     "frame": "challenge"
   },

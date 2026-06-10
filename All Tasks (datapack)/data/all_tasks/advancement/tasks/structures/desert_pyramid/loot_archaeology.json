@@ -138,10 +138,10 @@
     }
   },
   "display": {
-    "title": "Desert Pyramid Archaeology Loot",
-    "description": "Find all the loot from digging around in the sand",
+    "title": "Desert Pyramid Loot: Archaeology",
+    "description": "Brush the sand beneath the pyramid floor, recovering what was buried with it.",
     "icon": {
-      "id": "sand"
+      "id": "minecraft:prize_pottery_sherd"
     },
     "frame": "challenge"
   },

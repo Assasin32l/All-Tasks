@@ -13,9 +13,9 @@
   },
   "display": {
     "title": "Igloo",
-    "description": "Find a igloo",
+    "description": "A fragile dome of ice keeping something darker underneath.",
     "icon": {
-      "id": "snow_block"
+      "id": "minecraft:packed_ice"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

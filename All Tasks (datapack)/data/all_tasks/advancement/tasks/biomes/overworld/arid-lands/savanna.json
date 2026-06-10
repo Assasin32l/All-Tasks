@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_savanna": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "savanna"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Savanna",
-    "description": "Find a savanna",
+    "description": "Acacia trees dot a wide, dry expanse under an open sky.",
     "icon": {
       "id": "acacia_log"
-    }
+    },
+    "title": "Savanna"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/desert"
 }

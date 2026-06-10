@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_savanna_plateau": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "savanna_plateau"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Savanna Plateau",
-    "description": "Find a savanna plateau",
+    "description": "The land rises above the plains, acacia canopy crowning the clifftop.",
     "icon": {
       "id": "acacia_log"
-    }
+    },
+    "title": "Savanna Plateau"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/savanna"
 }

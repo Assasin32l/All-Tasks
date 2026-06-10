@@ -359,10 +359,10 @@
     }
   },
   "display": {
-    "title": "Village Weaponsmith Loot",
-    "description": "Find all the loot in a weaponsmith",
+    "title": "Village Loot: Weaponsmith",
+    "description": "Blades and armor forged and ready in the weaponsmith's chest.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:iron_sword"
     },
     "frame": "challenge"
   },

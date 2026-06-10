@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_jagged_peaks": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "jagged_peaks"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Jagged Peaks",
-    "description": "Find a jagged peak",
+    "description": "Stone cutting the sky, the air too thin for anything but the view.",
     "icon": {
       "id": "stone"
-    }
+    },
+    "title": "Jagged Peaks"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/stony_peaks"
 }

@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_sparse_jungle": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "sparse_jungle"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Sparse Jungle",
-    "description": "Find a sparse jungle",
+    "description": "The trees thin out, but the green never fully releases its grip.",
     "icon": {
       "id": "jungle_log"
-    }
+    },
+    "title": "Sparse Jungle"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/jungle"
 }

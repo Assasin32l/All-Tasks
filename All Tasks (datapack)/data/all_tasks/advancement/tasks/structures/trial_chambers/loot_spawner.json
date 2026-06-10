@@ -106,10 +106,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Spawner Loot",
-    "description": "Find all the loot from a trial chambers spawner",
+    "title": "Trial Chambers Loot: Spawner",
+    "description": "Drops dispensed by the spawner to those who survive each wave.",
     "icon": {
-      "id": "trial_spawner"
+      "id": "minecraft:potion"
     },
     "frame": "challenge"
   },

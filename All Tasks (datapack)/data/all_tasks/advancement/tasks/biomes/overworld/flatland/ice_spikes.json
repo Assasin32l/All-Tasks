@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_ice_spikes": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "ice_spikes"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Ice Spikes",
-    "description": "Find a ice spikes",
+    "description": "Enormous packed ice columns erupting from the frozen plain without explanation.",
     "icon": {
       "id": "packed_ice"
-    }
+    },
+    "title": "Ice Spikes"
   },
   "parent": "all_tasks:tasks/biomes/overworld/flatland/snowy_plains"
 }

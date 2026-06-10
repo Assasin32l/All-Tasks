@@ -445,9 +445,9 @@
   },
   "display": {
     "title": "Ruined Portal Loot",
-    "description": "Find all the loot in a ruined portal",
+    "description": "Left beside the broken stones of a portal that almost made it.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:flint_and_steel"
     },
     "frame": "challenge"
   },

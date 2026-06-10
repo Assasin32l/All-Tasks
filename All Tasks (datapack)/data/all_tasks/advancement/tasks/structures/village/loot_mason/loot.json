@@ -138,10 +138,10 @@
     }
   },
   "display": {
-    "title": "Village Mason Loot",
-    "description": "Find all the loot in a mason house",
+    "title": "Village Loot: Mason",
+    "description": "Stone and clay in the mason's chest, work never truly finished.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:clay_ball"
     },
     "frame": "challenge"
   },

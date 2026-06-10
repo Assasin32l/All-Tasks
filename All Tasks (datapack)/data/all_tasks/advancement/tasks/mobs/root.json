@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock_right_away": {
+      "trigger": "tick"
+    }
+  },
+  "display": {
+    "title": "Mobs",
+    "description": "They roam, they hunt, they haunt. Do you know them all?",
+    "icon": {
+      "id": "bone"
+    },
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame": "challenge",
+    "background": "block/bone_block_top"
+  }
+}

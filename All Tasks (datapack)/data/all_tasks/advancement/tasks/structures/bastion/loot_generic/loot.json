@@ -645,10 +645,10 @@
     }
   },
   "display": {
-    "title": "Bastion Remnant Generic Loot",
-    "description": "Find all the loot in a bastion remnant generic chest",
+    "title": "Bastion Remnant Loot: Generic",
+    "description": "Tucked into the ramparts, guarded by gold-clad sentinels with crossbows.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:music_disc_pigstep"
     },
     "frame": "challenge"
   },

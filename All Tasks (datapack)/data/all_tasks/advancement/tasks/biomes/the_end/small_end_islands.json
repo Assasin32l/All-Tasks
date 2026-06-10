@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_small_end_islands": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "small_end_islands"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Small End Islands",
-    "description": "Find the small islands",
+    "description": "Scattered platforms of end stone drifting silently in the void.",
     "icon": {
       "id": "end_stone"
-    }
+    },
+    "title": "Small End Islands"
   },
   "parent": "all_tasks:tasks/biomes/the_end/the_end"
 }

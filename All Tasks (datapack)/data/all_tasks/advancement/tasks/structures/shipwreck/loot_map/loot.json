@@ -206,10 +206,10 @@
     }
   },
   "display": {
-    "title": "Shipwreck Map Loot",
-    "description": "Find all the loot in a shipwreck map chest",
+    "title": "Shipwreck Loot: Map",
+    "description": "In the captain's quarters, a map pointing toward something more valuable.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:compass"
     },
     "frame": "challenge"
   },

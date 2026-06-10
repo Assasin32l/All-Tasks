@@ -189,10 +189,10 @@
     }
   },
   "display": {
-    "title": "Village Savanna House Loot",
-    "description": "Find all the loot in a savanna house",
+    "title": "Village Loot: Savanna House",
+    "description": "A savanna home where acacia light falls through the window at dusk.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:saddle"
     },
     "frame": "challenge"
   },

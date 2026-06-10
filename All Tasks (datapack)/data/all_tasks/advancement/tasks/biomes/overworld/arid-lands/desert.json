@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_desert": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "desert"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Desert",
-    "description": "Find a desert",
+    "description": "Sand in every direction, silence the only companion.",
     "icon": {
       "id": "sand"
-    }
+    },
+    "title": "Desert"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"
 }

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock_right_away": {
+      "trigger": "tick"
+    }
+  },
+  "display": {
+    "title": "Trading",
+    "description": "Every villager has a price. Every deal, a story.",
+    "icon": {
+      "id": "emerald"
+    },
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame": "challenge",
+    "background": "block/emerald_block"
+  }
+}

@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_beach": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "beach"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Beach",
-    "description": "Find a beach",
+    "description": "The ground softens to sand and the waves claim a little more each day.",
     "icon": {
       "id": "sand"
-    }
+    },
+    "title": "Beach"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"
 }

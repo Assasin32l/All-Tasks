@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_ocean": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "ocean"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Ocean",
-    "description": "Find a ocean",
+    "description": "Endless surface, secretive floor \u2014 the world laid bare underwater.",
     "icon": {
       "id": "gravel"
-    }
+    },
+    "title": "Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"
 }

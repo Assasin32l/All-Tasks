@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_deep_cold_ocean": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "deep_cold_ocean"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Deep Cold Ocean",
-    "description": "Find a deep cold ocean",
+    "description": "Each block of descent colder than the last.",
     "icon": {
-      "id": "gravel"
-    }
+      "id": "cod"
+    },
+    "title": "Deep Cold Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/cold_ocean"
 }

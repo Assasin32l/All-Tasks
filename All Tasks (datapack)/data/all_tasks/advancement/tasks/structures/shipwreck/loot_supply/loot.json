@@ -376,10 +376,10 @@
     }
   },
   "display": {
-    "title": "Shipwreck Supply Loot",
-    "description": "Find all the loot in a shipwreck supply chest",
+    "title": "Shipwreck Loot: Supply",
+    "description": "The supply hold, overgrown and waterlogged, still holding what the crew left.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:moss_block"
     },
     "frame": "challenge"
   },

@@ -138,10 +138,10 @@
     }
   },
   "display": {
-    "title": "Village Toolsmith Loot",
-    "description": "Find all the loot in a toolsmith",
+    "title": "Village Loot: Toolsmith",
+    "description": "Iron tools and raw materials in the workshop of someone always busy.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:iron_pickaxe"
     },
     "frame": "challenge"
   },

@@ -16,9 +16,9 @@
   },
   "display": {
     "title": "Shipwreck",
-    "description": "Find a shipwreck",
+    "description": "A broken hull resting where the current finally let it go.",
     "icon": {
-      "id": "oak_planks"
+      "id": "minecraft:oak_planks"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

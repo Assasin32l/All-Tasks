@@ -244,10 +244,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Supply Chest Loot",
-    "description": "Find all the loot in a trial chambers supply chest",
+    "title": "Trial Chambers Loot: Supply Chest",
+    "description": "Supplies stocked just off the main path, for those who think ahead.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:baked_potato"
     },
     "frame": "challenge"
   },

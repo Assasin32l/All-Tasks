@@ -416,10 +416,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Vault Loot",
-    "description": "Find all the loot from a trial chambers vault",
+    "title": "Trial Chambers Loot: Vault",
+    "description": "The vault opens for those who carry a key earned in the trials.",
     "icon": {
-      "id": "vault"
+      "id": "minecraft:trident"
     },
     "frame": "challenge"
   },

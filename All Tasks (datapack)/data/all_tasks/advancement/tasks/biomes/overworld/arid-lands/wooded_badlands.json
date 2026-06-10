@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_wooded_badlands": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "wooded_badlands"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Wodded Badlands",
-    "description": "Find a wooded badlands",
+    "description": "Coarse soil somehow sustaining trees with no business growing here.",
     "icon": {
-      "id": "oak_log"
-    }
+      "id": "coarse_dirt"
+    },
+    "title": "Wooded Badlands"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/eroded_badlands"
 }

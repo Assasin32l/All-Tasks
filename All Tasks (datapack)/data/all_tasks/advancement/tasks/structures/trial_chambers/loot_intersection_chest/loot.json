@@ -138,10 +138,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Intersection Chest Loot",
-    "description": "Find all the loot in a trial chambers intersection chest",
+    "title": "Trial Chambers Loot: Intersection Chest",
+    "description": "A chest at the intersection, holding the most valuable find in the chambers.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:diamond_block"
     },
     "frame": "challenge"
   },

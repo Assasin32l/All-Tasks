@@ -526,10 +526,10 @@
     }
   },
   "display": {
-    "title": "Bastion Remnant Treasure Loot",
-    "description": "Find all the loot in a bastion remnant treasure",
+    "title": "Bastion Remnant Loot: Treasure",
+    "description": "The most guarded room in the remnant, deep below the piglin court.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:netherite_ingot"
     },
     "frame": "challenge"
   },

@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_windswept_forest": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "windswept_forest"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Windswept Forest",
-    "description": "Find a windswept forest",
+    "description": "Spruce trees spending their whole lives bending to the mountain wind.",
     "icon": {
       "id": "spruce_log"
-    }
+    },
+    "title": "Windswept Forest"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"
 }

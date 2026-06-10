@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_deep_lukewarm_ocean": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "deep_lukewarm_ocean"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Deep Lukewarm Ocean",
-    "description": "Find a deep lukewarm ocean",
+    "description": "Past the coral and into the open, sunlit deep below.",
     "icon": {
-      "id": "sand"
-    }
+      "id": "nautilus_shell"
+    },
+    "title": "Deep Lukewarm Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/lukewarm_ocean"
 }

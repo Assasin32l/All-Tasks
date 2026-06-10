@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_frozen_river": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "frozen_river"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Frozen River",
-    "description": "Find a frozen river",
+    "description": "The water gave up moving entirely.",
     "icon": {
       "id": "ice"
-    }
+    },
+    "title": "Frozen River"
   },
   "parent": "all_tasks:tasks/biomes/overworld/wetland/river"
 }

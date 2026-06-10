@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_badlands": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "badlands"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Badlands",
-    "description": "Find a badlands",
+    "description": "Red sand and dried earth baking under a merciless sun.",
     "icon": {
       "id": "red_sand"
-    }
+    },
+    "title": "Badlands"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/desert"
 }

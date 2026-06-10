@@ -189,10 +189,10 @@
     }
   },
   "display": {
-    "title": "Village Plains House Loot",
-    "description": "Find all the loot in a plains house",
+    "title": "Village Loot: Plains House",
+    "description": "A simple home on the plains, its chest full of honest things.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:apple"
     },
     "frame": "challenge"
   },

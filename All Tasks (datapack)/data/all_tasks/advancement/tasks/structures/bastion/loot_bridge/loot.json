@@ -359,10 +359,10 @@
     }
   },
   "display": {
-    "title": "Bastion Remnant Bridge Loot",
-    "description": "Find all the loot in a bastion remnant bridge",
+    "title": "Bastion Remnant Loot: Bridge",
+    "description": "Stashed on the bridge above the fire, where piglins cross between towers.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:lodestone"
     },
     "frame": "challenge"
   },

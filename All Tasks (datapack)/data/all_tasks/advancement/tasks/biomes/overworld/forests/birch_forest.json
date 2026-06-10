@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_birch_forest": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "birch_forest"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Birch Forest",
-    "description": "Find a birch forest",
+    "description": "White trunks as far as the eye follows \u2014 pale and endless.",
     "icon": {
       "id": "birch_log"
-    }
+    },
+    "title": "Birch Forest"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/forest"
 }

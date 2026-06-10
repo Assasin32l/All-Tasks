@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_mushroom_fields": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "mushroom_fields"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Mushroom Fields",
-    "description": "Find a mushroom field",
+    "description": "Giant fungi, peaceful cows, and not a single monster in sight.",
     "icon": {
       "id": "mycelium"
-    }
+    },
+    "title": "Mushroom Fields"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"
 }

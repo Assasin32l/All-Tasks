@@ -172,10 +172,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Corridor Barrel Loot",
-    "description": "Find all the loot in a trial chambers corridor barrel",
+    "title": "Trial Chambers Loot: Corridor Barrel",
+    "description": "A barrel tucked into the corridor, stocked for those who came prepared.",
     "icon": {
-      "id": "barrel"
+      "id": "minecraft:scaffolding"
     },
     "frame": "challenge"
   },

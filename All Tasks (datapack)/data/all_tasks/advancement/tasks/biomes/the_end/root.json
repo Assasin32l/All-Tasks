@@ -1,26 +1,26 @@
 {
   "criteria": {
     "in_the_end": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "dimension": "the_end"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "The End",
+    "announce_to_chat": false,
     "description": "",
+    "frame": "goal",
+    "hidden": true,
     "icon": {
       "id": "end_stone"
     },
-    "announce_to_chat": false,
     "show_toast": false,
-    "hidden": true,
-    "frame": "goal"
+    "title": "The End"
   },
   "parent": "all_tasks:tasks/biomes/root"
 }

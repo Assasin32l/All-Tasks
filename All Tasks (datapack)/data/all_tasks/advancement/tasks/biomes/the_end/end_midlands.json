@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_end_midlands": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "end_midlands"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "End Midlands",
-    "description": "Find the midlands",
+    "description": "Outer islands spreading wide, chorus trees rooted in pale ancient stone.",
     "icon": {
-      "id": "end_stone"
-    }
+      "id": "chorus_fruit"
+    },
+    "title": "End Midlands"
   },
   "parent": "all_tasks:tasks/biomes/the_end/the_end"
 }

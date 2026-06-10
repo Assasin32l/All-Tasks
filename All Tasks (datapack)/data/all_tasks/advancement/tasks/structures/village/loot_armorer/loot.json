@@ -70,10 +70,10 @@
     }
   },
   "display": {
-    "title": "Village Armorer Loot",
-    "description": "Find all the loot in a armorer house",
+    "title": "Village Loot: Armorer",
+    "description": "The armorer's chest, stocked with iron and the smell of the forge.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:iron_helmet"
     },
     "frame": "challenge"
   },

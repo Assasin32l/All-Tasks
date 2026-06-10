@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock_right_away": {
+      "trigger": "tick"
+    }
+  },
+  "display": {
+    "title": "Items",
+    "description": "From the mundane to the magnificent. A collector's life is never finished.",
+    "icon": {
+      "id": "bundle"
+    },
+    "announce_to_chat": false,
+    "show_toast": false,
+    "frame": "challenge",
+    "background": "block/chiseled_bookshelf_top"
+  }
+}

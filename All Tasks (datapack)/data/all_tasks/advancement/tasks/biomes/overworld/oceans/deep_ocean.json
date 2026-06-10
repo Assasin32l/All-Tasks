@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_deep_ocean": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "deep_ocean"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Deep Ocean",
-    "description": "Find a deep ocean",
+    "description": "Past the point sunlight gives up and the cold takes over.",
     "icon": {
-      "id": "gravel"
-    }
+      "id": "prismarine_shard"
+    },
+    "title": "Deep Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/ocean"
 }

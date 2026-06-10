@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_the_end": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "the_end"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "The End",
-    "description": "Find the end biom",
+    "description": "A lone island at the edge of everything, the dragon waiting at its centre.",
     "icon": {
       "id": "end_stone"
-    }
+    },
+    "title": "The End"
   },
   "parent": "all_tasks:tasks/biomes/the_end/root"
 }

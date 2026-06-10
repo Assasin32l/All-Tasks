@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_plains": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "plains"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Plains",
-    "description": "Find a plains",
+    "description": "Gentle land, wide sky \u2014 the world at its most disarmingly open.",
     "icon": {
       "id": "grass_block"
-    }
+    },
+    "title": "Plains"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"
 }

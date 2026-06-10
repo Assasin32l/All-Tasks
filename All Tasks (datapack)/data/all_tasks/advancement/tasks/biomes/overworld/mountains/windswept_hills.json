@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_windswept_hills": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "windswept_hills"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Windswept Hills",
-    "description": "Find a windswept hill",
+    "description": "Bare rock, relentless wind, a view that makes both worthwhile.",
     "icon": {
-      "id": "grass_block"
-    }
+      "id": "stone"
+    },
+    "title": "Windswept Hills"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/meadow"
 }

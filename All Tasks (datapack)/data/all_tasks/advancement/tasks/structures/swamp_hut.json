@@ -13,9 +13,9 @@
   },
   "display": {
     "title": "Swamp Hut",
-    "description": "Find a swamp hut",
+    "description": "A crooked little hut on stilts, reeking of potions and spite.",
     "icon": {
-      "id": "spruce_planks"
+      "id": "minecraft:cauldron"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

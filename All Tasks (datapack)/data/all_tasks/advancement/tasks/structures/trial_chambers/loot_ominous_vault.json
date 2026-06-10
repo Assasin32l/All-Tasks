@@ -345,10 +345,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Ominous Vault Loot",
-    "description": "Find all the loot from a trial chambers ominous vault",
+    "title": "Trial Chambers Loot: Ominous Vault",
+    "description": "The ominous vault's reward, opened only by a key earned under bad omen.",
     "icon": {
-      "id": "vault"
+      "id": "minecraft:heavy_core"
     },
     "frame": "challenge"
   },

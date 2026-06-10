@@ -138,10 +138,10 @@
     }
   },
   "display": {
-    "title": "Village Shepherd Loot",
-    "description": "Find all the loot in a shepherd house",
+    "title": "Village Loot: Shepherd",
+    "description": "Wool and shears in the shepherd's chest, the work never quite done.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:shears"
     },
     "frame": "challenge"
   },

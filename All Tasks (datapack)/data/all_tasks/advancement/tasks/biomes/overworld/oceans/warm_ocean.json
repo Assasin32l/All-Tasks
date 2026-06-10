@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_warm_ocean": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "warm_ocean"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Warm Ocean",
-    "description": "Find a warm ocean",
+    "description": "Coral reefs painting the seafloor in every shade imaginable.",
     "icon": {
-      "id": "fire_coral_block"
-    }
+      "id": "brain_coral_block"
+    },
+    "title": "Warm Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/lukewarm_ocean"
 }

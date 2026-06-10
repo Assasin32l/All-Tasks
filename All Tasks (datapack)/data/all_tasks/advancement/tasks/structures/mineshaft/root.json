@@ -23,9 +23,9 @@
   },
   "display": {
     "title": "Mineshaft",
-    "description": "Find both mineshaft types",
+    "description": "Rotting planks and rusted rails threading through the dark underground.",
     "icon": {
-      "id": "oak_planks"
+      "id": "minecraft:rail"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

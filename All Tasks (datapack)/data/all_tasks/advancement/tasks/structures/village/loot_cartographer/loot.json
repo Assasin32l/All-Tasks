@@ -104,10 +104,10 @@
     }
   },
   "display": {
-    "title": "Village Cartographer Loot",
-    "description": "Find all the loot in a cartographer house",
+    "title": "Village Loot: Cartographer",
+    "description": "A table cluttered with maps, compasses, and the tools of every journey.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:map"
     },
     "frame": "challenge"
   },

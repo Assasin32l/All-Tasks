@@ -223,10 +223,10 @@
     }
   },
   "display": {
-    "title": "Village Taiga House Loot",
-    "description": "Find all the loot in a taiga house",
+    "title": "Village Loot: Taiga House",
+    "description": "A taiga home, spruce-scented and warm, stocked for the long winter ahead.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:pumpkin_pie"
     },
     "frame": "challenge"
   },

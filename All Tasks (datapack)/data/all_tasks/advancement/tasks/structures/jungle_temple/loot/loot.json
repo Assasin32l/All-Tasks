@@ -241,9 +241,9 @@
   },
   "display": {
     "title": "Jungle Temple Loot",
-    "description": "Find all the loot in a jungle temple",
+    "description": "Past the pressure plates and tripwires, the reward sits waiting.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:diamond"
     },
     "frame": "challenge"
   },

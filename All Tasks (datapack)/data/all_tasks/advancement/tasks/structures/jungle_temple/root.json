@@ -12,10 +12,10 @@
     }
   },
   "display": {
-    "title": "Jungle Pyramid",
-    "description": "Find a jungle pyramid",
+    "title": "Jungle Temple",
+    "description": "Vines swallowing stone walls, traps still armed after centuries of silence.",
     "icon": {
-      "id": "cobblestone"
+      "id": "minecraft:mossy_cobblestone"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

@@ -445,9 +445,9 @@
   },
   "display": {
     "title": "End City Loot",
-    "description": "Find all the loot in a end city",
+    "description": "Chests stacked in pale towers at the very edge of everything.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:spire_armor_trim_smithing_template"
     },
     "frame": "challenge"
   },

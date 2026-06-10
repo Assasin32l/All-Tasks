@@ -445,9 +445,9 @@
   },
   "display": {
     "title": "Monster Room Loot",
-    "description": "Find all the loot in a monster room",
+    "description": "A chest in a dungeon, flanked by a spinning cage of horrors.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:music_disc_13"
     },
     "frame": "challenge"
   },

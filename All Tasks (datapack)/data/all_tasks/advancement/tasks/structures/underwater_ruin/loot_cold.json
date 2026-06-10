@@ -172,10 +172,10 @@
     }
   },
   "display": {
-    "title": "Cold Ocean Ruin Loot",
-    "description": "Find all the loot in a cold ocean ruin",
+    "title": "Ocean Ruins Loot: Cold",
+    "description": "Brush the cold ruin's gravely floor for shards older than memory.",
     "icon": {
-      "id": "suspicious_gravel"
+      "id": "minecraft:mourner_pottery_sherd"
     },
     "frame": "challenge"
   },

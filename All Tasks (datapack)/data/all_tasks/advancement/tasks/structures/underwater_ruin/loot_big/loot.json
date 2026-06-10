@@ -257,10 +257,10 @@
     }
   },
   "display": {
-    "title": "Big Ocean Ruin Loot",
-    "description": "Find all the loot in a big ocean ruin",
+    "title": "Ocean Ruins Loot: Big",
+    "description": "A larger ruin on the seafloor, its chest still sealed beneath the current.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:golden_apple"
     },
     "frame": "challenge"
   },

@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_forest": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "forest"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Forest",
-    "description": "Find a forest",
+    "description": "Oak and birch standing close enough to swallow the sky.",
     "icon": {
       "id": "oak_log"
-    }
+    },
+    "title": "Forest"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"
 }

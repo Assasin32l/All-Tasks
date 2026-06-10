@@ -1,22 +1,22 @@
 {
   "criteria": {
     "in_lukewarm_ocean": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "biomes": "lukewarm_ocean"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Lukewarm Ocean",
-    "description": "Find a lukewarm ocean",
+    "description": "Warm enough to forget how far from shore you've drifted.",
     "icon": {
-      "id": "sand"
-    }
+      "id": "tropical_fish"
+    },
+    "title": "Lukewarm Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/ocean"
 }

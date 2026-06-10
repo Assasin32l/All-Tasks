@@ -241,9 +241,9 @@
   },
   "display": {
     "title": "Nether Fortress Loot",
-    "description": "Find all the loot in a nether fortress",
+    "description": "Tucked in the corridors of a fortress built over flowing fire.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:nether_wart"
     },
     "frame": "challenge"
   },

@@ -529,10 +529,10 @@
     }
   },
   "display": {
-    "title": "Trail Ruins Common Loot",
-    "description": "Find all the common loot in a trail ruin",
+    "title": "Trail Ruins Loot: Common",
+    "description": "Common finds scattered through a ruin that the earth slowly swallowed.",
     "icon": {
-      "id": "mud_bricks"
+      "id": "minecraft:flower_pot"
     },
     "frame": "challenge"
   },

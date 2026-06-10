@@ -240,10 +240,10 @@
     }
   },
   "display": {
-    "title": "Small Ocean Ruin Loot",
-    "description": "Find all the loot in a small ocean ruin",
+    "title": "Ocean Ruins Loot: Small",
+    "description": "A small ruin half-buried in the sand, the chest barely visible beneath it.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:fishing_rod"
     },
     "frame": "challenge"
   },

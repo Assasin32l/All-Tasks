@@ -87,10 +87,10 @@
     }
   },
   "display": {
-    "title": "Trial Chambers Entrance Chest Loot",
-    "description": "Find all the loot in a trial chambers entrance chest",
+    "title": "Trial Chambers Loot: Entrance Chest",
+    "description": "The first chest at the entrance, left for those who have just arrived.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:trial_key"
     },
     "frame": "challenge"
   },

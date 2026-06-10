@@ -87,10 +87,10 @@
     }
   },
   "display": {
-    "title": "Ancient City Ice Box Loot",
-    "description": "Find all the loot in an ancient city ice box",
+    "title": "Ancient City Loot: Ice Box",
+    "description": "A frozen cache sealed beneath the city, cold and undisturbed for ages.",
     "icon": {
-      "id": "packed_ice"
+      "id": "minecraft:packed_ice"
     },
     "frame": "challenge"
   },

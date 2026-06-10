@@ -9,9 +9,9 @@
   },
   "display": {
     "title": "Desert Well",
-    "description": "Find a desert well",
+    "description": "A quiet well in the desert, hiding more than water.",
     "icon": {
-      "id": "sandstone"
+      "id": "minecraft:sandstone"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

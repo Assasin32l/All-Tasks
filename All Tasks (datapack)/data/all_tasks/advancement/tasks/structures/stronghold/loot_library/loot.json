@@ -104,10 +104,10 @@
     }
   },
   "display": {
-    "title": "Stronghold Library Loot",
-    "description": "Find all the loot in a stronghold library",
+    "title": "Stronghold Loot: Library",
+    "description": "Shelves of enchanted books in a library built by those who never returned.",
     "icon": {
-      "id": "bookshelf"
+      "id": "minecraft:book"
     },
     "frame": "challenge"
   },

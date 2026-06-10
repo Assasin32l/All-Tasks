@@ -139,9 +139,9 @@
   },
   "display": {
     "title": "Igloo Loot",
-    "description": "Find all the loot in a igloo",
+    "description": "Beneath the trapdoor, down the ladder, in the frozen room below.",
     "icon": {
-      "id": "chest"
+      "id": "minecraft:golden_apple"
     },
     "frame": "challenge"
   },
