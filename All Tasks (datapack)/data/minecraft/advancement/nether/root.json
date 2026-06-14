@@ -2,9 +2,9 @@
   "criteria": {
     "entered_nether": {
       "conditions": {
-        "to": "minecraft:the_nether"
+        "to": "the_nether"
       },
-      "trigger": "minecraft:changed_dimension"
+      "trigger": "changed_dimension"
     }
   },
   "display": {
@@ -12,9 +12,7 @@
     "description": {
       "translate": "advancements.nether.root.description"
     },
-    "icon": {
-      "id": "minecraft:red_nether_bricks"
-    },
+    "icon": "red_nether_bricks",
     "show_toast": false,
     "title": {
       "translate": "advancements.nether.root.title"

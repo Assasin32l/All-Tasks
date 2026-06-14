@@ -379,9 +379,9 @@
     "title": "Stronghold Loot: Altar",
     "description": "Chests lining the corridors, between the spawners and the stone.",
     "icon": {
-      "id": "minecraft:ender_pearl"
+      "id": "ender_pearl"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/stronghold/root"
 }

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "husk"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Shambling through the desert heat, craving hunger before it craves anything else.",
+    "icon": {
+      "id": "minecraft:sand"
+    },
+    "title": "Husk"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/zombie"
+}

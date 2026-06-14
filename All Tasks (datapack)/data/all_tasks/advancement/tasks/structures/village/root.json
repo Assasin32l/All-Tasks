@@ -55,7 +55,7 @@
     "title": "Village",
     "description": "Smoke from chimneys, bells at noon \u2014 someone still lives here.",
     "icon": {
-      "id": "minecraft:bell"
+      "id": "bell"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

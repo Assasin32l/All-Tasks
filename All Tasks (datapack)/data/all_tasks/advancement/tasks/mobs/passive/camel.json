@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "camel"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Tall, unhurried, and entirely above whatever is going on around it.",
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": "Camel"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

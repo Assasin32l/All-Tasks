@@ -362,9 +362,9 @@
     "title": "Bastion Remnant Loot: Bridge",
     "description": "Stashed on the bridge above the fire, where piglins cross between towers.",
     "icon": {
-      "id": "minecraft:lodestone"
+      "id": "lodestone"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/bastion/root"
 }

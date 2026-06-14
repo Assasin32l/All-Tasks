@@ -90,9 +90,9 @@
     "title": "Trial Chambers Loot: Entrance Chest",
     "description": "The first chest at the entrance, left for those who have just arrived.",
     "icon": {
-      "id": "minecraft:trial_key"
+      "id": "trial_key"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/root"
 }

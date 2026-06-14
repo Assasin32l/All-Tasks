@@ -1,0 +1,61 @@
+{
+  "criteria": {
+    "killed_hostile": {
+      "conditions": {
+        "entity": {
+          "type": [
+            "blaze",
+            "bogged",
+            "breeze",
+            "creeper",
+            "elder_guardian",
+            "endermite",
+            "evoker",
+            "ghast",
+            "guardian",
+            "hoglin",
+            "husk",
+            "magma_cube",
+            "parched",
+            "phantom",
+            "piglin_brute",
+            "pillager",
+            "ravager",
+            "shulker",
+            "silverfish",
+            "skeleton",
+            "slime",
+            "stray",
+            "vex",
+            "vindicator",
+            "warden",
+            "witch",
+            "wither_skeleton",
+            "zoglin",
+            "zombie",
+            "zombie_villager",
+            "cave_spider",
+            "drowned",
+            "enderman",
+            "piglin",
+            "spider",
+            "zombified_piglin"
+          ]
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "Hunt down and kill every hostile mob you encounter.",
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "id": "iron_sword"
+    },
+    "show_toast": false,
+    "title": "A Dangerous World"
+  },
+  "parent": "all_tasks:tasks/mobs/root"
+}

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "goat"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Perched on the peak, eyeing you with suspicion \u2014 then charging anyway.",
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": "Goat"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

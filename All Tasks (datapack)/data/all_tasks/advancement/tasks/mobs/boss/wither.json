@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "wither"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "You built it. Now face what you made.",
+    "frame": "task",
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "Wither"
+  },
+  "parent": "all_tasks:tasks/mobs/boss/root"
+}

@@ -260,9 +260,9 @@
     "title": "Ocean Ruins Loot: Big",
     "description": "A larger ruin on the seafloor, its chest still sealed beneath the current.",
     "icon": {
-      "id": "minecraft:golden_apple"
+      "id": "golden_apple"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/underwater_ruin/root"
 }

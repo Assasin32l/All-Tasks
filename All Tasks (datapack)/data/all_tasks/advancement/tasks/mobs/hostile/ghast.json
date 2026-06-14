@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "ghast"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Crying and floating through the Nether, firing at anything that moves.",
+    "icon": {
+      "id": "minecraft:ghast_tear"
+    },
+    "title": "Ghast"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

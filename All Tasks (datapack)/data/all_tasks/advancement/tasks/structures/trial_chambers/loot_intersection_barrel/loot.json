@@ -158,9 +158,9 @@
     "title": "Trial Chambers Loot: Intersection Barrel",
     "description": "A barrel at the crossroads, stocked well beyond what any entrance deserves.",
     "icon": {
-      "id": "minecraft:diamond_axe"
+      "id": "diamond_axe"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/root"
 }

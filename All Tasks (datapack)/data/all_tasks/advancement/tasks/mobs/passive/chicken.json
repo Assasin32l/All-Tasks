@@ -1,0 +1,69 @@
+{
+  "criteria": {
+    "looked_at_cold": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "chicken/variant": "cold"
+              },
+              "type": "chicken"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_temperate": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "chicken/variant": "temperate"
+              },
+              "type": "chicken"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_warm": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "chicken/variant": "warm"
+              },
+              "type": "chicken"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Clucking through the grass, laying eggs with no concern for consequence.",
+    "icon": {
+      "id": "minecraft:egg"
+    },
+    "title": "Chicken"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

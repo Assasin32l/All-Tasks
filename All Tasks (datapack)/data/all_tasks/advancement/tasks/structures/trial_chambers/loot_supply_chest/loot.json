@@ -247,9 +247,9 @@
     "title": "Trial Chambers Loot: Supply Chest",
     "description": "Supplies stocked just off the main path, for those who think ahead.",
     "icon": {
-      "id": "minecraft:baked_potato"
+      "id": "baked_potato"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/loot_intersection_chest/loot"
 }

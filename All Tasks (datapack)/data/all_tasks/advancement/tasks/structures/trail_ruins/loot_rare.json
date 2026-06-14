@@ -209,9 +209,9 @@
     "title": "Trail Ruins Loot: Rare",
     "description": "Rare relics buried deep in the ruins, waiting for a patient hand.",
     "icon": {
-      "id": "minecraft:music_disc_relic"
+      "id": "music_disc_relic"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trail_ruins/loot_common"
 }

@@ -1,0 +1,88 @@
+{
+  "criteria": {
+    "looked_at_exposed": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "weather_state": "exposed"
+              },
+              "type": "copper_golem"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_oxidized": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "weather_state": "oxidized"
+              },
+              "type": "copper_golem"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_unaffected": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "weather_state": "unaffected"
+              },
+              "type": "copper_golem"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_weathered": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "weather_state": "weathered"
+              },
+              "type": "copper_golem"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Built to sort and serve, slowly turning green until it stops entirely.",
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": "Copper Golem"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/iron_golem"
+}

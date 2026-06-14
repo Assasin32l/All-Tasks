@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "evoker"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Raising fangs from the floor with a gesture, carrying the totem you need.",
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": "Evoker"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/pillager"
+}

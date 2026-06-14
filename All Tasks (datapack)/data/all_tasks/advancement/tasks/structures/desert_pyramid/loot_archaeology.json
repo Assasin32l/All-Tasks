@@ -141,9 +141,9 @@
     "title": "Desert Pyramid Loot: Archaeology",
     "description": "Brush the sand beneath the pyramid floor, recovering what was buried with it.",
     "icon": {
-      "id": "minecraft:prize_pottery_sherd"
+      "id": "prize_pottery_sherd"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/desert_pyramid/root"
 }

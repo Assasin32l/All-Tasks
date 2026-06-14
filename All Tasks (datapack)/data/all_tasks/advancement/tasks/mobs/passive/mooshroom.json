@@ -1,0 +1,50 @@
+{
+  "criteria": {
+    "looked_at_brown": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "mooshroom/variant": "brown"
+              },
+              "type": "mooshroom"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_red": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "mooshroom/variant": "red"
+              },
+              "type": "mooshroom"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "A cow made stranger \u2014 mushrooms growing where the spots should be.",
+    "icon": {
+      "id": "minecraft:mushroom_stew"
+    },
+    "title": "Mooshroom"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/cow"
+}

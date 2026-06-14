@@ -158,9 +158,9 @@
     "title": "Village Loot: Desert House",
     "description": "A desert home, sparse and sun-baked, with just enough to get by.",
     "icon": {
-      "id": "minecraft:cactus"
+      "id": "cactus"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/loot_plains_house/loot"
 }

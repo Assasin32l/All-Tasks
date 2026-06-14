@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "cod_bucket": {
+      "conditions": {
+        "item": {
+          "items": "cod_bucket"
+        }
+      },
+      "trigger": "filled_bucket"
+    },
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "cod"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Schooling through the shallows, the most quietly common fish in the sea.",
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": "Cod"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root",
+  "requirements": [
+    [
+      "cod_bucket",
+      "looked_at_animal"
+    ]
+  ]
+}

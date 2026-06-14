@@ -15,7 +15,7 @@
     "title": "End City",
     "description": "Pale towers rising from the outer islands, guarded by their keepers.",
     "icon": {
-      "id": "minecraft:purpur_block"
+      "id": "purpur_block"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

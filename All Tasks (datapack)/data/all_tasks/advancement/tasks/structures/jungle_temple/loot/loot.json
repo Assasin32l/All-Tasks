@@ -243,9 +243,9 @@
     "title": "Jungle Temple Loot",
     "description": "Past the pressure plates and tripwires, the reward sits waiting.",
     "icon": {
-      "id": "minecraft:diamond"
+      "id": "diamond"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/jungle_temple/root"
 }

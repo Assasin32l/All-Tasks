@@ -1,0 +1,184 @@
+{
+  "criteria": {
+    "blue_bucket": {
+      "conditions": {
+        "item": {
+          "components": {
+            "axolotl/variant": "blue"
+          },
+          "items": "axolotl_bucket"
+        }
+      },
+      "trigger": "filled_bucket"
+    },
+    "cyan_bucket": {
+      "conditions": {
+        "item": {
+          "components": {
+            "axolotl/variant": "cyan"
+          },
+          "items": "axolotl_bucket"
+        }
+      },
+      "trigger": "filled_bucket"
+    },
+    "gold_bucket": {
+      "conditions": {
+        "item": {
+          "components": {
+            "axolotl/variant": "gold"
+          },
+          "items": "axolotl_bucket"
+        }
+      },
+      "trigger": "filled_bucket"
+    },
+    "looked_at_blue": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "axolotl/variant": "blue"
+              },
+              "type": "axolotl"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_cyan": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "axolotl/variant": "cyan"
+              },
+              "type": "axolotl"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_gold": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "axolotl/variant": "gold"
+              },
+              "type": "axolotl"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_lucy": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "axolotl/variant": "lucy"
+              },
+              "type": "axolotl"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_wild": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "axolotl/variant": "wild"
+              },
+              "type": "axolotl"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "lucy_bucket": {
+      "conditions": {
+        "item": {
+          "components": {
+            "axolotl/variant": "lucy"
+          },
+          "items": "axolotl_bucket"
+        }
+      },
+      "trigger": "filled_bucket"
+    },
+    "wild_bucket": {
+      "conditions": {
+        "item": {
+          "components": {
+            "axolotl/variant": "wild"
+          },
+          "items": "axolotl_bucket"
+        }
+      },
+      "trigger": "filled_bucket"
+    }
+  },
+  "display": {
+    "description": "Ancient and unbothered, drifting through the dark water with ancient calm.",
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": "Axolotl"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root",
+  "requirements": [
+    [
+      "lucy_bucket",
+      "looked_at_lucy"
+    ],
+    [
+      "wild_bucket",
+      "looked_at_wild"
+    ],
+    [
+      "gold_bucket",
+      "looked_at_gold"
+    ],
+    [
+      "cyan_bucket",
+      "looked_at_cyan"
+    ],
+    [
+      "blue_bucket",
+      "looked_at_blue"
+    ]
+  ]
+}

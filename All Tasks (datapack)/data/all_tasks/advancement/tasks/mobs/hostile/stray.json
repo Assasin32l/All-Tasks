@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "stray"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "A skeleton the tundra claimed \u2014 slower arrows, but they slow you right back.",
+    "icon": {
+      "id": "minecraft:tipped_arrow"
+    },
+    "title": "Stray"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/skeleton"
+}

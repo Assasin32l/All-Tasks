@@ -192,9 +192,9 @@
     "title": "Village Loot: Plains House",
     "description": "A simple home on the plains, its chest full of honest things.",
     "icon": {
-      "id": "minecraft:apple"
+      "id": "apple"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/root"
 }

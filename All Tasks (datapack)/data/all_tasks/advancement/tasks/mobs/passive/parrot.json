@@ -1,0 +1,107 @@
+{
+  "criteria": {
+    "looked_at_blue": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "parrot/variant": "blue"
+              },
+              "type": "parrot"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_gray": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "parrot/variant": "gray"
+              },
+              "type": "parrot"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_green": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "parrot/variant": "green"
+              },
+              "type": "parrot"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_red_blue": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "parrot/variant": "red_blue"
+              },
+              "type": "parrot"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_yellow_blue": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "parrot/variant": "yellow_blue"
+              },
+              "type": "parrot"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Bright and borrowed \u2014 it learns your words and wears them without irony.",
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": "Parrot"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

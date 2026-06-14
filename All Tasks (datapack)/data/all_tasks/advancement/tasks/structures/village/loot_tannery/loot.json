@@ -158,9 +158,9 @@
     "title": "Village Loot: Tannery",
     "description": "The tannery's chest, smelling of leather and the long work that made it.",
     "icon": {
-      "id": "minecraft:leather_chestplate"
+      "id": "leather_chestplate"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/loot_butcher/loot"
 }

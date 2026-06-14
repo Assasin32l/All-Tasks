@@ -648,9 +648,9 @@
     "title": "Bastion Remnant Loot: Generic",
     "description": "Tucked into the ramparts, guarded by gold-clad sentinels with crossbows.",
     "icon": {
-      "id": "minecraft:music_disc_pigstep"
+      "id": "music_disc_pigstep"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/bastion/loot_bridge/loot"
 }

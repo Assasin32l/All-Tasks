@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "skeleton"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Drawing its bow in the dark, patient in the way only the dead can be.",
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": "Skeleton"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

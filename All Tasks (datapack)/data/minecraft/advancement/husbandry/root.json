@@ -1,7 +1,7 @@
 {
   "criteria": {
     "consumed_item": {
-      "trigger": "minecraft:consume_item"
+      "trigger": "consume_item"
     }
   },
   "display": {
@@ -9,9 +9,7 @@
     "description": {
       "translate": "advancements.husbandry.root.description"
     },
-    "icon": {
-      "id": "minecraft:hay_block"
-    },
+    "icon": "hay_block",
     "show_toast": false,
     "title": {
       "translate": "advancements.husbandry.root.title"

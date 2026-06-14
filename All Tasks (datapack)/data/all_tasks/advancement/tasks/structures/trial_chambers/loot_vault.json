@@ -419,9 +419,9 @@
     "title": "Trial Chambers Loot: Vault",
     "description": "The vault opens for those who carry a key earned in the trials.",
     "icon": {
-      "id": "minecraft:trident"
+      "id": "trident"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/root"
 }

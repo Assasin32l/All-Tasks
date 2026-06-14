@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "polar_bear"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Massive and still on the ice, a patience carved from the cold itself.",
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": "Polar Bear"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "dolphin"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Leaping ahead of the bow wave, leading you somewhere worth going.",
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": "Dolphin"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

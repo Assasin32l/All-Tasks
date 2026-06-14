@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "silverfish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Hidden in the stone until disturbed, then calling every wall to its defence.",
+    "icon": {
+      "id": "minecraft:silverfish_spawn_egg"
+    },
+    "title": "Silverfish"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

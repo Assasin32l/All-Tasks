@@ -447,9 +447,9 @@
     "title": "Ruined Portal Loot",
     "description": "Left beside the broken stones of a portal that almost made it.",
     "icon": {
-      "id": "minecraft:flint_and_steel"
+      "id": "flint_and_steel"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/ruined_portal/root"
 }

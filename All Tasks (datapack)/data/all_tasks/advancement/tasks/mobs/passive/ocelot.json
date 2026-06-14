@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "ocelot"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Watching from the jungle canopy \u2014 it will come to you, or it won't.",
+    "icon": {
+      "id": "minecraft:ocelot_spawn_egg"
+    },
+    "title": "Ocelot"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/cat"
+}

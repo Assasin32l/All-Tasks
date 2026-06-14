@@ -15,7 +15,7 @@
     "title": "Bastion Remnant",
     "description": "A piglin fortress of black stone, built atop rivers of fire.",
     "icon": {
-      "id": "minecraft:gilded_blackstone"
+      "id": "gilded_blackstone"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

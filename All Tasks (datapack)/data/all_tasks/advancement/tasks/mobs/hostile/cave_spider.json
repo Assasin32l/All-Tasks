@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "cave_spider"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Smaller, faster, and venomous \u2014 squeezing through gaps nothing else could use.",
+    "icon": {
+      "id": "minecraft:spider_eye"
+    },
+    "title": "Cave Spider"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/spider"
+}

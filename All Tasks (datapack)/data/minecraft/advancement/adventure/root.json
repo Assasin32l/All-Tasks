@@ -1,10 +1,10 @@
 {
   "criteria": {
     "killed_by_something": {
-      "trigger": "minecraft:entity_killed_player"
+      "trigger": "entity_killed_player"
     },
     "killed_something": {
-      "trigger": "minecraft:player_killed_entity"
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
@@ -12,9 +12,7 @@
     "description": {
       "translate": "advancements.adventure.root.description"
     },
-    "icon": {
-      "id": "minecraft:map"
-    },
+    "icon": "map",
     "show_toast": false,
     "title": {
       "translate": "advancements.adventure.root.title"

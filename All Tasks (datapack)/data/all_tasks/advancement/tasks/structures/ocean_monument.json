@@ -15,7 +15,7 @@
     "title": "Ocean Monument",
     "description": "A vast temple of prismarine guarding its treasure beneath the waves.",
     "icon": {
-      "id": "minecraft:prismarine"
+      "id": "prismarine"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

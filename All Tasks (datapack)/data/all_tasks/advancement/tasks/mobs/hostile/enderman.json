@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "enderman"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Tall and wrong, moving between shadows \u2014 do not meet its eyes.",
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": "Enderman"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

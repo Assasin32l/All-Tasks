@@ -107,9 +107,9 @@
     "title": "Village Loot: Temple",
     "description": "Offerings left in the village temple, for the faithful and the curious.",
     "icon": {
-      "id": "minecraft:lapis_lazuli"
+      "id": "lapis_lazuli"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/root"
 }

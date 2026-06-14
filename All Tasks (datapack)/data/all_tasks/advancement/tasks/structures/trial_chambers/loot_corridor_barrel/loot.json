@@ -175,9 +175,9 @@
     "title": "Trial Chambers Loot: Corridor Barrel",
     "description": "A barrel tucked into the corridor, stocked for those who came prepared.",
     "icon": {
-      "id": "minecraft:scaffolding"
+      "id": "scaffolding"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/loot"
 }

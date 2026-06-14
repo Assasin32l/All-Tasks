@@ -175,9 +175,9 @@
     "title": "Ocean Ruins Loot: Warm",
     "description": "Brush the warm ruin's floor \u2014 something rare and ancient might surface.",
     "icon": {
-      "id": "minecraft:sniffer_egg"
+      "id": "sniffer_egg"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/underwater_ruin/loot_cold"
 }

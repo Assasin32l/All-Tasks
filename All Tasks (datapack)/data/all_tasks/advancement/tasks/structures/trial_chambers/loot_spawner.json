@@ -109,9 +109,9 @@
     "title": "Trial Chambers Loot: Spawner",
     "description": "Drops dispensed by the spawner to those who survive each wave.",
     "icon": {
-      "id": "minecraft:potion"
+      "id": "potion"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/root"
 }

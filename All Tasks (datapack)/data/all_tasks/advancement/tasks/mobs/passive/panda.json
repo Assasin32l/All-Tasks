@@ -1,0 +1,145 @@
+{
+  "criteria": {
+    "looked_at_aggressive": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "MainGene": "aggressive"
+              },
+              "type": "panda"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_brown": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "MainGene": "brown"
+              },
+              "type": "panda"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_lazy": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "MainGene": "lazy"
+              },
+              "type": "panda"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_normal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "MainGene": "normal"
+              },
+              "type": "panda"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_playful": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "MainGene": "playful"
+              },
+              "type": "panda"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_weak": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "MainGene": "weak"
+              },
+              "type": "panda"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_worried": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "nbt": {
+                "MainGene": "worried"
+              },
+              "type": "panda"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Sitting in the bamboo, eating with the dedication of someone with no other plans.",
+    "icon": {
+      "id": "minecraft:bamboo"
+    },
+    "title": "Panda"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

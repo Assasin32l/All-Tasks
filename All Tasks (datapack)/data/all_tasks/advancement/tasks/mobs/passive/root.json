@@ -1,0 +1,81 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": [
+                "allay",
+                "armadillo",
+                "axolotl",
+                "bat",
+                "camel",
+                "camel_husk",
+                "cat",
+                "chicken",
+                "cod",
+                "copper_golem",
+                "cow",
+                "donkey",
+                "frog",
+                "glow_squid",
+                "happy_ghast",
+                "horse",
+                "mooshroom",
+                "mule",
+                "ocelot",
+                "parrot",
+                "pig",
+                "rabbit",
+                "salmon",
+                "sheep",
+                "skeleton_horse",
+                "sniffer",
+                "snow_golem",
+                "squid",
+                "strider",
+                "tadpole",
+                "tropical_fish",
+                "turtle",
+                "villager",
+                "wandering_trader",
+                "zombie_horse",
+                "bee",
+                "dolphin",
+                "fox",
+                "goat",
+                "iron_golem",
+                "llama",
+                "nautilus",
+                "panda",
+                "polar_bear",
+                "pufferfish",
+                "trader_llama",
+                "wolf",
+                "zombie_nautilus"
+              ]
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "Observe every passive mob in the wild through a spyglass.",
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "id": "wheat"
+    },
+    "show_toast": false,
+    "title": "A Peaceful World"
+  },
+  "parent": "all_tasks:tasks/mobs/root"
+}

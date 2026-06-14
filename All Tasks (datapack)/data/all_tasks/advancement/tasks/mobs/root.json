@@ -1,18 +1,32 @@
 {
   "criteria": {
-    "unlock_right_away": {
-      "trigger": "tick"
+    "killed_any_mob": {
+      "trigger": "player_killed_entity"
+    },
+    "using_spyglass": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        }
+      },
+      "trigger": "using_item"
     }
   },
   "display": {
-    "title": "Mobs",
+    "announce_to_chat": false,
+    "background": "block/bone_block_top",
     "description": "They roam, they hunt, they haunt. Do you know them all?",
+    "frame": "challenge",
     "icon": {
       "id": "bone"
     },
-    "announce_to_chat": false,
     "show_toast": false,
-    "frame": "challenge",
-    "background": "block/bone_block_top"
-  }
+    "title": "Mobs"
+  },
+  "requirements": [
+    [
+      "killed_any_mob",
+      "using_spyglass"
+    ]
+  ]
 }

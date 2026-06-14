@@ -141,9 +141,9 @@
     "title": "Village Loot: Shepherd",
     "description": "Wool and shears in the shepherd's chest, the work never quite done.",
     "icon": {
-      "id": "minecraft:shears"
+      "id": "shears"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/root"
 }

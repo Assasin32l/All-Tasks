@@ -15,7 +15,7 @@
     "title": "Desert Pyramid",
     "description": "Buried beneath the dunes, a tomb still armed with its traps.",
     "icon": {
-      "id": "minecraft:chiseled_sandstone"
+      "id": "chiseled_sandstone"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

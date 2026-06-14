@@ -294,9 +294,9 @@
     "title": "Buried Treasure Loot",
     "description": "Sealed in a chest below the sand, marked only by a map.",
     "icon": {
-      "id": "minecraft:heart_of_the_sea"
+      "id": "heart_of_the_sea"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
-  "parent": "all_tasks:tasks/structures/root"
+  "parent": "all_tasks:tasks/structures/buried_treasure/root"
 }

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "allay"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "A wisp of goodwill drifting toward music, carrying whatever it finds.",
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": "Allay"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "wither_skeleton"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Stalking the fortress in black, leaving the wither effect on everything it touches.",
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": "Wither Skeleton"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/skeleton"
+}

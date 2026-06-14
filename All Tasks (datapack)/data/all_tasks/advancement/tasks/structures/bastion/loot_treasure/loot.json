@@ -529,9 +529,9 @@
     "title": "Bastion Remnant Loot: Treasure",
     "description": "The most guarded room in the remnant, deep below the piglin court.",
     "icon": {
-      "id": "minecraft:netherite_ingot"
+      "id": "netherite_ingot"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/bastion/loot_hoglin_stable/loot"
 }

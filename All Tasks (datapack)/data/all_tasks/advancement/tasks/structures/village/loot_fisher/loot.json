@@ -124,9 +124,9 @@
     "title": "Village Loot: Fisher",
     "description": "The fisher's cottage, stocked with fresh catches and tackle near the water.",
     "icon": {
-      "id": "minecraft:cod"
+      "id": "cod"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/loot_butcher/loot"
 }

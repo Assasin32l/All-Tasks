@@ -75,7 +75,7 @@
     "title": "Ruined Portal",
     "description": "Crying obsidian and broken stone \u2014 a gateway that never finished opening.",
     "icon": {
-      "id": "minecraft:crying_obsidian"
+      "id": "crying_obsidian"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

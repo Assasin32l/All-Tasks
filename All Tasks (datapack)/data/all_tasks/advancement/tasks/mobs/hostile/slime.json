@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "slime"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Bouncing through the swamp at night, splitting and splitting until it fills the space.",
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": "Slime"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

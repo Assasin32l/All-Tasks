@@ -18,7 +18,7 @@
     "title": "Shipwreck",
     "description": "A broken hull resting where the current finally let it go.",
     "icon": {
-      "id": "minecraft:oak_planks"
+      "id": "oak_planks"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

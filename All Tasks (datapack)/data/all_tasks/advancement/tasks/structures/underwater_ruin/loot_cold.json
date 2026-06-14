@@ -175,9 +175,9 @@
     "title": "Ocean Ruins Loot: Cold",
     "description": "Brush the cold ruin's gravely floor for shards older than memory.",
     "icon": {
-      "id": "minecraft:mourner_pottery_sherd"
+      "id": "mourner_pottery_sherd"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/underwater_ruin/root"
 }

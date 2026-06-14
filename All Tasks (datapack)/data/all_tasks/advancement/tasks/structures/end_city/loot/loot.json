@@ -447,9 +447,9 @@
     "title": "End City Loot",
     "description": "Chests stacked in pale towers at the very edge of everything.",
     "icon": {
-      "id": "minecraft:spire_armor_trim_smithing_template"
+      "id": "spire_armor_trim_smithing_template"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/end_city/root"
 }

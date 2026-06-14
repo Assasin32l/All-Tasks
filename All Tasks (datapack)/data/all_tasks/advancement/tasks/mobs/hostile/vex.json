@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "vex"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Summoned screaming from nothing, phasing through walls to reach you faster.",
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "Vex"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/evoker"
+}

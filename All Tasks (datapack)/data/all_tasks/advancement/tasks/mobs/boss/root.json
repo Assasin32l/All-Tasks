@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "killed_boss": {
+      "conditions": {
+        "entity": {
+          "type": [
+            "ender_dragon",
+            "wither"
+          ]
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "Defeat every boss the world has to offer.",
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "id": "dragon_head"
+    },
+    "show_toast": false,
+    "title": "A Worthy Opponent"
+  },
+  "parent": "all_tasks:tasks/mobs/root"
+}

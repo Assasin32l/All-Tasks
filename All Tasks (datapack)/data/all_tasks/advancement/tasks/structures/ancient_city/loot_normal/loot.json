@@ -508,9 +508,9 @@
     "title": "Ancient City Loot: Normal",
     "description": "Chests scattered through sculk-covered halls, deep below the surface.",
     "icon": {
-      "id": "minecraft:echo_shard"
+      "id": "echo_shard"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/ancient_city/root"
 }

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "ravager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Crashing through the raid like a battering ram made of rage and iron.",
+    "icon": {
+      "id": "minecraft:ravager_spawn_egg"
+    },
+    "title": "Ravager"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/pillager"
+}

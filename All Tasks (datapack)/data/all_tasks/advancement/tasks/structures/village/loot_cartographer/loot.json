@@ -107,9 +107,9 @@
     "title": "Village Loot: Cartographer",
     "description": "A table cluttered with maps, compasses, and the tools of every journey.",
     "icon": {
-      "id": "minecraft:map"
+      "id": "map"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/loot_fletcher/loot"
 }

@@ -1,0 +1,50 @@
+{
+  "criteria": {
+    "looked_at_temperate": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "zombie_nautilus/variant": "temperate"
+              },
+              "type": "zombie_nautilus"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_warm": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "zombie_nautilus/variant": "warm"
+              },
+              "type": "zombie_nautilus"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "A spiral shell still moving through the deep, long after the life left it.",
+    "icon": {
+      "id": "minecraft:zombie_nautilus_spawn_egg"
+    },
+    "title": "Zombie Nautilus"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/nautilus"
+}

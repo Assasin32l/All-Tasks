@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "happy_ghast"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "A gentle giant of the sky, soft-eyed and willing to carry you home.",
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": "Happy Ghast"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

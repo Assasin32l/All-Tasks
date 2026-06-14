@@ -1,1 +1,1 @@
-execute as @a[scores={all_tasks.delay=1..}] run function all_tasks:structure_loot/delay/tick
+execute as @a[scores={all_tasks.delay=1..}] at @s run function all_tasks:structure_loot/delay/tick

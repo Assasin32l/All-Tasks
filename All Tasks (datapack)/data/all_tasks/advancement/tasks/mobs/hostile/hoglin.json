@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "hoglin"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Charging through the crimson forest \u2014 heavy, fast, and not remotely friendly.",
+    "icon": {
+      "id": "minecraft:porkchop"
+    },
+    "title": "Hoglin"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

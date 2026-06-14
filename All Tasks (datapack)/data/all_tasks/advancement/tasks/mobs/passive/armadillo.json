@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "armadillo"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "It rolls into a ball and waits \u2014 patient, armoured, and unbothered.",
+    "icon": {
+      "id": "minecraft:armadillo_scute"
+    },
+    "title": "Armadillo"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

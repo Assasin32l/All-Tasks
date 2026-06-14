@@ -447,9 +447,9 @@
     "title": "Monster Room Loot",
     "description": "A chest in a dungeon, flanked by a spinning cage of horrors.",
     "icon": {
-      "id": "minecraft:music_disc_13"
+      "id": "music_disc_13"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/monster_room/root"
 }

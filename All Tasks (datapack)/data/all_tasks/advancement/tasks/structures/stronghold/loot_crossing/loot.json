@@ -141,9 +141,9 @@
     "title": "Stronghold Loot: Storeroom",
     "description": "A small chest at a crossing, stocked for whoever made it this far.",
     "icon": {
-      "id": "minecraft:iron_pickaxe"
+      "id": "iron_pickaxe"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/stronghold/loot_corridor/loot"
 }

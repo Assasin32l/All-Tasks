@@ -1,0 +1,3269 @@
+{
+  "criteria": {
+    "cured_desert_armorer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_butcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_cartographer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_cleric": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_farmer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_fisherman": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_fletcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_leatherworker": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_librarian": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_mason": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_nitwit": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_none": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_shepherd": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_toolsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_desert_weaponsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_armorer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_butcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_cartographer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_cleric": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_farmer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_fisherman": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_fletcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_leatherworker": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_librarian": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_mason": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_nitwit": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_none": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_shepherd": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_toolsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_jungle_weaponsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_armorer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_butcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_cartographer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_cleric": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_farmer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_fisherman": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_fletcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_leatherworker": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_librarian": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_mason": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_nitwit": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_none": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_shepherd": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_toolsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_plains_weaponsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_armorer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_butcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_cartographer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_cleric": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_farmer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_fisherman": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_fletcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_leatherworker": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_librarian": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_mason": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_nitwit": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_none": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_shepherd": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_toolsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_savanna_weaponsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_armorer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_butcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_cartographer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_cleric": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_farmer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_fisherman": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_fletcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_leatherworker": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_librarian": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_mason": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_nitwit": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_none": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_shepherd": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_toolsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_snow_weaponsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_armorer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_butcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_cartographer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_cleric": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_farmer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_fisherman": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_fletcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_leatherworker": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_librarian": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_mason": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_nitwit": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_none": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_shepherd": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_toolsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_swamp_weaponsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_armorer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_butcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_cartographer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_cleric": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_farmer": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_fisherman": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_fletcher": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_leatherworker": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_librarian": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_mason": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_nitwit": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_none": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_shepherd": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_toolsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "cured_taiga_weaponsmith": {
+      "conditions": {
+        "zombie": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "cured_zombie_villager"
+    },
+    "killed_desert_armorer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_butcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_cartographer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_cleric": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_farmer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_fisherman": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_fletcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_leatherworker": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_librarian": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_mason": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_nitwit": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_none": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_shepherd": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_toolsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_desert_weaponsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "desert"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_armorer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_butcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_cartographer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_cleric": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_farmer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_fisherman": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_fletcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_leatherworker": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_librarian": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_mason": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_nitwit": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_none": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_shepherd": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_toolsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_jungle_weaponsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "jungle"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_armorer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_butcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_cartographer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_cleric": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_farmer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_fisherman": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_fletcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_leatherworker": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_librarian": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_mason": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_nitwit": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_none": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_shepherd": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_toolsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_plains_weaponsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "plains"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_armorer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_butcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_cartographer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_cleric": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_farmer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_fisherman": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_fletcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_leatherworker": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_librarian": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_mason": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_nitwit": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_none": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_shepherd": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_toolsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_savanna_weaponsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "savanna"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_armorer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_butcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_cartographer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_cleric": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_farmer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_fisherman": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_fletcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_leatherworker": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_librarian": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_mason": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_nitwit": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_none": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_shepherd": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_toolsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_snow_weaponsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "snow"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_armorer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_butcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_cartographer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_cleric": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_farmer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_fisherman": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_fletcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_leatherworker": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_librarian": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_mason": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_nitwit": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_none": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_shepherd": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_toolsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_swamp_weaponsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "swamp"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_armorer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "armorer",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_butcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "butcher",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_cartographer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cartographer",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_cleric": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "cleric",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_farmer": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "farmer",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_fisherman": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fisherman",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_fletcher": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "fletcher",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_leatherworker": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "leatherworker",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_librarian": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "librarian",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_mason": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "mason",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_nitwit": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_none": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "none",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_shepherd": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "shepherd",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_toolsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "toolsmith",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_taiga_weaponsmith": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "VillagerData": {
+              "profession": "weaponsmith",
+              "type": "taiga"
+            }
+          },
+          "type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Cure it with fire and gold — what it once was waits anxiously inside.",
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": "Zombie Villager"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/zombie",
+  "requirements": [
+    [
+      "cured_desert_armorer",
+      "killed_desert_armorer"
+    ],
+    [
+      "cured_desert_butcher",
+      "killed_desert_butcher"
+    ],
+    [
+      "cured_desert_cartographer",
+      "killed_desert_cartographer"
+    ],
+    [
+      "cured_desert_cleric",
+      "killed_desert_cleric"
+    ],
+    [
+      "cured_desert_farmer",
+      "killed_desert_farmer"
+    ],
+    [
+      "cured_desert_fisherman",
+      "killed_desert_fisherman"
+    ],
+    [
+      "cured_desert_fletcher",
+      "killed_desert_fletcher"
+    ],
+    [
+      "cured_desert_leatherworker",
+      "killed_desert_leatherworker"
+    ],
+    [
+      "cured_desert_librarian",
+      "killed_desert_librarian"
+    ],
+    [
+      "cured_desert_mason",
+      "killed_desert_mason"
+    ],
+    [
+      "cured_desert_nitwit",
+      "killed_desert_nitwit"
+    ],
+    [
+      "cured_desert_none",
+      "killed_desert_none"
+    ],
+    [
+      "cured_desert_shepherd",
+      "killed_desert_shepherd"
+    ],
+    [
+      "cured_desert_toolsmith",
+      "killed_desert_toolsmith"
+    ],
+    [
+      "cured_desert_weaponsmith",
+      "killed_desert_weaponsmith"
+    ],
+    [
+      "cured_jungle_armorer",
+      "killed_jungle_armorer"
+    ],
+    [
+      "cured_jungle_butcher",
+      "killed_jungle_butcher"
+    ],
+    [
+      "cured_jungle_cartographer",
+      "killed_jungle_cartographer"
+    ],
+    [
+      "cured_jungle_cleric",
+      "killed_jungle_cleric"
+    ],
+    [
+      "cured_jungle_farmer",
+      "killed_jungle_farmer"
+    ],
+    [
+      "cured_jungle_fisherman",
+      "killed_jungle_fisherman"
+    ],
+    [
+      "cured_jungle_fletcher",
+      "killed_jungle_fletcher"
+    ],
+    [
+      "cured_jungle_leatherworker",
+      "killed_jungle_leatherworker"
+    ],
+    [
+      "cured_jungle_librarian",
+      "killed_jungle_librarian"
+    ],
+    [
+      "cured_jungle_mason",
+      "killed_jungle_mason"
+    ],
+    [
+      "cured_jungle_nitwit",
+      "killed_jungle_nitwit"
+    ],
+    [
+      "cured_jungle_none",
+      "killed_jungle_none"
+    ],
+    [
+      "cured_jungle_shepherd",
+      "killed_jungle_shepherd"
+    ],
+    [
+      "cured_jungle_toolsmith",
+      "killed_jungle_toolsmith"
+    ],
+    [
+      "cured_jungle_weaponsmith",
+      "killed_jungle_weaponsmith"
+    ],
+    [
+      "cured_plains_armorer",
+      "killed_plains_armorer"
+    ],
+    [
+      "cured_plains_butcher",
+      "killed_plains_butcher"
+    ],
+    [
+      "cured_plains_cartographer",
+      "killed_plains_cartographer"
+    ],
+    [
+      "cured_plains_cleric",
+      "killed_plains_cleric"
+    ],
+    [
+      "cured_plains_farmer",
+      "killed_plains_farmer"
+    ],
+    [
+      "cured_plains_fisherman",
+      "killed_plains_fisherman"
+    ],
+    [
+      "cured_plains_fletcher",
+      "killed_plains_fletcher"
+    ],
+    [
+      "cured_plains_leatherworker",
+      "killed_plains_leatherworker"
+    ],
+    [
+      "cured_plains_librarian",
+      "killed_plains_librarian"
+    ],
+    [
+      "cured_plains_mason",
+      "killed_plains_mason"
+    ],
+    [
+      "cured_plains_nitwit",
+      "killed_plains_nitwit"
+    ],
+    [
+      "cured_plains_none",
+      "killed_plains_none"
+    ],
+    [
+      "cured_plains_shepherd",
+      "killed_plains_shepherd"
+    ],
+    [
+      "cured_plains_toolsmith",
+      "killed_plains_toolsmith"
+    ],
+    [
+      "cured_plains_weaponsmith",
+      "killed_plains_weaponsmith"
+    ],
+    [
+      "cured_savanna_armorer",
+      "killed_savanna_armorer"
+    ],
+    [
+      "cured_savanna_butcher",
+      "killed_savanna_butcher"
+    ],
+    [
+      "cured_savanna_cartographer",
+      "killed_savanna_cartographer"
+    ],
+    [
+      "cured_savanna_cleric",
+      "killed_savanna_cleric"
+    ],
+    [
+      "cured_savanna_farmer",
+      "killed_savanna_farmer"
+    ],
+    [
+      "cured_savanna_fisherman",
+      "killed_savanna_fisherman"
+    ],
+    [
+      "cured_savanna_fletcher",
+      "killed_savanna_fletcher"
+    ],
+    [
+      "cured_savanna_leatherworker",
+      "killed_savanna_leatherworker"
+    ],
+    [
+      "cured_savanna_librarian",
+      "killed_savanna_librarian"
+    ],
+    [
+      "cured_savanna_mason",
+      "killed_savanna_mason"
+    ],
+    [
+      "cured_savanna_nitwit",
+      "killed_savanna_nitwit"
+    ],
+    [
+      "cured_savanna_none",
+      "killed_savanna_none"
+    ],
+    [
+      "cured_savanna_shepherd",
+      "killed_savanna_shepherd"
+    ],
+    [
+      "cured_savanna_toolsmith",
+      "killed_savanna_toolsmith"
+    ],
+    [
+      "cured_savanna_weaponsmith",
+      "killed_savanna_weaponsmith"
+    ],
+    [
+      "cured_snow_armorer",
+      "killed_snow_armorer"
+    ],
+    [
+      "cured_snow_butcher",
+      "killed_snow_butcher"
+    ],
+    [
+      "cured_snow_cartographer",
+      "killed_snow_cartographer"
+    ],
+    [
+      "cured_snow_cleric",
+      "killed_snow_cleric"
+    ],
+    [
+      "cured_snow_farmer",
+      "killed_snow_farmer"
+    ],
+    [
+      "cured_snow_fisherman",
+      "killed_snow_fisherman"
+    ],
+    [
+      "cured_snow_fletcher",
+      "killed_snow_fletcher"
+    ],
+    [
+      "cured_snow_leatherworker",
+      "killed_snow_leatherworker"
+    ],
+    [
+      "cured_snow_librarian",
+      "killed_snow_librarian"
+    ],
+    [
+      "cured_snow_mason",
+      "killed_snow_mason"
+    ],
+    [
+      "cured_snow_nitwit",
+      "killed_snow_nitwit"
+    ],
+    [
+      "cured_snow_none",
+      "killed_snow_none"
+    ],
+    [
+      "cured_snow_shepherd",
+      "killed_snow_shepherd"
+    ],
+    [
+      "cured_snow_toolsmith",
+      "killed_snow_toolsmith"
+    ],
+    [
+      "cured_snow_weaponsmith",
+      "killed_snow_weaponsmith"
+    ],
+    [
+      "cured_swamp_armorer",
+      "killed_swamp_armorer"
+    ],
+    [
+      "cured_swamp_butcher",
+      "killed_swamp_butcher"
+    ],
+    [
+      "cured_swamp_cartographer",
+      "killed_swamp_cartographer"
+    ],
+    [
+      "cured_swamp_cleric",
+      "killed_swamp_cleric"
+    ],
+    [
+      "cured_swamp_farmer",
+      "killed_swamp_farmer"
+    ],
+    [
+      "cured_swamp_fisherman",
+      "killed_swamp_fisherman"
+    ],
+    [
+      "cured_swamp_fletcher",
+      "killed_swamp_fletcher"
+    ],
+    [
+      "cured_swamp_leatherworker",
+      "killed_swamp_leatherworker"
+    ],
+    [
+      "cured_swamp_librarian",
+      "killed_swamp_librarian"
+    ],
+    [
+      "cured_swamp_mason",
+      "killed_swamp_mason"
+    ],
+    [
+      "cured_swamp_nitwit",
+      "killed_swamp_nitwit"
+    ],
+    [
+      "cured_swamp_none",
+      "killed_swamp_none"
+    ],
+    [
+      "cured_swamp_shepherd",
+      "killed_swamp_shepherd"
+    ],
+    [
+      "cured_swamp_toolsmith",
+      "killed_swamp_toolsmith"
+    ],
+    [
+      "cured_swamp_weaponsmith",
+      "killed_swamp_weaponsmith"
+    ],
+    [
+      "cured_taiga_armorer",
+      "killed_taiga_armorer"
+    ],
+    [
+      "cured_taiga_butcher",
+      "killed_taiga_butcher"
+    ],
+    [
+      "cured_taiga_cartographer",
+      "killed_taiga_cartographer"
+    ],
+    [
+      "cured_taiga_cleric",
+      "killed_taiga_cleric"
+    ],
+    [
+      "cured_taiga_farmer",
+      "killed_taiga_farmer"
+    ],
+    [
+      "cured_taiga_fisherman",
+      "killed_taiga_fisherman"
+    ],
+    [
+      "cured_taiga_fletcher",
+      "killed_taiga_fletcher"
+    ],
+    [
+      "cured_taiga_leatherworker",
+      "killed_taiga_leatherworker"
+    ],
+    [
+      "cured_taiga_librarian",
+      "killed_taiga_librarian"
+    ],
+    [
+      "cured_taiga_mason",
+      "killed_taiga_mason"
+    ],
+    [
+      "cured_taiga_nitwit",
+      "killed_taiga_nitwit"
+    ],
+    [
+      "cured_taiga_none",
+      "killed_taiga_none"
+    ],
+    [
+      "cured_taiga_shepherd",
+      "killed_taiga_shepherd"
+    ],
+    [
+      "cured_taiga_toolsmith",
+      "killed_taiga_toolsmith"
+    ],
+    [
+      "cured_taiga_weaponsmith",
+      "killed_taiga_weaponsmith"
+    ]
+  ]
+}

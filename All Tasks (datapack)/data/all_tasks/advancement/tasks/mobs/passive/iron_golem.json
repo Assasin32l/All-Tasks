@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "iron_golem"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "A quiet guardian, handing out poppies and crushing threats without a word.",
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": "Iron Golem"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

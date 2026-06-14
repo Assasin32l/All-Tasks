@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "killed_charged_creeper": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "powered": true
+          },
+          "type": "creeper"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "killed_creeper": {
+      "conditions": {
+        "entity": {
+          "nbt": {
+            "powered": false
+          },
+          "type": "creeper"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Silent, green, and already far too close.",
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": "Creeper"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

@@ -107,9 +107,9 @@
     "title": "Stronghold Loot: Library",
     "description": "Shelves of enchanted books in a library built by those who never returned.",
     "icon": {
-      "id": "minecraft:book"
+      "id": "book"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/stronghold/loot_crossing/loot"
 }

@@ -141,9 +141,9 @@
     "title": "Trial Chambers Loot: Intersection Chest",
     "description": "A chest at the intersection, holding the most valuable find in the chambers.",
     "icon": {
-      "id": "minecraft:diamond_block"
+      "id": "diamond_block"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/loot_entrance_chest/loot"
 }

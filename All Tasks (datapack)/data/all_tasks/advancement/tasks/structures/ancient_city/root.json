@@ -15,7 +15,7 @@
     "title": "Ancient City",
     "description": "Sculk and silence, deep below where no one was meant to go.",
     "icon": {
-      "id": "minecraft:reinforced_deepslate"
+      "id": "reinforced_deepslate"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

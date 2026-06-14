@@ -348,9 +348,9 @@
     "title": "Trial Chambers Loot: Ominous Vault",
     "description": "The ominous vault's reward, opened only by a key earned under bad omen.",
     "icon": {
-      "id": "minecraft:heavy_core"
+      "id": "heavy_core"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/loot_vault"
 }

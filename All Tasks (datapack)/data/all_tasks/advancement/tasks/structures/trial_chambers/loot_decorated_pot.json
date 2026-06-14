@@ -141,9 +141,9 @@
     "title": "Trial Chambers Loot: Decorated Pot",
     "description": "A decorated pot in the corridor, holding something meant to be kept.",
     "icon": {
-      "id": "minecraft:music_disc_creator_music_box"
+      "id": "music_disc_creator_music_box"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/root"
 }

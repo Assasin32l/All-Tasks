@@ -4,11 +4,11 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crafting_table"
+            "items": "crafting_table"
           }
         ]
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "inventory_changed"
     }
   },
   "display": {
@@ -16,9 +16,7 @@
     "description": {
       "translate": "advancements.story.root.description"
     },
-    "icon": {
-      "id": "minecraft:grass_block"
-    },
+    "icon": "grass_block",
     "show_toast": false,
     "title": {
       "translate": "advancements.story.root.title"

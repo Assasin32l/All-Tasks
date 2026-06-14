@@ -532,9 +532,9 @@
     "title": "Trail Ruins Loot: Common",
     "description": "Common finds scattered through a ruin that the earth slowly swallowed.",
     "icon": {
-      "id": "minecraft:flower_pot"
+      "id": "flower_pot"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/trail_ruins/root"
 }

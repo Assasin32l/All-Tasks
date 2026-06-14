@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "shulker"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Disguised as a box until it isn't, then floating a curse straight at you.",
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": "Shulker"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

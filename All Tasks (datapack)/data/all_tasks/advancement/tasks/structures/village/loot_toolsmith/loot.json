@@ -141,9 +141,9 @@
     "title": "Village Loot: Toolsmith",
     "description": "Iron tools and raw materials in the workshop of someone always busy.",
     "icon": {
-      "id": "minecraft:iron_pickaxe"
+      "id": "iron_pickaxe"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/root"
 }

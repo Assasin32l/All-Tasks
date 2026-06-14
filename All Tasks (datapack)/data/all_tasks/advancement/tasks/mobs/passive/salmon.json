@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "salmon"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "salmon_bucket": {
+      "conditions": {
+        "item": {
+          "items": "salmon_bucket"
+        }
+      },
+      "trigger": "filled_bucket"
+    }
+  },
+  "display": {
+    "description": "Pushing upstream through the cold, driven by something older than instinct.",
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": "Salmon"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/cod",
+  "requirements": [
+    [
+      "salmon_bucket",
+      "looked_at_animal"
+    ]
+  ]
+}

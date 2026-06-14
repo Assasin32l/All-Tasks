@@ -226,9 +226,9 @@
     "title": "Village Loot: Taiga House",
     "description": "A taiga home, spruce-scented and warm, stocked for the long winter ahead.",
     "icon": {
-      "id": "minecraft:pumpkin_pie"
+      "id": "pumpkin_pie"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/loot_snowy_house/loot"
 }

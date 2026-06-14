@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "drowned"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "What the ocean keeps when it doesn't give someone back.",
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": "Drowned"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/zombie"
+}

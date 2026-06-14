@@ -1,0 +1,88 @@
+{
+  "criteria": {
+    "looked_at_brown": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "llama/variant": "brown"
+              },
+              "type": "llama"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_creamy": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "llama/variant": "creamy"
+              },
+              "type": "llama"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_gray": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "llama/variant": "gray"
+              },
+              "type": "llama"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "looked_at_white": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "components": {
+                "llama/variant": "white"
+              },
+              "type": "llama"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Decorated and defiant, spitting at anyone it decides it dislikes.",
+    "icon": {
+      "id": "minecraft:carpet"
+    },
+    "title": "Llama"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

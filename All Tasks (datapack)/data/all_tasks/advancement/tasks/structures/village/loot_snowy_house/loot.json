@@ -192,9 +192,9 @@
     "title": "Village Loot: Snowy House",
     "description": "A snowy home where the cold finds its way into everything.",
     "icon": {
-      "id": "minecraft:blue_ice"
+      "id": "blue_ice"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/village/loot_savanna_house/loot"
 }

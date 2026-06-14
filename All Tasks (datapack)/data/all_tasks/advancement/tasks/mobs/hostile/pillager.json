@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "pillager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Patrolling the outpost with a crossbow and a grudge against the nearest village.",
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": "Pillager"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

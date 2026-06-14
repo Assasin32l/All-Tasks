@@ -362,9 +362,9 @@
     "title": "Mineshaft Loot",
     "description": "Hanging in the dark on a rotting chain, untouched for years.",
     "icon": {
-      "id": "minecraft:name_tag"
+      "id": "name_tag"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/mineshaft/root"
 }

@@ -11,7 +11,7 @@
     "title": "Monster Spawner",
     "description": "A cage of iron spinning endlessly in cobwebbed stone.",
     "icon": {
-      "id": "minecraft:cobweb"
+      "id": "cobweb"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

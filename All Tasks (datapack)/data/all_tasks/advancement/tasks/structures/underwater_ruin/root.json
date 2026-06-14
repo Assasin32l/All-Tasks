@@ -25,7 +25,7 @@
     "title": "Ocean Ruins",
     "description": "Ancient columns half-buried in sand, still and salt-eaten beneath the waves.",
     "icon": {
-      "id": "minecraft:mossy_stone_bricks"
+      "id": "mossy_stone_bricks"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

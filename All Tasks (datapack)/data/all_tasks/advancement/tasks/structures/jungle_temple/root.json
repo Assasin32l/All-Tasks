@@ -15,7 +15,7 @@
     "title": "Jungle Temple",
     "description": "Vines swallowing stone walls, traps still armed after centuries of silence.",
     "icon": {
-      "id": "minecraft:mossy_cobblestone"
+      "id": "mossy_cobblestone"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

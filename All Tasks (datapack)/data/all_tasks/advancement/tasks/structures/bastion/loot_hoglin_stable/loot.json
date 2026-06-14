@@ -396,9 +396,9 @@
     "title": "Bastion Remnant Loot: Hoglin Stable",
     "description": "Among the pens where hoglins are kept, somewhere past the smell.",
     "icon": {
-      "id": "minecraft:saddle"
+      "id": "saddle"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/bastion/loot_generic/loot"
 }

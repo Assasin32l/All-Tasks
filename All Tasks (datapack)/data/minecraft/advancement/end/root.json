@@ -2,9 +2,9 @@
   "criteria": {
     "entered_end": {
       "conditions": {
-        "to": "minecraft:the_end"
+        "to": "the_end"
       },
-      "trigger": "minecraft:changed_dimension"
+      "trigger": "changed_dimension"
     }
   },
   "display": {
@@ -12,9 +12,7 @@
     "description": {
       "translate": "advancements.end.root.description"
     },
-    "icon": {
-      "id": "minecraft:end_stone"
-    },
+    "icon": "end_stone",
     "show_toast": false,
     "title": {
       "translate": "advancements.end.root.title"

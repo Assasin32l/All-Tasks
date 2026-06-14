@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "zombie"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Groaning through the night toward whatever light it can find.",
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": "Zombie"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

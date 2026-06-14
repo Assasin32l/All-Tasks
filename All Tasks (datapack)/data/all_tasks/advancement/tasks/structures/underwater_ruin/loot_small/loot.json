@@ -243,9 +243,9 @@
     "title": "Ocean Ruins Loot: Small",
     "description": "A small ruin half-buried in the sand, the chest barely visible beneath it.",
     "icon": {
-      "id": "minecraft:fishing_rod"
+      "id": "fishing_rod"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/underwater_ruin/loot_big/loot"
 }

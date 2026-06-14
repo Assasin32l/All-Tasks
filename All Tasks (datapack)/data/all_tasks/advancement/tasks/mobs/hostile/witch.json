@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "witch"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Chugging a potion before you reach her, then throwing one straight back at you.",
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": "Witch"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/pillager"
+}

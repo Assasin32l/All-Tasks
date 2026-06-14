@@ -15,7 +15,7 @@
     "title": "Swamp Hut",
     "description": "A crooked little hut on stilts, reeking of potions and spite.",
     "icon": {
-      "id": "minecraft:cauldron"
+      "id": "cauldron"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

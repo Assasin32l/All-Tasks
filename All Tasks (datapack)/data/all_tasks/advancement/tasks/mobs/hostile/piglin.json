@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "piglin"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Obsessed with gold, hostile to everything else \u2014 bring the right offering.",
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": "Piglin"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

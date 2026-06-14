@@ -15,7 +15,7 @@
     "title": "Stronghold",
     "description": "Stone corridors winding deep underground, circling the door to the end.",
     "icon": {
-      "id": "minecraft:end_portal_frame"
+      "id": "end_portal_frame"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

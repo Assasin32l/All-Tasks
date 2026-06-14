@@ -25,7 +25,7 @@
     "title": "Mineshaft",
     "description": "Rotting planks and rusted rails threading through the dark underground.",
     "icon": {
-      "id": "minecraft:rail"
+      "id": "rail"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

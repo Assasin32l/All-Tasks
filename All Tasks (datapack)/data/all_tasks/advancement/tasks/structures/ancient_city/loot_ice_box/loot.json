@@ -90,9 +90,9 @@
     "title": "Ancient City Loot: Ice Box",
     "description": "A frozen cache sealed beneath the city, cold and undisturbed for ages.",
     "icon": {
-      "id": "minecraft:packed_ice"
+      "id": "packed_ice"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/ancient_city/root"
 }

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "bat"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "A flutter of black in the cave dark, gone before you spot it.",
+    "icon": {
+      "id": "minecraft:bat_spawn_egg"
+    },
+    "title": "Bat"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

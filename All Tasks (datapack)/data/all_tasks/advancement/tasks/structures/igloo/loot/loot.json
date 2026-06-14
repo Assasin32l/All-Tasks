@@ -141,9 +141,9 @@
     "title": "Igloo Loot",
     "description": "Beneath the trapdoor, down the ladder, in the frozen room below.",
     "icon": {
-      "id": "minecraft:golden_apple"
+      "id": "golden_apple"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/igloo/root"
 }

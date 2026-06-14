@@ -15,7 +15,7 @@
     "title": "Nether Fortress",
     "description": "Crumbling corridors of dark brick suspended over the lava sea.",
     "icon": {
-      "id": "minecraft:nether_bricks"
+      "id": "nether_bricks"
     }
   },
   "parent": "all_tasks:tasks/structures/root"

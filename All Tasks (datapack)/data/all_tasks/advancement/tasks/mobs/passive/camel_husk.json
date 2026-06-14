@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "camel_husk"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "A desiccated mount drifting through the desert dark, ridden by the dead.",
+    "icon": {
+      "id": "minecraft:camel_husk_spawn_egg"
+    },
+    "title": "Camel Husk"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/camel"
+}

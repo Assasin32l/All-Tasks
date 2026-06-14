@@ -243,9 +243,9 @@
     "title": "Nether Fortress Loot",
     "description": "Tucked in the corridors of a fortress built over flowing fire.",
     "icon": {
-      "id": "minecraft:nether_wart"
+      "id": "nether_wart"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/nether_fortress/root"
 }

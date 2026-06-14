@@ -379,9 +379,9 @@
     "title": "Shipwreck Loot: Supply",
     "description": "The supply hold, overgrown and waterlogged, still holding what the crew left.",
     "icon": {
-      "id": "minecraft:moss_block"
+      "id": "moss_block"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/shipwreck/root"
 }

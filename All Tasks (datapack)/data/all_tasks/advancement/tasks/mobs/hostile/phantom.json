@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "phantom"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Circling the sleepless, diving in the moment the sky is looked away from.",
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": "Phantom"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

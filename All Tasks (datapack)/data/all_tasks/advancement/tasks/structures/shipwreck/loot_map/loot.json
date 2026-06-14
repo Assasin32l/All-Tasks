@@ -209,9 +209,9 @@
     "title": "Shipwreck Loot: Map",
     "description": "In the captain's quarters, a map pointing toward something more valuable.",
     "icon": {
-      "id": "minecraft:compass"
+      "id": "compass"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/shipwreck/loot_treasure/loot"
 }

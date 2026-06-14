@@ -328,9 +328,9 @@
     "title": "Desert Pyramid Loot: Chest",
     "description": "Four chests around a pressure plate \u2014 approach the center carefully.",
     "icon": {
-      "id": "minecraft:diamond_horse_armor"
+      "id": "diamond_horse_armor"
     },
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "all_tasks:tasks/structures/desert_pyramid/root"
 }

@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "pufferfish"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    },
+    "pufferfish_bucket": {
+      "conditions": {
+        "item": {
+          "items": "pufferfish_bucket"
+        }
+      },
+      "trigger": "filled_bucket"
+    }
+  },
+  "display": {
+    "description": "Small and mild until startled \u2014 then suddenly very much a problem.",
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": "Pufferfish"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/cod"
+}

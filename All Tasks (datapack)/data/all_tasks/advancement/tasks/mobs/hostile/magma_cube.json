@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_mob": {
+      "conditions": {
+        "entity": {
+          "type": "magma_cube"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "Bouncing over the lava fields, splitting apart instead of dying.",
+    "icon": {
+      "id": "minecraft:magma_cream"
+    },
+    "title": "Magma Cube"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/slime"
+}

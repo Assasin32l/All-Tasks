@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "looked_at_animal": {
+      "conditions": {
+        "item": {
+          "items": "spyglass"
+        },
+        "player": {
+          "type_specific": {
+            "looking_at": {
+              "type": "bee"
+            },
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "using_item"
+    }
+  },
+  "display": {
+    "description": "Humming between flowers, indifferent to everything but the work.",
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": "Bee"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}
