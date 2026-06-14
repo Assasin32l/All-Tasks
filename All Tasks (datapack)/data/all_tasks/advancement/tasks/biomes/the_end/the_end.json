@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "A lone island at the edge of everything, the dragon waiting at its centre.",
-    "icon": {
-      "id": "end_stone"
-    },
+    "icon": "end_stone",
     "title": "The End"
   },
   "parent": "all_tasks:tasks/biomes/the_end/root"

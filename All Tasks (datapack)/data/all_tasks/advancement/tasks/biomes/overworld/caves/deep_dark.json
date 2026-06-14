@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Sculk covers everything. Something stirs beneath the silence.",
-    "icon": {
-      "id": "sculk"
-    },
+    "icon": "sculk",
     "title": "Deep Dark"
   },
   "parent": "all_tasks:tasks/biomes/overworld/caves/dripstone_caves"

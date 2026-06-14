@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Every branch weighed down, the forest holding its breath.",
-    "icon": {
-      "id": "spruce_log"
-    },
+    "icon": "spruce_log",
     "title": "Snowy Taiga"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/taiga"

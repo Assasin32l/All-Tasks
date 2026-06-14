@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Netherrack burning endlessly, the horizon offering nothing in any direction.",
-    "icon": {
-      "id": "netherrack"
-    },
+    "icon": "netherrack",
     "title": "Nether Wastes"
   },
   "parent": "all_tasks:tasks/biomes/the_nether/root"

@@ -1,24 +1,6 @@
 {
   "criteria": {
-    "ominous_trial_key": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "ominous_trial_key",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_spawner"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "baked_potato": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "cooked_beef": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -49,10 +31,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "golden_carrot": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,10 +48,27 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "ominous_trial_key": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ominous_trial_key",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_spawner"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "potion_of_regeneration": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -84,10 +83,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "potion_of_strength": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -102,16 +101,15 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trial Chambers Loot: Ominous Spawner",
     "description": "What the ominous spawner drops, for those who entered under bad omen.",
-    "icon": {
-      "id": "ominous_trial_key"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "ominous_trial_key",
+    "title": "Trial Chambers Loot: Ominous Spawner"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/loot_spawner"
 }

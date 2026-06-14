@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "bastion_remnant"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Bastion Remnant",
     "description": "A piglin fortress of black stone, built atop rivers of fire.",
-    "icon": {
-      "id": "gilded_blackstone"
-    }
+    "icon": "gilded_blackstone",
+    "title": "Bastion Remnant"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

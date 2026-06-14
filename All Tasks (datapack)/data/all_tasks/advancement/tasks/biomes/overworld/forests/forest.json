@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Oak and birch standing close enough to swallow the sky.",
-    "icon": {
-      "id": "oak_log"
-    },
+    "icon": "oak_log",
     "title": "Forest"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"

@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "The water gave up moving entirely.",
-    "icon": {
-      "id": "ice"
-    },
+    "icon": "ice",
     "title": "Frozen River"
   },
   "parent": "all_tasks:tasks/biomes/overworld/wetland/river"

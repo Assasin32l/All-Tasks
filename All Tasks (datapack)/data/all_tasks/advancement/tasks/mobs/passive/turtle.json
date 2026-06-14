@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "turtle"
-            },
-            "type": "player"
+              "entity_type": "turtle"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Ancient and unhurried, returning to the same shore it was born on.",
-    "icon": {
-      "id": "minecraft:scute"
-    },
+    "icon": "scute",
     "title": "Turtle"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

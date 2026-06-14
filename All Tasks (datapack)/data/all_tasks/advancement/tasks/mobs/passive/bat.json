@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "bat"
-            },
-            "type": "player"
+              "entity_type": "bat"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "A flutter of black in the cave dark, gone before you spot it.",
-    "icon": {
-      "id": "minecraft:bat_spawn_egg"
-    },
+    "icon": "bat_spawn_egg",
     "title": "Bat"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

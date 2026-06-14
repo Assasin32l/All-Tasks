@@ -1,186 +1,209 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_weaponsmith/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "village/weaponsmith"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "diamond",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_ingot",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_ingot",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "bread",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "apple",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "name": "iron_pickaxe",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "iron_sword",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "iron_spear",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "copper_spear",
+          "type": "item",
           "weight": 7
         },
         {
-          "type": "item",
           "name": "iron_chestplate",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "iron_helmet",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "iron_leggings",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "iron_boots",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "obsidian",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "oak_sapling",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "saddle",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
-          "name": "copper_horse_armor"
+          "name": "copper_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "iron_horse_armor"
+          "name": "iron_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "golden_horse_armor"
+          "name": "golden_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "diamond_horse_armor"
+          "name": "diamond_horse_armor",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 8,
-        "min": 3
+        "min": 3,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
-          "name": "bundle"
+          "name": "bundle",
+          "type": "item"
         },
         {
           "type": "empty",
@@ -191,29 +214,5 @@
     }
   ],
   "random_sequence": "chests/village/village_weaponsmith",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "village/weaponsmith",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/village/loot_weaponsmith/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

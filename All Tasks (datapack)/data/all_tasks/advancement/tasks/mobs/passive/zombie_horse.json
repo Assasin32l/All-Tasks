@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "zombie_horse"
-            },
-            "type": "player"
+              "entity_type": "zombie_horse"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Still running, still carrying \u2014 long past the point it should have stopped.",
-    "icon": {
-      "id": "minecraft:rotten_flesh"
-    },
+    "icon": "rotten_flesh",
     "title": "Zombie Horse"
   },
   "parent": "all_tasks:tasks/mobs/passive/horse"

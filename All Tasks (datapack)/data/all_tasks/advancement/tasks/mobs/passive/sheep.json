@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "black"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "blue"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "brown"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "cyan"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -82,14 +78,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "gray"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -101,14 +96,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "green"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -120,14 +114,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "light_blue"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -139,14 +132,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "light_gray"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -158,14 +150,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "lime"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -177,14 +168,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "magenta"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -196,14 +186,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "orange"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -215,14 +204,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "pink"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -234,14 +222,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "purple"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -253,14 +240,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "red"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -272,14 +258,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "white"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -291,14 +276,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "sheep/color": "yellow"
               },
-              "type": "sheep"
-            },
-            "type": "player"
+              "entity_type": "sheep"
+            }
           }
         }
       },
@@ -307,9 +291,7 @@
   },
   "display": {
     "description": "Grazing the hillside in every colour, peaceful in every one of them.",
-    "icon": {
-      "id": "minecraft:white_wool"
-    },
+    "icon": "white_wool",
     "title": "Sheep"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

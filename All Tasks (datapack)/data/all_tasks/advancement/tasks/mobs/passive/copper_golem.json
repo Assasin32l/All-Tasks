@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "copper_golem",
               "nbt": {
                 "weather_state": "exposed"
-              },
-              "type": "copper_golem"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "copper_golem",
               "nbt": {
                 "weather_state": "oxidized"
-              },
-              "type": "copper_golem"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "copper_golem",
               "nbt": {
                 "weather_state": "unaffected"
-              },
-              "type": "copper_golem"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "copper_golem",
               "nbt": {
                 "weather_state": "weathered"
-              },
-              "type": "copper_golem"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -79,9 +75,7 @@
   },
   "display": {
     "description": "Built to sort and serve, slowly turning green until it stops entirely.",
-    "icon": {
-      "id": "minecraft:copper_ingot"
-    },
+    "icon": "copper_ingot",
     "title": "Copper Golem"
   },
   "parent": "all_tasks:tasks/mobs/passive/iron_golem"

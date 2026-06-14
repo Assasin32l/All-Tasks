@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "salmon"
-            },
-            "type": "player"
+              "entity_type": "salmon"
+            }
           }
         }
       },
@@ -27,9 +26,7 @@
   },
   "display": {
     "description": "Pushing upstream through the cold, driven by something older than instinct.",
-    "icon": {
-      "id": "minecraft:salmon"
-    },
+    "icon": "salmon",
     "title": "Salmon"
   },
   "parent": "all_tasks:tasks/mobs/passive/cod",

@@ -1,157 +1,180 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_taiga_house/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "village/taiga_house"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "iron_nugget"
+          "name": "iron_nugget",
+          "type": "item"
         },
         {
-          "type": "item",
           "name": "fern",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "large_fern",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "potato",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "sweet_berries",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "bread",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "pumpkin_seeds",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
-          "name": "pumpkin_pie"
+          "name": "pumpkin_pie",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "emerald",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "spruce_sapling",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
-          "name": "spruce_sign"
+          "name": "spruce_sign",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "spruce_log",
+          "type": "item",
           "weight": 10
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 8,
-        "min": 3
+        "min": 3,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
-          "name": "bundle"
+          "name": "bundle",
+          "type": "item"
         },
         {
           "type": "empty",
@@ -162,29 +185,5 @@
     }
   ],
   "random_sequence": "chests/village/village_taiga_house",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "village/taiga_house",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/village/loot_taiga_house/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

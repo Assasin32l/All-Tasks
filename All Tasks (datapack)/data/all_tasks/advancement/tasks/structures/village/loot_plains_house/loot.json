@@ -1,24 +1,6 @@
 {
   "criteria": {
-    "potato": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "potato",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/plains_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "apple": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,112 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "bread": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "bread",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/plains_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "oak_sapling": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "oak_sapling",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/plains_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "bundle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "bundle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/plains_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/plains_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "dandelion": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "dandelion",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/plains_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_nugget": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_nugget",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/plains_house"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "book": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -151,10 +31,78 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bundle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "dandelion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dandelion",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "feather": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -168,10 +116,44 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "oak_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "oak_sapling",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "poppy": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -185,16 +167,32 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Plains House",
     "description": "A simple home on the plains, its chest full of honest things.",
-    "icon": {
-      "id": "apple"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "apple",
+    "title": "Village Loot: Plains House"
   },
   "parent": "all_tasks:tasks/structures/village/root"
 }

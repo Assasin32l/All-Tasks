@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Every step sinks a little \u2014 the air full of things best left unnamed.",
-    "icon": {
-      "id": "soul_sand"
-    },
+    "icon": "soul_sand",
     "title": "Soul Sand Valley"
   },
   "parent": "all_tasks:tasks/biomes/the_nether/root"

@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Basalt columns rising from magma fields, the air thick with debris.",
-    "icon": {
-      "id": "basalt"
-    },
+    "icon": "basalt",
     "title": "Basalt Deltas"
   },
   "parent": "all_tasks:tasks/biomes/the_nether/root"

@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "happy_ghast"
-            },
-            "type": "player"
+              "entity_type": "happy_ghast"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "A gentle giant of the sky, soft-eyed and willing to carry you home.",
-    "icon": {
-      "id": "minecraft:snowball"
-    },
+    "icon": "snowball",
     "title": "Happy Ghast"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

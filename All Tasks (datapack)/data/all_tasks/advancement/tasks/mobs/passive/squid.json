@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "squid"
-            },
-            "type": "player"
+              "entity_type": "squid"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Drifting in slow spirals through the open water, trailing ink and silence.",
-    "icon": {
-      "id": "minecraft:ink_sac"
-    },
+    "icon": "ink_sac",
     "title": "Squid"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

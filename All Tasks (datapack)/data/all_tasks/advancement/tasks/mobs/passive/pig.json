@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "pig/variant": "cold"
               },
-              "type": "pig"
-            },
-            "type": "player"
+              "entity_type": "pig"
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "pig/variant": "temperate"
               },
-              "type": "pig"
-            },
-            "type": "player"
+              "entity_type": "pig"
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "pig/variant": "warm"
               },
-              "type": "pig"
-            },
-            "type": "player"
+              "entity_type": "pig"
+            }
           }
         }
       },
@@ -60,9 +57,7 @@
   },
   "display": {
     "description": "Rooting through the mud without a single care in the world.",
-    "icon": {
-      "id": "minecraft:porkchop"
-    },
+    "icon": "porkchop",
     "title": "Pig"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

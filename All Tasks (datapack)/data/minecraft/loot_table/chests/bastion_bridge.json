@@ -1,11 +1,34 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/bastion/loot_bridge/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "bastion/bridge"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
-          "name": "lodestone"
+          "name": "lodestone",
+          "type": "item"
         }
       ],
       "rolls": 1
@@ -13,13 +36,12 @@
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.5,
-                "min": 0.1
+                "min": 0.1,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -28,220 +50,221 @@
               "options": "#on_random_loot"
             }
           ],
-          "name": "crossbow"
+          "name": "crossbow",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 28,
-                "min": 10
+                "min": 10,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "spectral_arrow"
+          "name": "spectral_arrow",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 12,
-                "min": 8
+                "min": 8,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "gilded_blackstone"
+          "name": "gilded_blackstone",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "crying_obsidian"
+          "name": "crying_obsidian",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "gold_block"
+          "name": "gold_block",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 9,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "gold_ingot"
+          "name": "gold_ingot",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 9,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "iron_ingot"
+          "name": "iron_ingot",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "golden_sword"
+          "name": "golden_sword",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
               "options": "#on_random_loot"
             }
           ],
-          "name": "golden_chestplate"
+          "name": "golden_chestplate",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
               "options": "#on_random_loot"
             }
           ],
-          "name": "golden_helmet"
+          "name": "golden_helmet",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
               "options": "#on_random_loot"
             }
           ],
-          "name": "golden_leggings"
+          "name": "golden_leggings",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
               "options": "#on_random_loot"
             }
           ],
-          "name": "golden_boots"
+          "name": "golden_boots",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
               "options": "#on_random_loot"
             }
           ],
-          "name": "golden_axe"
+          "name": "golden_axe",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 2,
-        "min": 1
+        "min": 1,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "string"
+          "name": "string",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "leather"
+          "name": "leather",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 17,
-                "min": 5
+                "min": 5,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "arrow"
+          "name": "arrow",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "iron_nugget"
+          "name": "iron_nugget",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "gold_nugget"
+          "name": "gold_nugget",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 4,
-        "min": 2
+        "min": 2,
+        "type": "uniform"
       }
     },
     {
@@ -251,8 +274,8 @@
           "weight": 11
         },
         {
-          "type": "item",
-          "name": "snout_armor_trim_smithing_template"
+          "name": "snout_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
@@ -264,37 +287,13 @@
           "weight": 9
         },
         {
-          "type": "item",
-          "name": "netherite_upgrade_smithing_template"
+          "name": "netherite_upgrade_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
     }
   ],
   "random_sequence": "chests/bastion_bridge",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "bastion/bridge",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/bastion/loot_bridge/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

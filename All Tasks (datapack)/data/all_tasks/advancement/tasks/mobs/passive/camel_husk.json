@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "camel_husk"
-            },
-            "type": "player"
+              "entity_type": "camel_husk"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "A desiccated mount drifting through the desert dark, ridden by the dead.",
-    "icon": {
-      "id": "minecraft:camel_husk_spawn_egg"
-    },
+    "icon": "camel_husk_spawn_egg",
     "title": "Camel Husk"
   },
   "parent": "all_tasks:tasks/mobs/passive/camel"

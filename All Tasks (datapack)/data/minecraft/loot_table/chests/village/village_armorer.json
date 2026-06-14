@@ -1,78 +1,77 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "iron_ingot",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 4,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "bread",
-          "weight": 4
-        },
-        {
-          "type": "item",
-          "name": "iron_helmet"
-        },
-        {
-          "type": "item",
-          "name": "emerald"
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 5,
-        "min": 1
-      }
-    }
-  ],
-  "random_sequence": "chests/village/village_armorer",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "village/armorer",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/village/loot_armorer/loot": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "village/armorer"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "iron_ingot",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 4,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "bread",
+          "type": "item",
+          "weight": 4
+        },
+        {
+          "name": "iron_helmet",
+          "type": "item"
+        },
+        {
+          "name": "emerald",
+          "type": "item"
+        }
+      ],
+      "rolls": {
+        "max": 5,
+        "min": 1,
+        "type": "uniform"
+      }
+    }
+  ],
+  "random_sequence": "chests/village/village_armorer",
+  "type": "chest"
 }

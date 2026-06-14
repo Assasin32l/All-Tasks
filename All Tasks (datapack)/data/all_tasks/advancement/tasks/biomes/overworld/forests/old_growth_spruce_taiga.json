@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Tall enough to make their own sky, old enough to have seen everything.",
-    "icon": {
-      "id": "podzol"
-    },
+    "icon": "podzol",
     "title": "Old Growth Spruce Taiga"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/taiga"

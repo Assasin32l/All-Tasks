@@ -1,41 +1,6 @@
 {
   "criteria": {
-    "wheat_seeds": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wheat_seeds",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/savanna_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "bread": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "bread",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/savanna_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "acacia_sapling": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -49,14 +14,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "short_grass": {
-      "trigger": "inventory_changed",
+    "bread": {
       "conditions": {
         "items": [
           {
-            "items": "short_grass",
+            "items": "bread",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -66,95 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "tall_grass": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "tall_grass",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/savanna_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "bundle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "bundle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/savanna_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/savanna_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_nugget": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_nugget",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/savanna_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "torch": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "torch",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/savanna_house"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bucket": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -168,10 +48,61 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bundle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/savanna_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/savanna_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/savanna_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "saddle": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -185,16 +116,83 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "short_grass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "short_grass",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/savanna_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "tall_grass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tall_grass",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/savanna_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "torch",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/savanna_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wheat_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/savanna_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Savanna House",
     "description": "A savanna home where acacia light falls through the window at dusk.",
-    "icon": {
-      "id": "saddle"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "saddle",
+    "title": "Village Loot: Savanna House"
   },
   "parent": "all_tasks:tasks/structures/village/loot_desert_house/loot"
 }

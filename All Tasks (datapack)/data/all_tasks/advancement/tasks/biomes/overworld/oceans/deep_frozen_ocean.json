@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Cold pressing in from every direction at once.",
-    "icon": {
-      "id": "packed_ice"
-    },
+    "icon": "packed_ice",
     "title": "Deep Frozen Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/frozen_ocean"

@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "dolphin"
-            },
-            "type": "player"
+              "entity_type": "dolphin"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Leaping ahead of the bow wave, leading you somewhere worth going.",
-    "icon": {
-      "id": "minecraft:cod"
-    },
+    "icon": "cod",
     "title": "Dolphin"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

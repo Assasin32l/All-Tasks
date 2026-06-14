@@ -1,31 +1,53 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/trial_chambers/loot_supply_chest/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "trial_chambers/supply_chest"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 14,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "arrow",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             },
@@ -34,16 +56,16 @@
               "id": "poison"
             }
           ],
-          "name": "tipped_arrow"
+          "name": "tipped_arrow",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             },
@@ -52,110 +74,110 @@
               "id": "slowness"
             }
           ],
-          "name": "tipped_arrow"
+          "name": "tipped_arrow",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "baked_potato",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "glow_berries",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "acacia_planks"
+          "name": "acacia_planks",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "moss_block"
+          "name": "moss_block",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "bone_meal"
+          "name": "bone_meal",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 5
+                "min": 5,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "tuff"
+          "name": "tuff",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "torch"
+          "name": "torch",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": 2,
@@ -166,10 +188,10 @@
               "id": "regeneration"
             }
           ],
-          "name": "potion"
+          "name": "potion",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": 2,
@@ -180,59 +202,36 @@
               "id": "strength"
             }
           ],
-          "name": "potion"
+          "name": "potion",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.8,
-                "min": 0.15
+                "min": 0.15,
+                "type": "uniform"
               },
               "function": "set_damage"
             }
           ],
           "name": "stone_pickaxe",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
-          "name": "milk_bucket"
+          "name": "milk_bucket",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 5,
-        "min": 3
+        "min": 3,
+        "type": "uniform"
       }
     }
   ],
   "random_sequence": "chests/trial_chambers/supply",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "trial_chambers/supply_chest",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/trial_chambers/loot_supply_chest/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

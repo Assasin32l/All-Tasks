@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Calcite and stone trading off the task of holding up the sky.",
-    "icon": {
-      "id": "calcite"
-    },
+    "icon": "calcite",
     "title": "Stony Peaks"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/meadow"

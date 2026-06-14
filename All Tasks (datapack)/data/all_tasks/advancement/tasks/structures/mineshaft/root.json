@@ -1,32 +1,30 @@
 {
   "criteria": {
     "in_first_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "mineshaft"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_second_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "mineshaft_mesa"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Mineshaft",
     "description": "Rotting planks and rusted rails threading through the dark underground.",
-    "icon": {
-      "id": "rail"
-    }
+    "icon": "rail",
+    "title": "Mineshaft"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

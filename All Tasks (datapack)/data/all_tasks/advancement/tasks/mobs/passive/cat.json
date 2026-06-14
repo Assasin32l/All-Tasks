@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "all_black"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "black"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "british_shorthair"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "calico"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -82,14 +78,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "jellie"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -101,14 +96,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "persian"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -120,14 +114,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "ragdoll"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -139,14 +132,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "red"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -158,14 +150,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "siamese"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -177,14 +168,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "tabby"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -196,14 +186,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cat/variant": "white"
               },
-              "type": "cat"
-            },
-            "type": "player"
+              "entity_type": "cat"
+            }
           }
         }
       },
@@ -212,9 +201,7 @@
   },
   "display": {
     "description": "Watching from wherever it pleases, interested in nothing you have planned.",
-    "icon": {
-      "id": "minecraft:string"
-    },
+    "icon": "string",
     "title": "Cat"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "monument"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Ocean Monument",
     "description": "A vast temple of prismarine guarding its treasure beneath the waves.",
-    "icon": {
-      "id": "prismarine"
-    }
+    "icon": "prismarine",
+    "title": "Ocean Monument"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

@@ -1,5 +1,28 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/trial_chambers/loot_ominous_vault": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "trial_chambers/ominous_vault"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
@@ -24,9 +47,9 @@
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 3,
-        "min": 1
+        "min": 1,
+        "type": "uniform"
       }
     },
     {
@@ -46,29 +69,5 @@
     }
   ],
   "random_sequence": "chests/trial_chambers/reward_ominous",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "trial_chambers/ominous_vault",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/trial_chambers/loot_ominous_vault": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

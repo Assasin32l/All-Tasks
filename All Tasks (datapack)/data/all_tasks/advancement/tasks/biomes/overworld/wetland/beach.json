@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "The ground softens to sand and the waves claim a little more each day.",
-    "icon": {
-      "id": "sand"
-    },
+    "icon": "sand",
     "title": "Beach"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"

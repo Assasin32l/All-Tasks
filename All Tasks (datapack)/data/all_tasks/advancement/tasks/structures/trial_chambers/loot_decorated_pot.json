@@ -1,24 +1,6 @@
 {
   "criteria": {
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/decorated_pot"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "arrow": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,44 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/decorated_pot"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "trial_key": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "trial_key",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/decorated_pot"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -83,44 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "emerald_block": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald_block",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/decorated_pot"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "music_disc_creator_music_box": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "music_disc_creator_music_box",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/decorated_pot"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_block": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -134,16 +48,100 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/decorated_pot"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/decorated_pot"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/decorated_pot"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "music_disc_creator_music_box": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_creator_music_box",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/decorated_pot"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "trial_key": {
+      "conditions": {
+        "items": [
+          {
+            "items": "trial_key",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/decorated_pot"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trial Chambers Loot: Decorated Pot",
     "description": "A decorated pot in the corridor, holding something meant to be kept.",
-    "icon": {
-      "id": "music_disc_creator_music_box"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "music_disc_creator_music_box",
+    "title": "Trial Chambers Loot: Decorated Pot"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/root"
 }

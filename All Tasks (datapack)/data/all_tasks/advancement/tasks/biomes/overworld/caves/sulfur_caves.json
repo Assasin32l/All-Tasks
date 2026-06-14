@@ -4,7 +4,7 @@
       "conditions": {
         "player": {
           "location": {
-            "biomes": "lush_caves"
+            "biomes": "sulfur_caves"
           }
         }
       },
@@ -12,9 +12,9 @@
     }
   },
   "display": {
-    "description": "Roots hang from the ceiling, glow berries lighting what the sun never reaches.",
-    "icon": "glow_berries",
-    "title": "Lush Caves"
+    "description": "Yellow crystal and red stone, the air itself turning hostile near the pools.",
+    "icon": "sulfur",
+    "title": "Sulfur Caves"
   },
   "parent": "all_tasks:tasks/biomes/overworld/caves/dripstone_caves"
 }

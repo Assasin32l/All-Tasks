@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Loose ground underfoot, the wind rearranging everything above it.",
-    "icon": {
-      "id": "gravel"
-    },
+    "icon": "gravel",
     "title": "Windswept Gravelly Hills"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"

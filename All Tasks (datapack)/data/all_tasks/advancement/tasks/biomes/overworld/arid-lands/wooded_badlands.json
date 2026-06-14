@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Coarse soil somehow sustaining trees with no business growing here.",
-    "icon": {
-      "id": "coarse_dirt"
-    },
+    "icon": "coarse_dirt",
     "title": "Wooded Badlands"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/eroded_badlands"

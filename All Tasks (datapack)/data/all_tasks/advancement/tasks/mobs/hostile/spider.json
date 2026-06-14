@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "spider"
+          "entity_type": "spider"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "Scaling the wall in the dark, red eyes finding you before you find it.",
-    "icon": {
-      "id": "minecraft:string"
-    },
+    "icon": "string",
     "title": "Spider"
   },
   "parent": "all_tasks:tasks/mobs/hostile/root"

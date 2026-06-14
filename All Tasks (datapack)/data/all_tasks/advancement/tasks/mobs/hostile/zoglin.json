@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "zoglin"
+          "entity_type": "zoglin"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "A hoglin that crossed over and never came back \u2014 hostile to everything, including reason.",
-    "icon": {
-      "id": "minecraft:zoglin_spawn_egg"
-    },
+    "icon": "zoglin_spawn_egg",
     "title": "Zoglin"
   },
   "parent": "all_tasks:tasks/mobs/hostile/hoglin"

@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "llama/variant": "brown"
               },
-              "type": "trader_llama"
-            },
-            "type": "player"
+              "entity_type": "trader_llama"
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "llama/variant": "creamy"
               },
-              "type": "trader_llama"
-            },
-            "type": "player"
+              "entity_type": "trader_llama"
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "llama/variant": "gray"
               },
-              "type": "trader_llama"
-            },
-            "type": "player"
+              "entity_type": "trader_llama"
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "llama/variant": "white"
               },
-              "type": "trader_llama"
-            },
-            "type": "player"
+              "entity_type": "trader_llama"
+            }
           }
         }
       },
@@ -79,9 +75,7 @@
   },
   "display": {
     "description": "Decorated and loyal, trotting behind its trader with judgement in its eyes.",
-    "icon": {
-      "id": "minecraft:blue_carpet"
-    },
+    "icon": "blue_carpet",
     "title": "Trader Llama"
   },
   "parent": "all_tasks:tasks/mobs/passive/llama"

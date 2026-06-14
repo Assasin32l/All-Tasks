@@ -1,40 +1,39 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "name": "trial_key"
-        }
-      ],
-      "rolls": 1
-    }
-  ],
-  "random_sequence": "spawners/trial_chamber/key",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "trial_chambers/spawner",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/trial_chambers/loot_spawner": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "trial_chambers/spawner"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "trial_key",
+          "type": "item"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "spawners/trial_chamber/key",
+  "type": "chest"
 }

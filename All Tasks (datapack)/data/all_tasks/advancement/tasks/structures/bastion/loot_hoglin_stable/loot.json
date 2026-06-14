@@ -1,262 +1,6 @@
 {
   "criteria": {
-    "arrow": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "arrow",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "string": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "string",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_nugget": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_nugget",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "crimson_fungus": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "crimson_fungus",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "crimson_roots": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "crimson_roots",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "glowstone": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "glowstone",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "soul_sand": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "soul_sand",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "cooked_porkchop": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "cooked_porkchop",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gilded_blackstone": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gilded_blackstone",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "porkchop": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "porkchop",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "crying_obsidian": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "crying_obsidian",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "leather": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "golden_axe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_axe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_block": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_block",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "diamond_shovel": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond_shovel",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "bastion/hoglin_stable"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "ancient_debris": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -270,14 +14,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "saddle": {
-      "trigger": "inventory_changed",
+    "arrow": {
       "conditions": {
         "items": [
           {
-            "items": "saddle",
+            "items": "arrow",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -287,10 +31,78 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "cooked_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cooked_porkchop",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "crimson_fungus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "crimson_fungus",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "crimson_roots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "crimson_roots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "crying_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "crying_obsidian",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_pickaxe": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -304,14 +116,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "golden_carrot": {
-      "trigger": "inventory_changed",
+    "diamond_shovel": {
       "conditions": {
         "items": [
           {
-            "items": "golden_carrot",
+            "items": "diamond_shovel",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -321,10 +133,78 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "gilded_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gilded_blackstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "glowstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "glowstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "golden_apple": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -338,14 +218,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "netherite_upgrade_smithing_template": {
-      "trigger": "inventory_changed",
+    "golden_axe": {
       "conditions": {
         "items": [
           {
-            "items": "netherite_upgrade_smithing_template",
+            "items": "golden_axe",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -355,14 +235,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "snout_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
+    "golden_carrot": {
       "conditions": {
         "items": [
           {
-            "items": "snout_armor_trim_smithing_template",
+            "items": "golden_carrot",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -372,10 +252,27 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "netherite_scrap": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -389,16 +286,117 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "netherite_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "netherite_upgrade_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "porkchop",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "saddle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "saddle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "snout_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "snout_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "soul_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "soul_sand",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "string": {
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "bastion/hoglin_stable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Bastion Remnant Loot: Hoglin Stable",
     "description": "Among the pens where hoglins are kept, somewhere past the smell.",
-    "icon": {
-      "id": "saddle"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "saddle",
+    "title": "Bastion Remnant Loot: Hoglin Stable"
   },
   "parent": "all_tasks:tasks/structures/bastion/loot_generic/loot"
 }

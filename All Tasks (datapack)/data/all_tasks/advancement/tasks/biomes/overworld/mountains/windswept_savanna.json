@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Jagged cliffs, stubborn acacias \u2014 the wind always having the final say.",
-    "icon": {
-      "id": "acacia_log"
-    },
+    "icon": "acacia_log",
     "title": "Windswept Savanna"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"

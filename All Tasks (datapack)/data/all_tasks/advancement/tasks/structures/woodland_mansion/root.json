@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "mansion"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Woodland Mansion",
     "description": "A manor deep in dark oak, full of evokers and ill will.",
-    "icon": {
-      "id": "dark_oak_log"
-    }
+    "icon": "dark_oak_log",
+    "title": "Woodland Mansion"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

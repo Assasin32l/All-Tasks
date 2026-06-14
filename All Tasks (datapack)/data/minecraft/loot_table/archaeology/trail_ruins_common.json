@@ -1,174 +1,173 @@
 {
-  "type": "archaeology",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "name": "emerald",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "wheat",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "wooden_hoe",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "clay",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "brick",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "yellow_dye",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "blue_dye",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "light_blue_dye",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "white_dye",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "orange_dye",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "red_candle",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "green_candle",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "purple_candle",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "brown_candle",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "magenta_stained_glass_pane"
-        },
-        {
-          "type": "item",
-          "name": "pink_stained_glass_pane"
-        },
-        {
-          "type": "item",
-          "name": "blue_stained_glass_pane"
-        },
-        {
-          "type": "item",
-          "name": "light_blue_stained_glass_pane"
-        },
-        {
-          "type": "item",
-          "name": "red_stained_glass_pane"
-        },
-        {
-          "type": "item",
-          "name": "yellow_stained_glass_pane"
-        },
-        {
-          "type": "item",
-          "name": "purple_stained_glass_pane"
-        },
-        {
-          "type": "item",
-          "name": "spruce_hanging_sign"
-        },
-        {
-          "type": "item",
-          "name": "oak_hanging_sign"
-        },
-        {
-          "type": "item",
-          "name": "gold_nugget"
-        },
-        {
-          "type": "item",
-          "name": "coal"
-        },
-        {
-          "type": "item",
-          "name": "wheat_seeds"
-        },
-        {
-          "type": "item",
-          "name": "beetroot_seeds"
-        },
-        {
-          "type": "item",
-          "name": "dead_bush"
-        },
-        {
-          "type": "item",
-          "name": "flower_pot"
-        },
-        {
-          "type": "item",
-          "name": "string"
-        },
-        {
-          "type": "item",
-          "name": "lead"
-        }
-      ],
-      "rolls": 1
-    }
-  ],
-  "random_sequence": "archaeology/trail_ruins_common",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "trail_ruins/common",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/trail_ruins/loot_common": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "trail_ruins/common"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "emerald",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "wheat",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "wooden_hoe",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "clay",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "brick",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "yellow_dye",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "blue_dye",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "light_blue_dye",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "white_dye",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "orange_dye",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "red_candle",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "green_candle",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "purple_candle",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "brown_candle",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "magenta_stained_glass_pane",
+          "type": "item"
+        },
+        {
+          "name": "pink_stained_glass_pane",
+          "type": "item"
+        },
+        {
+          "name": "blue_stained_glass_pane",
+          "type": "item"
+        },
+        {
+          "name": "light_blue_stained_glass_pane",
+          "type": "item"
+        },
+        {
+          "name": "red_stained_glass_pane",
+          "type": "item"
+        },
+        {
+          "name": "yellow_stained_glass_pane",
+          "type": "item"
+        },
+        {
+          "name": "purple_stained_glass_pane",
+          "type": "item"
+        },
+        {
+          "name": "spruce_hanging_sign",
+          "type": "item"
+        },
+        {
+          "name": "oak_hanging_sign",
+          "type": "item"
+        },
+        {
+          "name": "gold_nugget",
+          "type": "item"
+        },
+        {
+          "name": "coal",
+          "type": "item"
+        },
+        {
+          "name": "wheat_seeds",
+          "type": "item"
+        },
+        {
+          "name": "beetroot_seeds",
+          "type": "item"
+        },
+        {
+          "name": "dead_bush",
+          "type": "item"
+        },
+        {
+          "name": "flower_pot",
+          "type": "item"
+        },
+        {
+          "name": "string",
+          "type": "item"
+        },
+        {
+          "name": "lead",
+          "type": "item"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "archaeology/trail_ruins_common",
+  "type": "archaeology"
 }

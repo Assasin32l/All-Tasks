@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Blossom drifts from the trees in a shower that never quite stops.",
-    "icon": {
-      "id": "cherry_log"
-    },
+    "icon": "cherry_log",
     "title": "Cherry Grove"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/forest"

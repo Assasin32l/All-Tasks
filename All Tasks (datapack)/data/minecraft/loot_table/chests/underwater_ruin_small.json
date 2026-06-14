@@ -1,76 +1,98 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/underwater_ruin/loot_small/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "underwater_ruin/small"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "coal",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "name": "stone_axe",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "stone_spear",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "rotten_flesh",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
-          "name": "emerald"
+          "name": "emerald",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "wheat",
+          "type": "item",
           "weight": 10
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 8,
-        "min": 2
+        "min": 2,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
-          "name": "leather_chestplate"
+          "name": "leather_chestplate",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "golden_helmet"
+          "name": "golden_helmet",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -78,10 +100,10 @@
             }
           ],
           "name": "fishing_rod",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "decoration": "red_x",
@@ -98,6 +120,7 @@
             }
           ],
           "name": "map",
+          "type": "item",
           "weight": 5
         }
       ],
@@ -110,23 +133,23 @@
           "weight": 148
         },
         {
-          "type": "item",
           "name": "copper_nautilus_armor",
+          "type": "item",
           "weight": 20
         },
         {
-          "type": "item",
           "name": "iron_nautilus_armor",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "name": "golden_nautilus_armor",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "diamond_nautilus_armor",
+          "type": "item",
           "weight": 2
         }
       ],
@@ -134,29 +157,5 @@
     }
   ],
   "random_sequence": "chests/underwater_ruin_small",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "underwater_ruin/small",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/underwater_ruin/loot_small/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

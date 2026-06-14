@@ -1,10 +1,32 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/bastion/loot_generic/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "bastion/generic"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -12,21 +34,21 @@
             }
           ],
           "name": "diamond_pickaxe",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "name": "diamond_shovel",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.9,
-                "min": 0.1
+                "min": 0.1,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -36,65 +58,65 @@
             }
           ],
           "name": "crossbow",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "name": "ancient_debris",
+          "type": "item",
           "weight": 12
         },
         {
-          "type": "item",
           "name": "netherite_scrap",
+          "type": "item",
           "weight": 4
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 22,
-                "min": 10
+                "min": 10,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "spectral_arrow",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "name": "piglin_banner_pattern",
+          "type": "item",
           "weight": 9
         },
         {
-          "type": "item",
           "name": "music_disc_pigstep",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 17,
-                "min": 6
+                "min": 6,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "golden_carrot",
+          "type": "item",
           "weight": 12
         },
         {
-          "type": "item",
           "name": "golden_apple",
+          "type": "item",
           "weight": 9
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -102,6 +124,7 @@
             }
           ],
           "name": "book",
+          "type": "item",
           "weight": 10
         }
       ],
@@ -110,13 +133,12 @@
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.9,
-                "min": 0.1
+                "min": 0.1,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -126,129 +148,129 @@
             }
           ],
           "name": "iron_sword",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "iron_block",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
               "options": "soul_speed"
             }
           ],
-          "name": "golden_boots"
+          "name": "golden_boots",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
               "options": "#on_random_loot"
             }
           ],
-          "name": "golden_axe"
+          "name": "golden_axe",
+          "type": "item"
         },
         {
-          "type": "item",
           "name": "gold_block",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
-          "name": "crossbow"
+          "name": "crossbow",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_ingot",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_ingot",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
-          "name": "golden_sword"
+          "name": "golden_sword",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "golden_chestplate"
+          "name": "golden_chestplate",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "golden_helmet"
+          "name": "golden_helmet",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "golden_leggings"
+          "name": "golden_leggings",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
-              "function": "set_custom_data",
-              "tag": {
-                "all_tasks": {
-                  "custom_tag": "golden_boots"
-                }
-              },
               "conditions": [
                 {
                   "condition": "entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "type_specific": {
-                      "type": "player",
+                    "type_specific/player": {
                       "advancements": {
                         "all_tasks:tasks/structures/bastion/loot_generic/loot": false
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "function": "set_custom_data",
+              "tag": {
+                "all_tasks": {
+                  "custom_tag": "golden_boots"
+                }
+              }
             }
           ],
-          "name": "golden_boots"
+          "name": "golden_boots",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "crying_obsidian",
+          "type": "item",
           "weight": 2
         }
       ],
@@ -257,143 +279,143 @@
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gilded_blackstone",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "iron_chain"
+          "name": "iron_chain",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "magma_cream",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "bone_block"
+          "name": "bone_block",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "iron_nugget"
+          "name": "iron_nugget",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "obsidian"
+          "name": "obsidian",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "gold_nugget"
+          "name": "gold_nugget",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "string"
+          "name": "string",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 17,
-                "min": 5
+                "min": 5,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "arrow",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
-          "name": "cooked_porkchop"
+          "name": "cooked_porkchop",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 4,
-        "min": 3
+        "min": 3,
+        "type": "uniform"
       }
     },
     {
@@ -403,8 +425,8 @@
           "weight": 11
         },
         {
-          "type": "item",
-          "name": "snout_armor_trim_smithing_template"
+          "name": "snout_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
@@ -416,37 +438,13 @@
           "weight": 9
         },
         {
-          "type": "item",
-          "name": "netherite_upgrade_smithing_template"
+          "name": "netherite_upgrade_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
     }
   ],
   "random_sequence": "chests/bastion_other",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "bastion/generic",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/bastion/loot_generic/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

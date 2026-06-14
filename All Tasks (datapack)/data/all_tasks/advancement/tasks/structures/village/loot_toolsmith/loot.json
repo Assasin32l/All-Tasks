@@ -1,24 +1,6 @@
 {
   "criteria": {
-    "stick": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "stick",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/toolsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,61 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/toolsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_pickaxe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_pickaxe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/toolsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_shovel": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_shovel",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/toolsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "coal": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "gold_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/toolsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -134,16 +48,100 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/toolsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/toolsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/toolsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_shovel",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/toolsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/toolsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Toolsmith",
     "description": "Iron tools and raw materials in the workshop of someone always busy.",
-    "icon": {
-      "id": "iron_pickaxe"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "iron_pickaxe",
+    "title": "Village Loot: Toolsmith"
   },
   "parent": "all_tasks:tasks/structures/village/root"
 }

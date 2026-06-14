@@ -5,14 +5,12 @@
     }
   },
   "display": {
-    "title": "Blocks",
-    "description": "Every block tells a story. How many have you collected?",
-    "icon": {
-      "id": "crafting_table"
-    },
     "announce_to_chat": false,
-    "show_toast": false,
+    "background": "block/chiseled_stone_bricks",
+    "description": "Every block tells a story. How many have you collected?",
     "frame": "challenge",
-    "background": "block/chiseled_stone_bricks"
+    "icon": "crafting_table",
+    "show_toast": false,
+    "title": "Blocks"
   }
 }

@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "frog/variant": "cold"
               },
-              "type": "frog"
-            },
-            "type": "player"
+              "entity_type": "frog"
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "frog/variant": "temperate"
               },
-              "type": "frog"
-            },
-            "type": "player"
+              "entity_type": "frog"
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "frog/variant": "warm"
               },
-              "type": "frog"
-            },
-            "type": "player"
+              "entity_type": "frog"
+            }
           }
         }
       },
@@ -60,9 +57,7 @@
   },
   "display": {
     "description": "Blinking from the lily pad, perfectly still until it isn't.",
-    "icon": {
-      "id": "minecraft:slime_ball"
-    },
+    "icon": "slime_ball",
     "title": "Frog"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

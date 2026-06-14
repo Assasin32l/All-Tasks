@@ -1,18 +1,16 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "player_generates_container_loot",
       "conditions": {
         "loot_table": "archaeology/desert_well"
-      }
+      },
+      "trigger": "player_generates_container_loot"
     }
   },
   "display": {
-    "title": "Desert Well",
     "description": "A quiet well in the desert, hiding more than water.",
-    "icon": {
-      "id": "sandstone"
-    }
+    "icon": "sandstone",
+    "title": "Desert Well"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

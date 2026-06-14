@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "swamp_hut"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Swamp Hut",
     "description": "A crooked little hut on stilts, reeking of potions and spite.",
-    "icon": {
-      "id": "cauldron"
-    }
+    "icon": "cauldron",
+    "title": "Swamp Hut"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

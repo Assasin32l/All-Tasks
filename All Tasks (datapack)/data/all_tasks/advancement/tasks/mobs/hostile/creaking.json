@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "creaking"
+          "entity_type": "creaking"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "It only moves when you aren't watching. Don't look away.",
-    "icon": {
-      "id": "minecraft:resin_clump"
-    },
+    "icon": "resin_clump",
     "title": "Creaking"
   },
   "parent": "all_tasks:tasks/mobs/hostile/root"

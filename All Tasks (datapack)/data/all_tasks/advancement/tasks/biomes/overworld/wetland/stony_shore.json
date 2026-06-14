@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Ancient stone refusing to yield, the sea crashing hard against it.",
-    "icon": {
-      "id": "stone"
-    },
+    "icon": "stone",
     "title": "Stony Shore"
   },
   "parent": "all_tasks:tasks/biomes/overworld/wetland/beach"

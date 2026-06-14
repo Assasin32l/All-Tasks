@@ -1,7 +1,23 @@
 {
   "criteria": {
+    "acacia_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "acacia_planks",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
     "arrow": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,78 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "glow_berries": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "glow_berries",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/supply_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "baked_potato": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "baked_potato",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/supply_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "stone_pickaxe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "stone_pickaxe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/supply_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "tuff": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "tuff",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/supply_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "arrow_of_poison": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -101,10 +49,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "arrow_of_slowness": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -119,14 +67,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "acacia_planks": {
-      "trigger": "inventory_changed",
+    "baked_potato": {
       "conditions": {
         "items": [
           {
-            "items": "acacia_planks",
+            "items": "baked_potato",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -136,27 +84,10 @@
             }
           }
         ]
-      }
-    },
-    "torch": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "torch",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/supply_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bone_meal": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -170,10 +101,44 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "glow_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "glow_berries",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "milk_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "milk_bucket",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "moss_block": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -187,10 +152,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "potion_of_regeneration": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -205,10 +170,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "potion_of_strength": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -223,14 +188,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "milk_bucket": {
-      "trigger": "inventory_changed",
+    "stone_pickaxe": {
       "conditions": {
         "items": [
           {
-            "items": "milk_bucket",
+            "items": "stone_pickaxe",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -240,16 +205,49 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "torch",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tuff",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/supply_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trial Chambers Loot: Supply Chest",
     "description": "Supplies stocked just off the main path, for those who think ahead.",
-    "icon": {
-      "id": "baked_potato"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "baked_potato",
+    "title": "Trial Chambers Loot: Supply Chest"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/loot_intersection_chest/loot"
 }

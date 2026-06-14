@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "skeleton_horse"
-            },
-            "type": "player"
+              "entity_type": "skeleton_horse"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Galloping through the storm that summoned it, a rider made of lightning.",
-    "icon": {
-      "id": "minecraft:bone"
-    },
+    "icon": "bone",
     "title": "Skeleton Horse"
   },
   "parent": "all_tasks:tasks/mobs/passive/horse"

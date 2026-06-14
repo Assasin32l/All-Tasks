@@ -39,14 +39,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "axolotl/variant": "blue"
               },
-              "type": "axolotl"
-            },
-            "type": "player"
+              "entity_type": "axolotl"
+            }
           }
         }
       },
@@ -58,14 +57,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "axolotl/variant": "cyan"
               },
-              "type": "axolotl"
-            },
-            "type": "player"
+              "entity_type": "axolotl"
+            }
           }
         }
       },
@@ -77,14 +75,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "axolotl/variant": "gold"
               },
-              "type": "axolotl"
-            },
-            "type": "player"
+              "entity_type": "axolotl"
+            }
           }
         }
       },
@@ -96,14 +93,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "axolotl/variant": "lucy"
               },
-              "type": "axolotl"
-            },
-            "type": "player"
+              "entity_type": "axolotl"
+            }
           }
         }
       },
@@ -115,14 +111,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "axolotl/variant": "wild"
               },
-              "type": "axolotl"
-            },
-            "type": "player"
+              "entity_type": "axolotl"
+            }
           }
         }
       },
@@ -153,9 +148,7 @@
   },
   "display": {
     "description": "Ancient and unbothered, drifting through the dark water with ancient calm.",
-    "icon": {
-      "id": "minecraft:tropical_fish"
-    },
+    "icon": "tropical_fish",
     "title": "Axolotl"
   },
   "parent": "all_tasks:tasks/mobs/passive/root",

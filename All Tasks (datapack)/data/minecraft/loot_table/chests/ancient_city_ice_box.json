@@ -1,133 +1,132 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "functions": [
-            {
-              "effects": [
-                {
-                  "type": "night_vision",
-                  "duration": {
-                    "type": "uniform",
-                    "max": 10,
-                    "min": 7
-                  }
-                },
-                {
-                  "type": "blindness",
-                  "duration": {
-                    "type": "uniform",
-                    "max": 7,
-                    "min": 5
-                  }
-                }
-              ],
-              "function": "set_stew_effect"
-            },
-            {
-              "count": {
-                "type": "uniform",
-                "max": 6,
-                "min": 2
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "suspicious_stew"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 10,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "golden_carrot"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 10,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "baked_potato"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 6,
-                "min": 2
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "packed_ice",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 6,
-                "min": 2
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "snowball",
-          "weight": 4
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 10,
-        "min": 4
-      }
-    }
-  ],
-  "random_sequence": "chests/ancient_city_ice_box",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "ancient_city/ice_box",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/ancient_city/loot_ice_box/loot": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "ancient_city/ice_box"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "effects": [
+                {
+                  "duration": {
+                    "max": 10,
+                    "min": 7,
+                    "type": "uniform"
+                  },
+                  "type": "night_vision"
+                },
+                {
+                  "duration": {
+                    "max": 7,
+                    "min": 5,
+                    "type": "uniform"
+                  },
+                  "type": "blindness"
+                }
+              ],
+              "function": "set_stew_effect"
+            },
+            {
+              "count": {
+                "max": 6,
+                "min": 2,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "suspicious_stew",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 10,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "golden_carrot",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 10,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "baked_potato",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 6,
+                "min": 2,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "packed_ice",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 6,
+                "min": 2,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "snowball",
+          "type": "item",
+          "weight": 4
+        }
+      ],
+      "rolls": {
+        "max": 10,
+        "min": 4,
+        "type": "uniform"
+      }
+    }
+  ],
+  "random_sequence": "chests/ancient_city_ice_box",
+  "type": "chest"
 }

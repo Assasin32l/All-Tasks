@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "blaze"
+          "entity_type": "blaze"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "Spinning fire in a fortress corridor, orbited by its own burning rods.",
-    "icon": {
-      "id": "minecraft:blaze_rod"
-    },
+    "icon": "blaze_rod",
     "title": "Blaze"
   },
   "parent": "all_tasks:tasks/mobs/hostile/root"

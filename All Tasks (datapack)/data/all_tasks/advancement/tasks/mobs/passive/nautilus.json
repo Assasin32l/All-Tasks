@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "nautilus"
-            },
-            "type": "player"
+              "entity_type": "nautilus"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "A living spiral drifting through the deep, ancient beyond any reckoning.",
-    "icon": {
-      "id": "minecraft:nautilus_shell"
-    },
+    "icon": "nautilus_shell",
     "title": "Nautilus"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

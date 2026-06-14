@@ -1,131 +1,130 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "name": "emerald"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "cod",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "salmon"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "water_bucket"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "barrel"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "wheat_seeds",
-          "weight": 3
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "coal",
-          "weight": 2
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 5,
-        "min": 1
-      }
-    }
-  ],
-  "random_sequence": "chests/village/village_fisher",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "village/fisher",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/village/loot_fisher/loot": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "village/fisher"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "emerald",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "cod",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "salmon",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "water_bucket",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "barrel",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "wheat_seeds",
+          "type": "item",
+          "weight": 3
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "coal",
+          "type": "item",
+          "weight": 2
+        }
+      ],
+      "rolls": {
+        "max": 5,
+        "min": 1,
+        "type": "uniform"
+      }
+    }
+  ],
+  "random_sequence": "chests/village/village_fisher",
+  "type": "chest"
 }

@@ -1,146 +1,168 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/jungle_temple/loot/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "jungle_temple"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "diamond",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_ingot",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_ingot",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "bamboo",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "emerald",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "bone",
+          "type": "item",
           "weight": 20
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "rotten_flesh",
+          "type": "item",
           "weight": 16
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "leather",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
-          "name": "copper_horse_armor"
+          "name": "copper_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "iron_horse_armor"
+          "name": "iron_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "golden_horse_armor"
+          "name": "golden_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "diamond_horse_armor"
+          "name": "diamond_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
@@ -148,13 +170,14 @@
               "options": "#on_random_loot"
             }
           ],
-          "name": "book"
+          "name": "book",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 6,
-        "min": 2
+        "min": 2,
+        "type": "uniform"
       }
     },
     {
@@ -164,43 +187,19 @@
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": 2,
               "function": "set_count"
             }
           ],
-          "name": "wild_armor_trim_smithing_template"
+          "name": "wild_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
     }
   ],
   "random_sequence": "chests/jungle_temple",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "jungle_temple",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/jungle_temple/loot/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

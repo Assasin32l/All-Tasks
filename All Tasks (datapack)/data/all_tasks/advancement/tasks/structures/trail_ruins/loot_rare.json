@@ -1,7 +1,6 @@
 {
   "criteria": {
     "burn_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "danger_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "music_disc_relic": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "music_disc_relic",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/rare"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "friend_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,10 +48,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "heart_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -83,10 +65,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "heartbreak_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,10 +82,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "host_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -117,10 +99,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "howl_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -134,10 +116,27 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "music_disc_relic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_relic",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/rare"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "raiser_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -151,10 +150,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "shaper_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -168,10 +167,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "sheaf_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -185,10 +184,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "wayfinder_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -202,16 +201,15 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trail Ruins Loot: Rare",
     "description": "Rare relics buried deep in the ruins, waiting for a patient hand.",
-    "icon": {
-      "id": "music_disc_relic"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "music_disc_relic",
+    "title": "Trail Ruins Loot: Rare"
   },
   "parent": "all_tasks:tasks/structures/trail_ruins/loot_common"
 }

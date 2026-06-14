@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "parched"
+          "entity_type": "parched"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "A desert skeleton riding the undead, firing arrows from the back of the dark.",
-    "icon": {
-      "id": "minecraft:arrow"
-    },
+    "icon": "arrow",
     "title": "Parched"
   },
   "parent": "all_tasks:tasks/mobs/hostile/stray"

@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "piglin_brute"
+          "entity_type": "piglin_brute"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "No interest in trade, no interest in gold \u2014 only in removing you from the bastion.",
-    "icon": {
-      "id": "minecraft:golden_axe"
-    },
+    "icon": "golden_axe",
     "title": "Piglin Brute"
   },
   "parent": "all_tasks:tasks/mobs/hostile/piglin"

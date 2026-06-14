@@ -1,87 +1,110 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/village/loot_tannery/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "village/tannery"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "leather"
+          "name": "leather",
+          "type": "item"
         },
         {
-          "type": "item",
           "name": "leather_chestplate",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "leather_boots",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "leather_helmet",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "bread",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "leather_leggings",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
-          "name": "saddle"
+          "name": "saddle",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "emerald"
+          "name": "emerald",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 5,
-        "min": 1
+        "min": 1,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
-          "name": "bundle"
+          "name": "bundle",
+          "type": "item"
         },
         {
           "type": "empty",
@@ -92,29 +115,5 @@
     }
   ],
   "random_sequence": "chests/village/village_tannery",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "village/tannery",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/village/loot_tannery/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

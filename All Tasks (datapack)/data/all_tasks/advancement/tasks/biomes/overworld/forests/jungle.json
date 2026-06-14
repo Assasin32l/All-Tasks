@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Thick enough to swallow both sound and direction.",
-    "icon": {
-      "id": "jungle_log"
-    },
+    "icon": "jungle_log",
     "title": "Jungle"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/forest"

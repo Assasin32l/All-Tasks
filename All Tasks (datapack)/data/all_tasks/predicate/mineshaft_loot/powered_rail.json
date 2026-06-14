@@ -2,10 +2,9 @@
   "condition": "entity_properties",
   "entity": "this",
   "predicate": {
-    "type_specific": {
-      "type": "player",
+    "type_specific/player": {
       "looking_at": {
-        "type": "chest_minecart",
+        "entity_type": "chest_minecart",
         "slots": {
           "container.*": {
             "items": "powered_rail"

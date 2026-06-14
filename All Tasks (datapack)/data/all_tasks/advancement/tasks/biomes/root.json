@@ -5,14 +5,12 @@
     }
   },
   "display": {
-    "title": "Biomes",
-    "description": "The world is vast. Have you truly seen it all?",
-    "icon": {
-      "id": "filled_map"
-    },
     "announce_to_chat": false,
-    "show_toast": false,
+    "background": "block/moss_block",
+    "description": "The world is vast. Have you truly seen it all?",
     "frame": "challenge",
-    "background": "block/moss_block"
+    "icon": "filled_map",
+    "show_toast": false,
+    "title": "Biomes"
   }
 }

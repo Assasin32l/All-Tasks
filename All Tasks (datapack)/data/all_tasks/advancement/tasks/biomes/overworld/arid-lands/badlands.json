@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Red sand and dried earth baking under a merciless sun.",
-    "icon": {
-      "id": "red_sand"
-    },
+    "icon": "red_sand",
     "title": "Badlands"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/desert"

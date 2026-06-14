@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Wildflowers blooming in every direction without reason or restraint.",
-    "icon": {
-      "id": "poppy"
-    },
+    "icon": "poppy",
     "title": "Flower Forest"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/forest"

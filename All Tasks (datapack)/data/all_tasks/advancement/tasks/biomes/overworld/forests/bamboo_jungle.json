@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "The horizon disappears behind a curtain of green.",
-    "icon": {
-      "id": "bamboo"
-    },
+    "icon": "bamboo",
     "title": "Bamboo Jungle"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/jungle"

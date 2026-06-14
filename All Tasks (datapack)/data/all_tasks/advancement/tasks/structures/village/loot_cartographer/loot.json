@@ -1,24 +1,6 @@
 {
   "criteria": {
-    "paper": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "paper",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/cartographer"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,27 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "map": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "map",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/cartographer"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bundle": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "stick": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "stick",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/cartographer"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "compass": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,16 +48,66 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "map": {
+      "conditions": {
+        "items": [
+          {
+            "items": "map",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "paper",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/cartographer"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Cartographer",
     "description": "A table cluttered with maps, compasses, and the tools of every journey.",
-    "icon": {
-      "id": "map"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "map",
+    "title": "Village Loot: Cartographer"
   },
   "parent": "all_tasks:tasks/structures/village/loot_fletcher/loot"
 }

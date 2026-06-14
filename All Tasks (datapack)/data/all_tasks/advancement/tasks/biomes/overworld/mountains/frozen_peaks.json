@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Summits locked in ice, the wind carrying nothing but cold.",
-    "icon": {
-      "id": "packed_ice"
-    },
+    "icon": "packed_ice",
     "title": "Frozen Peaks"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/snowy_slopes"

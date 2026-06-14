@@ -6,17 +6,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "armorer",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "armorer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -28,17 +27,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "butcher",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "butcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -50,17 +48,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cartographer",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "cartographer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -72,17 +69,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cleric",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "cleric"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -94,17 +90,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "farmer",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "farmer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -116,17 +111,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fisherman",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "fisherman"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -138,17 +132,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fletcher",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "fletcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -160,17 +153,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "leatherworker",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "leatherworker"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -182,17 +174,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "librarian",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "librarian"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -204,17 +195,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "mason",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "mason"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -226,17 +216,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "nitwit",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "nitwit"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -248,17 +237,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "none",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "none"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -270,17 +258,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "shepherd",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "shepherd"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -292,17 +279,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "toolsmith",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "toolsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -314,17 +300,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "weaponsmith",
-                  "type": "desert"
+                  "entity_type": "desert",
+                  "profession": "weaponsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -336,17 +321,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "armorer",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "armorer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -358,17 +342,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "butcher",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "butcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -380,17 +363,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cartographer",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "cartographer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -402,17 +384,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cleric",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "cleric"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -424,17 +405,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "farmer",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "farmer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -446,17 +426,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fisherman",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "fisherman"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -468,17 +447,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fletcher",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "fletcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -490,17 +468,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "leatherworker",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "leatherworker"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -512,17 +489,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "librarian",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "librarian"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -534,17 +510,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "mason",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "mason"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -556,17 +531,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "nitwit",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "nitwit"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -578,17 +552,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "none",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "none"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -600,17 +573,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "shepherd",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "shepherd"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -622,17 +594,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "toolsmith",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "toolsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -644,17 +615,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "weaponsmith",
-                  "type": "jungle"
+                  "entity_type": "jungle",
+                  "profession": "weaponsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -666,17 +636,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "armorer",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "armorer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -688,17 +657,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "butcher",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "butcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -710,17 +678,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cartographer",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "cartographer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -732,17 +699,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cleric",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "cleric"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -754,17 +720,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "farmer",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "farmer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -776,17 +741,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fisherman",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "fisherman"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -798,17 +762,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fletcher",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "fletcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -820,17 +783,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "leatherworker",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "leatherworker"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -842,17 +804,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "librarian",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "librarian"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -864,17 +825,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "mason",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "mason"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -886,17 +846,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "nitwit",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "nitwit"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -908,17 +867,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "none",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "none"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -930,17 +888,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "shepherd",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "shepherd"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -952,17 +909,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "toolsmith",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "toolsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -974,17 +930,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "weaponsmith",
-                  "type": "plains"
+                  "entity_type": "plains",
+                  "profession": "weaponsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -996,17 +951,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "armorer",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "armorer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1018,17 +972,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "butcher",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "butcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1040,17 +993,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cartographer",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "cartographer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1062,17 +1014,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cleric",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "cleric"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1084,17 +1035,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "farmer",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "farmer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1106,17 +1056,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fisherman",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "fisherman"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1128,17 +1077,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fletcher",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "fletcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1150,17 +1098,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "leatherworker",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "leatherworker"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1172,17 +1119,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "librarian",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "librarian"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1194,17 +1140,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "mason",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "mason"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1216,17 +1161,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "nitwit",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "nitwit"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1238,17 +1182,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "none",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "none"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1260,17 +1203,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "shepherd",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "shepherd"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1282,17 +1224,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "toolsmith",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "toolsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1304,17 +1245,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "weaponsmith",
-                  "type": "savanna"
+                  "entity_type": "savanna",
+                  "profession": "weaponsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1326,17 +1266,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "armorer",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "armorer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1348,17 +1287,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "butcher",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "butcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1370,17 +1308,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cartographer",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "cartographer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1392,17 +1329,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cleric",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "cleric"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1414,17 +1350,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "farmer",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "farmer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1436,17 +1371,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fisherman",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "fisherman"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1458,17 +1392,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fletcher",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "fletcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1480,17 +1413,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "leatherworker",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "leatherworker"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1502,17 +1434,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "librarian",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "librarian"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1524,17 +1455,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "mason",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "mason"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1546,17 +1476,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "nitwit",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "nitwit"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1568,17 +1497,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "none",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "none"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1590,17 +1518,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "shepherd",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "shepherd"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1612,17 +1539,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "toolsmith",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "toolsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1634,17 +1560,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "weaponsmith",
-                  "type": "snow"
+                  "entity_type": "snow",
+                  "profession": "weaponsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1656,17 +1581,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "armorer",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "armorer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1678,17 +1602,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "butcher",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "butcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1700,17 +1623,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cartographer",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "cartographer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1722,17 +1644,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cleric",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "cleric"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1744,17 +1665,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "farmer",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "farmer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1766,17 +1686,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fisherman",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "fisherman"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1788,17 +1707,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fletcher",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "fletcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1810,17 +1728,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "leatherworker",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "leatherworker"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1832,17 +1749,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "librarian",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "librarian"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1854,17 +1770,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "mason",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "mason"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1876,17 +1791,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "nitwit",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "nitwit"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1898,17 +1812,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "none",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "none"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1920,17 +1833,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "shepherd",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "shepherd"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1942,17 +1854,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "toolsmith",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "toolsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1964,17 +1875,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "weaponsmith",
-                  "type": "swamp"
+                  "entity_type": "swamp",
+                  "profession": "weaponsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -1986,17 +1896,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "armorer",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "armorer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2008,17 +1917,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "butcher",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "butcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2030,17 +1938,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cartographer",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "cartographer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2052,17 +1959,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "cleric",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "cleric"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2074,17 +1980,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "farmer",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "farmer"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2096,17 +2001,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fisherman",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "fisherman"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2118,17 +2022,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "fletcher",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "fletcher"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2140,17 +2043,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "leatherworker",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "leatherworker"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2162,17 +2064,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "librarian",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "librarian"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2184,17 +2085,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "mason",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "mason"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2206,17 +2106,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "nitwit",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "nitwit"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2228,17 +2127,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "none",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "none"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2250,17 +2148,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "shepherd",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "shepherd"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2272,17 +2169,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "toolsmith",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "toolsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2294,17 +2190,16 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "villager",
               "nbt": {
                 "VillagerData": {
-                  "profession": "weaponsmith",
-                  "type": "taiga"
+                  "entity_type": "taiga",
+                  "profession": "weaponsmith"
                 }
-              },
-              "type": "villager"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -2313,9 +2208,7 @@
   },
   "display": {
     "description": "Bustling between workstations, trading and grumbling through every deal.",
-    "icon": {
-      "id": "minecraft:emerald"
-    },
+    "icon": "emerald",
     "title": "Villager"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

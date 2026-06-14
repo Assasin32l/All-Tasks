@@ -1,7 +1,6 @@
 {
   "criteria": {
     "apple": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,231 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "ender_pearl": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "ender_pearl",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "redstone": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "redstone",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_pickaxe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_pickaxe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_sword": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_sword",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_helmet": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_helmet",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_chestplate": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_chestplate",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_leggings": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_leggings",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_boots": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_boots",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "eye_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "eye_armor_trim_smithing_template",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "diamond": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "leather": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "copper_horse_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -270,14 +48,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "music_disc_otherside": {
-      "trigger": "inventory_changed",
+    "diamond": {
       "conditions": {
         "items": [
           {
-            "items": "music_disc_otherside",
+            "items": "diamond",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -287,78 +65,10 @@
             }
           }
         ]
-      }
-    },
-    "enchanted_book": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "enchanted_book",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_horse_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_horse_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "golden_apple": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_apple",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "golden_horse_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_horse_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/corridor"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_horse_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -372,16 +82,304 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ender_pearl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ender_pearl",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "eye_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "eye_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "music_disc_otherside": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_otherside",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/corridor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Stronghold Loot: Altar",
     "description": "Chests lining the corridors, between the spawners and the stone.",
-    "icon": {
-      "id": "ender_pearl"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "ender_pearl",
+    "title": "Stronghold Loot: Altar"
   },
   "parent": "all_tasks:tasks/structures/stronghold/root"
 }

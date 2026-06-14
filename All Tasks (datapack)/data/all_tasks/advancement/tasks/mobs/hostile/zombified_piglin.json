@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "zombified_piglin"
+          "entity_type": "zombified_piglin"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "Neutral until someone makes it very much not \u2014 then everything follows.",
-    "icon": {
-      "id": "minecraft:gold_nugget"
-    },
+    "icon": "gold_nugget",
     "title": "Zombified Piglin"
   },
   "parent": "all_tasks:tasks/mobs/hostile/piglin"

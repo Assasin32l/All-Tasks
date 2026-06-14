@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "wandering_trader"
-            },
-            "type": "player"
+              "entity_type": "wandering_trader"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Appearing without warning, offering strange things, then vanishing entirely.",
-    "icon": {
-      "id": "minecraft:map"
-    },
+    "icon": "map",
     "title": "Wandering Trader"
   },
   "parent": "all_tasks:tasks/mobs/passive/villager"

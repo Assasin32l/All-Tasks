@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Alien and quiet \u2014 the Nether's only real offer of peace.",
-    "icon": {
-      "id": "warped_stem"
-    },
+    "icon": "warped_stem",
     "title": "Warped Forest"
   },
   "parent": "all_tasks:tasks/biomes/the_nether/nether_wastes"

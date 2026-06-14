@@ -1,25 +1,47 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/bastion/loot_treasure/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "bastion/treasure"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "name": "netherite_ingot",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "name": "ancient_debris",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "name": "netherite_scrap",
+          "type": "item",
           "weight": 8
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": 2,
@@ -27,16 +49,16 @@
             }
           ],
           "name": "ancient_debris",
+          "type": "item",
           "weight": 4
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 1.0,
-                "min": 0.8
+                "min": 0.8,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -46,16 +68,16 @@
             }
           ],
           "name": "diamond_sword",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 1.0,
-                "min": 0.8
+                "min": 0.8,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -65,16 +87,16 @@
             }
           ],
           "name": "diamond_spear",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 1.0,
-                "min": 0.8
+                "min": 0.8,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -84,16 +106,16 @@
             }
           ],
           "name": "diamond_chestplate",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 1.0,
-                "min": 0.8
+                "min": 0.8,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -103,16 +125,16 @@
             }
           ],
           "name": "diamond_helmet",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 1.0,
-                "min": 0.8
+                "min": 0.8,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -122,16 +144,16 @@
             }
           ],
           "name": "diamond_leggings",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 1.0,
-                "min": 0.8
+                "min": 0.8,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -141,56 +163,57 @@
             }
           ],
           "name": "diamond_boots",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "name": "diamond_sword",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "name": "diamond_spear",
+          "type": "item",
           "weight": 6
         },
         {
-          "type": "item",
           "name": "diamond_chestplate",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "diamond_helmet",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "diamond_boots",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "diamond_leggings",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "diamond",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "enchanted_golden_apple",
+          "type": "item",
           "weight": 2
         }
       ],
@@ -199,136 +222,136 @@
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 25,
-                "min": 12
+                "min": 12,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "spectral_arrow"
+          "name": "spectral_arrow",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "gold_block"
+          "name": "gold_block",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "iron_block"
+          "name": "iron_block",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 9,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "gold_ingot"
+          "name": "gold_ingot",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 9,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "iron_ingot"
+          "name": "iron_ingot",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "crying_obsidian"
+          "name": "crying_obsidian",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 23,
-                "min": 8
+                "min": 8,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "quartz"
+          "name": "quartz",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 15,
-                "min": 5
+                "min": 5,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "gilded_blackstone"
+          "name": "gilded_blackstone",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "magma_cream"
+          "name": "magma_cream",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 4,
-        "min": 3
+        "min": 3,
+        "type": "uniform"
       }
     },
     {
@@ -338,8 +361,8 @@
           "weight": 11
         },
         {
-          "type": "item",
-          "name": "snout_armor_trim_smithing_template"
+          "name": "snout_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
@@ -347,37 +370,13 @@
     {
       "entries": [
         {
-          "type": "item",
-          "name": "netherite_upgrade_smithing_template"
+          "name": "netherite_upgrade_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
     }
   ],
   "random_sequence": "chests/bastion_treasure",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "bastion/treasure",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/bastion/loot_treasure/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

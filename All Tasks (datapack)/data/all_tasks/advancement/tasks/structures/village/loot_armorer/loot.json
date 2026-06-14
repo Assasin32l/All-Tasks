@@ -1,7 +1,6 @@
 {
   "criteria": {
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,27 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/armorer"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "emerald": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -49,10 +31,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "iron_helmet": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,16 +48,32 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/armorer"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Armorer",
     "description": "The armorer's chest, stocked with iron and the smell of the forge.",
-    "icon": {
-      "id": "iron_helmet"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "iron_helmet",
+    "title": "Village Loot: Armorer"
   },
   "parent": "all_tasks:tasks/structures/village/loot_weaponsmith/loot"
 }

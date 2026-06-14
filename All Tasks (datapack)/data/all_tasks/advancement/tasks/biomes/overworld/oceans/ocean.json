@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Endless surface, secretive floor \u2014 the world laid bare underwater.",
-    "icon": {
-      "id": "gravel"
-    },
+    "icon": "gravel",
     "title": "Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"

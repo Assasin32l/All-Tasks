@@ -1,58 +1,6 @@
 {
   "criteria": {
-    "wheat_seeds": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wheat_seeds",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/fisher"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "coal": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "coal",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/fisher"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "raw_cod": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "cod",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/fisher"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "barrel": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,14 +14,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "raw_salmon": {
-      "trigger": "inventory_changed",
+    "coal": {
       "conditions": {
         "items": [
           {
-            "items": "salmon",
+            "items": "coal",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -83,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "water_bucket": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "water_bucket",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/fisher"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "emerald": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -117,16 +48,83 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "raw_cod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cod",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fisher"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "raw_salmon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "salmon",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fisher"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "water_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "water_bucket",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fisher"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wheat_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fisher"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Fisher",
     "description": "The fisher's cottage, stocked with fresh catches and tackle near the water.",
-    "icon": {
-      "id": "cod"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "cod",
+    "title": "Village Loot: Fisher"
   },
   "parent": "all_tasks:tasks/structures/village/loot_butcher/loot"
 }

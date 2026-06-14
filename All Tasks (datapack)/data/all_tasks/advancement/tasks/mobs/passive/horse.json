@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 4
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 1028
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 260
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 772
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -82,14 +78,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 516
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -101,14 +96,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 3
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -120,14 +114,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 1027
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -139,14 +132,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 259
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -158,14 +150,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 771
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -177,14 +168,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 515
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -196,14 +186,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 2
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -215,14 +204,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 1026
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -234,14 +222,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 258
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -253,14 +240,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 770
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -272,14 +258,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 514
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -291,14 +276,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 1
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -310,14 +294,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 1025
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -329,14 +312,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 257
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -348,14 +330,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 769
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -367,14 +348,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 513
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -386,14 +366,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 6
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -405,14 +384,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 1030
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -424,14 +402,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 262
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -443,14 +420,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 774
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -462,14 +438,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 518
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -481,14 +456,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 5
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -500,14 +474,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 1029
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -519,14 +492,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 261
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -538,14 +510,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 773
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -557,14 +528,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 517
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -576,14 +546,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 0
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -595,14 +564,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 1024
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -614,14 +582,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 256
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -633,14 +600,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 768
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -652,14 +618,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "horse",
               "nbt": {
                 "Variant": 512
-              },
-              "type": "horse"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -668,9 +633,7 @@
   },
   "display": {
     "description": "Running the open plain, the distance shrinking under its hooves.",
-    "icon": {
-      "id": "minecraft:saddle"
-    },
+    "icon": "saddle",
     "title": "Horse"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

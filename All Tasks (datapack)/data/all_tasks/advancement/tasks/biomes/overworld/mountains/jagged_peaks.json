@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Stone cutting the sky, the air too thin for anything but the view.",
-    "icon": {
-      "id": "stone"
-    },
+    "icon": "stone",
     "title": "Jagged Peaks"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/stony_peaks"

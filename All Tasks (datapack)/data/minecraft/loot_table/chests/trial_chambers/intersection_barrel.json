@@ -1,16 +1,38 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "trial_chambers/intersection_barrel"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.9,
-                "min": 0.4
+                "min": 0.4,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
@@ -19,156 +41,133 @@
               "options": "#on_random_loot"
             }
           ],
-          "name": "diamond_axe"
+          "name": "diamond_axe",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.8,
-                "min": 0.15
+                "min": 0.15,
+                "type": "uniform"
               },
               "function": "set_damage"
             }
           ],
-          "name": "diamond_pickaxe"
+          "name": "diamond_pickaxe",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "diamond"
+          "name": "diamond",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.8,
-                "min": 0.15
+                "min": 0.15,
+                "type": "uniform"
               },
               "function": "set_damage"
             }
           ],
-          "name": "compass"
+          "name": "compass",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 2,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "bucket"
+          "name": "bucket",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.8,
-                "min": 0.15
+                "min": 0.15,
+                "type": "uniform"
               },
               "function": "set_damage"
             }
           ],
           "name": "golden_axe",
+          "type": "item",
           "weight": 4
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 0.8,
-                "min": 0.15
+                "min": 0.15,
+                "type": "uniform"
               },
               "function": "set_damage"
             }
           ],
           "name": "golden_pickaxe",
+          "type": "item",
           "weight": 4
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 15,
-                "min": 5
+                "min": 5,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "bamboo_planks",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 6
+                "min": 6,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "baked_potato",
+          "type": "item",
           "weight": 10
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 3,
-        "min": 1
+        "min": 1,
+        "type": "uniform"
       }
     }
   ],
   "random_sequence": "chests/trial_chambers/intersection_barrel",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "trial_chambers/intersection_barrel",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

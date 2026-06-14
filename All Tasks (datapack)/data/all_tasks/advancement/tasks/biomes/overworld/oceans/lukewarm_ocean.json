@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Warm enough to forget how far from shore you've drifted.",
-    "icon": {
-      "id": "tropical_fish"
-    },
+    "icon": "tropical_fish",
     "title": "Lukewarm Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/ocean"

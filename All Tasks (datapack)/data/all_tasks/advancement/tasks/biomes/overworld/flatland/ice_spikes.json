@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Enormous packed ice columns erupting from the frozen plain without explanation.",
-    "icon": {
-      "id": "packed_ice"
-    },
+    "icon": "packed_ice",
     "title": "Ice Spikes"
   },
   "parent": "all_tasks:tasks/biomes/overworld/flatland/snowy_plains"

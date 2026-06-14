@@ -1,10 +1,32 @@
 {
-  "type": "minecraft:chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/shipwreck/loot_map/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "shipwreck/map"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "decoration": "red_x",
@@ -20,7 +42,8 @@
               "target": "item_name"
             }
           ],
-          "name": "map"
+          "name": "map",
+          "type": "item"
         }
       ],
       "rolls": 1
@@ -28,60 +51,60 @@
     {
       "entries": [
         {
-          "type": "item",
-          "name": "compass"
+          "name": "compass",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "map"
+          "name": "map",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "clock"
+          "name": "clock",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "paper",
+          "type": "item",
           "weight": 20
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "feather",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "book",
+          "type": "item",
           "weight": 5
         }
       ],
@@ -94,14 +117,14 @@
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": 2,
               "function": "set_count"
             }
           ],
-          "name": "coast_armor_trim_smithing_template"
+          "name": "coast_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
@@ -113,23 +136,23 @@
           "weight": 148
         },
         {
-          "type": "item",
           "name": "copper_nautilus_armor",
+          "type": "item",
           "weight": 20
         },
         {
-          "type": "item",
           "name": "iron_nautilus_armor",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "name": "golden_nautilus_armor",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "diamond_nautilus_armor",
+          "type": "item",
           "weight": 2
         }
       ],
@@ -137,29 +160,5 @@
     }
   ],
   "random_sequence": "chests/shipwreck_map",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "shipwreck/map",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/shipwreck/loot_map/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "minecraft:chest"
 }

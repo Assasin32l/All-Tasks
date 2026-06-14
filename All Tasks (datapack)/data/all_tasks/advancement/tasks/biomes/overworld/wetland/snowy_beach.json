@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Snow on the shore, the sea offering nothing warm in return.",
-    "icon": {
-      "id": "snow_block"
-    },
+    "icon": "snow_block",
     "title": "Snowy Beach"
   },
   "parent": "all_tasks:tasks/biomes/overworld/wetland/beach"

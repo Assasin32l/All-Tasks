@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Terrain rising above the outer islands, end cities clinging to the clifftops.",
-    "icon": {
-      "id": "chorus_flower"
-    },
+    "icon": "chorus_flower",
     "title": "End Highlands"
   },
   "parent": "all_tasks:tasks/biomes/the_end/the_end"

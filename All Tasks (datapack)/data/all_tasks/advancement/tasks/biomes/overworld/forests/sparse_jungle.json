@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "The trees thin out, but the green never fully releases its grip.",
-    "icon": {
-      "id": "jungle_log"
-    },
+    "icon": "jungle_log",
     "title": "Sparse Jungle"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/jungle"

@@ -1,18 +1,17 @@
 {
   "criteria": {
     "loot": {
-      "trigger": "player_generates_container_loot",
       "conditions": {
         "loot_table": "chests/stronghold_corridor",
         "player": {
-          "type_specific": {
-            "type": "player",
+          "type_specific/player": {
             "advancements": {
               "all_tasks:tasks/structures/stronghold/loot_corridor/loot": false
             }
           }
         }
-      }
+      },
+      "trigger": "player_generates_container_loot"
     }
   },
   "rewards": {

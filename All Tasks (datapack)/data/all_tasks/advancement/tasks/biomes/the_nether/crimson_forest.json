@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Everything grows red. The hoglins make your welcome very clear.",
-    "icon": {
-      "id": "crimson_stem"
-    },
+    "icon": "crimson_stem",
     "title": "Crimson Forest"
   },
   "parent": "all_tasks:tasks/biomes/the_nether/nether_wastes"

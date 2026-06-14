@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Coral reefs painting the seafloor in every shade imaginable.",
-    "icon": {
-      "id": "brain_coral_block"
-    },
+    "icon": "brain_coral_block",
     "title": "Warm Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/lukewarm_ocean"

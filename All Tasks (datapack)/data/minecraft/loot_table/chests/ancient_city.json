@@ -1,123 +1,145 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/ancient_city/loot_normal/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "ancient_city/normal"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 2,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "enchanted_golden_apple"
+          "name": "enchanted_golden_apple",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "music_disc_otherside"
+          "name": "music_disc_otherside",
+          "type": "item"
         },
         {
-          "type": "item",
           "name": "compass",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 2,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "sculk_catalyst",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "damage": {
-                "type": "uniform",
                 "max": 1.0,
-                "min": 0.8
+                "min": 0.8,
+                "type": "uniform"
               },
               "function": "set_damage"
             },
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 50,
-                "min": 30
+                "min": 30,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_hoe",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "lead",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "diamond_horse_armor",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "leather",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "music_disc_13",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "music_disc_cat",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 50,
-                "min": 30
+                "min": 30,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_leggings",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -125,152 +147,152 @@
             }
           ],
           "name": "book",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "sculk",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "sculk_sensor",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "candle",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 15,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "amethyst_shard",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "experience_bottle",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 15,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "glow_berries",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "iron_leggings",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "echo_shard",
+          "type": "item",
           "weight": 4
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "disc_fragment_5",
+          "type": "item",
           "weight": 4
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             },
@@ -280,10 +302,10 @@
             }
           ],
           "name": "potion",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -291,73 +313,74 @@
             }
           ],
           "name": "book",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "book",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 15,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "bone",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 15,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "soul_torch",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 15,
-                "min": 6
+                "min": 6,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "coal",
+          "type": "item",
           "weight": 7
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 10,
-        "min": 5
+        "min": 5,
+        "type": "uniform"
       }
     },
     {
@@ -367,42 +390,18 @@
           "weight": 75
         },
         {
-          "type": "item",
           "name": "ward_armor_trim_smithing_template",
+          "type": "item",
           "weight": 4
         },
         {
-          "type": "item",
-          "name": "silence_armor_trim_smithing_template"
+          "name": "silence_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
     }
   ],
   "random_sequence": "chests/ancient_city",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "ancient_city/normal",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/ancient_city/loot_normal/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

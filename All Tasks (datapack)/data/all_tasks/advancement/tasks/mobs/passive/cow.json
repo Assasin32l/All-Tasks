@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cow/variant": "cold"
               },
-              "type": "cow"
-            },
-            "type": "player"
+              "entity_type": "cow"
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cow/variant": "temperate"
               },
-              "type": "cow"
-            },
-            "type": "player"
+              "entity_type": "cow"
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "cow/variant": "warm"
               },
-              "type": "cow"
-            },
-            "type": "player"
+              "entity_type": "cow"
+            }
           }
         }
       },
@@ -60,9 +57,7 @@
   },
   "display": {
     "description": "Standing in the field, chewing, entirely at peace with its own existence.",
-    "icon": {
-      "id": "minecraft:leather"
-    },
+    "icon": "leather",
     "title": "Cow"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

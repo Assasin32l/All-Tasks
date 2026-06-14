@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Giant fungi, peaceful cows, and not a single monster in sight.",
-    "icon": {
-      "id": "mycelium"
-    },
+    "icon": "mycelium",
     "title": "Mushroom Fields"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"

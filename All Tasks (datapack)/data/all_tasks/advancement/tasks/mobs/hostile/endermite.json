@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "endermite"
+          "entity_type": "endermite"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "A flicker of the End in the Overworld \u2014 small, hostile, and unwelcome.",
-    "icon": {
-      "id": "minecraft:endermite_spawn_egg"
-    },
+    "icon": "endermite_spawn_egg",
     "title": "Endermite"
   },
   "parent": "all_tasks:tasks/mobs/hostile/enderman"

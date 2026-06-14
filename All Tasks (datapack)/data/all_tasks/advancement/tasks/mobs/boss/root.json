@@ -3,7 +3,7 @@
     "killed_boss": {
       "conditions": {
         "entity": {
-          "type": [
+          "entity_type": [
             "ender_dragon",
             "wither"
           ]
@@ -17,9 +17,7 @@
     "description": "Defeat every boss the world has to offer.",
     "frame": "goal",
     "hidden": true,
-    "icon": {
-      "id": "dragon_head"
-    },
+    "icon": "dragon_head",
     "show_toast": false,
     "title": "A Worthy Opponent"
   },

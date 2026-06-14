@@ -1,18 +1,17 @@
 {
   "criteria": {
     "loot": {
-      "trigger": "player_generates_container_loot",
       "conditions": {
         "loot_table": "chests/underwater_ruin_small",
         "player": {
-          "type_specific": {
-            "type": "player",
+          "type_specific/player": {
             "advancements": {
               "all_tasks:tasks/structures/underwater_ruin/loot_small/loot": false
             }
           }
         }
-      }
+      },
+      "trigger": "player_generates_container_loot"
     }
   },
   "rewards": {

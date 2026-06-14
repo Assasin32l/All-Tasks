@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Built one patient drop at a time, over centuries of quiet.",
-    "icon": {
-      "id": "dripstone_block"
-    },
+    "icon": "dripstone_block",
     "title": "Dripstone Caves"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"

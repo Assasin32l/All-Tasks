@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "pufferfish"
-            },
-            "type": "player"
+              "entity_type": "pufferfish"
+            }
           }
         }
       },
@@ -27,9 +26,7 @@
   },
   "display": {
     "description": "Small and mild until startled \u2014 then suddenly very much a problem.",
-    "icon": {
-      "id": "minecraft:pufferfish"
-    },
+    "icon": "pufferfish",
     "title": "Pufferfish"
   },
   "parent": "all_tasks:tasks/mobs/passive/cod"

@@ -8,7 +8,7 @@
         "player": {
           "type_specific/player": {
             "looking_at": {
-              "entity_type": "ocelot"
+              "entity_type": "sulfur_cube"
             }
           }
         }
@@ -17,9 +17,9 @@
     }
   },
   "display": {
-    "description": "Watching from the jungle canopy \u2014 it will come to you, or it won't.",
-    "icon": "ocelot_spawn_egg",
-    "title": "Ocelot"
+    "description": "Bouncing through yellow caves, absorbing whatever it finds along the way.",
+    "icon": "sulfur_cube_bucket",
+    "title": "Sulfur Cube"
   },
-  "parent": "all_tasks:tasks/mobs/passive/cat"
+  "parent": "all_tasks:tasks/mobs/passive/root"
 }

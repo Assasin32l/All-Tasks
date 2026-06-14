@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Past the point sunlight gives up and the cold takes over.",
-    "icon": {
-      "id": "prismarine_shard"
-    },
+    "icon": "prismarine_shard",
     "title": "Deep Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/ocean"

@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "mule"
-            },
-            "type": "player"
+              "entity_type": "mule"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Built for the long haul, carrying weight across terrain a horse would refuse.",
-    "icon": {
-      "id": "minecraft:chest"
-    },
+    "icon": "chest",
     "title": "Mule"
   },
   "parent": "all_tasks:tasks/mobs/passive/donkey"

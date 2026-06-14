@@ -1,7 +1,6 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
@@ -11,15 +10,14 @@
             ]
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Shipwreck",
     "description": "A broken hull resting where the current finally let it go.",
-    "icon": {
-      "id": "oak_planks"
-    }
+    "icon": "oak_planks",
+    "title": "Shipwreck"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

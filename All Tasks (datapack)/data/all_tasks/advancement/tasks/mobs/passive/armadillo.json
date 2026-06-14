@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "armadillo"
-            },
-            "type": "player"
+              "entity_type": "armadillo"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "It rolls into a ball and waits \u2014 patient, armoured, and unbothered.",
-    "icon": {
-      "id": "minecraft:armadillo_scute"
-    },
+    "icon": "armadillo_scute",
     "title": "Armadillo"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

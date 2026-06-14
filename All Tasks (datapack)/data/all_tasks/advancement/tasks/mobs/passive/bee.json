@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "bee"
-            },
-            "type": "player"
+              "entity_type": "bee"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Humming between flowers, indifferent to everything but the work.",
-    "icon": {
-      "id": "minecraft:honeycomb"
-    },
+    "icon": "honeycomb",
     "title": "Bee"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

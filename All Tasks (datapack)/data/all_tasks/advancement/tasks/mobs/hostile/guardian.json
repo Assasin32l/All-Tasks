@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "guardian"
+          "entity_type": "guardian"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "Pulsing with laser light in the depths, defending every corridor of the monument.",
-    "icon": {
-      "id": "minecraft:prismarine_shard"
-    },
+    "icon": "prismarine_shard",
     "title": "Guardian"
   },
   "parent": "all_tasks:tasks/mobs/hostile/root"

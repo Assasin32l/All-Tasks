@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "The canopy closes overhead and noon feels no different from dusk.",
-    "icon": {
-      "id": "dark_oak_log"
-    },
+    "icon": "dark_oak_log",
     "title": "Dark Forest"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/forest"

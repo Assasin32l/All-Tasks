@@ -5,14 +5,12 @@
     }
   },
   "display": {
-    "title": "Items",
-    "description": "From the mundane to the magnificent. A collector's life is never finished.",
-    "icon": {
-      "id": "bundle"
-    },
     "announce_to_chat": false,
-    "show_toast": false,
+    "background": "block/chiseled_bookshelf_top",
+    "description": "From the mundane to the magnificent. A collector's life is never finished.",
     "frame": "challenge",
-    "background": "block/chiseled_bookshelf_top"
+    "icon": "bundle",
+    "show_toast": false,
+    "title": "Items"
   }
 }

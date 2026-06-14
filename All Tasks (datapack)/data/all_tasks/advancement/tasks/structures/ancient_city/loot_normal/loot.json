@@ -1,11 +1,10 @@
 {
   "criteria": {
-    "coal": {
-      "trigger": "inventory_changed",
+    "amethyst_shard": {
       "conditions": {
         "items": [
           {
-            "items": "coal",
+            "items": "amethyst_shard",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -15,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bone": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "soul_torch": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "soul_torch",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "book": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,14 +48,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "potion_of_regeneration": {
-      "trigger": "inventory_changed",
+    "candle": {
       "conditions": {
         "items": [
           {
-            "items": "potion",
+            "items": "candle",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -83,10 +65,129 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compass",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "diamond_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_hoe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "diamond_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "diamond_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "disc_fragment_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "disc_fragment_5",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "echo_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "echo_shard",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "enchanted_book": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -105,146 +206,10 @@
             }
           }
         ]
-      }
-    },
-    "disc_fragment_5": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "disc_fragment_5",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "echo_shard": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "echo_shard",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "amethyst_shard": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "amethyst_shard",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "glow_berries": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "glow_berries",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "sculk": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "sculk",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "candle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "candle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "experience_bottle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "experience_bottle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "sculk_sensor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "sculk_sensor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "enchanted_book_swift_sneak": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -263,180 +228,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_leggings": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_leggings",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "leather": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "sculk_catalyst": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "sculk_catalyst",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "compass": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "compass",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "music_disc_13": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "music_disc_13",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "music_disc_cat": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "music_disc_cat",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "lead": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "lead",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "diamond_hoe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond_hoe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "diamond_horse_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond_horse_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "diamond_leggings": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond_leggings",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/normal"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "enchanted_golden_apple": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -450,10 +245,129 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "experience_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "experience_bottle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "glow_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "glow_berries",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "lead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lead",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "music_disc_13": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "music_disc_cat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_cat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "music_disc_otherside": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -467,14 +381,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "ward_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
+    "potion_of_regeneration": {
       "conditions": {
         "items": [
           {
-            "items": "ward_armor_trim_smithing_template",
+            "items": "potion",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -484,10 +398,61 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "sculk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sculk",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "sculk_catalyst": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sculk_catalyst",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "sculk_sensor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sculk_sensor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "silence_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -501,16 +466,49 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "soul_torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "soul_torch",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ward_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ward_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Ancient City Loot: Normal",
     "description": "Chests scattered through sculk-covered halls, deep below the surface.",
-    "icon": {
-      "id": "echo_shard"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "echo_shard",
+    "title": "Ancient City Loot: Normal"
   },
   "parent": "all_tasks:tasks/structures/ancient_city/root"
 }

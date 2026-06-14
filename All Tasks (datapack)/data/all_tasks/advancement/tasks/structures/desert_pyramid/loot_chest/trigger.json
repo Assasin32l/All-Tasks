@@ -1,18 +1,17 @@
 {
   "criteria": {
     "loot": {
-      "trigger": "player_generates_container_loot",
       "conditions": {
         "loot_table": "chests/desert_pyramid",
         "player": {
-          "type_specific": {
-            "type": "player",
+          "type_specific/player": {
             "advancements": {
               "all_tasks:tasks/structures/desert_pyramid/loot_chest/loot": false
             }
           }
         }
-      }
+      },
+      "trigger": "player_generates_container_loot"
     }
   },
   "rewards": {

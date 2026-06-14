@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 117506305
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 117899265
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 185008129
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 117441793
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -82,14 +78,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 118161664
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -101,14 +96,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 65536
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -120,14 +114,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 50726144
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -139,14 +132,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 67764993
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -158,14 +150,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 234882305
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -177,14 +168,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 67110144
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -196,14 +186,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 117441025
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -215,14 +204,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 16778497
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -234,14 +222,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 101253888
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -253,14 +240,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 50660352
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -272,14 +258,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 918529
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -291,14 +276,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 235340288
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -310,14 +294,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 918273
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -329,14 +312,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 67108865
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -348,14 +330,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 917504
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -367,14 +348,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 459008
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -386,14 +366,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "tropical_fish",
               "nbt": {
                 "Variant": 67699456
-              },
-              "type": "tropical_fish"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -402,9 +381,7 @@
   },
   "display": {
     "description": "Every colour the reef has to offer, darting through the warm water.",
-    "icon": {
-      "id": "minecraft:tropical_fish"
-    },
+    "icon": "tropical_fish",
     "title": "Tropical Fish"
   },
   "parent": "all_tasks:tasks/mobs/passive/cod"

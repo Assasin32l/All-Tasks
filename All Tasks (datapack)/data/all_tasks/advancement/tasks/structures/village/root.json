@@ -1,62 +1,60 @@
 {
   "criteria": {
     "in_structure_1": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "village_desert"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_2": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "village_plains"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_3": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "village_savanna"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_4": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "village_snowy"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_5": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "village_taiga"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Village",
     "description": "Smoke from chimneys, bells at noon \u2014 someone still lives here.",
-    "icon": {
-      "id": "bell"
-    }
+    "icon": "bell",
+    "title": "Village"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

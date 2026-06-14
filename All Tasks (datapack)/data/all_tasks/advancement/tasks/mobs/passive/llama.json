@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "llama/variant": "brown"
               },
-              "type": "llama"
-            },
-            "type": "player"
+              "entity_type": "llama"
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "llama/variant": "creamy"
               },
-              "type": "llama"
-            },
-            "type": "player"
+              "entity_type": "llama"
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "llama/variant": "gray"
               },
-              "type": "llama"
-            },
-            "type": "player"
+              "entity_type": "llama"
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "llama/variant": "white"
               },
-              "type": "llama"
-            },
-            "type": "player"
+              "entity_type": "llama"
+            }
           }
         }
       },
@@ -79,9 +75,7 @@
   },
   "display": {
     "description": "Decorated and defiant, spitting at anyone it decides it dislikes.",
-    "icon": {
-      "id": "minecraft:carpet"
-    },
+    "icon": "carpet",
     "title": "Llama"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

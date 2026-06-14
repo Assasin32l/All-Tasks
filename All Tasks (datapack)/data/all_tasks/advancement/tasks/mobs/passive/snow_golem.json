@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "snow_golem"
-            },
-            "type": "player"
+              "entity_type": "snow_golem"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Built from snow and good intentions, melting in any climate but its own.",
-    "icon": {
-      "id": "minecraft:carved_pumpkin"
-    },
+    "icon": "carved_pumpkin",
     "title": "Snow Golem"
   },
   "parent": "all_tasks:tasks/mobs/passive/iron_golem"

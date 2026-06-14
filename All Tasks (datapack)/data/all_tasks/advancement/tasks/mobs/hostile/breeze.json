@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "breeze"
+          "entity_type": "breeze"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "Leaping and laughing through the chambers, turning the wind against you.",
-    "icon": {
-      "id": "minecraft:breeze_rod"
-    },
+    "icon": "breeze_rod",
     "title": "Breeze"
   },
   "parent": "all_tasks:tasks/mobs/hostile/blaze"

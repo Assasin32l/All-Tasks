@@ -1,41 +1,6 @@
 {
   "criteria": {
-    "snowball": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "snowball",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/ice_box"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "packed_ice": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "packed_ice",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "ancient_city/ice_box"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "baked_potato": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -49,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "golden_carrot": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,10 +31,44 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "packed_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "packed_ice",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/ice_box"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "snowball": {
+      "conditions": {
+        "items": [
+          {
+            "items": "snowball",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "ancient_city/ice_box"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "suspicious_stew": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -83,16 +82,15 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Ancient City Loot: Ice Box",
     "description": "A frozen cache sealed beneath the city, cold and undisturbed for ages.",
-    "icon": {
-      "id": "packed_ice"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "packed_ice",
+    "title": "Ancient City Loot: Ice Box"
   },
   "parent": "all_tasks:tasks/structures/ancient_city/root"
 }

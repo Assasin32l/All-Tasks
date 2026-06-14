@@ -1,7 +1,6 @@
 {
   "criteria": {
     "amethyst_shard": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "cake": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_block": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_block",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/intersection_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,27 +48,10 @@
             }
           }
         ]
-      }
-    },
-    "emerald_block": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald_block",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/intersection_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_axe": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,27 +65,10 @@
             }
           }
         ]
-      }
-    },
-    "diamond_pickaxe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond_pickaxe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/intersection_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_block": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -134,16 +82,66 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "diamond_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/intersection_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trial Chambers Loot: Intersection Chest",
     "description": "A chest at the intersection, holding the most valuable find in the chambers.",
-    "icon": {
-      "id": "diamond_block"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "diamond_block",
+    "title": "Trial Chambers Loot: Intersection Chest"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/loot_entrance_chest/loot"
 }

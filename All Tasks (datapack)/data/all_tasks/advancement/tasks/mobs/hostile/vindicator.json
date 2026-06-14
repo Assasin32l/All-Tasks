@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "vindicator"
+          "entity_type": "vindicator"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "Swinging an axe through the mansion halls, saying nothing, meaning everything.",
-    "icon": {
-      "id": "minecraft:iron_axe"
-    },
+    "icon": "iron_axe",
     "title": "Vindicator"
   },
   "parent": "all_tasks:tasks/mobs/hostile/pillager"

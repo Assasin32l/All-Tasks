@@ -1,58 +1,6 @@
 {
   "criteria": {
-    "trial_key": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "trial_key",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/spawner"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "bread": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "bread",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/spawner"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "cooked_chicken": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "cooked_chicken",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/spawner"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "baked_potato": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,10 +14,44 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "cooked_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cooked_chicken",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "potion_of_regeneration": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -84,10 +66,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "potion_of_swiftness": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -102,16 +84,32 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "trial_key": {
+      "conditions": {
+        "items": [
+          {
+            "items": "trial_key",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/spawner"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trial Chambers Loot: Spawner",
     "description": "Drops dispensed by the spawner to those who survive each wave.",
-    "icon": {
-      "id": "potion"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "potion",
+    "title": "Trial Chambers Loot: Spawner"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/root"
 }

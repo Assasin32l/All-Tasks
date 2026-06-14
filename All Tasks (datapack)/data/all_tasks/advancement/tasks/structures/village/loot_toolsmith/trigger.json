@@ -1,18 +1,17 @@
 {
   "criteria": {
     "loot": {
-      "trigger": "player_generates_container_loot",
       "conditions": {
         "loot_table": "chests/village/village_toolsmith",
         "player": {
-          "type_specific": {
-            "type": "player",
+          "type_specific/player": {
             "advancements": {
               "all_tasks:tasks/structures/village/loot_toolsmith/loot": false
             }
           }
         }
-      }
+      },
+      "trigger": "player_generates_container_loot"
     }
   },
   "rewards": {

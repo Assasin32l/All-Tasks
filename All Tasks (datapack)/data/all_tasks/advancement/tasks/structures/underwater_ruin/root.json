@@ -1,32 +1,30 @@
 {
   "criteria": {
     "in_structure_1": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ocean_ruin_cold"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_2": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ocean_ruin_warm"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Ocean Ruins",
     "description": "Ancient columns half-buried in sand, still and salt-eaten beneath the waves.",
-    "icon": {
-      "id": "mossy_stone_bricks"
-    }
+    "icon": "mossy_stone_bricks",
+    "title": "Ocean Ruins"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

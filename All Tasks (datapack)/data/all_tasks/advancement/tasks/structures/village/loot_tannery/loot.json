@@ -1,7 +1,6 @@
 {
   "criteria": {
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bundle": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,78 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "leather_helmet": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather_helmet",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/tannery"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "leather_chestplate": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather_chestplate",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/tannery"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "leather_leggings": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather_leggings",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/tannery"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "leather_boots": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather_boots",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/tannery"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "emerald": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -117,10 +48,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "leather": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -134,10 +65,78 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "saddle": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -151,16 +150,15 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Tannery",
     "description": "The tannery's chest, smelling of leather and the long work that made it.",
-    "icon": {
-      "id": "leather_chestplate"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "leather_chestplate",
+    "title": "Village Loot: Tannery"
   },
   "parent": "all_tasks:tasks/structures/village/loot_butcher/loot"
 }

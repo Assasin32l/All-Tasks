@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "glow_squid"
-            },
-            "type": "player"
+              "entity_type": "glow_squid"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Pulsing with cold light in the deep, indifferent to the dark around it.",
-    "icon": {
-      "id": "minecraft:glow_ink_sac"
-    },
+    "icon": "glow_ink_sac",
     "title": "Glow Squid"
   },
   "parent": "all_tasks:tasks/mobs/passive/squid"

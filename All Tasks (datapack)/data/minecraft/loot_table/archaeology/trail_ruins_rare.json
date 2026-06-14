@@ -1,84 +1,83 @@
 {
-  "type": "archaeology",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "name": "burn_pottery_sherd"
-        },
-        {
-          "type": "item",
-          "name": "danger_pottery_sherd"
-        },
-        {
-          "type": "item",
-          "name": "friend_pottery_sherd"
-        },
-        {
-          "type": "item",
-          "name": "heart_pottery_sherd"
-        },
-        {
-          "type": "item",
-          "name": "heartbreak_pottery_sherd"
-        },
-        {
-          "type": "item",
-          "name": "howl_pottery_sherd"
-        },
-        {
-          "type": "item",
-          "name": "sheaf_pottery_sherd"
-        },
-        {
-          "type": "item",
-          "name": "wayfinder_armor_trim_smithing_template"
-        },
-        {
-          "type": "item",
-          "name": "raiser_armor_trim_smithing_template"
-        },
-        {
-          "type": "item",
-          "name": "shaper_armor_trim_smithing_template"
-        },
-        {
-          "type": "item",
-          "name": "host_armor_trim_smithing_template"
-        },
-        {
-          "type": "item",
-          "name": "music_disc_relic"
-        }
-      ],
-      "rolls": 1
-    }
-  ],
-  "random_sequence": "archaeology/trail_ruins_rare",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "trail_ruins/rare",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/trail_ruins/loot_rare": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "trail_ruins/rare"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "burn_pottery_sherd",
+          "type": "item"
+        },
+        {
+          "name": "danger_pottery_sherd",
+          "type": "item"
+        },
+        {
+          "name": "friend_pottery_sherd",
+          "type": "item"
+        },
+        {
+          "name": "heart_pottery_sherd",
+          "type": "item"
+        },
+        {
+          "name": "heartbreak_pottery_sherd",
+          "type": "item"
+        },
+        {
+          "name": "howl_pottery_sherd",
+          "type": "item"
+        },
+        {
+          "name": "sheaf_pottery_sherd",
+          "type": "item"
+        },
+        {
+          "name": "wayfinder_armor_trim_smithing_template",
+          "type": "item"
+        },
+        {
+          "name": "raiser_armor_trim_smithing_template",
+          "type": "item"
+        },
+        {
+          "name": "shaper_armor_trim_smithing_template",
+          "type": "item"
+        },
+        {
+          "name": "host_armor_trim_smithing_template",
+          "type": "item"
+        },
+        {
+          "name": "music_disc_relic",
+          "type": "item"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "archaeology/trail_ruins_rare",
+  "type": "archaeology"
 }

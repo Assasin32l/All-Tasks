@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "parrot/variant": "blue"
               },
-              "type": "parrot"
-            },
-            "type": "player"
+              "entity_type": "parrot"
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "parrot/variant": "gray"
               },
-              "type": "parrot"
-            },
-            "type": "player"
+              "entity_type": "parrot"
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "parrot/variant": "green"
               },
-              "type": "parrot"
-            },
-            "type": "player"
+              "entity_type": "parrot"
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "parrot/variant": "red_blue"
               },
-              "type": "parrot"
-            },
-            "type": "player"
+              "entity_type": "parrot"
+            }
           }
         }
       },
@@ -82,14 +78,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
               "components": {
                 "parrot/variant": "yellow_blue"
               },
-              "type": "parrot"
-            },
-            "type": "player"
+              "entity_type": "parrot"
+            }
           }
         }
       },
@@ -98,9 +93,7 @@
   },
   "display": {
     "description": "Bright and borrowed \u2014 it learns your words and wears them without irony.",
-    "icon": {
-      "id": "minecraft:cookie"
-    },
+    "icon": "cookie",
     "title": "Parrot"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

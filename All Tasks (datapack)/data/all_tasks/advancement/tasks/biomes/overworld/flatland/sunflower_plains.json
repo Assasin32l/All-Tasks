@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "A golden sea turning endlessly toward the light.",
-    "icon": {
-      "id": "sunflower"
-    },
+    "icon": "sunflower",
     "title": "Sunflower Plains"
   },
   "parent": "all_tasks:tasks/biomes/overworld/flatland/plains"

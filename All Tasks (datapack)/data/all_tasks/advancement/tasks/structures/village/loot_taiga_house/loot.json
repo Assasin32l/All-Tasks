@@ -1,41 +1,6 @@
 {
   "criteria": {
-    "potato": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "potato",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/taiga_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "spruce_log": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "spruce_log",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/taiga_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -49,61 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "sweet_berries": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "sweet_berries",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/taiga_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "pumpkin_seeds": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "pumpkin_seeds",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/taiga_house"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "spruce_sapling": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "spruce_sapling",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/taiga_house"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bundle": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -117,10 +31,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "emerald": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -134,10 +48,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "fern": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -151,27 +65,10 @@
             }
           }
         ]
-      }
-    },
-    "large_fern": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "large_fern",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/taiga_house"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "iron_nugget": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -185,10 +82,44 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "large_fern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "large_fern",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/taiga_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/taiga_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "pumpkin_pie": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -202,10 +133,61 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "pumpkin_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pumpkin_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/taiga_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "spruce_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "spruce_log",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/taiga_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "spruce_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "spruce_sapling",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/taiga_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "spruce_sign": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -219,16 +201,32 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "sweet_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sweet_berries",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/taiga_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Taiga House",
     "description": "A taiga home, spruce-scented and warm, stocked for the long winter ahead.",
-    "icon": {
-      "id": "pumpkin_pie"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "pumpkin_pie",
+    "title": "Village Loot: Taiga House"
   },
   "parent": "all_tasks:tasks/structures/village/loot_snowy_house/loot"
 }

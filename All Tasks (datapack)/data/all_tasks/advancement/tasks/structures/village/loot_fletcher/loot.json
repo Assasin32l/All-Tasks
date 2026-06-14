@@ -1,58 +1,6 @@
 {
   "criteria": {
-    "feather": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "feather",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/fletcher"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "flint": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "flint",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/fletcher"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "stick": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "stick",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/fletcher"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "arrow": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "egg": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -83,10 +31,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "emerald": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,16 +48,66 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "feather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "feather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "flint": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flint",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/fletcher"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Fletcher",
     "description": "Quivers and shafts in the fletcher's house, stocked for the road ahead.",
-    "icon": {
-      "id": "arrow"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "arrow",
+    "title": "Village Loot: Fletcher"
   },
   "parent": "all_tasks:tasks/structures/village/root"
 }

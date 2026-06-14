@@ -1,51 +1,74 @@
 {
-  "type": "archaeology",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/underwater_ruin/loot_cold": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "ocean_ruin/cold"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
-          "name": "blade_pottery_sherd"
+          "name": "blade_pottery_sherd",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "explorer_pottery_sherd"
+          "name": "explorer_pottery_sherd",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "mourner_pottery_sherd"
+          "name": "mourner_pottery_sherd",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "plenty_pottery_sherd"
+          "name": "plenty_pottery_sherd",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "iron_axe"
+          "name": "iron_axe",
+          "type": "item"
         },
         {
-          "type": "item",
           "name": "emerald",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "wheat",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "wooden_hoe",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "coal",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "name": "gold_nugget",
+          "type": "item",
           "weight": 2
         }
       ],
@@ -53,29 +76,5 @@
     }
   ],
   "random_sequence": "archaeology/ocean_ruin_cold",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "ocean_ruin/cold",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/underwater_ruin/loot_cold": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "archaeology"
 }

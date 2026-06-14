@@ -1,128 +1,151 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/nether_fortress/loot/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "nether_fortress"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "diamond",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_ingot",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 3,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_ingot",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "name": "golden_sword",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "golden_chestplate",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "flint_and_steel",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 3
+                "min": 3,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "nether_wart",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "saddle",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "name": "golden_horse_armor",
+          "type": "item",
           "weight": 8
         },
         {
-          "type": "item",
           "name": "copper_horse_armor",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "iron_horse_armor",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "diamond_horse_armor",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "obsidian",
+          "type": "item",
           "weight": 2
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 4,
-        "min": 2
+        "min": 2,
+        "type": "uniform"
       }
     },
     {
@@ -132,37 +155,13 @@
           "weight": 14
         },
         {
-          "type": "item",
-          "name": "rib_armor_trim_smithing_template"
+          "name": "rib_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
     }
   ],
   "random_sequence": "chests/nether_bridge",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "nether_fortress",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/nether_fortress/loot/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

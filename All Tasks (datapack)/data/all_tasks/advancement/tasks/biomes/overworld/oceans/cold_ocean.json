@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Pale, sparse, and indifferent to anyone passing through.",
-    "icon": {
-      "id": "cod"
-    },
+    "icon": "cod",
     "title": "Cold Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/ocean"

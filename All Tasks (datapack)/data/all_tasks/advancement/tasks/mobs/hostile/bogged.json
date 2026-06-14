@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "bogged"
+          "entity_type": "bogged"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "A skeleton rotted by the swamp, shooting poison from between the roots.",
-    "icon": {
-      "id": "minecraft:brown_mushroom"
-    },
+    "icon": "brown_mushroom",
     "title": "Bogged"
   },
   "parent": "all_tasks:tasks/mobs/hostile/skeleton"

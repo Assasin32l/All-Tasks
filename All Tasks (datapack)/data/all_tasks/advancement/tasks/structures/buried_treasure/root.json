@@ -1,18 +1,16 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "player_generates_container_loot",
       "conditions": {
         "loot_table": "chests/buried_treasure"
-      }
+      },
+      "trigger": "player_generates_container_loot"
     }
   },
   "display": {
-    "title": "Buried Treasure",
     "description": "Marked on a map, sealed beneath the sand at the ocean's edge.",
-    "icon": {
-      "id": "chest"
-    }
+    "icon": "chest",
+    "title": "Buried Treasure"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

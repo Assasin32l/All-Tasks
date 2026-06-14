@@ -1,7 +1,6 @@
 {
   "criteria": {
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,44 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "stone": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "stone",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/mason"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "stone_bricks": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "stone_bricks",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/mason"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "clay_ball": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,10 +31,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "emerald": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -83,10 +48,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "flower_pot": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,10 +65,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "smooth_stone": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -117,10 +82,44 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "stone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stone_bricks",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/mason"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "yellow_dye": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -134,16 +133,15 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Mason",
     "description": "Stone and clay in the mason's chest, work never truly finished.",
-    "icon": {
-      "id": "clay_ball"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "clay_ball",
+    "title": "Village Loot: Mason"
   },
   "parent": "all_tasks:tasks/structures/village/loot_fletcher/loot"
 }

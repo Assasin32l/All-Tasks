@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Past the coral and into the open, sunlit deep below.",
-    "icon": {
-      "id": "nautilus_shell"
-    },
+    "icon": "nautilus_shell",
     "title": "Deep Lukewarm Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/lukewarm_ocean"

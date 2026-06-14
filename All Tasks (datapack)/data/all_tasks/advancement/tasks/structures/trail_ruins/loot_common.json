@@ -1,245 +1,6 @@
 {
   "criteria": {
-    "blue_dye": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "blue_dye",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "brick": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "brick",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "brown_candle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "brown_candle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "clay": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "clay",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "green_candle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "green_candle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "light_blue_dye": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "light_blue_dye",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "orange_dye": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "orange_dye",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "purple_candle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "purple_candle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "red_candle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "red_candle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "wheat": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wheat",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "white_dye": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "white_dye",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "wooden_hoe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wooden_hoe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "yellow_dye": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "yellow_dye",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "beetroot_seeds": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -253,10 +14,27 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "blue_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "blue_dye",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "blue_stained_glass_pane": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -270,10 +48,61 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "brick",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "brown_candle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "brown_candle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "clay": {
+      "conditions": {
+        "items": [
+          {
+            "items": "clay",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "coal": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -287,10 +116,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "dead_bush": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -304,10 +133,27 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "flower_pot": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -321,197 +167,10 @@
             }
           }
         ]
-      }
-    },
-    "lead": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "lead",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "light_blue_stained_glass_pane": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "light_blue_stained_glass_pane",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "magenta_stained_glass_pane": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "magenta_stained_glass_pane",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "oak_hanging_sign": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "oak_hanging_sign",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "pink_stained_glass_pane": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "pink_stained_glass_pane",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "purple_stained_glass_pane": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "purple_stained_glass_pane",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "red_stained_glass_pane": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "red_stained_glass_pane",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "spruce_hanging_sign": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "spruce_hanging_sign",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "string": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "string",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "wheat_seeds": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wheat_seeds",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "yellow_stained_glass_pane": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "yellow_stained_glass_pane",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trail_ruins/common"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "gold_nugget": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -525,16 +184,355 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "green_candle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "green_candle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "lead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lead",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "light_blue_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "light_blue_dye",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "light_blue_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "light_blue_stained_glass_pane",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "magenta_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "magenta_stained_glass_pane",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "oak_hanging_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "oak_hanging_sign",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "orange_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "orange_dye",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "pink_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pink_stained_glass_pane",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "purple_candle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purple_candle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "purple_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purple_stained_glass_pane",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "red_candle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "red_candle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "red_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "red_stained_glass_pane",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "spruce_hanging_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "spruce_hanging_sign",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "string": {
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wheat_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "white_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "white_dye",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wooden_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wooden_hoe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "yellow_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yellow_dye",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "yellow_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yellow_stained_glass_pane",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trail_ruins/common"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trail Ruins Loot: Common",
     "description": "Common finds scattered through a ruin that the earth slowly swallowed.",
-    "icon": {
-      "id": "flower_pot"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "flower_pot",
+    "title": "Trail Ruins Loot: Common"
   },
   "parent": "all_tasks:tasks/structures/trail_ruins/root"
 }

@@ -1,94 +1,93 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "name": "trial_key"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 5,
-                "min": 2
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "stick",
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "wooden_axe",
-          "weight": 10
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 8,
-                "min": 2
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "honeycomb",
-          "weight": 10
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 10,
-                "min": 5
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "arrow",
-          "weight": 10
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 3,
-        "min": 2
-      }
-    }
-  ],
-  "random_sequence": "chests/trial_chambers/entrance",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "trial_chambers/entrance_chest",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/trial_chambers/loot_entrance_chest/loot": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "trial_chambers/entrance_chest"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "trial_key",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 5,
+                "min": 2,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "stick",
+          "type": "item",
+          "weight": 5
+        },
+        {
+          "name": "wooden_axe",
+          "type": "item",
+          "weight": 10
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 8,
+                "min": 2,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "honeycomb",
+          "type": "item",
+          "weight": 10
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 10,
+                "min": 5,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "arrow",
+          "type": "item",
+          "weight": 10
+        }
+      ],
+      "rolls": {
+        "max": 3,
+        "min": 2,
+        "type": "uniform"
+      }
+    }
+  ],
+  "random_sequence": "chests/trial_chambers/entrance",
+  "type": "chest"
 }

@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "ender_dragon"
+          "entity_type": "ender_dragon"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,10 +11,7 @@
   },
   "display": {
     "description": "The sky itself darkens when it spreads its wings over the End.",
-    "frame": "task",
-    "icon": {
-      "id": "minecraft:dragon_breath"
-    },
+    "icon": "dragon_breath",
     "title": "Ender Dragon"
   },
   "parent": "all_tasks:tasks/mobs/boss/root"

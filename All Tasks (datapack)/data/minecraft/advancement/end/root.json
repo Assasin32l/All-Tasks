@@ -12,13 +12,13 @@
     "description": {
       "translate": "advancements.end.root.description"
     },
+    "frame": "goal",
+    "hidden": true,
     "icon": "end_stone",
     "show_toast": false,
     "title": {
       "translate": "advancements.end.root.title"
-    },
-    "frame": "goal",
-    "hidden": true
+    }
   },
   "parent": "all_tasks:tasks/advancement_root"
 }

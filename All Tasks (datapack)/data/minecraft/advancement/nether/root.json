@@ -12,13 +12,13 @@
     "description": {
       "translate": "advancements.nether.root.description"
     },
+    "frame": "goal",
+    "hidden": true,
     "icon": "red_nether_bricks",
     "show_toast": false,
     "title": {
       "translate": "advancements.nether.root.title"
-    },
-    "frame": "goal",
-    "hidden": true
+    }
   },
   "parent": "all_tasks:tasks/advancement_root"
 }

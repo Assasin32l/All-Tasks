@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "sniffer"
-            },
-            "type": "player"
+              "entity_type": "sniffer"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Nose to the earth, unearthing seeds from an age the world forgot.",
-    "icon": {
-      "id": "minecraft:sniffer_egg"
-    },
+    "icon": "sniffer_egg",
     "title": "Sniffer"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

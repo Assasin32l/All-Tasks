@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "elder_guardian"
+          "entity_type": "elder_guardian"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "Ancient and vast in the monument's deepest room, cursing all who enter.",
-    "icon": {
-      "id": "minecraft:sponge"
-    },
+    "icon": "sponge",
     "title": "Elder Guardian"
   },
   "parent": "all_tasks:tasks/mobs/hostile/guardian"

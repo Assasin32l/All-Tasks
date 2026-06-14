@@ -1,7 +1,6 @@
 {
   "criteria": {
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,44 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "rotten_flesh": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "rotten_flesh",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/temple"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "redstone": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "redstone",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/temple"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "emerald": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "lapis_lazuli": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "lapis_lazuli",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/temple"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "gold_ingot": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,16 +48,66 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "lapis_lazuli": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lapis_lazuli",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "rotten_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Temple",
     "description": "Offerings left in the village temple, for the faithful and the curious.",
-    "icon": {
-      "id": "lapis_lazuli"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "lapis_lazuli",
+    "title": "Village Loot: Temple"
   },
   "parent": "all_tasks:tasks/structures/village/root"
 }

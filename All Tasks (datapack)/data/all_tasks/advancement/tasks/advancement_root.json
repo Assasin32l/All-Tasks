@@ -1,7 +1,6 @@
 {
   "criteria": {
     "unlock_right_away": {
-      "trigger": "tick",
       "conditions": {
         "player": [
           {
@@ -11,8 +10,7 @@
                 "condition": "entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "type_specific/player": {
                     "advancements": {
                       "adventure/root": true
                     }
@@ -28,8 +26,7 @@
                 "condition": "entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "type_specific/player": {
                     "advancements": {
                       "husbandry/root": true
                     }
@@ -45,8 +42,7 @@
                 "condition": "entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "type_specific/player": {
                     "advancements": {
                       "nether/root": true
                     }
@@ -62,8 +58,7 @@
                 "condition": "entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "type_specific/player": {
                     "advancements": {
                       "end/root": true
                     }
@@ -79,8 +74,7 @@
                 "condition": "entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "type_specific/player": {
                     "advancements": {
                       "story/root": true
                     }
@@ -90,18 +84,17 @@
             ]
           }
         ]
-      }
+      },
+      "trigger": "tick"
     }
   },
   "display": {
-    "description": "Not all who wander are lost. Some are just overachieving.",
-    "icon": {
-      "id": "nether_star"
-    },
-    "title": "Advancements",
     "announce_to_chat": false,
     "background": "block/chiseled_sandstone",
+    "description": "Not all who wander are lost. Some are just overachieving.",
     "frame": "challenge",
-    "show_toast": false
+    "icon": "nether_star",
+    "show_toast": false,
+    "title": "Advancements"
   }
 }

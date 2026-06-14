@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "donkey"
-            },
-            "type": "player"
+              "entity_type": "donkey"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Stubborn, sturdy, and carrying more than you gave it credit for.",
-    "icon": {
-      "id": "minecraft:chest"
-    },
+    "icon": "chest",
     "title": "Donkey"
   },
   "parent": "all_tasks:tasks/mobs/passive/horse"

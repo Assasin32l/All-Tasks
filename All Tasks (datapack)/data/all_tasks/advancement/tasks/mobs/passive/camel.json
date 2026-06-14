@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "camel"
-            },
-            "type": "player"
+              "entity_type": "camel"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Tall, unhurried, and entirely above whatever is going on around it.",
-    "icon": {
-      "id": "minecraft:cactus"
-    },
+    "icon": "cactus",
     "title": "Camel"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

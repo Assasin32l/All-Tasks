@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Endless spruce under a sky that always threatens rain.",
-    "icon": {
-      "id": "spruce_log"
-    },
+    "icon": "spruce_log",
     "title": "Taiga"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/forest"

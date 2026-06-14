@@ -14,11 +14,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "cod"
-            },
-            "type": "player"
+              "entity_type": "cod"
+            }
           }
         }
       },
@@ -27,9 +26,7 @@
   },
   "display": {
     "description": "Schooling through the shallows, the most quietly common fish in the sea.",
-    "icon": {
-      "id": "minecraft:cod"
-    },
+    "icon": "cod",
     "title": "Cod"
   },
   "parent": "all_tasks:tasks/mobs/passive/root",

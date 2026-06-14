@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "strider"
-            },
-            "type": "player"
+              "entity_type": "strider"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Wobbling across the lava sea, at home in what would unmake anything else.",
-    "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick"
-    },
+    "icon": "warped_fungus_on_a_stick",
     "title": "Strider"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

@@ -1,7 +1,6 @@
 {
   "criteria": {
     "unlock_right_away": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
@@ -42,18 +41,17 @@
             ]
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Structures",
-    "description": "Ancient ruins, forgotten vaults. Their secrets await the bold.",
-    "icon": {
-      "id": "spyglass"
-    },
     "announce_to_chat": false,
-    "show_toast": false,
+    "background": "block/lodestone_top",
+    "description": "Ancient ruins, forgotten vaults. Their secrets await the bold.",
     "frame": "challenge",
-    "background": "block/lodestone_top"
+    "icon": "spyglass",
+    "show_toast": false,
+    "title": "Structures"
   }
 }

@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Outer islands spreading wide, chorus trees rooted in pale ancient stone.",
-    "icon": {
-      "id": "chorus_fruit"
-    },
+    "icon": "chorus_fruit",
     "title": "End Midlands"
   },
   "parent": "all_tasks:tasks/biomes/the_end/the_end"

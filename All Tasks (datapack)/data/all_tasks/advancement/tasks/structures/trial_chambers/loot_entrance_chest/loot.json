@@ -1,7 +1,6 @@
 {
   "criteria": {
     "arrow": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "honeycomb": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "wooden_axe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wooden_axe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/entrance_chest"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "stick": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,10 +48,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "trial_key": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -83,16 +65,32 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "wooden_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wooden_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/entrance_chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trial Chambers Loot: Entrance Chest",
     "description": "The first chest at the entrance, left for those who have just arrived.",
-    "icon": {
-      "id": "trial_key"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "trial_key",
+    "title": "Trial Chambers Loot: Entrance Chest"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/root"
 }

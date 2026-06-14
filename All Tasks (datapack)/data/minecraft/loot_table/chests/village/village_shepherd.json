@@ -1,138 +1,137 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 8,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "white_wool",
-          "weight": 6
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "black_wool",
-          "weight": 3
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "gray_wool",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "brown_wool",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "light_gray_wool",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "emerald"
-        },
-        {
-          "type": "item",
-          "name": "shears"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 6,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "wheat",
-          "weight": 6
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 5,
-        "min": 1
-      }
-    }
-  ],
-  "random_sequence": "chests/village/village_shepherd",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "village/shepherd",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/village/loot_shepherd/loot": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "village/shepherd"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 8,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "white_wool",
+          "type": "item",
+          "weight": 6
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "black_wool",
+          "type": "item",
+          "weight": 3
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "gray_wool",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "brown_wool",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "light_gray_wool",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "name": "emerald",
+          "type": "item"
+        },
+        {
+          "name": "shears",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 6,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "wheat",
+          "type": "item",
+          "weight": 6
+        }
+      ],
+      "rolls": {
+        "max": 5,
+        "min": 1,
+        "type": "uniform"
+      }
+    }
+  ],
+  "random_sequence": "chests/village/village_shepherd",
+  "type": "chest"
 }

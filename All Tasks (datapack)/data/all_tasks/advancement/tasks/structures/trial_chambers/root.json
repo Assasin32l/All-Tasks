@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "trial_chambers"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Trial Chambers",
     "description": "Stone halls built for testing \u2014 what waits inside shows no mercy.",
-    "icon": {
-      "id": "tuff_bricks"
-    }
+    "icon": "tuff_bricks",
+    "title": "Trial Chambers"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

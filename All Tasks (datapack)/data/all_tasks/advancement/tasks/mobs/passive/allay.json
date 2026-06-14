@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "allay"
-            },
-            "type": "player"
+              "entity_type": "allay"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "A wisp of goodwill drifting toward music, carrying whatever it finds.",
-    "icon": {
-      "id": "minecraft:amethyst_shard"
-    },
+    "icon": "amethyst_shard",
     "title": "Allay"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

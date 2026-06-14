@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Tangled roots rising from the flood as if the land itself is climbing out.",
-    "icon": {
-      "id": "mangrove_log"
-    },
+    "icon": "mangrove_log",
     "title": "Mangrove Swamp"
   },
   "parent": "all_tasks:tasks/biomes/overworld/wetland/swamp"

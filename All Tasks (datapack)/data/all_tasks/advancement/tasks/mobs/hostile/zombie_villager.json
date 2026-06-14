@@ -5,8 +5,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "armorer"
             }
           }
         }
@@ -18,8 +18,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "butcher"
             }
           }
         }
@@ -31,8 +31,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "cartographer"
             }
           }
         }
@@ -44,8 +44,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "cleric"
             }
           }
         }
@@ -57,8 +57,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "farmer"
             }
           }
         }
@@ -70,8 +70,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "fisherman"
             }
           }
         }
@@ -83,8 +83,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "fletcher"
             }
           }
         }
@@ -96,8 +96,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "leatherworker"
             }
           }
         }
@@ -109,8 +109,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "librarian"
             }
           }
         }
@@ -122,8 +122,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "mason"
             }
           }
         }
@@ -135,8 +135,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "nitwit"
             }
           }
         }
@@ -148,8 +148,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "none"
             }
           }
         }
@@ -161,8 +161,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "shepherd"
             }
           }
         }
@@ -174,8 +174,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "toolsmith"
             }
           }
         }
@@ -187,8 +187,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "weaponsmith"
             }
           }
         }
@@ -200,8 +200,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "armorer"
             }
           }
         }
@@ -213,8 +213,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "butcher"
             }
           }
         }
@@ -226,8 +226,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "cartographer"
             }
           }
         }
@@ -239,8 +239,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "cleric"
             }
           }
         }
@@ -252,8 +252,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "farmer"
             }
           }
         }
@@ -265,8 +265,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "fisherman"
             }
           }
         }
@@ -278,8 +278,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "fletcher"
             }
           }
         }
@@ -291,8 +291,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "leatherworker"
             }
           }
         }
@@ -304,8 +304,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "librarian"
             }
           }
         }
@@ -317,8 +317,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "mason"
             }
           }
         }
@@ -330,8 +330,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "nitwit"
             }
           }
         }
@@ -343,8 +343,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "none"
             }
           }
         }
@@ -356,8 +356,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "shepherd"
             }
           }
         }
@@ -369,8 +369,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "toolsmith"
             }
           }
         }
@@ -382,8 +382,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "weaponsmith"
             }
           }
         }
@@ -395,8 +395,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "armorer"
             }
           }
         }
@@ -408,8 +408,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "butcher"
             }
           }
         }
@@ -421,8 +421,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "cartographer"
             }
           }
         }
@@ -434,8 +434,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "cleric"
             }
           }
         }
@@ -447,8 +447,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "farmer"
             }
           }
         }
@@ -460,8 +460,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "fisherman"
             }
           }
         }
@@ -473,8 +473,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "fletcher"
             }
           }
         }
@@ -486,8 +486,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "leatherworker"
             }
           }
         }
@@ -499,8 +499,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "librarian"
             }
           }
         }
@@ -512,8 +512,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "mason"
             }
           }
         }
@@ -525,8 +525,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "nitwit"
             }
           }
         }
@@ -538,8 +538,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "none"
             }
           }
         }
@@ -551,8 +551,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "shepherd"
             }
           }
         }
@@ -564,8 +564,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "toolsmith"
             }
           }
         }
@@ -577,8 +577,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "weaponsmith"
             }
           }
         }
@@ -590,8 +590,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "armorer"
             }
           }
         }
@@ -603,8 +603,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "butcher"
             }
           }
         }
@@ -616,8 +616,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "cartographer"
             }
           }
         }
@@ -629,8 +629,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "cleric"
             }
           }
         }
@@ -642,8 +642,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "farmer"
             }
           }
         }
@@ -655,8 +655,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "fisherman"
             }
           }
         }
@@ -668,8 +668,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "fletcher"
             }
           }
         }
@@ -681,8 +681,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "leatherworker"
             }
           }
         }
@@ -694,8 +694,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "librarian"
             }
           }
         }
@@ -707,8 +707,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "mason"
             }
           }
         }
@@ -720,8 +720,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "nitwit"
             }
           }
         }
@@ -733,8 +733,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "none"
             }
           }
         }
@@ -746,8 +746,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "shepherd"
             }
           }
         }
@@ -759,8 +759,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "toolsmith"
             }
           }
         }
@@ -772,8 +772,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "weaponsmith"
             }
           }
         }
@@ -785,8 +785,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "armorer"
             }
           }
         }
@@ -798,8 +798,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "butcher"
             }
           }
         }
@@ -811,8 +811,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "cartographer"
             }
           }
         }
@@ -824,8 +824,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "cleric"
             }
           }
         }
@@ -837,8 +837,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "farmer"
             }
           }
         }
@@ -850,8 +850,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "fisherman"
             }
           }
         }
@@ -863,8 +863,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "fletcher"
             }
           }
         }
@@ -876,8 +876,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "leatherworker"
             }
           }
         }
@@ -889,8 +889,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "librarian"
             }
           }
         }
@@ -902,8 +902,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "mason"
             }
           }
         }
@@ -915,8 +915,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "nitwit"
             }
           }
         }
@@ -928,8 +928,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "none"
             }
           }
         }
@@ -941,8 +941,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "shepherd"
             }
           }
         }
@@ -954,8 +954,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "toolsmith"
             }
           }
         }
@@ -967,8 +967,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "weaponsmith"
             }
           }
         }
@@ -980,8 +980,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "armorer"
             }
           }
         }
@@ -993,8 +993,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "butcher"
             }
           }
         }
@@ -1006,8 +1006,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "cartographer"
             }
           }
         }
@@ -1019,8 +1019,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "cleric"
             }
           }
         }
@@ -1032,8 +1032,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "farmer"
             }
           }
         }
@@ -1045,8 +1045,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "fisherman"
             }
           }
         }
@@ -1058,8 +1058,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "fletcher"
             }
           }
         }
@@ -1071,8 +1071,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "leatherworker"
             }
           }
         }
@@ -1084,8 +1084,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "librarian"
             }
           }
         }
@@ -1097,8 +1097,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "mason"
             }
           }
         }
@@ -1110,8 +1110,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "nitwit"
             }
           }
         }
@@ -1123,8 +1123,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "none"
             }
           }
         }
@@ -1136,8 +1136,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "shepherd"
             }
           }
         }
@@ -1149,8 +1149,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "toolsmith"
             }
           }
         }
@@ -1162,8 +1162,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "weaponsmith"
             }
           }
         }
@@ -1175,8 +1175,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "armorer"
             }
           }
         }
@@ -1188,8 +1188,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "butcher"
             }
           }
         }
@@ -1201,8 +1201,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "cartographer"
             }
           }
         }
@@ -1214,8 +1214,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "cleric"
             }
           }
         }
@@ -1227,8 +1227,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "farmer"
             }
           }
         }
@@ -1240,8 +1240,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "fisherman"
             }
           }
         }
@@ -1253,8 +1253,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "fletcher"
             }
           }
         }
@@ -1266,8 +1266,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "leatherworker"
             }
           }
         }
@@ -1279,8 +1279,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "librarian"
             }
           }
         }
@@ -1292,8 +1292,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "mason"
             }
           }
         }
@@ -1305,8 +1305,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "nitwit"
             }
           }
         }
@@ -1318,8 +1318,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "none"
             }
           }
         }
@@ -1331,8 +1331,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "shepherd"
             }
           }
         }
@@ -1344,8 +1344,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "toolsmith"
             }
           }
         }
@@ -1357,8 +1357,8 @@
         "zombie": {
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "weaponsmith"
             }
           }
         }
@@ -1368,13 +1368,13 @@
     "killed_desert_armorer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "armorer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1382,13 +1382,13 @@
     "killed_desert_butcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "butcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1396,13 +1396,13 @@
     "killed_desert_cartographer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "cartographer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1410,13 +1410,13 @@
     "killed_desert_cleric": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "cleric"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1424,13 +1424,13 @@
     "killed_desert_farmer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "farmer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1438,13 +1438,13 @@
     "killed_desert_fisherman": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "fisherman"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1452,13 +1452,13 @@
     "killed_desert_fletcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "fletcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1466,13 +1466,13 @@
     "killed_desert_leatherworker": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "leatherworker"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1480,13 +1480,13 @@
     "killed_desert_librarian": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "librarian"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1494,13 +1494,13 @@
     "killed_desert_mason": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "mason"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1508,13 +1508,13 @@
     "killed_desert_nitwit": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "nitwit"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1522,13 +1522,13 @@
     "killed_desert_none": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "none"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1536,13 +1536,13 @@
     "killed_desert_shepherd": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "shepherd"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1550,13 +1550,13 @@
     "killed_desert_toolsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "toolsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1564,13 +1564,13 @@
     "killed_desert_weaponsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "desert"
+              "entity_type": "desert",
+              "profession": "weaponsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1578,13 +1578,13 @@
     "killed_jungle_armorer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "armorer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1592,13 +1592,13 @@
     "killed_jungle_butcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "butcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1606,13 +1606,13 @@
     "killed_jungle_cartographer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "cartographer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1620,13 +1620,13 @@
     "killed_jungle_cleric": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "cleric"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1634,13 +1634,13 @@
     "killed_jungle_farmer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "farmer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1648,13 +1648,13 @@
     "killed_jungle_fisherman": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "fisherman"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1662,13 +1662,13 @@
     "killed_jungle_fletcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "fletcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1676,13 +1676,13 @@
     "killed_jungle_leatherworker": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "leatherworker"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1690,13 +1690,13 @@
     "killed_jungle_librarian": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "librarian"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1704,13 +1704,13 @@
     "killed_jungle_mason": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "mason"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1718,13 +1718,13 @@
     "killed_jungle_nitwit": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "nitwit"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1732,13 +1732,13 @@
     "killed_jungle_none": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "none"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1746,13 +1746,13 @@
     "killed_jungle_shepherd": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "shepherd"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1760,13 +1760,13 @@
     "killed_jungle_toolsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "toolsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1774,13 +1774,13 @@
     "killed_jungle_weaponsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "jungle"
+              "entity_type": "jungle",
+              "profession": "weaponsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1788,13 +1788,13 @@
     "killed_plains_armorer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "armorer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1802,13 +1802,13 @@
     "killed_plains_butcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "butcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1816,13 +1816,13 @@
     "killed_plains_cartographer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "cartographer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1830,13 +1830,13 @@
     "killed_plains_cleric": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "cleric"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1844,13 +1844,13 @@
     "killed_plains_farmer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "farmer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1858,13 +1858,13 @@
     "killed_plains_fisherman": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "fisherman"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1872,13 +1872,13 @@
     "killed_plains_fletcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "fletcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1886,13 +1886,13 @@
     "killed_plains_leatherworker": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "leatherworker"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1900,13 +1900,13 @@
     "killed_plains_librarian": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "librarian"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1914,13 +1914,13 @@
     "killed_plains_mason": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "mason"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1928,13 +1928,13 @@
     "killed_plains_nitwit": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "nitwit"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1942,13 +1942,13 @@
     "killed_plains_none": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "none"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1956,13 +1956,13 @@
     "killed_plains_shepherd": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "shepherd"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1970,13 +1970,13 @@
     "killed_plains_toolsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "toolsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1984,13 +1984,13 @@
     "killed_plains_weaponsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "plains"
+              "entity_type": "plains",
+              "profession": "weaponsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -1998,13 +1998,13 @@
     "killed_savanna_armorer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "armorer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2012,13 +2012,13 @@
     "killed_savanna_butcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "butcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2026,13 +2026,13 @@
     "killed_savanna_cartographer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "cartographer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2040,13 +2040,13 @@
     "killed_savanna_cleric": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "cleric"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2054,13 +2054,13 @@
     "killed_savanna_farmer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "farmer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2068,13 +2068,13 @@
     "killed_savanna_fisherman": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "fisherman"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2082,13 +2082,13 @@
     "killed_savanna_fletcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "fletcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2096,13 +2096,13 @@
     "killed_savanna_leatherworker": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "leatherworker"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2110,13 +2110,13 @@
     "killed_savanna_librarian": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "librarian"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2124,13 +2124,13 @@
     "killed_savanna_mason": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "mason"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2138,13 +2138,13 @@
     "killed_savanna_nitwit": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "nitwit"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2152,13 +2152,13 @@
     "killed_savanna_none": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "none"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2166,13 +2166,13 @@
     "killed_savanna_shepherd": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "shepherd"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2180,13 +2180,13 @@
     "killed_savanna_toolsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "toolsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2194,13 +2194,13 @@
     "killed_savanna_weaponsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "savanna"
+              "entity_type": "savanna",
+              "profession": "weaponsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2208,13 +2208,13 @@
     "killed_snow_armorer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "armorer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2222,13 +2222,13 @@
     "killed_snow_butcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "butcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2236,13 +2236,13 @@
     "killed_snow_cartographer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "cartographer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2250,13 +2250,13 @@
     "killed_snow_cleric": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "cleric"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2264,13 +2264,13 @@
     "killed_snow_farmer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "farmer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2278,13 +2278,13 @@
     "killed_snow_fisherman": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "fisherman"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2292,13 +2292,13 @@
     "killed_snow_fletcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "fletcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2306,13 +2306,13 @@
     "killed_snow_leatherworker": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "leatherworker"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2320,13 +2320,13 @@
     "killed_snow_librarian": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "librarian"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2334,13 +2334,13 @@
     "killed_snow_mason": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "mason"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2348,13 +2348,13 @@
     "killed_snow_nitwit": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "nitwit"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2362,13 +2362,13 @@
     "killed_snow_none": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "none"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2376,13 +2376,13 @@
     "killed_snow_shepherd": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "shepherd"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2390,13 +2390,13 @@
     "killed_snow_toolsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "toolsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2404,13 +2404,13 @@
     "killed_snow_weaponsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "snow"
+              "entity_type": "snow",
+              "profession": "weaponsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2418,13 +2418,13 @@
     "killed_swamp_armorer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "armorer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2432,13 +2432,13 @@
     "killed_swamp_butcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "butcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2446,13 +2446,13 @@
     "killed_swamp_cartographer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "cartographer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2460,13 +2460,13 @@
     "killed_swamp_cleric": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "cleric"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2474,13 +2474,13 @@
     "killed_swamp_farmer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "farmer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2488,13 +2488,13 @@
     "killed_swamp_fisherman": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "fisherman"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2502,13 +2502,13 @@
     "killed_swamp_fletcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "fletcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2516,13 +2516,13 @@
     "killed_swamp_leatherworker": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "leatherworker"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2530,13 +2530,13 @@
     "killed_swamp_librarian": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "librarian"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2544,13 +2544,13 @@
     "killed_swamp_mason": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "mason"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2558,13 +2558,13 @@
     "killed_swamp_nitwit": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "nitwit"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2572,13 +2572,13 @@
     "killed_swamp_none": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "none"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2586,13 +2586,13 @@
     "killed_swamp_shepherd": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "shepherd"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2600,13 +2600,13 @@
     "killed_swamp_toolsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "toolsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2614,13 +2614,13 @@
     "killed_swamp_weaponsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "swamp"
+              "entity_type": "swamp",
+              "profession": "weaponsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2628,13 +2628,13 @@
     "killed_taiga_armorer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "armorer",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "armorer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2642,13 +2642,13 @@
     "killed_taiga_butcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "butcher",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "butcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2656,13 +2656,13 @@
     "killed_taiga_cartographer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cartographer",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "cartographer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2670,13 +2670,13 @@
     "killed_taiga_cleric": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "cleric",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "cleric"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2684,13 +2684,13 @@
     "killed_taiga_farmer": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "farmer",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "farmer"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2698,13 +2698,13 @@
     "killed_taiga_fisherman": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fisherman",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "fisherman"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2712,13 +2712,13 @@
     "killed_taiga_fletcher": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "fletcher",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "fletcher"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2726,13 +2726,13 @@
     "killed_taiga_leatherworker": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "leatherworker",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "leatherworker"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2740,13 +2740,13 @@
     "killed_taiga_librarian": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "librarian",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "librarian"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2754,13 +2754,13 @@
     "killed_taiga_mason": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "mason",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "mason"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2768,13 +2768,13 @@
     "killed_taiga_nitwit": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "nitwit",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "nitwit"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2782,13 +2782,13 @@
     "killed_taiga_none": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "none",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "none"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2796,13 +2796,13 @@
     "killed_taiga_shepherd": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "shepherd",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "shepherd"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2810,13 +2810,13 @@
     "killed_taiga_toolsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "toolsmith",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "toolsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
@@ -2824,23 +2824,21 @@
     "killed_taiga_weaponsmith": {
       "conditions": {
         "entity": {
+          "entity_type": "zombie_villager",
           "nbt": {
             "VillagerData": {
-              "profession": "weaponsmith",
-              "type": "taiga"
+              "entity_type": "taiga",
+              "profession": "weaponsmith"
             }
-          },
-          "type": "zombie_villager"
+          }
         }
       },
       "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Cure it with fire and gold — what it once was waits anxiously inside.",
-    "icon": {
-      "id": "minecraft:golden_apple"
-    },
+    "description": "Cure it with fire and gold \u2014 what it once was waits anxiously inside.",
+    "icon": "golden_apple",
     "title": "Zombie Villager"
   },
   "parent": "all_tasks:tasks/mobs/hostile/zombie",

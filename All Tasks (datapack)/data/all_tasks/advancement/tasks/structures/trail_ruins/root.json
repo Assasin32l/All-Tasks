@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "trail_ruins"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Trail Ruins",
     "description": "A forgotten settlement, swallowed by earth and scattered through gravel.",
-    "icon": {
-      "id": "suspicious_gravel"
-    }
+    "icon": "suspicious_gravel",
+    "title": "Trail Ruins"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

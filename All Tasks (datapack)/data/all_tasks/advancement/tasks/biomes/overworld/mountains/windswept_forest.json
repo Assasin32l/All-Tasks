@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Spruce trees spending their whole lives bending to the mountain wind.",
-    "icon": {
-      "id": "spruce_log"
-    },
+    "icon": "spruce_log",
     "title": "Windswept Forest"
   },
   "parent": "all_tasks:tasks/biomes/overworld/mountains/windswept_hills"

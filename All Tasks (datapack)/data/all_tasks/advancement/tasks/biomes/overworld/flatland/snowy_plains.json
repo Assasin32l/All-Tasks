@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Snow erases every landmark. The cold is the only constant.",
-    "icon": {
-      "id": "snow_block"
-    },
+    "icon": "snow_block",
     "title": "Snowy Plains"
   },
   "parent": "all_tasks:tasks/biomes/overworld/flatland/plains"

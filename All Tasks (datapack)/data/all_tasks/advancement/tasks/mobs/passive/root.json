@@ -6,9 +6,9 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": [
+              "entity_type": [
                 "allay",
                 "armadillo",
                 "axolotl",
@@ -58,8 +58,7 @@
                 "wolf",
                 "zombie_nautilus"
               ]
-            },
-            "type": "player"
+            }
           }
         }
       },
@@ -71,9 +70,7 @@
     "description": "Observe every passive mob in the wild through a spyglass.",
     "frame": "goal",
     "hidden": true,
-    "icon": {
-      "id": "wheat"
-    },
+    "icon": "wheat",
     "show_toast": false,
     "title": "A Peaceful World"
   },

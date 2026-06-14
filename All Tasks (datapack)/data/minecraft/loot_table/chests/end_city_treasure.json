@@ -1,349 +1,372 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/end_city/loot/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "end_city"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "diamond",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_ingot",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 7,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_ingot",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 6,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "emerald",
+          "type": "item",
           "weight": 2
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "beetroot_seeds",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "saddle",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
-          "name": "copper_horse_armor"
+          "name": "copper_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "iron_horse_armor"
+          "name": "iron_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "golden_horse_armor"
+          "name": "golden_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "diamond_horse_armor"
+          "name": "diamond_horse_armor",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_sword",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_spear",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_boots",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_chestplate",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_leggings",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_helmet",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_pickaxe",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "diamond_shovel",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "iron_sword",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "iron_boots",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "iron_chestplate",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "iron_leggings",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "iron_helmet",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "iron_pickaxe",
+          "type": "item",
           "weight": 3
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "type": "uniform",
                 "max": 39,
-                "min": 20
+                "min": 20,
+                "type": "uniform"
               },
               "options": "#on_random_loot"
             }
           ],
           "name": "iron_shovel",
+          "type": "item",
           "weight": 3
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 6,
-        "min": 2
+        "min": 2,
+        "type": "uniform"
       }
     },
     {
@@ -353,37 +376,13 @@
           "weight": 14
         },
         {
-          "type": "item",
-          "name": "spire_armor_trim_smithing_template"
+          "name": "spire_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
     }
   ],
   "random_sequence": "chests/end_city_treasure",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "end_city",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/end_city/loot/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

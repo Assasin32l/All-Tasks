@@ -1,7 +1,6 @@
 {
   "criteria": {
     "bone": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,197 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "rotten_flesh": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "rotten_flesh",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gunpowder": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gunpowder",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "sand": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "sand",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "string": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "string",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "spider_eye": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "spider_eye",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "leather": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "enchanted_book": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "enchanted_book",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "golden_apple": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_apple",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "copper_horse_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -219,61 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_horse_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_horse_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "dune_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "dune_armor_trim_smithing_template",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "golden_horse_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_horse_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "desert_pyramid/chest"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -287,10 +48,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_horse_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -304,10 +65,61 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "dune_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dune_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "enchanted_golden_apple": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -321,16 +133,202 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "gunpowder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gunpowder",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "rotten_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sand",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "spider_eye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "spider_eye",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "string": {
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "desert_pyramid/chest"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Desert Pyramid Loot: Chest",
     "description": "Four chests around a pressure plate \u2014 approach the center carefully.",
-    "icon": {
-      "id": "diamond_horse_armor"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "diamond_horse_armor",
+    "title": "Desert Pyramid Loot: Chest"
   },
   "parent": "all_tasks:tasks/structures/desert_pyramid/root"
 }

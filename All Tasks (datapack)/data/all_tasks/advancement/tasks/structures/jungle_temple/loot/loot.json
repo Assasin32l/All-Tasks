@@ -1,58 +1,6 @@
 {
   "criteria": {
-    "bone": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "bone",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "rotten_flesh": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "rotten_flesh",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "bamboo": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,14 +14,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "iron_ingot": {
-      "trigger": "inventory_changed",
+    "bone": {
       "conditions": {
         "items": [
           {
-            "items": "iron_ingot",
+            "items": "bone",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -83,78 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "wild_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wild_armor_trim_smithing_template",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "leather": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "diamond": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "copper_horse_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -168,14 +48,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "enchanted_book": {
-      "trigger": "inventory_changed",
+    "diamond": {
       "conditions": {
         "items": [
           {
-            "items": "enchanted_book",
+            "items": "diamond",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -185,44 +65,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_horse_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_horse_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "golden_horse_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_horse_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "jungle_temple"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_horse_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -236,16 +82,168 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "rotten_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wild_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wild_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "jungle_temple"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Jungle Temple Loot",
     "description": "Past the pressure plates and tripwires, the reward sits waiting.",
-    "icon": {
-      "id": "diamond"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "diamond",
+    "title": "Jungle Temple Loot"
   },
   "parent": "all_tasks:tasks/structures/jungle_temple/root"
 }

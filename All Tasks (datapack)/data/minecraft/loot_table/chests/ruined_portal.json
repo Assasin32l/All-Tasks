@@ -1,85 +1,107 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/ruined_portal/loot/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "ruined_portal"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 2,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "obsidian",
+          "type": "item",
           "weight": 40
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "flint",
+          "type": "item",
           "weight": 40
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 18,
-                "min": 9
+                "min": 9,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_nugget",
+          "type": "item",
           "weight": 40
         },
         {
-          "type": "item",
           "name": "flint_and_steel",
+          "type": "item",
           "weight": 40
         },
         {
-          "type": "item",
           "name": "fire_charge",
+          "type": "item",
           "weight": 40
         },
         {
-          "type": "item",
           "name": "golden_apple",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 24,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_nugget",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -87,10 +109,10 @@
             }
           ],
           "name": "golden_sword",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -98,10 +120,10 @@
             }
           ],
           "name": "golden_axe",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -109,10 +131,10 @@
             }
           ],
           "name": "golden_hoe",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -120,10 +142,10 @@
             }
           ],
           "name": "golden_shovel",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -131,10 +153,10 @@
             }
           ],
           "name": "golden_pickaxe",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -142,10 +164,10 @@
             }
           ],
           "name": "golden_boots",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -153,10 +175,10 @@
             }
           ],
           "name": "golden_chestplate",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -164,10 +186,10 @@
             }
           ],
           "name": "golden_helmet",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "function": "enchant_randomly",
@@ -175,95 +197,96 @@
             }
           ],
           "name": "golden_leggings",
+          "type": "item",
           "weight": 15
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 12,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "glistering_melon_slice",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "golden_horse_armor",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "light_weighted_pressure_plate",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 12,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "golden_carrot",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "clock",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_ingot",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
-          "name": "bell"
+          "name": "bell",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "enchanted_golden_apple"
+          "name": "enchanted_golden_apple",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 2,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "gold_block"
+          "name": "gold_block",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 8,
-        "min": 4
+        "min": 4,
+        "type": "uniform"
       }
     },
     {
@@ -272,18 +295,18 @@
           "type": "empty"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 2,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "lodestone",
+          "type": "item",
           "weight": 2
         }
       ],
@@ -291,29 +314,5 @@
     }
   ],
   "random_sequence": "chests/ruined_portal",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "ruined_portal",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/ruined_portal/loot/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

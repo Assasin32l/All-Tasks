@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "jungle_pyramid"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Jungle Temple",
     "description": "Vines swallowing stone walls, traps still armed after centuries of silence.",
-    "icon": {
-      "id": "mossy_cobblestone"
-    }
+    "icon": "mossy_cobblestone",
+    "title": "Jungle Temple"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

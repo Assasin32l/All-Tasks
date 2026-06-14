@@ -3,7 +3,7 @@
     "killed_mob": {
       "conditions": {
         "entity": {
-          "type": "warden"
+          "entity_type": "warden"
         }
       },
       "trigger": "player_killed_entity"
@@ -11,9 +11,7 @@
   },
   "display": {
     "description": "It cannot see you. It doesn't need to. Stand still and pray.",
-    "icon": {
-      "id": "minecraft:sculk_sensor"
-    },
+    "icon": "sculk_sensor",
     "title": "Warden"
   },
   "parent": "all_tasks:tasks/mobs/hostile/root"

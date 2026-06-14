@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Scattered platforms of end stone drifting silently in the void.",
-    "icon": {
-      "id": "end_stone"
-    },
+    "icon": "end_stone",
     "title": "Small End Islands"
   },
   "parent": "all_tasks:tasks/biomes/the_end/the_end"

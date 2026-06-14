@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Dark water, twisted oaks, and ground that lies about being solid.",
-    "icon": {
-      "id": "lily_pad"
-    },
+    "icon": "lily_pad",
     "title": "Swamp"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"

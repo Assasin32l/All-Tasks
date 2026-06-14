@@ -1,122 +1,145 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/shipwreck/loot_treasure/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "shipwreck/treasure"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_ingot",
+          "type": "item",
           "weight": 90
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_ingot",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "emerald",
+          "type": "item",
           "weight": 40
         },
         {
-          "type": "item",
           "name": "diamond",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "experience_bottle",
+          "type": "item",
           "weight": 5
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 6,
-        "min": 3
+        "min": 3,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_nugget",
+          "type": "item",
           "weight": 50
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_nugget",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 10,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "lapis_lazuli",
+          "type": "item",
           "weight": 20
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 5,
-        "min": 2
+        "min": 2,
+        "type": "uniform"
       }
     },
     {
@@ -126,14 +149,14 @@
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": 2,
               "function": "set_count"
             }
           ],
-          "name": "coast_armor_trim_smithing_template"
+          "name": "coast_armor_trim_smithing_template",
+          "type": "item"
         }
       ],
       "rolls": 1
@@ -145,23 +168,23 @@
           "weight": 148
         },
         {
-          "type": "item",
           "name": "copper_nautilus_armor",
+          "type": "item",
           "weight": 20
         },
         {
-          "type": "item",
           "name": "iron_nautilus_armor",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "name": "golden_nautilus_armor",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "diamond_nautilus_armor",
+          "type": "item",
           "weight": 2
         }
       ],
@@ -169,29 +192,5 @@
     }
   ],
   "random_sequence": "chests/shipwreck_treasure",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "shipwreck/treasure",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/shipwreck/loot_treasure/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

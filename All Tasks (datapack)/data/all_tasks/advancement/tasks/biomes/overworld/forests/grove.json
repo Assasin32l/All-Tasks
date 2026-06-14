@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Snow-laden spruce leaning together against the mountain cold.",
-    "icon": {
-      "id": "spruce_log"
-    },
+    "icon": "spruce_log",
     "title": "Grove"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/snowy_taiga"

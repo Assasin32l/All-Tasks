@@ -1,7 +1,6 @@
 {
   "criteria": {
     "apple": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,10 +31,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "coal": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -49,61 +48,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/crossing"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "redstone": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "redstone",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/crossing"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "stronghold/crossing"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "enchanted_book": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -117,10 +65,44 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/crossing"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/crossing"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "iron_pickaxe": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -134,16 +116,32 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/crossing"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Stronghold Loot: Storeroom",
     "description": "A small chest at a crossing, stocked for whoever made it this far.",
-    "icon": {
-      "id": "iron_pickaxe"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "iron_pickaxe",
+    "title": "Stronghold Loot: Storeroom"
   },
   "parent": "all_tasks:tasks/structures/stronghold/loot_corridor/loot"
 }

@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Ice floes drifting slowly above water too dark to read.",
-    "icon": {
-      "id": "packed_ice"
-    },
+    "icon": "packed_ice",
     "title": "Frozen Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/cold_ocean"

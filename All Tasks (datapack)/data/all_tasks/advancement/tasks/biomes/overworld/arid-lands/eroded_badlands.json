@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Wind and time have carved the rock into something stranger than stone.",
-    "icon": {
-      "id": "terracotta"
-    },
+    "icon": "terracotta",
     "title": "Eroded Badlands"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/badlands"

@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "The land rises above the plains, acacia canopy crowning the clifftop.",
-    "icon": {
-      "id": "acacia_log"
-    },
+    "icon": "acacia_log",
     "title": "Savanna Plateau"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/savanna"

@@ -1,127 +1,126 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 4,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "redstone",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 4,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "bread",
-          "weight": 7
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 4,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "rotten_flesh",
-          "weight": 7
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 4,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "lapis_lazuli"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 4,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "gold_ingot"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 4,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "emerald"
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 8,
-        "min": 3
-      }
-    }
-  ],
-  "random_sequence": "chests/village/village_temple",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "village/temple",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/village/loot_temple/loot": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "village/temple"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 4,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "redstone",
+          "type": "item",
+          "weight": 2
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 4,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "bread",
+          "type": "item",
+          "weight": 7
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 4,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "rotten_flesh",
+          "type": "item",
+          "weight": 7
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 4,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "lapis_lazuli",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 4,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "gold_ingot",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 4,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "emerald",
+          "type": "item"
+        }
+      ],
+      "rolls": {
+        "max": 8,
+        "min": 3,
+        "type": "uniform"
+      }
+    }
+  ],
+  "random_sequence": "chests/village/village_temple",
+  "type": "chest"
 }

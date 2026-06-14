@@ -9,13 +9,13 @@
     "description": {
       "translate": "advancements.husbandry.root.description"
     },
+    "frame": "goal",
+    "hidden": true,
     "icon": "hay_block",
     "show_toast": false,
     "title": {
       "translate": "advancements.husbandry.root.title"
-    },
-    "frame": "goal",
-    "hidden": true
+    }
   },
   "parent": "all_tasks:tasks/advancement_root"
 }

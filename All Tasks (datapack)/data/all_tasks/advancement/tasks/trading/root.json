@@ -5,14 +5,12 @@
     }
   },
   "display": {
-    "title": "Trading",
-    "description": "Every villager has a price. Every deal, a story.",
-    "icon": {
-      "id": "emerald"
-    },
     "announce_to_chat": false,
-    "show_toast": false,
+    "background": "block/emerald_block",
+    "description": "Every villager has a price. Every deal, a story.",
     "frame": "challenge",
-    "background": "block/emerald_block"
+    "icon": "emerald",
+    "show_toast": false,
+    "title": "Trading"
   }
 }

@@ -1,119 +1,118 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "name": "emerald"
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "porkchop",
-          "weight": 6
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "wheat",
-          "weight": 6
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "beef",
-          "weight": 6
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "mutton",
-          "weight": 6
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "coal",
-          "weight": 3
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 5,
-        "min": 1
-      }
-    }
-  ],
-  "random_sequence": "chests/village/village_butcher",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "village/butcher",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/village/loot_butcher/loot": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "village/butcher"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "emerald",
+          "type": "item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "porkchop",
+          "type": "item",
+          "weight": 6
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "wheat",
+          "type": "item",
+          "weight": 6
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "beef",
+          "type": "item",
+          "weight": 6
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "mutton",
+          "type": "item",
+          "weight": 6
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "coal",
+          "type": "item",
+          "weight": 3
+        }
+      ],
+      "rolls": {
+        "max": 5,
+        "min": 1,
+        "type": "uniform"
+      }
+    }
+  ],
+  "random_sequence": "chests/village/village_butcher",
+  "type": "chest"
 }

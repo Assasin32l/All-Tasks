@@ -16,13 +16,13 @@
     "description": {
       "translate": "advancements.story.root.description"
     },
+    "frame": "goal",
+    "hidden": true,
     "icon": "grass_block",
     "show_toast": false,
     "title": {
       "translate": "advancements.story.root.title"
-    },
-    "frame": "goal",
-    "hidden": true
+    }
   },
   "parent": "all_tasks:tasks/advancement_root"
 }

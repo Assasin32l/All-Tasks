@@ -1,7 +1,6 @@
 {
   "criteria": {
     "is_structure_loot": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -14,7 +13,8 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     }
   },
   "rewards": {

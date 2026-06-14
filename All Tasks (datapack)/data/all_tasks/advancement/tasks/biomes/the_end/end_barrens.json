@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Even the chorus trees gave up \u2014 end stone stretching on without purpose.",
-    "icon": {
-      "id": "end_stone"
-    },
+    "icon": "end_stone",
     "title": "End Barrens"
   },
   "parent": "all_tasks:tasks/biomes/the_end/the_end"

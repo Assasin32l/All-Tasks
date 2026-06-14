@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Winding quietly through whatever landscape it chose to cut through.",
-    "icon": {
-      "id": "clay_ball"
-    },
+    "icon": "clay_ball",
     "title": "River"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"

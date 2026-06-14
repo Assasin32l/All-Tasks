@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Acacia trees dot a wide, dry expanse under an open sky.",
-    "icon": {
-      "id": "acacia_log"
-    },
+    "icon": "acacia_log",
     "title": "Savanna"
   },
   "parent": "all_tasks:tasks/biomes/overworld/arid-lands/desert"

@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "pillager_outpost"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Pillager Outpost",
     "description": "A watchtower in the open, manned by crossbows and bad intentions.",
-    "icon": {
-      "id": "crossbow"
-    }
+    "icon": "crossbow",
+    "title": "Pillager Outpost"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

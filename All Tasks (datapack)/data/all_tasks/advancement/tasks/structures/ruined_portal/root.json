@@ -1,82 +1,80 @@
 {
   "criteria": {
     "in_structure_1": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ruined_portal"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_2": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ruined_portal_desert"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_3": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ruined_portal_jungle"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_4": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ruined_portal_mountain"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_5": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ruined_portal_nether"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_6": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ruined_portal_ocean"
           }
         }
-      }
+      },
+      "trigger": "location"
     },
     "in_structure_7": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ruined_portal_swamp"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Ruined Portal",
     "description": "Crying obsidian and broken stone \u2014 a gateway that never finished opening.",
-    "icon": {
-      "id": "crying_obsidian"
-    }
+    "icon": "crying_obsidian",
+    "title": "Ruined Portal"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

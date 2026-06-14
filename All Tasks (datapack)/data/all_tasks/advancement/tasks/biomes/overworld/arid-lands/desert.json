@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Sand in every direction, silence the only companion.",
-    "icon": {
-      "id": "sand"
-    },
+    "icon": "sand",
     "title": "Desert"
   },
   "parent": "all_tasks:tasks/biomes/overworld/root"

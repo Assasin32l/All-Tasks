@@ -1,92 +1,6 @@
 {
   "criteria": {
-    "coal": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "coal",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/warm"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/warm"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "wheat": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wheat",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/warm"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "wooden_hoe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wooden_hoe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/warm"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_nugget": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_nugget",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/warm"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "angler_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,14 +14,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "shelter_pottery_sherd": {
-      "trigger": "inventory_changed",
+    "coal": {
       "conditions": {
         "items": [
           {
-            "items": "shelter_pottery_sherd",
+            "items": "coal",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -117,14 +31,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "sniffer_egg": {
-      "trigger": "inventory_changed",
+    "emerald": {
       "conditions": {
         "items": [
           {
-            "items": "sniffer_egg",
+            "items": "emerald",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -134,14 +48,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "snort_pottery_sherd": {
-      "trigger": "inventory_changed",
+    "gold_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "snort_pottery_sherd",
+            "items": "gold_nugget",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -151,10 +65,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "iron_axe": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -168,16 +82,100 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "shelter_pottery_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "items": "shelter_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "sniffer_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sniffer_egg",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "snort_pottery_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "items": "snort_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wooden_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wooden_hoe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/warm"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Ocean Ruins Loot: Warm",
     "description": "Brush the warm ruin's floor \u2014 something rare and ancient might surface.",
-    "icon": {
-      "id": "sniffer_egg"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "sniffer_egg",
+    "title": "Ocean Ruins Loot: Warm"
   },
   "parent": "all_tasks:tasks/structures/underwater_ruin/loot_cold"
 }

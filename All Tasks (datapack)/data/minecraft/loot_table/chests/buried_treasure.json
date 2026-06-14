@@ -1,11 +1,34 @@
 {
-  "type": "chest",
+  "functions": [
+    {
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "advancements": {
+                "all_tasks:tasks/structures/buried_treasure/loot/loot": false
+              }
+            }
+          }
+        }
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "buried_treasure"
+        }
+      }
+    }
+  ],
   "pools": [
     {
       "entries": [
         {
-          "type": "item",
-          "name": "heart_of_the_sea"
+          "name": "heart_of_the_sea",
+          "type": "item"
         }
       ],
       "rolls": 1
@@ -13,161 +36,161 @@
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "iron_ingot",
+          "type": "item",
           "weight": 20
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "gold_ingot",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 2,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "tnt",
+          "type": "item",
           "weight": 5
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 8,
-        "min": 5
+        "min": 5,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 8,
-                "min": 4
+                "min": 4,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "emerald",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 2,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "diamond",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 5,
-                "min": 1
+                "min": 1,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
           "name": "prismarine_crystals",
+          "type": "item",
           "weight": 5
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 3,
-        "min": 1
+        "min": 1,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
-          "name": "leather_chestplate"
+          "name": "leather_chestplate",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "iron_sword"
+          "name": "iron_sword",
+          "type": "item"
         },
         {
-          "type": "item",
-          "name": "iron_spear"
+          "name": "iron_spear",
+          "type": "item"
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 1,
-        "min": 0
+        "min": 0,
+        "type": "uniform"
       }
     },
     {
       "entries": [
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "cooked_cod"
+          "name": "cooked_cod",
+          "type": "item"
         },
         {
-          "type": "item",
           "functions": [
             {
               "count": {
-                "type": "uniform",
                 "max": 4,
-                "min": 2
+                "min": 2,
+                "type": "uniform"
               },
               "function": "set_count"
             }
           ],
-          "name": "cooked_salmon"
+          "name": "cooked_salmon",
+          "type": "item"
         }
       ],
       "rolls": 2
@@ -175,8 +198,8 @@
     {
       "entries": [
         {
-          "type": "item",
-          "name": "potion"
+          "name": "potion",
+          "type": "item"
         }
       ],
       "functions": [
@@ -186,9 +209,9 @@
         }
       ],
       "rolls": {
-        "type": "uniform",
         "max": 2,
-        "min": 0
+        "min": 0,
+        "type": "uniform"
       }
     },
     {
@@ -198,23 +221,23 @@
           "weight": 148
         },
         {
-          "type": "item",
           "name": "copper_nautilus_armor",
+          "type": "item",
           "weight": 20
         },
         {
-          "type": "item",
           "name": "iron_nautilus_armor",
+          "type": "item",
           "weight": 10
         },
         {
-          "type": "item",
           "name": "golden_nautilus_armor",
+          "type": "item",
           "weight": 5
         },
         {
-          "type": "item",
           "name": "diamond_nautilus_armor",
+          "type": "item",
           "weight": 2
         }
       ],
@@ -222,29 +245,5 @@
     }
   ],
   "random_sequence": "chests/buried_treasure",
-  "functions": [
-    {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "buried_treasure",
-          "is_structure_loot": true
-        }
-      },
-      "conditions": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "all_tasks:tasks/structures/buried_treasure/loot/loot": false
-              }
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "type": "chest"
 }

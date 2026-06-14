@@ -1,7 +1,6 @@
 {
   "criteria": {
     "coal": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,129 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "wheat": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wheat",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "rotten_flesh": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "rotten_flesh",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "filled_map": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "filled_map",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "fishing_rod": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "fishing_rod",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "stone_axe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "stone_axe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "stone_spear": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "stone_spear",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "copper_nautilus_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -151,78 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "leather_chestplate": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "leather_chestplate",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "golden_helmet": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_helmet",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_nautilus_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_nautilus_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "golden_nautilus_armor": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_nautilus_armor",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/small"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_nautilus_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -236,16 +48,202 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "filled_map": {
+      "conditions": {
+        "items": [
+          {
+            "items": "filled_map",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "fishing_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fishing_rod",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_nautilus_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_nautilus_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_nautilus_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "leather_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "rotten_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "stone_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stone_axe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "stone_spear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stone_spear",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Ocean Ruins Loot: Small",
     "description": "A small ruin half-buried in the sand, the chest barely visible beneath it.",
-    "icon": {
-      "id": "fishing_rod"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "fishing_rod",
+    "title": "Ocean Ruins Loot: Small"
   },
   "parent": "all_tasks:tasks/structures/underwater_ruin/loot_big/loot"
 }

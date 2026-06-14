@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Each block of descent colder than the last.",
-    "icon": {
-      "id": "cod"
-    },
+    "icon": "cod",
     "title": "Deep Cold Ocean"
   },
   "parent": "all_tasks:tasks/biomes/overworld/oceans/cold_ocean"

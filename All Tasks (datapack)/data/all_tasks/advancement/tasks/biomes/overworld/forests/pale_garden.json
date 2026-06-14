@@ -13,9 +13,7 @@
   },
   "display": {
     "description": "Still, white, and always watching.",
-    "icon": {
-      "id": "pale_oak_log"
-    },
+    "icon": "pale_oak_log",
     "title": "Pale Garden"
   },
   "parent": "all_tasks:tasks/biomes/overworld/forests/dark_forest"

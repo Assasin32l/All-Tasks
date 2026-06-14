@@ -3,7 +3,7 @@
     "killed_hostile": {
       "conditions": {
         "entity": {
-          "type": [
+          "entity_type": [
             "blaze",
             "bogged",
             "breeze",
@@ -51,9 +51,7 @@
     "description": "Hunt down and kill every hostile mob you encounter.",
     "frame": "goal",
     "hidden": true,
-    "icon": {
-      "id": "iron_sword"
-    },
+    "icon": "iron_sword",
     "show_toast": false,
     "title": "A Dangerous World"
   },

@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "tadpole"
-            },
-            "type": "player"
+              "entity_type": "tadpole"
+            }
           }
         }
       },
@@ -27,9 +26,7 @@
   },
   "display": {
     "description": "Not yet a frog, not anything else \u2014 just motion and potential in warm water.",
-    "icon": {
-      "id": "minecraft:water_bucket"
-    },
+    "icon": "water_bucket",
     "title": "Tadpole"
   },
   "parent": "all_tasks:tasks/mobs/passive/frog",

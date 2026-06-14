@@ -1,115 +1,114 @@
 {
-  "type": "chest",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "emerald",
-          "weight": 125
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 8,
-                "min": 2
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "arrow",
-          "weight": 100
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 2,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "iron_ingot",
-          "weight": 100
-        },
-        {
-          "type": "item",
-          "name": "trial_key",
-          "weight": 10
-        },
-        {
-          "type": "item",
-          "name": "music_disc_creator_music_box",
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "type": "uniform",
-                "max": 2,
-                "min": 1
-              },
-              "function": "set_count"
-            }
-          ],
-          "name": "diamond",
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "emerald_block",
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "diamond_block"
-        }
-      ],
-      "rolls": 1
-    }
-  ],
-  "random_sequence": "pots/trial_chambers/corridor",
   "functions": [
     {
-      "function": "set_custom_data",
-      "tag": {
-        "all_tasks": {
-          "loot_table": "trial_chambers/decorated_pot",
-          "is_structure_loot": true
-        }
-      },
       "conditions": [
         {
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "player",
+            "type_specific/player": {
               "advancements": {
                 "all_tasks:tasks/structures/trial_chambers/loot_decorated_pot": false
               }
             }
           }
         }
-      ]
+      ],
+      "function": "set_custom_data",
+      "tag": {
+        "all_tasks": {
+          "is_structure_loot": true,
+          "loot_table": "trial_chambers/decorated_pot"
+        }
+      }
     }
-  ]
+  ],
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "emerald",
+          "type": "item",
+          "weight": 125
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 8,
+                "min": 2,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "arrow",
+          "type": "item",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 2,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "iron_ingot",
+          "type": "item",
+          "weight": 100
+        },
+        {
+          "name": "trial_key",
+          "type": "item",
+          "weight": 10
+        },
+        {
+          "name": "music_disc_creator_music_box",
+          "type": "item",
+          "weight": 5
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 2,
+                "min": 1,
+                "type": "uniform"
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "diamond",
+          "type": "item",
+          "weight": 5
+        },
+        {
+          "name": "emerald_block",
+          "type": "item",
+          "weight": 5
+        },
+        {
+          "name": "diamond_block",
+          "type": "item"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "pots/trial_chambers/corridor",
+  "type": "chest"
 }

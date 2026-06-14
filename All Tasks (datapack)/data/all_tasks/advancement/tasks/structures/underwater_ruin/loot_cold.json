@@ -1,92 +1,6 @@
 {
   "criteria": {
-    "coal": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "coal",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/cold"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/cold"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "wheat": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wheat",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/cold"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "wooden_hoe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wooden_hoe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/cold"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_nugget": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_nugget",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/cold"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "blade_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -100,10 +14,44 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "explorer_pottery_sherd": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -117,14 +65,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "mourner_pottery_sherd": {
-      "trigger": "inventory_changed",
+    "gold_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "mourner_pottery_sherd",
+            "items": "gold_nugget",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -134,27 +82,10 @@
             }
           }
         ]
-      }
-    },
-    "plenty_pottery_sherd": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "plenty_pottery_sherd",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "underwater_ruin/cold"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "iron_axe": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -168,16 +99,83 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "mourner_pottery_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mourner_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "plenty_pottery_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "items": "plenty_pottery_sherd",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wooden_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wooden_hoe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "underwater_ruin/cold"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Ocean Ruins Loot: Cold",
     "description": "Brush the cold ruin's gravely floor for shards older than memory.",
-    "icon": {
-      "id": "mourner_pottery_sherd"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "mourner_pottery_sherd",
+    "title": "Ocean Ruins Loot: Cold"
   },
   "parent": "all_tasks:tasks/structures/underwater_ruin/root"
 }

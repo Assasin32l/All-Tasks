@@ -6,14 +6,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "panda",
               "nbt": {
                 "MainGene": "aggressive"
-              },
-              "type": "panda"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -25,14 +24,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "panda",
               "nbt": {
                 "MainGene": "brown"
-              },
-              "type": "panda"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -44,14 +42,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "panda",
               "nbt": {
                 "MainGene": "lazy"
-              },
-              "type": "panda"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -63,14 +60,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "panda",
               "nbt": {
                 "MainGene": "normal"
-              },
-              "type": "panda"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -82,14 +78,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "panda",
               "nbt": {
                 "MainGene": "playful"
-              },
-              "type": "panda"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -101,14 +96,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "panda",
               "nbt": {
                 "MainGene": "weak"
-              },
-              "type": "panda"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -120,14 +114,13 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
+              "entity_type": "panda",
               "nbt": {
                 "MainGene": "worried"
-              },
-              "type": "panda"
-            },
-            "type": "player"
+              }
+            }
           }
         }
       },
@@ -136,9 +129,7 @@
   },
   "display": {
     "description": "Sitting in the bamboo, eating with the dedication of someone with no other plans.",
-    "icon": {
-      "id": "minecraft:bamboo"
-    },
+    "icon": "bamboo",
     "title": "Panda"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

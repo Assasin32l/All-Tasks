@@ -17,9 +17,7 @@
     "background": "block/bone_block_top",
     "description": "They roam, they hunt, they haunt. Do you know them all?",
     "frame": "challenge",
-    "icon": {
-      "id": "bone"
-    },
+    "icon": "bone",
     "show_toast": false,
     "title": "Mobs"
   },

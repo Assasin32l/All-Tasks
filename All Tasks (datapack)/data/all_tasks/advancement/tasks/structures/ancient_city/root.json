@@ -1,22 +1,20 @@
 {
   "criteria": {
     "in_structure": {
-      "trigger": "location",
       "conditions": {
         "player": {
           "location": {
             "structures": "ancient_city"
           }
         }
-      }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "title": "Ancient City",
     "description": "Sculk and silence, deep below where no one was meant to go.",
-    "icon": {
-      "id": "reinforced_deepslate"
-    }
+    "icon": "reinforced_deepslate",
+    "title": "Ancient City"
   },
   "parent": "all_tasks:tasks/structures/root"
 }

@@ -1,7 +1,6 @@
 {
   "criteria": {
     "apple": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,10 +14,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bread": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -32,27 +31,10 @@
             }
           }
         ]
-      }
-    },
-    "iron_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "bundle": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -66,231 +48,10 @@
             }
           }
         ]
-      }
-    },
-    "copper_spear": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "copper_spear",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "oak_sapling": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "oak_sapling",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "obsidian": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "obsidian",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gold_ingot": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "gold_ingot",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_pickaxe": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_pickaxe",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_spear": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_spear",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_sword": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_sword",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_helmet": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_helmet",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_chestplate": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_chestplate",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_leggings": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_leggings",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "iron_boots": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "iron_boots",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "diamond": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "saddle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "saddle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "village/weaponsmith"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "copper_horse_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -304,14 +65,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "iron_horse_armor": {
-      "trigger": "inventory_changed",
+    "copper_spear": {
       "conditions": {
         "items": [
           {
-            "items": "iron_horse_armor",
+            "items": "copper_spear",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -321,14 +82,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "golden_horse_armor": {
-      "trigger": "inventory_changed",
+    "diamond": {
       "conditions": {
         "items": [
           {
-            "items": "golden_horse_armor",
+            "items": "diamond",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -338,10 +99,10 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_horse_armor": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -355,16 +116,253 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_pickaxe",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_spear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_spear",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_sword",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "oak_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "oak_sapling",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obsidian",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "saddle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "saddle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/weaponsmith"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Village Loot: Weaponsmith",
     "description": "Blades and armor forged and ready in the weaponsmith's chest.",
-    "icon": {
-      "id": "iron_sword"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "iron_sword",
+    "title": "Village Loot: Weaponsmith"
   },
   "parent": "all_tasks:tasks/structures/village/loot_toolsmith/loot"
 }

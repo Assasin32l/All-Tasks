@@ -1,41 +1,6 @@
 {
   "criteria": {
-    "emerald": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "wind_charge": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "wind_charge",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "arrow_of_slowness": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -49,112 +14,10 @@
             }
           }
         ]
-      }
-    },
-    "diamond": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "diamond",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "flow_armor_trim_smithing_template": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "flow_armor_trim_smithing_template",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "enchanted_golden_apple": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "enchanted_golden_apple",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "flow_banner_pattern": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "flow_banner_pattern",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "ominous_bottle": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "ominous_bottle",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "emerald_block": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "emerald_block",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "crossbow": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -168,14 +31,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "iron_block": {
-      "trigger": "inventory_changed",
+    "diamond": {
       "conditions": {
         "items": [
           {
-            "items": "iron_block",
+            "items": "diamond",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -185,27 +48,10 @@
             }
           }
         ]
-      }
-    },
-    "golden_apple": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "golden_apple",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              }
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_axe": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -219,10 +65,27 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "diamond_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     },
     "diamond_chestplate": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -236,14 +99,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "music_disc_creator": {
-      "trigger": "inventory_changed",
+    "emerald": {
       "conditions": {
         "items": [
           {
-            "items": "music_disc_creator",
+            "items": "emerald",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -253,14 +116,14 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "heavy_core": {
-      "trigger": "inventory_changed",
+    "emerald_block": {
       "conditions": {
         "items": [
           {
-            "items": "heavy_core",
+            "items": "emerald_block",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -270,36 +133,10 @@
             }
           }
         ]
-      }
-    },
-    "enchanted_book_mace": {
-      "trigger": "inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "enchanted_book",
-            "predicates": {
-              "custom_data": {
-                "all_tasks": {
-                  "loot_table": "trial_chambers/ominous_vault"
-                }
-              },
-              "stored_enchantments": [
-                {
-                  "enchantments": [
-                    "density",
-                    "breach",
-                    "wind_burst"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
     "enchanted_book": {
-      "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
@@ -324,14 +161,40 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
     },
-    "diamond_block": {
-      "trigger": "inventory_changed",
+    "enchanted_book_mace": {
       "conditions": {
         "items": [
           {
-            "items": "diamond_block",
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              },
+              "stored_enchantments": [
+                {
+                  "enchantments": [
+                    "density",
+                    "breach",
+                    "wind_burst"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "enchanted_golden_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_golden_apple",
             "predicates": {
               "custom_data": {
                 "all_tasks": {
@@ -341,16 +204,151 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "inventory_changed"
+    },
+    "flow_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flow_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "flow_banner_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flow_banner_pattern",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "golden_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "heavy_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "heavy_core",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "iron_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_block",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "music_disc_creator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_creator",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ominous_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ominous_bottle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "wind_charge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wind_charge",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "trial_chambers/ominous_vault"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
     }
   },
   "display": {
-    "title": "Trial Chambers Loot: Ominous Vault",
     "description": "The ominous vault's reward, opened only by a key earned under bad omen.",
-    "icon": {
-      "id": "heavy_core"
-    },
-    "frame": "goal"
+    "frame": "goal",
+    "icon": "heavy_core",
+    "title": "Trial Chambers Loot: Ominous Vault"
   },
   "parent": "all_tasks:tasks/structures/trial_chambers/loot_vault"
 }

@@ -6,11 +6,10 @@
           "items": "spyglass"
         },
         "player": {
-          "type_specific": {
+          "type_specific/player": {
             "looking_at": {
-              "type": "fox"
-            },
-            "type": "player"
+              "entity_type": "fox"
+            }
           }
         }
       },
@@ -19,9 +18,7 @@
   },
   "display": {
     "description": "Darting through the snow with something stolen, never looking back.",
-    "icon": {
-      "id": "minecraft:sweet_berries"
-    },
+    "icon": "sweet_berries",
     "title": "Fox"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"
