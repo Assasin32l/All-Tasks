@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_badlands": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Red sand and dried earth baking under a merciless sun.",
+    "description": "",
     "icon": "red_sand",
     "title": "Badlands"
   },

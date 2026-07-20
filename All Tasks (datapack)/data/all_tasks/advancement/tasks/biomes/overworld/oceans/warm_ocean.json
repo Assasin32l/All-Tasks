@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_warm_ocean": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Coral reefs painting the seafloor in every shade imaginable.",
+    "description": "",
     "icon": "brain_coral_block",
     "title": "Warm Ocean"
   },

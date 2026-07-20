@@ -85,7 +85,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "host_armor_trim_smithing_template": {
+    "host_armor_trim": {
       "conditions": {
         "items": [
           {
@@ -136,7 +136,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "raiser_armor_trim_smithing_template": {
+    "raiser_armor_trim": {
       "conditions": {
         "items": [
           {
@@ -153,7 +153,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "shaper_armor_trim_smithing_template": {
+    "shaper_armor_trim": {
       "conditions": {
         "items": [
           {
@@ -187,7 +187,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "wayfinder_armor_trim_smithing_template": {
+    "wayfinder_armor_trim": {
       "conditions": {
         "items": [
           {
@@ -206,7 +206,7 @@
     }
   },
   "display": {
-    "description": "Rare relics buried deep in the ruins, waiting for a patient hand.",
+    "description": "",
     "frame": "goal",
     "icon": "music_disc_relic",
     "title": "Trail Ruins Loot: Rare"

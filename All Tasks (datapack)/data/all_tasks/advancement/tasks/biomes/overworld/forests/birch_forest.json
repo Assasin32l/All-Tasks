@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_birch_forest": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "White trunks as far as the eye follows \u2014 pale and endless.",
+    "description": "",
     "icon": "birch_log",
     "title": "Birch Forest"
   },

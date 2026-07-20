@@ -1,0 +1,304 @@
+{
+  "criteria": {
+    "container_book": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "book",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "stronghold/library"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_compass": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "compass",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "stronghold/library"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_enchanted_book": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "enchanted_book",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "stronghold/library"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_eye_armor_trim_smithing_template": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "eye_armor_trim_smithing_template",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "stronghold/library"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_map": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "map",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "stronghold/library"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_paper": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "paper",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "stronghold/library"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "ground_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compass",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_eye_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "eye_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_map": {
+      "conditions": {
+        "items": [
+          {
+            "items": "map",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "paper",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "stronghold/library"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_windswept_savanna": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Jagged cliffs, stubborn acacias \u2014 the wind always having the final say.",
+    "description": "",
     "icon": "acacia_log",
     "title": "Windswept Savanna"
   },

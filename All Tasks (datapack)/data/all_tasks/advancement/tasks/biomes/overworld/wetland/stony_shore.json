@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_stony_shore": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Ancient stone refusing to yield, the sea crashing hard against it.",
+    "description": "",
     "icon": "stone",
     "title": "Stony Shore"
   },

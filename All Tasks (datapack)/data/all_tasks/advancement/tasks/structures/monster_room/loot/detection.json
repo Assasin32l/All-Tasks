@@ -1,0 +1,1304 @@
+{
+  "criteria": {
+    "container_beetroot_seeds": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "beetroot_seeds",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_bone": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "bone",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_bread": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "bread",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_bucket": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "bucket",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_coal": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "coal",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_copper_horse_armor": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "copper_horse_armor",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_diamond_horse_armor": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "diamond_horse_armor",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_enchanted_book": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "enchanted_book",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_enchanted_golden_apple": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "enchanted_golden_apple",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_gold_ingot": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "gold_ingot",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_golden_apple": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "golden_apple",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_golden_horse_armor": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "golden_horse_armor",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_gunpowder": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "gunpowder",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_iron_horse_armor": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "iron_horse_armor",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_iron_ingot": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "iron_ingot",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_leather": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "leather",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_melon_seeds": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "melon_seeds",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_music_disc_13": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "music_disc_13",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_music_disc_cat": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "music_disc_cat",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_music_disc_otherside": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "music_disc_otherside",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_name_tag": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "name_tag",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_pumpkin_seeds": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "pumpkin_seeds",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_redstone": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "redstone",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_rotten_flesh": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "rotten_flesh",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_string": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "string",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_wheat": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "wheat",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "monster_room"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "ground_beetroot_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beetroot_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bucket",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "coal",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_copper_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "copper_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_diamond_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_enchanted_golden_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_golden_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_golden_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "golden_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_gunpowder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gunpowder",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_iron_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_horse_armor",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_melon_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "melon_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_music_disc_13": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_music_disc_cat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_cat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_music_disc_otherside": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_otherside",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_name_tag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "name_tag",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_pumpkin_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pumpkin_seeds",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_rotten_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rotten_flesh",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_string": {
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_wheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "monster_room"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    }
+  }
+}

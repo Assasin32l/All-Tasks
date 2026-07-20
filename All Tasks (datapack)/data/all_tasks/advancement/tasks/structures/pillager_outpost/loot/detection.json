@@ -1,0 +1,654 @@
+{
+  "criteria": {
+    "container_arrow": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "arrow",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_carrot": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "carrot",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_crossbow": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "crossbow",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_dark_oak_log": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "dark_oak_log",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_enchanted_book": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "enchanted_book",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_experience_bottle": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "experience_bottle",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_goat_horn": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "goat_horn",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_iron_ingot": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "iron_ingot",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_potato": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "potato",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_sentry_armor_trim_smithing_template": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "sentry_armor_trim_smithing_template",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_string": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "string",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_tripwire_hook": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "tripwire_hook",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_wheat": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "wheat",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "pillager_outpost"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "ground_arrow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arrow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_carrot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "carrot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_crossbow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "crossbow",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_dark_oak_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dark_oak_log",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanted_book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_experience_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "experience_bottle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_goat_horn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goat_horn",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_ingot",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_sentry_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sentry_armor_trim_smithing_template",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_string": {
+      "conditions": {
+        "items": [
+          {
+            "items": "string",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_tripwire_hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tripwire_hook",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_wheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wheat",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "pillager_outpost"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    }
+  }
+}

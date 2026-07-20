@@ -1,15 +1,7 @@
 {
   "criteria": {
-    "killed_any_mob": {
+    "kill_any_mob": {
       "trigger": "player_killed_entity"
-    },
-    "using_spyglass": {
-      "conditions": {
-        "item": {
-          "items": "spyglass"
-        }
-      },
-      "trigger": "using_item"
     }
   },
   "display": {
@@ -20,11 +12,5 @@
     "icon": "bone",
     "show_toast": false,
     "title": "Mobs"
-  },
-  "requirements": [
-    [
-      "killed_any_mob",
-      "using_spyglass"
-    ]
-  ]
+  }
 }

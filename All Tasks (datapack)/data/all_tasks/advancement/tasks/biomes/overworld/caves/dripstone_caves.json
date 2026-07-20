@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_dripstone_caves": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Built one patient drop at a time, over centuries of quiet.",
+    "description": "",
     "icon": "dripstone_block",
     "title": "Dripstone Caves"
   },

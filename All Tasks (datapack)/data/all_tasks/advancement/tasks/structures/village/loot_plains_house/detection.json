@@ -1,0 +1,554 @@
+{
+  "criteria": {
+    "container_apple": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "apple",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_book": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "book",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_bread": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "bread",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_bundle": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "bundle",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_dandelion": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "dandelion",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_emerald": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "emerald",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_feather": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "feather",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_gold_nugget": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "gold_nugget",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_oak_sapling": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "oak_sapling",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_poppy": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "poppy",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_potato": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "potato",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/plains_house"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "ground_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "apple",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "book",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bundle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_dandelion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dandelion",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_feather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "feather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_gold_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_nugget",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_oak_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "oak_sapling",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_poppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "poppy",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "potato",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/plains_house"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    }
+  }
+}

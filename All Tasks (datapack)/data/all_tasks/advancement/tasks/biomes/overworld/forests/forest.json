@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_forest": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Oak and birch standing close enough to swallow the sky.",
+    "description": "",
     "icon": "oak_log",
     "title": "Forest"
   },

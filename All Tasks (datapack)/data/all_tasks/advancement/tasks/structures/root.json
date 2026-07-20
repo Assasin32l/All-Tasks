@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "unlock_right_away": {
+    "enter_any_structure": {
       "conditions": {
         "player": {
           "location": {

@@ -17,7 +17,7 @@
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "is_structure_loot": true,
+          "is_loot": true,
           "loot_table": "trial_chambers/ominous_spawner"
         }
       }

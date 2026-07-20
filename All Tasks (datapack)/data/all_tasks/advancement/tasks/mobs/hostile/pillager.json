@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "pillager"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Patrolling the outpost with a crossbow and a grudge against the nearest village.",
+    "description": "",
     "icon": "crossbow",
     "title": "Pillager"
   },

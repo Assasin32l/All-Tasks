@@ -1,16 +1,6 @@
 {
   "criteria": {
-    "in_structure_1": {
-      "conditions": {
-        "player": {
-          "location": {
-            "structures": "ruined_portal"
-          }
-        }
-      },
-      "trigger": "location"
-    },
-    "in_structure_2": {
+    "desert": {
       "conditions": {
         "player": {
           "location": {
@@ -20,7 +10,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_3": {
+    "jungle": {
       "conditions": {
         "player": {
           "location": {
@@ -30,7 +20,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_4": {
+    "mountain": {
       "conditions": {
         "player": {
           "location": {
@@ -40,7 +30,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_5": {
+    "nether": {
       "conditions": {
         "player": {
           "location": {
@@ -50,7 +40,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_6": {
+    "ocean": {
       "conditions": {
         "player": {
           "location": {
@@ -60,7 +50,17 @@
       },
       "trigger": "location"
     },
-    "in_structure_7": {
+    "plains": {
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ruined_portal"
+          }
+        }
+      },
+      "trigger": "location"
+    },
+    "swamp": {
       "conditions": {
         "player": {
           "location": {
@@ -72,7 +72,7 @@
     }
   },
   "display": {
-    "description": "Crying obsidian and broken stone \u2014 a gateway that never finished opening.",
+    "description": "",
     "icon": "crying_obsidian",
     "title": "Ruined Portal"
   },

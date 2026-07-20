@@ -1,0 +1,454 @@
+{
+  "criteria": {
+    "container_bread": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "bread",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_bundle": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "bundle",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_emerald": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "emerald",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_leather": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "leather",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_leather_boots": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "leather_boots",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_leather_chestplate": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "leather_chestplate",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_leather_helmet": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "leather_helmet",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_leather_leggings": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "leather_leggings",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "container_saddle": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "chest",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "items": "saddle",
+                          "predicates": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "loot_table": "village/tannery"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    },
+    "ground_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bread",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bundle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_leather_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_boots",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_leather_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_chestplate",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_leather_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_helmet",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_leather_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_leggings",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "ground_saddle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "saddle",
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "loot_table": "village/tannery"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    }
+  }
+}

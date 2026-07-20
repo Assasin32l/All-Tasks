@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "wither_skeleton"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Stalking the fortress in black, leaving the wither effect on everything it touches.",
+    "description": "",
     "icon": "wither_skeleton_skull",
     "title": "Wither Skeleton"
   },

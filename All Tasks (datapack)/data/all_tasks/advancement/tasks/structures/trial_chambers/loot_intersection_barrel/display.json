@@ -1,0 +1,353 @@
+{
+  "criteria": {
+    "baked_potato": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_baked_potato": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_baked_potato": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "bamboo_planks": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_bamboo_planks": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_bamboo_planks": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "bucket": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_bucket": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_bucket": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "compass": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_compass": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_compass": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "diamond": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_diamond": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_diamond": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "diamond_axe": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_diamond_axe": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_diamond_axe": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "diamond_pickaxe": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_diamond_pickaxe": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_diamond_pickaxe": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "golden_axe": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_golden_axe": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_golden_axe": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "golden_pickaxe": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "container_golden_pickaxe": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/trial_chambers/loot_intersection_barrel/detection": {
+                        "ground_golden_pickaxe": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    }
+  },
+  "display": {
+    "description": "",
+    "frame": "goal",
+    "icon": "diamond_axe",
+    "title": "Trial Chambers Loot: Intersection Barrel"
+  },
+  "parent": "all_tasks:tasks/structures/trial_chambers/root"
+}

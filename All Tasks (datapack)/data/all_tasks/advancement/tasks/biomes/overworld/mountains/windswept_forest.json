@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_windswept_forest": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Spruce trees spending their whole lives bending to the mountain wind.",
+    "description": "",
     "icon": "spruce_log",
     "title": "Windswept Forest"
   },

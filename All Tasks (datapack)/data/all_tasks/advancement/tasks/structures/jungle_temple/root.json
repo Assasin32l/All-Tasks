@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Vines swallowing stone walls, traps still armed after centuries of silence.",
+    "description": "",
     "icon": "mossy_cobblestone",
     "title": "Jungle Temple"
   },

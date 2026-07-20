@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_snowy_beach": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Snow on the shore, the sea offering nothing warm in return.",
+    "description": "",
     "icon": "snow_block",
     "title": "Snowy Beach"
   },

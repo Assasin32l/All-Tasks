@@ -1,0 +1,206 @@
+{
+  "criteria": {
+    "aggressive": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "MainGene": "aggressive"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "aggressive_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "MainGene": "aggressive"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "brown": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "MainGene": "brown"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "brown_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "MainGene": "brown"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "lazy": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "MainGene": "lazy"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "lazy_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "MainGene": "lazy"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "MainGene": "normal"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "normal_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "MainGene": "normal"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "playful": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "MainGene": "playful"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "playful_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "MainGene": "playful"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "weak": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "MainGene": "weak"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "weak_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "MainGene": "weak"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "worried": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "MainGene": "worried"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "worried_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "panda",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "MainGene": "worried"
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "bamboo",
+    "title": "Panda"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/root"
+}

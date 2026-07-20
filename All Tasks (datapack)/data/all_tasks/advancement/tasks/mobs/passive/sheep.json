@@ -1,296 +1,456 @@
 {
   "criteria": {
-    "looked_at_black": {
+    "black": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "black"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "black"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_blue": {
+    "black_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "blue"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "black"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_brown": {
+    "blue": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "brown"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "blue"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_cyan": {
+    "blue_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "cyan"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "blue"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_gray": {
+    "brown": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "gray"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "brown"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_green": {
+    "brown_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "green"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "brown"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_light_blue": {
+    "cyan": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "light_blue"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "cyan"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_light_gray": {
+    "cyan_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "light_gray"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "cyan"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_lime": {
+    "gray": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "lime"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "gray"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_magenta": {
+    "gray_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "magenta"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "gray"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_orange": {
+    "green": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "orange"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "green"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_pink": {
+    "green_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "pink"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "green"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_purple": {
+    "light_blue": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "purple"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "light_blue"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_red": {
+    "light_blue_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "red"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "light_blue"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_white": {
+    "light_gray": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "white"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "light_gray"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_yellow": {
+    "light_gray_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "sheep/color": "yellow"
-              },
-              "entity_type": "sheep"
-            }
+        "entity": {
+          "components": {
+            "sheep/color": "light_gray"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
+    },
+    "lime": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "lime"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "lime_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "lime"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "magenta": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "magenta"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "magenta_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "magenta"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "orange": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "orange"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "orange_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "orange"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "pink": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "pink"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "pink_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "pink"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "purple": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "purple"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "purple_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "purple"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "red"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "red"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "white"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "white"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "yellow": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "yellow"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "yellow_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "sheep/color": "yellow"
+          },
+          "entity_type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Grazing the hillside in every colour, peaceful in every one of them.",
+    "description": "",
     "icon": "white_wool",
     "title": "Sheep"
   },

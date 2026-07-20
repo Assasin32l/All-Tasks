@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "vindicator"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Swinging an axe through the mansion halls, saying nothing, meaning everything.",
+    "description": "",
     "icon": "iron_axe",
     "title": "Vindicator"
   },

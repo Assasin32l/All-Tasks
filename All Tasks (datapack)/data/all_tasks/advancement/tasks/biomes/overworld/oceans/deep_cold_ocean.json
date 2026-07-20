@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_deep_cold_ocean": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Each block of descent colder than the last.",
+    "description": "",
     "icon": "cod",
     "title": "Deep Cold Ocean"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_frozen_ocean": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Ice floes drifting slowly above water too dark to read.",
+    "description": "",
     "icon": "packed_ice",
     "title": "Frozen Ocean"
   },

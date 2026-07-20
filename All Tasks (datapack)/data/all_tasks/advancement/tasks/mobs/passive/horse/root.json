@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "",
+    "frame": "goal",
+    "icon": "saddle",
+    "show_toast": false,
+    "title": "Horse"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

@@ -1,0 +1,353 @@
+{
+  "criteria": {
+    "book": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_book": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_book": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "bread": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_bread": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_bread": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "bundle": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_bundle": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_bundle": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "cactus": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_cactus": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_cactus": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "clay_ball": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_clay_ball": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_clay_ball": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "dead_bush": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_dead_bush": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_dead_bush": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "emerald": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_emerald": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_emerald": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "green_dye": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_green_dye": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_green_dye": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "wheat": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "container_wheat": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_desert_house/detection": {
+                        "ground_wheat": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    }
+  },
+  "display": {
+    "description": "",
+    "frame": "goal",
+    "icon": "cactus",
+    "title": "Village Loot: Desert House"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_savanna_house/display"
+}

@@ -1,23 +1,30 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "mule"
-            }
+        "entity": {
+          "entity_type": "mule",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "mule",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Built for the long haul, carrying weight across terrain a horse would refuse.",
+    "description": "",
     "icon": "chest",
     "title": "Mule"
   },

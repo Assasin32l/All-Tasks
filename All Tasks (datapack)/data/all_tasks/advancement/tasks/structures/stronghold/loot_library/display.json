@@ -1,0 +1,239 @@
+{
+  "criteria": {
+    "book": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "container_book": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "ground_book": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "compass": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "container_compass": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "ground_compass": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "enchanted_book": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "container_enchanted_book": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "ground_enchanted_book": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "eye_armor_trim": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "container_eye_armor_trim_smithing_template": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "ground_eye_armor_trim_smithing_template": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "map": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "container_map": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "ground_map": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "paper": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "container_paper": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/stronghold/loot_library/detection": {
+                        "ground_paper": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    }
+  },
+  "display": {
+    "description": "",
+    "frame": "goal",
+    "icon": "book",
+    "title": "Stronghold Loot: Library"
+  },
+  "parent": "all_tasks:tasks/structures/stronghold/loot_crossing/display"
+}

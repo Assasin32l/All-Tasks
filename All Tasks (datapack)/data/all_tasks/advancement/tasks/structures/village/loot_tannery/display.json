@@ -1,0 +1,353 @@
+{
+  "criteria": {
+    "bread": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_bread": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_bread": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "bundle": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_bundle": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_bundle": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "emerald": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_emerald": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_emerald": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "leather": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_leather": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_leather": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "leather_boots": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_leather_boots": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_leather_boots": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "leather_chestplate": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_leather_chestplate": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_leather_chestplate": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "leather_helmet": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_leather_helmet": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_leather_helmet": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "leather_leggings": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_leather_leggings": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_leather_leggings": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "saddle": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "container_saddle": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_tannery/detection": {
+                        "ground_saddle": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    }
+  },
+  "display": {
+    "description": "",
+    "frame": "goal",
+    "icon": "leather_chestplate",
+    "title": "Village Loot: Tannery"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_butcher/display"
+}

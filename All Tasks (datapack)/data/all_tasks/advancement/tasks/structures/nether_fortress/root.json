@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Crumbling corridors of dark brick suspended over the lava sea.",
+    "description": "",
     "icon": "nether_bricks",
     "title": "Nether Fortress"
   },

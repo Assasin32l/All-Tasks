@@ -1,0 +1,239 @@
+{
+  "criteria": {
+    "bread": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "container_bread": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "ground_bread": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "emerald": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "container_emerald": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "ground_emerald": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "container_gold_ingot": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "ground_gold_ingot": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "lapis_lazuli": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "container_lapis_lazuli": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "ground_lapis_lazuli": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "redstone": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "container_redstone": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "ground_redstone": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    },
+    "rotten_flesh": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "container_rotten_flesh": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "advancements": {
+                      "all_tasks:tasks/structures/village/loot_temple/detection": {
+                        "ground_rotten_flesh": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "tick"
+    }
+  },
+  "display": {
+    "description": "",
+    "frame": "goal",
+    "icon": "lapis_lazuli",
+    "title": "Village Loot: Temple"
+  },
+  "parent": "all_tasks:tasks/structures/village/loot_cartographer/display"
+}

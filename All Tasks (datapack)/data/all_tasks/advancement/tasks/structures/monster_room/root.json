@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "loot_table": "chests/simple_dungeon"
       },
@@ -8,8 +8,8 @@
     }
   },
   "display": {
-    "description": "A cage of iron spinning endlessly in cobwebbed stone.",
-    "icon": "cobweb",
+    "description": "",
+    "icon": "spawner",
     "title": "Monster Spawner"
   },
   "parent": "all_tasks:tasks/structures/root"

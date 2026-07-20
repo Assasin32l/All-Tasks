@@ -1,16 +1,30 @@
 {
   "criteria": {
-    "killed_mob": {
+    "normal": {
       "conditions": {
         "entity": {
-          "entity_type": "bogged"
+          "entity_type": "bogged",
+          "nbt": {
+            "sheared": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "sheard": {
+      "conditions": {
+        "entity": {
+          "entity_type": "bogged",
+          "nbt": {
+            "sheared": true
+          }
         }
       },
       "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "A skeleton rotted by the swamp, shooting poison from between the roots.",
+    "description": "",
     "icon": "brown_mushroom",
     "title": "Bogged"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_wooded_badlands": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Coarse soil somehow sustaining trees with no business growing here.",
+    "description": "",
     "icon": "coarse_dirt",
     "title": "Wooded Badlands"
   },

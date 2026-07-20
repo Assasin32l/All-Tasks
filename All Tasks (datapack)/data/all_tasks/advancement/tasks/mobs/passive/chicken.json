@@ -1,62 +1,92 @@
 {
   "criteria": {
-    "looked_at_cold": {
+    "cold": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "chicken/variant": "cold"
-              },
-              "entity_type": "chicken"
-            }
+        "entity": {
+          "components": {
+            "chicken/variant": "cold"
+          },
+          "entity_type": "chicken",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_temperate": {
+    "cold_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "chicken/variant": "temperate"
-              },
-              "entity_type": "chicken"
-            }
+        "entity": {
+          "components": {
+            "chicken/variant": "cold"
+          },
+          "entity_type": "chicken",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_warm": {
+    "temperate": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "chicken/variant": "warm"
-              },
-              "entity_type": "chicken"
-            }
+        "entity": {
+          "components": {
+            "chicken/variant": "temperate"
+          },
+          "entity_type": "chicken",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
+    },
+    "temperate_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "chicken/variant": "temperate"
+          },
+          "entity_type": "chicken",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "warm": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "chicken/variant": "warm"
+          },
+          "entity_type": "chicken",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "warm_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "chicken/variant": "warm"
+          },
+          "entity_type": "chicken",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Clucking through the grass, laying eggs with no concern for consequence.",
+    "description": "",
     "icon": "egg",
     "title": "Chicken"
   },

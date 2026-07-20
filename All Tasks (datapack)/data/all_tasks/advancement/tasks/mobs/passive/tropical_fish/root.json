@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "",
+    "frame": "challenge",
+    "icon": "tropical_fish",
+    "show_toast": false,
+    "title": "Tropical Fish"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/cod"
+}

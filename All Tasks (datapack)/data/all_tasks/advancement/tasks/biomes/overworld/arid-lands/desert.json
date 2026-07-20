@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_desert": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Sand in every direction, silence the only companion.",
+    "description": "",
     "icon": "sand",
     "title": "Desert"
   },

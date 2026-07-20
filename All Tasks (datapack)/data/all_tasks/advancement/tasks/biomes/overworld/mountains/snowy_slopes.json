@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_snowy_slopes": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "The mountain sheds all colour, offering only white in every direction.",
+    "description": "",
     "icon": "snow_block",
     "title": "Snowy Slopes"
   },

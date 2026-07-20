@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "warden"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "It cannot see you. It doesn't need to. Stand still and pray.",
+    "description": "",
     "icon": "sculk_sensor",
     "title": "Warden"
   },

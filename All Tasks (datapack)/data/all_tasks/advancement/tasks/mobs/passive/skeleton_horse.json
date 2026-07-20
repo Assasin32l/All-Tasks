@@ -1,25 +1,18 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "skeleton_horse"
-            }
-          }
+        "entity": {
+          "entity_type": "skeleton_horse"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Galloping through the storm that summoned it, a rider made of lightning.",
+    "description": "",
     "icon": "bone",
     "title": "Skeleton Horse"
   },
-  "parent": "all_tasks:tasks/mobs/passive/horse"
+  "parent": "all_tasks:tasks/mobs/passive/horse/root"
 }

@@ -1,25 +1,32 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "with_pumpkin": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "snow_golem"
-            }
+        "entity": {
+          "entity_type": "snow_golem",
+          "nbt": {
+            "Pumpkin": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
+    },
+    "without_pumpkin": {
+      "conditions": {
+        "entity": {
+          "entity_type": "snow_golem",
+          "nbt": {
+            "Pumpkin": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Built from snow and good intentions, melting in any climate but its own.",
+    "description": "",
     "icon": "carved_pumpkin",
     "title": "Snow Golem"
   },
-  "parent": "all_tasks:tasks/mobs/passive/iron_golem"
+  "parent": "all_tasks:tasks/mobs/passive/copper_golem"
 }

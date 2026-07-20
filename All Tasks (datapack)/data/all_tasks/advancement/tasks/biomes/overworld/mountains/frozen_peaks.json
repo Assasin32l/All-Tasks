@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_frozen_peaks": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Summits locked in ice, the wind carrying nothing but cold.",
+    "description": "",
     "icon": "packed_ice",
     "title": "Frozen Peaks"
   },

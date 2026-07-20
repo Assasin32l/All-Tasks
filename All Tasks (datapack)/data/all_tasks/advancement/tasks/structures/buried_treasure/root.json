@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "loot_table": "chests/buried_treasure"
       },
@@ -8,7 +8,7 @@
     }
   },
   "display": {
-    "description": "Marked on a map, sealed beneath the sand at the ocean's edge.",
+    "description": "",
     "icon": "chest",
     "title": "Buried Treasure"
   },

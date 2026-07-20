@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_boss": {
+    "kill_any_boss": {
       "conditions": {
         "entity": {
           "entity_type": [
@@ -14,12 +14,12 @@
   },
   "display": {
     "announce_to_chat": false,
-    "description": "Defeat every boss the world has to offer.",
+    "description": "",
     "frame": "goal",
     "hidden": true,
     "icon": "dragon_head",
     "show_toast": false,
-    "title": "A Worthy Opponent"
+    "title": "Boss"
   },
   "parent": "all_tasks:tasks/mobs/root"
 }

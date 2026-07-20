@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_windswept_hills": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Bare rock, relentless wind, a view that makes both worthwhile.",
+    "description": "",
     "icon": "stone",
     "title": "Windswept Hills"
   },

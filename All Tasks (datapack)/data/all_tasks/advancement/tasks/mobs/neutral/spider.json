@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "spider"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "string",
+    "title": "Spider"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/root"
+}

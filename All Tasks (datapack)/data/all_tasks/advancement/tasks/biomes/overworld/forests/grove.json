@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_grove": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Snow-laden spruce leaning together against the mountain cold.",
+    "description": "",
     "icon": "spruce_log",
     "title": "Grove"
   },

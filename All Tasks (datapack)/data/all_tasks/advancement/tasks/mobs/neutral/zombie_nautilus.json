@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "temperate": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "zombie_nautilus/variant": "temperate"
+          },
+          "entity_type": "zombie_nautilus"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "warm": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "zombie_nautilus/variant": "warm"
+          },
+          "entity_type": "zombie_nautilus"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "zombie_nautilus_spawn_egg",
+    "title": "Zombie Nautilus"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/nautilus"
+}

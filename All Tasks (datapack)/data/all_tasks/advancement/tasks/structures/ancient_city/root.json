@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Sculk and silence, deep below where no one was meant to go.",
+    "description": "",
     "icon": "reinforced_deepslate",
     "title": "Ancient City"
   },

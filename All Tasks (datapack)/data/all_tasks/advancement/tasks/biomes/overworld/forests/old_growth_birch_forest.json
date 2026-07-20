@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_old_growth_birch_forest": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "These trees have long outgrown anything a younger forest can offer.",
+    "description": "",
     "icon": "birch_log",
     "title": "Old Growth Birch Forest"
   },

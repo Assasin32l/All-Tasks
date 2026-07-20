@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "elder_guardian"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Ancient and vast in the monument's deepest room, cursing all who enter.",
+    "description": "",
     "icon": "sponge",
     "title": "Elder Guardian"
   },

@@ -1,23 +1,16 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "bat"
-            }
-          }
+        "entity": {
+          "entity_type": "bat"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "A flutter of black in the cave dark, gone before you spot it.",
+    "description": "",
     "icon": "bat_spawn_egg",
     "title": "Bat"
   },

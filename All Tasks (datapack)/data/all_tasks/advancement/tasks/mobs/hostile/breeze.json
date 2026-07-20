@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "breeze"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Leaping and laughing through the chambers, turning the wind against you.",
+    "description": "",
     "icon": "breeze_rod",
     "title": "Breeze"
   },

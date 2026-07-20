@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A forgotten settlement, swallowed by earth and scattered through gravel.",
+    "description": "",
     "icon": "suspicious_gravel",
     "title": "Trail Ruins"
   },

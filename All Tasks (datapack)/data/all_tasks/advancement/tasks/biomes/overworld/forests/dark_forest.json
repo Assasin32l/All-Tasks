@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_dark_forest": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "The canopy closes overhead and noon feels no different from dusk.",
+    "description": "",
     "icon": "dark_oak_log",
     "title": "Dark Forest"
   },

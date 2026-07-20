@@ -1,23 +1,30 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "glow_squid"
-            }
+        "entity": {
+          "entity_type": "glow_squid",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "glow_squid",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Pulsing with cold light in the deep, indifferent to the dark around it.",
+    "description": "",
     "icon": "glow_ink_sac",
     "title": "Glow Squid"
   },

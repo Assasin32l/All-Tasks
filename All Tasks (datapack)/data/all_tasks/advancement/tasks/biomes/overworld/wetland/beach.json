@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_beach": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "The ground softens to sand and the waves claim a little more each day.",
+    "description": "",
     "icon": "sand",
     "title": "Beach"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_pale_garden": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Still, white, and always watching.",
+    "description": "",
     "icon": "pale_oak_log",
     "title": "Pale Garden"
   },

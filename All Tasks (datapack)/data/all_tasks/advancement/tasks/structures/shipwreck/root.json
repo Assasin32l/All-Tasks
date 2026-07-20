@@ -1,13 +1,20 @@
 {
   "criteria": {
-    "in_structure": {
+    "beached": {
       "conditions": {
         "player": {
           "location": {
-            "structures": [
-              "shipwreck",
-              "shipwreck_beached"
-            ]
+            "structures": "shipwreck_beached"
+          }
+        }
+      },
+      "trigger": "location"
+    },
+    "ocean": {
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "shipwreck"
           }
         }
       },
@@ -15,7 +22,7 @@
     }
   },
   "display": {
-    "description": "A broken hull resting where the current finally let it go.",
+    "description": "",
     "icon": "oak_planks",
     "title": "Shipwreck"
   },

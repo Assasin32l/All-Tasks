@@ -1,16 +1,30 @@
 {
   "criteria": {
-    "killed_mob": {
+    "baby": {
       "conditions": {
         "entity": {
-          "entity_type": "hoglin"
+          "entity_type": "hoglin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "hoglin",
+          "flags": {
+            "is_baby": false
+          }
         }
       },
       "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Charging through the crimson forest \u2014 heavy, fast, and not remotely friendly.",
+    "description": "",
     "icon": "porkchop",
     "title": "Hoglin"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_the_nether": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -18,7 +18,7 @@
     "hidden": true,
     "icon": "netherrack",
     "show_toast": false,
-    "title": "The Nether"
+    "title": "Nether Biomes"
   },
   "parent": "all_tasks:tasks/biomes/root"
 }

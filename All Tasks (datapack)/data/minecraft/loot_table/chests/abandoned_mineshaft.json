@@ -8,7 +8,7 @@
           "predicate": {
             "type_specific/player": {
               "advancements": {
-                "all_tasks:tasks/structures/mineshaft/loot/loot": false
+                "all_tasks:tasks/structures/mineshaft/loot/display": false
               }
             }
           }
@@ -17,7 +17,7 @@
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "is_structure_loot": true,
+          "is_loot": true,
           "loot_table": "mineshaft"
         }
       }
@@ -313,6 +313,19 @@
           "name": "torch",
           "type": "item",
           "weight": 15
+        },
+        {
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "biomes": "sulfur_caves"
+              }
+            }
+          ],
+          "name": "music_disc_bounce",
+          "type": "item",
+          "weight": 10
         }
       ],
       "rolls": 3

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_jungle": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Thick enough to swallow both sound and direction.",
+    "description": "",
     "icon": "jungle_log",
     "title": "Jungle"
   },

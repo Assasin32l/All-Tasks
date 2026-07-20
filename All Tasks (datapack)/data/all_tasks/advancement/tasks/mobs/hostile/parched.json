@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "parched": {
       "conditions": {
         "entity": {
           "entity_type": "parched"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "A desert skeleton riding the undead, firing arrows from the back of the dark.",
+    "description": "",
     "icon": "arrow",
     "title": "Parched"
   },

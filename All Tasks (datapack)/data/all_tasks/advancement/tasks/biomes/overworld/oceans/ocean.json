@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_ocean": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Endless surface, secretive floor \u2014 the world laid bare underwater.",
+    "description": "",
     "icon": "gravel",
     "title": "Ocean"
   },

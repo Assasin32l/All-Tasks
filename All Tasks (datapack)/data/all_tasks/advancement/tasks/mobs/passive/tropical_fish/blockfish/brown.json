@@ -1,0 +1,218 @@
+{
+  "criteria": {
+    "black_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "black"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "blue_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "blue"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "brown_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "brown"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "cyan_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "cyan"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "gray_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "gray"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "green_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "green"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_blue_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "light_blue"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_gray_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "light_gray"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "lime_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "lime"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "magenta_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "magenta"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "orange_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "orange"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "pink_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "pink"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "purple_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "purple"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "red"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "white"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "yellow_pattern": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "tropical_fish/base_color": "brown",
+            "tropical_fish/pattern": "blockfish",
+            "tropical_fish/pattern_color": "yellow"
+          },
+          "entity_type": "tropical_fish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "brown_dye",
+    "title": "Brown Blockfish Tropical Fish"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/tropical_fish/blockfish/white"
+}

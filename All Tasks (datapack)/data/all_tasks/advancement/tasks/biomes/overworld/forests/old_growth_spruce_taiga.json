@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_old_growth_spruce_taiga": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Tall enough to make their own sky, old enough to have seen everything.",
+    "description": "",
     "icon": "podzol",
     "title": "Old Growth Spruce Taiga"
   },

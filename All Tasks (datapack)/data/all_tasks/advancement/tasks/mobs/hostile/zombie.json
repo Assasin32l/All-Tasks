@@ -1,16 +1,30 @@
 {
   "criteria": {
-    "killed_mob": {
+    "baby": {
       "conditions": {
         "entity": {
-          "entity_type": "zombie"
+          "entity_type": "zombie",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie",
+          "flags": {
+            "is_baby": false
+          }
         }
       },
       "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Groaning through the night toward whatever light it can find.",
+    "description": "",
     "icon": "rotten_flesh",
     "title": "Zombie"
   },

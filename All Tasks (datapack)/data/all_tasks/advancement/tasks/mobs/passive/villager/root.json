@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "",
+    "frame": "challenge",
+    "icon": "emerald",
+    "show_toast": false,
+    "title": "Villager"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

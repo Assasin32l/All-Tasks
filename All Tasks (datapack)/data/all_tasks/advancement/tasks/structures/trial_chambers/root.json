@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Stone halls built for testing \u2014 what waits inside shows no mercy.",
+    "description": "",
     "icon": "tuff_bricks",
     "title": "Trial Chambers"
   },

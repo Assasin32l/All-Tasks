@@ -1,24 +1,31 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "turtle"
-            }
+        "entity": {
+          "entity_type": "turtle",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "turtle",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Ancient and unhurried, returning to the same shore it was born on.",
-    "icon": "scute",
+    "description": "",
+    "icon": "turtle_scute",
     "title": "Turtle"
   },
   "parent": "all_tasks:tasks/mobs/passive/root"

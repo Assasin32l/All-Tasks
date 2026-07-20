@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "skeleton"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Drawing its bow in the dark, patient in the way only the dead can be.",
+    "description": "",
     "icon": "bone",
     "title": "Skeleton"
   },

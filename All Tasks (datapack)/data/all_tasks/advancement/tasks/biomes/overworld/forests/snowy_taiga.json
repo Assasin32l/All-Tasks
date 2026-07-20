@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_snowy_taiga": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Every branch weighed down, the forest holding its breath.",
+    "description": "",
     "icon": "spruce_log",
     "title": "Snowy Taiga"
   },

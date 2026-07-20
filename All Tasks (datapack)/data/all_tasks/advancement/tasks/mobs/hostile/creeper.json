@@ -1,17 +1,6 @@
 {
   "criteria": {
-    "killed_charged_creeper": {
-      "conditions": {
-        "entity": {
-          "entity_type": "creeper",
-          "nbt": {
-            "powered": true
-          }
-        }
-      },
-      "trigger": "player_killed_entity"
-    },
-    "killed_creeper": {
+    "charged": {
       "conditions": {
         "entity": {
           "entity_type": "creeper",
@@ -21,10 +10,21 @@
         }
       },
       "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "creeper",
+          "nbt": {
+            "powered": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Silent, green, and already far too close.",
+    "description": "",
     "icon": "gunpowder",
     "title": "Creeper"
   },

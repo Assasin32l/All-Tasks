@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Buried beneath the dunes, a tomb still armed with its traps.",
+    "description": "",
     "icon": "chiseled_sandstone",
     "title": "Desert Pyramid"
   },

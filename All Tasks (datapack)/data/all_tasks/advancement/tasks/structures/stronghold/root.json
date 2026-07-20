@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Stone corridors winding deep underground, circling the door to the end.",
+    "description": "",
     "icon": "end_portal_frame",
     "title": "Stronghold"
   },

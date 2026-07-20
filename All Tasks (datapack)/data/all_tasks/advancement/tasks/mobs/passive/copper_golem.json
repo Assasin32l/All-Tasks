@@ -1,82 +1,54 @@
 {
   "criteria": {
-    "looked_at_exposed": {
+    "exposed": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "copper_golem",
-              "nbt": {
-                "weather_state": "exposed"
-              }
-            }
+        "entity": {
+          "entity_type": "copper_golem",
+          "nbt": {
+            "weather_state": "exposed"
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_oxidized": {
+    "normal": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "copper_golem",
-              "nbt": {
-                "weather_state": "oxidized"
-              }
-            }
+        "entity": {
+          "entity_type": "copper_golem",
+          "nbt": {
+            "weather_state": "unaffected"
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_unaffected": {
+    "oxidized": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "copper_golem",
-              "nbt": {
-                "weather_state": "unaffected"
-              }
-            }
+        "entity": {
+          "entity_type": "copper_golem",
+          "nbt": {
+            "weather_state": "oxidized"
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_weathered": {
+    "weathered": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "copper_golem",
-              "nbt": {
-                "weather_state": "weathered"
-              }
-            }
+        "entity": {
+          "entity_type": "copper_golem",
+          "nbt": {
+            "weather_state": "weathered"
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Built to sort and serve, slowly turning green until it stops entirely.",
+    "description": "",
     "icon": "copper_ingot",
     "title": "Copper Golem"
   },
-  "parent": "all_tasks:tasks/mobs/passive/iron_golem"
+  "parent": "all_tasks:tasks/mobs/passive/root"
 }

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_nether_wastes": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Netherrack burning endlessly, the horizon offering nothing in any direction.",
+    "description": "",
     "icon": "netherrack",
     "title": "Nether Wastes"
   },

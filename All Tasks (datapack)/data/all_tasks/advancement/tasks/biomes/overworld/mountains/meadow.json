@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_meadow": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A highland clearing, wildflowers nodding, far from any trouble.",
+    "description": "",
     "icon": "oxeye_daisy",
     "title": "Meadow"
   },

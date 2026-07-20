@@ -1,98 +1,63 @@
 {
   "criteria": {
-    "looked_at_blue": {
+    "blue": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "parrot/variant": "blue"
-              },
-              "entity_type": "parrot"
-            }
-          }
+        "entity": {
+          "components": {
+            "parrot/variant": "blue"
+          },
+          "entity_type": "parrot"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_gray": {
+    "gray": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "parrot/variant": "gray"
-              },
-              "entity_type": "parrot"
-            }
-          }
+        "entity": {
+          "components": {
+            "parrot/variant": "gray"
+          },
+          "entity_type": "parrot"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_green": {
+    "green": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "parrot/variant": "green"
-              },
-              "entity_type": "parrot"
-            }
-          }
+        "entity": {
+          "components": {
+            "parrot/variant": "green"
+          },
+          "entity_type": "parrot"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_red_blue": {
+    "red_blue": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "parrot/variant": "red_blue"
-              },
-              "entity_type": "parrot"
-            }
-          }
+        "entity": {
+          "components": {
+            "parrot/variant": "red_blue"
+          },
+          "entity_type": "parrot"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_yellow_blue": {
+    "yellow_blue": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "parrot/variant": "yellow_blue"
-              },
-              "entity_type": "parrot"
-            }
-          }
+        "entity": {
+          "components": {
+            "parrot/variant": "yellow_blue"
+          },
+          "entity_type": "parrot"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Bright and borrowed \u2014 it learns your words and wears them without irony.",
+    "description": "",
     "icon": "cookie",
     "title": "Parrot"
   },

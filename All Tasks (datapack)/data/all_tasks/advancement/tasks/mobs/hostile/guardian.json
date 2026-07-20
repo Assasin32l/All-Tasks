@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "guardian"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Pulsing with laser light in the depths, defending every corridor of the monument.",
+    "description": "",
     "icon": "prismarine_shard",
     "title": "Guardian"
   },

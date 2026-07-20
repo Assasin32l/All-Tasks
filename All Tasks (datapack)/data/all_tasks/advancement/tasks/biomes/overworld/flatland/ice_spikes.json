@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_ice_spikes": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Enormous packed ice columns erupting from the frozen plain without explanation.",
+    "description": "",
     "icon": "packed_ice",
     "title": "Ice Spikes"
   },

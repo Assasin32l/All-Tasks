@@ -1,23 +1,30 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "strider"
-            }
+        "entity": {
+          "entity_type": "strider",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "strider",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Wobbling across the lava sea, at home in what would unmake anything else.",
+    "description": "",
     "icon": "warped_fungus_on_a_stick",
     "title": "Strider"
   },

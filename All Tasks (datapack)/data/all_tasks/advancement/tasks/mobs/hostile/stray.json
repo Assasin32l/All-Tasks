@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "stray"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "A skeleton the tundra claimed \u2014 slower arrows, but they slow you right back.",
+    "description": "",
     "icon": "tipped_arrow",
     "title": "Stray"
   },

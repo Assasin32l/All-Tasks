@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_jagged_peaks": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Stone cutting the sky, the air too thin for anything but the view.",
+    "description": "",
     "icon": "stone",
     "title": "Jagged Peaks"
   },

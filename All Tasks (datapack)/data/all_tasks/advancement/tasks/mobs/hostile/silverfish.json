@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "silverfish"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Hidden in the stone until disturbed, then calling every wall to its defence.",
+    "description": "",
     "icon": "silverfish_spawn_egg",
     "title": "Silverfish"
   },

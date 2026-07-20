@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A watchtower in the open, manned by crossbows and bad intentions.",
+    "description": "",
     "icon": "crossbow",
     "title": "Pillager Outpost"
   },

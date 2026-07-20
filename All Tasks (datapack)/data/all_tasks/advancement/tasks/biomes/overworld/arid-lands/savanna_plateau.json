@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_savanna_plateau": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "The land rises above the plains, acacia canopy crowning the clifftop.",
+    "description": "",
     "icon": "acacia_log",
     "title": "Savanna Plateau"
   },

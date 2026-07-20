@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_eroded_badlands": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Wind and time have carved the rock into something stranger than stone.",
+    "description": "",
     "icon": "terracotta",
     "title": "Eroded Badlands"
   },

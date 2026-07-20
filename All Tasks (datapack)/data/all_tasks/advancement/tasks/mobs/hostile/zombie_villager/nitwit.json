@@ -1,0 +1,248 @@
+{
+  "criteria": {
+    "desert": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "desert_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "jungle": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "jungle_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "plains": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "plains_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "savanna": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "savanna_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "swamp": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "swamp_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "taiga": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "taiga_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "VillagerData": {
+              "profession": "nitwit",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "green_dye",
+    "title": "Nitwit Zombie Villager"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/zombie_villager/unemployed"
+}

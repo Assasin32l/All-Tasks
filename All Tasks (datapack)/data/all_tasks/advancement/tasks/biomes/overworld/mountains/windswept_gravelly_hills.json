@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_windswept_gravelly_hills": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Loose ground underfoot, the wind rearranging everything above it.",
+    "description": "",
     "icon": "gravel",
     "title": "Windswept Gravelly Hills"
   },

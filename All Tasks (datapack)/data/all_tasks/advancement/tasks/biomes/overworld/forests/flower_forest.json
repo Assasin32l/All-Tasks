@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_flower_forest": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Wildflowers blooming in every direction without reason or restraint.",
+    "description": "",
     "icon": "poppy",
     "title": "Flower Forest"
   },

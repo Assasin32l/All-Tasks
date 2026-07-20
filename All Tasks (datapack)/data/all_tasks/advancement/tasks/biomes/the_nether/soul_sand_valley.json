@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_soul_sand_valley": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Every step sinks a little \u2014 the air full of things best left unnamed.",
+    "description": "",
     "icon": "soul_sand",
     "title": "Soul Sand Valley"
   },

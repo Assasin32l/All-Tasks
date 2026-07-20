@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_cherry_grove": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Blossom drifts from the trees in a shower that never quite stops.",
+    "description": "",
     "icon": "cherry_log",
     "title": "Cherry Grove"
   },

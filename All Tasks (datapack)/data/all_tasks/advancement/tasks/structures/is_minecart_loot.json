@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "is_container_loot": {
+      "conditions": {
+        "entity": {
+          "entity_type": "chest_minecart",
+          "slots": {
+            "container.*": {
+              "components": {
+                "custom_data": {
+                  "all_tasks": {
+                    "is_loot": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "player_interacted_with_entity"
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:filter_custom_data/from_minecart"
+  }
+}

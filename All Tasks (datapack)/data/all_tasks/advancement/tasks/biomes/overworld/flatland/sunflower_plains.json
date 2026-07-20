@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_sunflower_plains": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A golden sea turning endlessly toward the light.",
+    "description": "",
     "icon": "sunflower",
     "title": "Sunflower Plains"
   },

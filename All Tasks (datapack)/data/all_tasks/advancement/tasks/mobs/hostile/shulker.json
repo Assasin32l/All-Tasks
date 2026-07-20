@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "shulker"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Disguised as a box until it isn't, then floating a curse straight at you.",
+    "description": "",
     "icon": "shulker_shell",
     "title": "Shulker"
   },

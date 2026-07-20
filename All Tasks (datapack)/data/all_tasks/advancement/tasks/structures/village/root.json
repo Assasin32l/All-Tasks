@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure_1": {
+    "desert": {
       "conditions": {
         "player": {
           "location": {
@@ -10,7 +10,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_2": {
+    "plains": {
       "conditions": {
         "player": {
           "location": {
@@ -20,7 +20,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_3": {
+    "savanna": {
       "conditions": {
         "player": {
           "location": {
@@ -30,7 +30,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_4": {
+    "snowy": {
       "conditions": {
         "player": {
           "location": {
@@ -40,7 +40,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_5": {
+    "taiga": {
       "conditions": {
         "player": {
           "location": {
@@ -52,7 +52,7 @@
     }
   },
   "display": {
-    "description": "Smoke from chimneys, bells at noon \u2014 someone still lives here.",
+    "description": "",
     "icon": "bell",
     "title": "Village"
   },

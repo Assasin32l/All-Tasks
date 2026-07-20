@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A manor deep in dark oak, full of evokers and ill will.",
+    "description": "",
     "icon": "dark_oak_log",
     "title": "Woodland Mansion"
   },

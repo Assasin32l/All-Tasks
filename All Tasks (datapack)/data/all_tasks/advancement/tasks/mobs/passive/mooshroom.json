@@ -1,44 +1,64 @@
 {
   "criteria": {
-    "looked_at_brown": {
+    "brown": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "mooshroom/variant": "brown"
-              },
-              "entity_type": "mooshroom"
-            }
+        "entity": {
+          "components": {
+            "mooshroom/variant": "brown"
+          },
+          "entity_type": "mooshroom",
+          "flags": {
+            "is_baby": false
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_red": {
+    "brown_baby": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "mooshroom/variant": "red"
-              },
-              "entity_type": "mooshroom"
-            }
+        "entity": {
+          "components": {
+            "mooshroom/variant": "brown"
+          },
+          "entity_type": "mooshroom",
+          "flags": {
+            "is_baby": true
           }
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
+    },
+    "red": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "mooshroom/variant": "red"
+          },
+          "entity_type": "mooshroom",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "mooshroom/variant": "red"
+          },
+          "entity_type": "mooshroom",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "A cow made stranger \u2014 mushrooms growing where the spots should be.",
+    "description": "",
     "icon": "mushroom_stew",
     "title": "Mooshroom"
   },

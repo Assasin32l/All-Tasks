@@ -106,7 +106,7 @@
     }
   },
   "display": {
-    "description": "What the ominous spawner drops, for those who entered under bad omen.",
+    "description": "",
     "frame": "goal",
     "icon": "ominous_trial_key",
     "title": "Trial Chambers Loot: Ominous Spawner"

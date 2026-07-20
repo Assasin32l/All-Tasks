@@ -1,1 +1,0 @@
-$data merge storage all_tasks:players/$(uuid_1)_$(uuid_2)_$(uuid_3)_$(uuid_4)/loot_check {block: "$(block)", loot_table: "$(loot_table)"}

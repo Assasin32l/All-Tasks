@@ -34,7 +34,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "blue_stained_glass_pane": {
+    "blue_glass_pane": {
       "conditions": {
         "items": [
           {
@@ -238,7 +238,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "light_blue_stained_glass_pane": {
+    "light_blue_glass_pane": {
       "conditions": {
         "items": [
           {
@@ -255,7 +255,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "magenta_stained_glass_pane": {
+    "magenta_glass_pane": {
       "conditions": {
         "items": [
           {
@@ -306,7 +306,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "pink_stained_glass_pane": {
+    "pink_glass_pane": {
       "conditions": {
         "items": [
           {
@@ -340,7 +340,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "purple_stained_glass_pane": {
+    "purple_glass_pane": {
       "conditions": {
         "items": [
           {
@@ -374,7 +374,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "red_stained_glass_pane": {
+    "red_glass_pane": {
       "conditions": {
         "items": [
           {
@@ -510,7 +510,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "yellow_stained_glass_pane": {
+    "yellow_glass_pane": {
       "conditions": {
         "items": [
           {
@@ -529,7 +529,7 @@
     }
   },
   "display": {
-    "description": "Common finds scattered through a ruin that the earth slowly swallowed.",
+    "description": "",
     "frame": "goal",
     "icon": "flower_pot",
     "title": "Trail Ruins Loot: Common"

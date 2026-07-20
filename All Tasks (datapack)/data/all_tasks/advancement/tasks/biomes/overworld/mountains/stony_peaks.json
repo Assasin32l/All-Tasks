@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_stony_peaks": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Calcite and stone trading off the task of holding up the sky.",
+    "description": "",
     "icon": "calcite",
     "title": "Stony Peaks"
   },

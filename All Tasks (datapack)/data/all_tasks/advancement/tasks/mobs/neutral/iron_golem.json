@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "iron_golem"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "iron_ingot",
+    "title": "Iron Golem"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/root"
+}

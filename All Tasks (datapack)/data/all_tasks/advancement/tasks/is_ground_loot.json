@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "is_loot": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "all_tasks": {
+                  "is_loot": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:filter_custom_data/from_item/start"
+  }
+}

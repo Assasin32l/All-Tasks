@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "cat"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "",
+    "frame": "goal",
+    "icon": "string",
+    "show_toast": false,
+    "title": "Cat"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/root"
+}

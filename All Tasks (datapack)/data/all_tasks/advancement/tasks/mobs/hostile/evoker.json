@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "evoker"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Raising fangs from the floor with a gesture, carrying the totem you need.",
+    "description": "",
     "icon": "totem_of_undying",
     "title": "Evoker"
   },

@@ -1,0 +1,490 @@
+{
+  "criteria": {
+    "black": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "black",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "black_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "black",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "blue": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "blue",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "blue_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "blue",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "brown": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "brown",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "brown_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "brown",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "cyan": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "cyan",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "cyan_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "cyan",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "gray": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "gray",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "gray_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "gray",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "green": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "green",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "green_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "green",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_blue": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "light_blue",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_blue_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "light_blue",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_gray": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "light_gray",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_gray_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "light_gray",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "lime": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "lime",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "lime_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "lime",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "magenta": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "magenta",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "magenta_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "magenta",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "orange": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "orange",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "orange_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "orange",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "pink": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "pink",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "pink_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "pink",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "purple": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "purple",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "purple_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "purple",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "red",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "red",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "white",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "white",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "yellow": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "yellow",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "yellow_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "cat/collar": "yellow",
+            "cat/variant": "red"
+          },
+          "entity_type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "orange_dye",
+    "title": "Red Cat"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/cat/all_black"
+}

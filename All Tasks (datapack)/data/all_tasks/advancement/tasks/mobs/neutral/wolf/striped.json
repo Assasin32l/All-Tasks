@@ -1,0 +1,490 @@
+{
+  "criteria": {
+    "black": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "black",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "black_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "black",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "blue": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "blue",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "blue_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "blue",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "brown": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "brown",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "brown_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "brown",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "cyan": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "cyan",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "cyan_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "cyan",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "gray": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "gray",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "gray_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "gray",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "green": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "green",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "green_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "green",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_blue": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "light_blue",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_blue_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "light_blue",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_gray": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "light_gray",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "light_gray_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "light_gray",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "lime": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "lime",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "lime_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "lime",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "magenta": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "magenta",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "magenta_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "magenta",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "orange": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "orange",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "orange_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "orange",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "pink": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "pink",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "pink_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "pink",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "purple": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "purple",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "purple_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "purple",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "red",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "red",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "white",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "white",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "yellow": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "yellow",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "yellow_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "wolf/collar": "yellow",
+            "wolf/variant": "striped"
+          },
+          "entity_type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "red_sand",
+    "title": "Striped Wolf"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/wolf/spotted"
+}

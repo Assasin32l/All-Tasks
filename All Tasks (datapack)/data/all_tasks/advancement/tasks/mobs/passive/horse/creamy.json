@@ -1,0 +1,150 @@
+{
+  "criteria": {
+    "black_dots": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "Variant": 1025
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "black_dots_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "Variant": 1025
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "Variant": 1
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "normal_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "Variant": 1
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "Variant": 257
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "Variant": 257
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_dots": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "Variant": 769
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_dots_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "Variant": 769
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_field": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": false
+          },
+          "nbt": {
+            "Variant": 513
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_field_baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "horse",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": {
+            "Variant": 513
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "brown_dye",
+    "title": "Creamy Horse"
+  },
+  "parent": "all_tasks:tasks/mobs/passive/horse/white"
+}

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "witch"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Chugging a potion before you reach her, then throwing one straight back at you.",
+    "description": "",
     "icon": "potion",
     "title": "Witch"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_taiga": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Endless spruce under a sky that always threatens rain.",
+    "description": "",
     "icon": "spruce_log",
     "title": "Taiga"
   },

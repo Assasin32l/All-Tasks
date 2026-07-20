@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "wither"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "You built it. Now face what you made.",
+    "description": "",
     "icon": "nether_star",
     "title": "Wither"
   },

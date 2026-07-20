@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure_1": {
+    "cold": {
       "conditions": {
         "player": {
           "location": {
@@ -10,7 +10,7 @@
       },
       "trigger": "location"
     },
-    "in_structure_2": {
+    "warm": {
       "conditions": {
         "player": {
           "location": {
@@ -22,7 +22,7 @@
     }
   },
   "display": {
-    "description": "Ancient columns half-buried in sand, still and salt-eaten beneath the waves.",
+    "description": "",
     "icon": "mossy_stone_bricks",
     "title": "Ocean Ruins"
   },

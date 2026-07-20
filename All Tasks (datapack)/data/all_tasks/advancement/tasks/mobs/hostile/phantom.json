@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "phantom"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Circling the sleepless, diving in the moment the sky is looked away from.",
+    "description": "",
     "icon": "phantom_membrane",
     "title": "Phantom"
   },

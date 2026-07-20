@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_end_midlands": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Outer islands spreading wide, chorus trees rooted in pale ancient stone.",
+    "description": "",
     "icon": "chorus_fruit",
     "title": "End Midlands"
   },

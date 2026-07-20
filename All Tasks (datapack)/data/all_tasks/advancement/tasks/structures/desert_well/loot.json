@@ -104,7 +104,7 @@
     }
   },
   "display": {
-    "description": "Buried at the bottom of a well, somewhere in the sand.",
+    "description": "",
     "frame": "goal",
     "icon": "suspicious_stew",
     "title": "Desert Well Loot"

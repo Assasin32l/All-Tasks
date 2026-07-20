@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_the_end": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -18,7 +18,7 @@
     "hidden": true,
     "icon": "end_stone",
     "show_toast": false,
-    "title": "The End"
+    "title": "End Biomes"
   },
   "parent": "all_tasks:tasks/biomes/root"
 }

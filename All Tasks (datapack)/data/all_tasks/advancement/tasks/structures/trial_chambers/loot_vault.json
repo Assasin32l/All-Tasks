@@ -34,7 +34,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "bolt_armor_trim_smithing_template": {
+    "bolt_armor_trim": {
       "conditions": {
         "items": [
           {
@@ -167,6 +167,7 @@
               "stored_enchantments": [
                 {
                   "enchantments": [
+                    "mending",
                     "sharpness",
                     "bane_of_arthropods",
                     "efficiency",
@@ -196,7 +197,6 @@
               "stored_enchantments": [
                 {
                   "enchantments": [
-                    "mending",
                     "riptide",
                     "loyalty",
                     "channeling",
@@ -416,7 +416,7 @@
     }
   },
   "display": {
-    "description": "The vault opens for those who carry a key earned in the trials.",
+    "description": "",
     "frame": "goal",
     "icon": "trident",
     "title": "Trial Chambers Loot: Vault"

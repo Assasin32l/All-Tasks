@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "wolf"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "bone",
+    "title": "Wolf"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/root"
+}

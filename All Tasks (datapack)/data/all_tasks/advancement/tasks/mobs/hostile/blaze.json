@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "blaze"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Spinning fire in a fortress corridor, orbited by its own burning rods.",
+    "description": "",
     "icon": "blaze_rod",
     "title": "Blaze"
   },

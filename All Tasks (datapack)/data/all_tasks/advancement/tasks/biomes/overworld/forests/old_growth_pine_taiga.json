@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_old_growth_pine_taiga": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Podzol underfoot, ancient pines overhead, centuries of quiet between them.",
+    "description": "",
     "icon": "podzol",
     "title": "Old Growth Pine Taiga"
   },

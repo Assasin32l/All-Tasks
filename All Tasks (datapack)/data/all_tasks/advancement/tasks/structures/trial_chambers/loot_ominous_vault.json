@@ -207,7 +207,7 @@
       },
       "trigger": "inventory_changed"
     },
-    "flow_armor_trim_smithing_template": {
+    "flow_armor_trim": {
       "conditions": {
         "items": [
           {
@@ -345,7 +345,7 @@
     }
   },
   "display": {
-    "description": "The ominous vault's reward, opened only by a key earned under bad omen.",
+    "description": "",
     "frame": "goal",
     "icon": "heavy_core",
     "title": "Trial Chambers Loot: Ominous Vault"

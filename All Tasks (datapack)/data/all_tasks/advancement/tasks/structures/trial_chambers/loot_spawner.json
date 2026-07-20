@@ -106,7 +106,7 @@
     }
   },
   "display": {
-    "description": "Drops dispensed by the spawner to those who survive each wave.",
+    "description": "",
     "frame": "goal",
     "icon": "potion",
     "title": "Trial Chambers Loot: Spawner"

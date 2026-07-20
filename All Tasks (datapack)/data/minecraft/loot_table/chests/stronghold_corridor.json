@@ -8,7 +8,7 @@
           "predicate": {
             "type_specific/player": {
               "advancements": {
-                "all_tasks:tasks/structures/stronghold/loot_corridor/loot": false
+                "all_tasks:tasks/structures/stronghold/loot_corridor/display": false
               }
             }
           }
@@ -17,7 +17,7 @@
       "function": "set_custom_data",
       "tag": {
         "all_tasks": {
-          "is_structure_loot": true,
+          "is_loot": true,
           "loot_table": "stronghold/corridor"
         }
       }

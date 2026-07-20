@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_the_end": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A lone island at the edge of everything, the dragon waiting at its centre.",
+    "description": "",
     "icon": "end_stone",
     "title": "The End"
   },

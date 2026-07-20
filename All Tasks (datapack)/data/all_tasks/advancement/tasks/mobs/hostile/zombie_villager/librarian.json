@@ -1,0 +1,535 @@
+{
+  "criteria": {
+    "desert_level_1": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 1,
+              "profession": "librarian",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "desert_level_2": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 2,
+              "profession": "librarian",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "desert_level_3": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 3,
+              "profession": "librarian",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "desert_level_4": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 4,
+              "profession": "librarian",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "desert_level_5": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 5,
+              "profession": "librarian",
+              "type": "desert"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "jungle_level_1": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 1,
+              "profession": "librarian",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "jungle_level_2": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 2,
+              "profession": "librarian",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "jungle_level_3": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 3,
+              "profession": "librarian",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "jungle_level_4": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 4,
+              "profession": "librarian",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "jungle_level_5": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 5,
+              "profession": "librarian",
+              "type": "jungle"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "plains_level_1": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 1,
+              "profession": "librarian",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "plains_level_2": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 2,
+              "profession": "librarian",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "plains_level_3": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 3,
+              "profession": "librarian",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "plains_level_4": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 4,
+              "profession": "librarian",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "plains_level_5": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 5,
+              "profession": "librarian",
+              "type": "plains"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "savanna_level_1": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 1,
+              "profession": "librarian",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "savanna_level_2": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 2,
+              "profession": "librarian",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "savanna_level_3": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 3,
+              "profession": "librarian",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "savanna_level_4": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 4,
+              "profession": "librarian",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "savanna_level_5": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 5,
+              "profession": "librarian",
+              "type": "savanna"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow_level_1": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 1,
+              "profession": "librarian",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow_level_2": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 2,
+              "profession": "librarian",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow_level_3": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 3,
+              "profession": "librarian",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow_level_4": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 4,
+              "profession": "librarian",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow_level_5": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 5,
+              "profession": "librarian",
+              "type": "snow"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "swamp_level_1": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 1,
+              "profession": "librarian",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "swamp_level_2": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 2,
+              "profession": "librarian",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "swamp_level_3": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 3,
+              "profession": "librarian",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "swamp_level_4": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 4,
+              "profession": "librarian",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "swamp_level_5": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 5,
+              "profession": "librarian",
+              "type": "swamp"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "taiga_level_1": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 1,
+              "profession": "librarian",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "taiga_level_2": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 2,
+              "profession": "librarian",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "taiga_level_3": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 3,
+              "profession": "librarian",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "taiga_level_4": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 4,
+              "profession": "librarian",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "taiga_level_5": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager",
+          "nbt": {
+            "VillagerData": {
+              "level": 5,
+              "profession": "librarian",
+              "type": "taiga"
+            }
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "lectern",
+    "title": "Librarian Zombie Villager"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/zombie_villager/cartographer"
+}

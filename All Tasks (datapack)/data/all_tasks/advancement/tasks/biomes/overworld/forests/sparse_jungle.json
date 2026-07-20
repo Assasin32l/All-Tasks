@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_sparse_jungle": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "The trees thin out, but the green never fully releases its grip.",
+    "description": "",
     "icon": "jungle_log",
     "title": "Sparse Jungle"
   },

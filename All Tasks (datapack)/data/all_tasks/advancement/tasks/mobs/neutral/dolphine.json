@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "baby": {
+      "conditions": {
+        "entity": {
+          "entity_type": "dolphin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "dolphin",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "cod",
+    "title": "Dolphin"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/root"
+}

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "ravager"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Crashing through the raid like a battering ram made of rage and iron.",
+    "description": "",
     "icon": "ravager_spawn_egg",
     "title": "Ravager"
   },

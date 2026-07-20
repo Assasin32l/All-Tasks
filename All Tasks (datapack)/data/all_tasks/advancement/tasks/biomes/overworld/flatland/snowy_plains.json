@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_snowy_plains": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Snow erases every landmark. The cold is the only constant.",
+    "description": "",
     "icon": "snow_block",
     "title": "Snowy Plains"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A fragile dome of ice keeping something darker underneath.",
+    "description": "",
     "icon": "packed_ice",
     "title": "Igloo"
   },

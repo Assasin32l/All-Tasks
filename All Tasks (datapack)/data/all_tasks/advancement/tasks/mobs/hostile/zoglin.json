@@ -1,16 +1,30 @@
 {
   "criteria": {
-    "killed_mob": {
+    "baby": {
       "conditions": {
         "entity": {
-          "entity_type": "zoglin"
+          "entity_type": "zoglin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "normal": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zoglin",
+          "flags": {
+            "is_baby": false
+          }
         }
       },
       "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "A hoglin that crossed over and never came back \u2014 hostile to everything, including reason.",
+    "description": "",
     "icon": "zoglin_spawn_egg",
     "title": "Zoglin"
   },

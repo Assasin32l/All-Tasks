@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_swamp": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Dark water, twisted oaks, and ground that lies about being solid.",
+    "description": "",
     "icon": "lily_pad",
     "title": "Swamp"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "loot_table": "archaeology/desert_well"
       },
@@ -8,7 +8,7 @@
     }
   },
   "display": {
-    "description": "A quiet well in the desert, hiding more than water.",
+    "description": "",
     "icon": "sandstone",
     "title": "Desert Well"
   },

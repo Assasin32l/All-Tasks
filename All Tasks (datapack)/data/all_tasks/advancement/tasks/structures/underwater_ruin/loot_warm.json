@@ -172,7 +172,7 @@
     }
   },
   "display": {
-    "description": "Brush the warm ruin's floor \u2014 something rare and ancient might surface.",
+    "description": "",
     "frame": "goal",
     "icon": "sniffer_egg",
     "title": "Ocean Ruins Loot: Warm"

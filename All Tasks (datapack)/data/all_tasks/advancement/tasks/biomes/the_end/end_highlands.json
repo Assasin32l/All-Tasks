@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_end_highlands": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Terrain rising above the outer islands, end cities clinging to the clifftops.",
+    "description": "",
     "icon": "chorus_flower",
     "title": "End Highlands"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_mangrove_swamp": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Tangled roots rising from the flood as if the land itself is climbing out.",
+    "description": "",
     "icon": "mangrove_log",
     "title": "Mangrove Swamp"
   },

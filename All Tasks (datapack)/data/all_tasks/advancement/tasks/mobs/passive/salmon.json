@@ -1,39 +1,43 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "large": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "salmon"
-            }
-          }
+        "entity": {
+          "components": {
+            "salmon/size": "large"
+          },
+          "entity_type": "salmon"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "salmon_bucket": {
+    "medium": {
       "conditions": {
-        "item": {
-          "items": "salmon_bucket"
+        "entity": {
+          "components": {
+            "salmon/size": "medium"
+          },
+          "entity_type": "salmon"
         }
       },
-      "trigger": "filled_bucket"
+      "trigger": "player_killed_entity"
+    },
+    "small": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "salmon/size": "small"
+          },
+          "entity_type": "salmon"
+        }
+      },
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Pushing upstream through the cold, driven by something older than instinct.",
+    "description": "",
     "icon": "salmon",
     "title": "Salmon"
   },
-  "parent": "all_tasks:tasks/mobs/passive/cod",
-  "requirements": [
-    [
-      "salmon_bucket",
-      "looked_at_animal"
-    ]
-  ]
+  "parent": "all_tasks:tasks/mobs/passive/cod"
 }

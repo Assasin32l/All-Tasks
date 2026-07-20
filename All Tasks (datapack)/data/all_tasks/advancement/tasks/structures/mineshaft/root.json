@@ -1,16 +1,6 @@
 {
   "criteria": {
-    "in_first_structure": {
-      "conditions": {
-        "player": {
-          "location": {
-            "structures": "mineshaft"
-          }
-        }
-      },
-      "trigger": "location"
-    },
-    "in_second_structure": {
+    "mesa": {
       "conditions": {
         "player": {
           "location": {
@@ -19,10 +9,20 @@
         }
       },
       "trigger": "location"
+    },
+    "normal": {
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mineshaft"
+          }
+        }
+      },
+      "trigger": "location"
     }
   },
   "display": {
-    "description": "Rotting planks and rusted rails threading through the dark underground.",
+    "description": "",
     "icon": "rail",
     "title": "Mineshaft"
   },

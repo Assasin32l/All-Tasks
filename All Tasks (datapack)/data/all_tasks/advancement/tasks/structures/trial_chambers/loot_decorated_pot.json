@@ -138,7 +138,7 @@
     }
   },
   "display": {
-    "description": "A decorated pot in the corridor, holding something meant to be kept.",
+    "description": "",
     "frame": "goal",
     "icon": "music_disc_creator_music_box",
     "title": "Trial Chambers Loot: Decorated Pot"

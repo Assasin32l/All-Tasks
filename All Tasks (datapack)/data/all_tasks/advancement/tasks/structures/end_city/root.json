@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Pale towers rising from the outer islands, guarded by their keepers.",
+    "description": "",
     "icon": "purpur_block",
     "title": "End City"
   },

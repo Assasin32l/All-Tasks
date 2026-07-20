@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "endermite"
@@ -10,9 +10,9 @@
     }
   },
   "display": {
-    "description": "A flicker of the End in the Overworld \u2014 small, hostile, and unwelcome.",
+    "description": "",
     "icon": "endermite_spawn_egg",
     "title": "Endermite"
   },
-  "parent": "all_tasks:tasks/mobs/hostile/enderman"
+  "parent": "all_tasks:tasks/mobs/hostile/root"
 }

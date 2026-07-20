@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_warped_forest": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Alien and quiet \u2014 the Nether's only real offer of peace.",
+    "description": "",
     "icon": "warped_stem",
     "title": "Warped Forest"
   },

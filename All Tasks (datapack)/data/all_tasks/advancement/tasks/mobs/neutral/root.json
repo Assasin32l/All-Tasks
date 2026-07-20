@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "killed_neutral": {
+      "conditions": {
+        "entity": {
+          "entity_type": [
+            "cave_spider",
+            "spider",
+            "bee",
+            "dolphin",
+            "drowned",
+            "enderman",
+            "fox",
+            "goat",
+            "iron_golem",
+            "llama",
+            "nautilus",
+            "panda",
+            "piglin",
+            "polar_bear",
+            "pufferfish",
+            "trader_llama",
+            "wolf",
+            "zombie_nautilus",
+            "zombified_piglin"
+          ]
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "",
+    "frame": "goal",
+    "hidden": true,
+    "icon": "conduit",
+    "show_toast": false,
+    "title": "Neutral"
+  },
+  "parent": "all_tasks:tasks/mobs/root"
+}

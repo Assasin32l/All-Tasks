@@ -1,39 +1,18 @@
 {
   "criteria": {
-    "cod_bucket": {
+    "": {
       "conditions": {
-        "item": {
-          "items": "cod_bucket"
+        "entity": {
+          "entity_type": "cod"
         }
       },
-      "trigger": "filled_bucket"
-    },
-    "looked_at_animal": {
-      "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "cod"
-            }
-          }
-        }
-      },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Schooling through the shallows, the most quietly common fish in the sea.",
+    "description": "",
     "icon": "cod",
     "title": "Cod"
   },
-  "parent": "all_tasks:tasks/mobs/passive/root",
-  "requirements": [
-    [
-      "cod_bucket",
-      "looked_at_animal"
-    ]
-  ]
+  "parent": "all_tasks:tasks/mobs/passive/root"
 }

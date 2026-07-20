@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A crooked little hut on stilts, reeking of potions and spite.",
+    "description": "",
     "icon": "cauldron",
     "title": "Swamp Hut"
   },

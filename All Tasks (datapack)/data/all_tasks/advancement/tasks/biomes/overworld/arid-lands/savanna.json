@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_savanna": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Acacia trees dot a wide, dry expanse under an open sky.",
+    "description": "",
     "icon": "acacia_log",
     "title": "Savanna"
   },

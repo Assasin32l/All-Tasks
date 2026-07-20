@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_lush_caves": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Yellow crystal and red stone, the air itself turning hostile near the pools.",
+    "description": "",
     "icon": "sulfur",
     "title": "Sulfur Caves"
   },

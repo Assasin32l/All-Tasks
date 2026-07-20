@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_crimson_forest": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Everything grows red. The hoglins make your welcome very clear.",
+    "description": "",
     "icon": "crimson_stem",
     "title": "Crimson Forest"
   },

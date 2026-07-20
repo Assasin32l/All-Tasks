@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "pufferfish"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "pufferfish",
+    "title": "Pufferfish"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/root"
+}

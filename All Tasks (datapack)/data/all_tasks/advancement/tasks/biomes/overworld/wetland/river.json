@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_river": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Winding quietly through whatever landscape it chose to cut through.",
+    "description": "",
     "icon": "clay_ball",
     "title": "River"
   },

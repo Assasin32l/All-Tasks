@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_deep_lukewarm_ocean": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Past the coral and into the open, sunlit deep below.",
+    "description": "",
     "icon": "nautilus_shell",
     "title": "Deep Lukewarm Ocean"
   },

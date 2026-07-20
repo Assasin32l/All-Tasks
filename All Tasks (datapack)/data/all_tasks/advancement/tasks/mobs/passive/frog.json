@@ -1,62 +1,41 @@
 {
   "criteria": {
-    "looked_at_cold": {
+    "cold": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "frog/variant": "cold"
-              },
-              "entity_type": "frog"
-            }
-          }
+        "entity": {
+          "components": {
+            "frog/variant": "cold"
+          },
+          "entity_type": "frog"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_temperate": {
+    "temperate": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "frog/variant": "temperate"
-              },
-              "entity_type": "frog"
-            }
-          }
+        "entity": {
+          "components": {
+            "frog/variant": "temperate"
+          },
+          "entity_type": "frog"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     },
-    "looked_at_warm": {
+    "warm": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "components": {
-                "frog/variant": "warm"
-              },
-              "entity_type": "frog"
-            }
-          }
+        "entity": {
+          "components": {
+            "frog/variant": "warm"
+          },
+          "entity_type": "frog"
         }
       },
-      "trigger": "using_item"
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Blinking from the lily pad, perfectly still until it isn't.",
+    "description": "",
     "icon": "slime_ball",
     "title": "Frog"
   },

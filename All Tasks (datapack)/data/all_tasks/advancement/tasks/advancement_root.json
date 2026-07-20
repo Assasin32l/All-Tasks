@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "unlock_right_away": {
+    "get_any_advancement": {
       "conditions": {
         "player": [
           {

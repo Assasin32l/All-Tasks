@@ -1,39 +1,18 @@
 {
   "criteria": {
-    "looked_at_animal": {
+    "": {
       "conditions": {
-        "item": {
-          "items": "spyglass"
-        },
-        "player": {
-          "type_specific/player": {
-            "looking_at": {
-              "entity_type": "tadpole"
-            }
-          }
+        "entity": {
+          "entity_type": "tadpole"
         }
       },
-      "trigger": "using_item"
-    },
-    "tadpole_bucket": {
-      "conditions": {
-        "item": {
-          "items": "tadpole_bucket"
-        }
-      },
-      "trigger": "filled_bucket"
+      "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Not yet a frog, not anything else \u2014 just motion and potential in warm water.",
+    "description": "",
     "icon": "water_bucket",
     "title": "Tadpole"
   },
-  "parent": "all_tasks:tasks/mobs/passive/frog",
-  "requirements": [
-    [
-      "tadpole_bucket",
-      "looked_at_animal"
-    ]
-  ]
+  "parent": "all_tasks:tasks/mobs/passive/frog"
 }

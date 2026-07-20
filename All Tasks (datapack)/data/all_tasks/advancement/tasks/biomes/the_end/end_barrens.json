@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_end_barrens": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Even the chorus trees gave up \u2014 end stone stretching on without purpose.",
+    "description": "",
     "icon": "end_stone",
     "title": "End Barrens"
   },

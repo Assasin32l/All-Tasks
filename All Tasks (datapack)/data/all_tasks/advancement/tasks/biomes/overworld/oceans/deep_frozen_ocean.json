@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_deep_frozen_ocean": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Cold pressing in from every direction at once.",
+    "description": "",
     "icon": "packed_ice",
     "title": "Deep Frozen Ocean"
   },

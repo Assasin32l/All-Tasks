@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A vast temple of prismarine guarding its treasure beneath the waves.",
+    "description": "",
     "icon": "prismarine",
     "title": "Ocean Monument"
   },

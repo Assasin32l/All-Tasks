@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "ender_dragon"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "The sky itself darkens when it spreads its wings over the End.",
+    "description": "",
     "icon": "dragon_breath",
     "title": "Ender Dragon"
   },

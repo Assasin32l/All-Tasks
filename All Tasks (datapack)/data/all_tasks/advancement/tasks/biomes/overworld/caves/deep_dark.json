@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_deep_dark": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Sculk covers everything. Something stirs beneath the silence.",
+    "description": "",
     "icon": "sculk",
     "title": "Deep Dark"
   },

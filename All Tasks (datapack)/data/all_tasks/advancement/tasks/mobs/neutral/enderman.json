@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "enderman"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "ender_pearl",
+    "title": "Enderman"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/root"
+}

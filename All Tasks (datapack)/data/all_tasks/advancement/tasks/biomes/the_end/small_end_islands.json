@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_small_end_islands": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Scattered platforms of end stone drifting silently in the void.",
+    "description": "",
     "icon": "end_stone",
     "title": "Small End Islands"
   },

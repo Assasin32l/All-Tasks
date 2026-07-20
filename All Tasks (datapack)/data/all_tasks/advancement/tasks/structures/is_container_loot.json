@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "is_container_loot": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#all_tasks:container",
+                "predicates": {
+                  "container": {
+                    "items": {
+                      "contains": [
+                        {
+                          "components": {
+                            "custom_data": {
+                              "all_tasks": {
+                                "is_loot": true
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "default_block_use"
+    }
+  },
+  "rewards": {
+    "function": "all_tasks:filter_custom_data/from_container/start"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "ghast"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Crying and floating through the Nether, firing at anything that moves.",
+    "description": "",
     "icon": "ghast_tear",
     "title": "Ghast"
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "piglin_brute"
@@ -10,9 +10,9 @@
     }
   },
   "display": {
-    "description": "No interest in trade, no interest in gold \u2014 only in removing you from the bastion.",
+    "description": "",
     "icon": "golden_axe",
     "title": "Piglin Brute"
   },
-  "parent": "all_tasks:tasks/mobs/hostile/piglin"
+  "parent": "all_tasks:tasks/mobs/hostile/root"
 }

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_basalt_deltas": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Basalt columns rising from magma fields, the air thick with debris.",
+    "description": "",
     "icon": "basalt",
     "title": "Basalt Deltas"
   },

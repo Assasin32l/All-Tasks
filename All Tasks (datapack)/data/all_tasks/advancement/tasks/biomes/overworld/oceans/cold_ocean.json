@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_cold_ocean": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Pale, sparse, and indifferent to anyone passing through.",
+    "description": "",
     "icon": "cod",
     "title": "Cold Ocean"
   },

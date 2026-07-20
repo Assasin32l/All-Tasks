@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_deep_ocean": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Past the point sunlight gives up and the cold takes over.",
+    "description": "",
     "icon": "prismarine_shard",
     "title": "Deep Ocean"
   },

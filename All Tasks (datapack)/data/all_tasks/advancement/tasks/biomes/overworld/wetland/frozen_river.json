@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_frozen_river": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "The water gave up moving entirely.",
+    "description": "",
     "icon": "ice",
     "title": "Frozen River"
   },

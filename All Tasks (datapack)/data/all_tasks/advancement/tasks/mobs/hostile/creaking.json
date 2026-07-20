@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "creaking"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "It only moves when you aren't watching. Don't look away.",
+    "description": "",
     "icon": "resin_clump",
     "title": "Creaking"
   },

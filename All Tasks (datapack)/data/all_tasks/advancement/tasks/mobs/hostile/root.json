@@ -1,12 +1,13 @@
 {
   "criteria": {
-    "killed_hostile": {
+    "kill_any_hostile": {
       "conditions": {
         "entity": {
           "entity_type": [
             "blaze",
             "bogged",
             "breeze",
+            "creaking",
             "creeper",
             "elder_guardian",
             "endermite",
@@ -33,13 +34,7 @@
             "wither_skeleton",
             "zoglin",
             "zombie",
-            "zombie_villager",
-            "cave_spider",
-            "drowned",
-            "enderman",
-            "piglin",
-            "spider",
-            "zombified_piglin"
+            "zombie_villager"
           ]
         }
       },
@@ -48,12 +43,12 @@
   },
   "display": {
     "announce_to_chat": false,
-    "description": "Hunt down and kill every hostile mob you encounter.",
+    "description": "",
     "frame": "goal",
     "hidden": true,
     "icon": "iron_sword",
     "show_toast": false,
-    "title": "A Dangerous World"
+    "title": "Hostile"
   },
   "parent": "all_tasks:tasks/mobs/root"
 }

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_lush_caves": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "Roots hang from the ceiling, glow berries lighting what the sun never reaches.",
+    "description": "",
     "icon": "glow_berries",
     "title": "Lush Caves"
   },

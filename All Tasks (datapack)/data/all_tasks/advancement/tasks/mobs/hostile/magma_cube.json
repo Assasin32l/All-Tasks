@@ -1,16 +1,41 @@
 {
   "criteria": {
-    "killed_mob": {
+    "large": {
       "conditions": {
         "entity": {
-          "entity_type": "magma_cube"
+          "entity_type": "magma_cube",
+          "type_specific/cube_mob": {
+            "size": 3
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "medium": {
+      "conditions": {
+        "entity": {
+          "entity_type": "magma_cube",
+          "type_specific/cube_mob": {
+            "size": 1
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "small": {
+      "conditions": {
+        "entity": {
+          "entity_type": "magma_cube",
+          "type_specific/cube_mob": {
+            "size": 0
+          }
         }
       },
       "trigger": "player_killed_entity"
     }
   },
   "display": {
-    "description": "Bouncing over the lava fields, splitting apart instead of dying.",
+    "description": "",
     "icon": "magma_cream",
     "title": "Magma Cube"
   },

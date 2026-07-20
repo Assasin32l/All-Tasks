@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "in_structure": {
+    "": {
       "conditions": {
         "player": {
           "location": {
@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "description": "A piglin fortress of black stone, built atop rivers of fire.",
+    "description": "",
     "icon": "gilded_blackstone",
     "title": "Bastion Remnant"
   },

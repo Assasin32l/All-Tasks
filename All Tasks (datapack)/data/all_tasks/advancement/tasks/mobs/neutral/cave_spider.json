@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "cave_spider"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "spider_eye",
+    "title": "Cave Spider"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/spider"
+}

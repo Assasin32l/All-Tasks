@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "entity": {
+          "entity_type": "zombie_villager"
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "",
+    "frame": "challenge",
+    "icon": "golden_apple",
+    "show_toast": false,
+    "title": "Zombie Villager"
+  },
+  "parent": "all_tasks:tasks/mobs/hostile/root"
+}

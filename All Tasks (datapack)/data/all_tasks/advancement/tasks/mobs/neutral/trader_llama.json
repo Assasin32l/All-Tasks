@@ -1,0 +1,122 @@
+{
+  "criteria": {
+    "brown": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "llama/variant": "brown"
+          },
+          "entity_type": "trader_llama",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "brown_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "llama/variant": "brown"
+          },
+          "entity_type": "trader_llama",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "creamy": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "llama/variant": "creamy"
+          },
+          "entity_type": "trader_llama",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "creamy_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "llama/variant": "creamy"
+          },
+          "entity_type": "trader_llama",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "gray": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "llama/variant": "gray"
+          },
+          "entity_type": "trader_llama",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "gray_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "llama/variant": "gray"
+          },
+          "entity_type": "trader_llama",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "llama/variant": "white"
+          },
+          "entity_type": "trader_llama",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "white_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "llama/variant": "white"
+          },
+          "entity_type": "trader_llama",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "blue_carpet",
+    "title": "Trader Llama"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/llama"
+}

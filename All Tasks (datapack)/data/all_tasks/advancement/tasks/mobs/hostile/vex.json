@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killed_mob": {
+    "": {
       "conditions": {
         "entity": {
           "entity_type": "vex"
@@ -10,7 +10,7 @@
     }
   },
   "display": {
-    "description": "Summoned screaming from nothing, phasing through walls to reach you faster.",
+    "description": "",
     "icon": "iron_sword",
     "title": "Vex"
   },

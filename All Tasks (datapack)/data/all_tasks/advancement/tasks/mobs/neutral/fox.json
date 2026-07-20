@@ -1,0 +1,66 @@
+{
+  "criteria": {
+    "red": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "fox/variant": "red"
+          },
+          "entity_type": "fox",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "red_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "fox/variant": "red"
+          },
+          "entity_type": "fox",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "fox/variant": "snow"
+          },
+          "entity_type": "fox",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    },
+    "snow_baby": {
+      "conditions": {
+        "entity": {
+          "components": {
+            "fox/variant": "snow"
+          },
+          "entity_type": "fox",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      },
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "",
+    "icon": "sweet_berries",
+    "title": "Fox"
+  },
+  "parent": "all_tasks:tasks/mobs/neutral/root"
+}
